@@ -1,0 +1,61 @@
+{
+  "converted_at": "2026-10-26T19:56:28.696301+08:00",
+  "documents": [
+    {
+      "original_name": "中传工商管理专硕招生简章.docx",
+      "original_path": "materials/admissions/originals/中传工商管理专硕招生简章.docx",
+      "original_sha256": "5a0d4412bed6e145e83177db562e387735996dfa97a90d9eaeaeb3af95fb0611",
+      "pdf_path": "materials/admissions/pdf/中传工商管理专硕招生简章.pdf",
+      "pdf_sha256": "847141c64c482d0ce7c4f1444674a62cf801d0fae9afebbf1f0ef319ea8ebd23",
+      "conversion_method": "docx_content_preserving_typesetting"
+    },
+    {
+      "original_name": "中国传媒大学1+1国际硕士名校项目2026年招生简章.pdf",
+      "original_path": "materials/admissions/originals/中国传媒大学1+1国际硕士名校项目2026年招生简章.pdf",
+      "original_sha256": "ced8d486985def943a59f97f013cbb6e775adc3a4aa935713c2a5fc15fc1dbc7",
+      "pdf_path": "materials/admissions/pdf/中国传媒大学1+1国际硕士名校项目2026年招生简章.pdf",
+      "pdf_sha256": "ced8d486985def943a59f97f013cbb6e775adc3a4aa935713c2a5fc15fc1dbc7",
+      "conversion_method": "original_pdf_byte_copy"
+    },
+    {
+      "original_name": "中国传媒大学2026年本科招生章程.htm",
+      "original_path": "materials/admissions/originals/中国传媒大学2026年本科招生章程.htm",
+      "original_sha256": "eac1230cc375ff80a2c19c8ddf88111981912a4016339507f93ab072b7cb95e7",
+      "pdf_path": "materials/admissions/pdf/中国传媒大学2026年本科招生章程.pdf",
+      "pdf_sha256": "d39ab878093f74fd3c5830ac494a85418c28fc575426308bd50c8e2c5197e580",
+      "conversion_method": "offline_html_article_typesetting"
+    },
+    {
+      "original_name": "中国传媒大学2026年艺术类本科校考专业招生简章（PDF原件）.pdf",
+      "original_path": "materials/admissions/originals/中国传媒大学2026年艺术类本科校考专业招生简章（PDF原件）.pdf",
+      "original_sha256": "2fad0e7e84babdea92c7bb42b31c525b2be61aa23aefe23728669b8e14deda10",
+      "pdf_path": "materials/admissions/pdf/中国传媒大学2026年艺术类本科校考专业招生简章（PDF原件）.pdf",
+      "pdf_sha256": "2fad0e7e84babdea92c7bb42b31c525b2be61aa23aefe23728669b8e14deda10",
+      "conversion_method": "original_pdf_byte_copy"
+    },
+    {
+      "original_name": "中国传媒大学传媒起航计划招生简章.doc",
+      "original_path": "materials/admissions/originals/中国传媒大学传媒起航计划招生简章.doc",
+      "original_sha256": "f846ee7350dd29a6f9b37c1db97c46d42463b9c4adbb70c57837605c4b72eb20",
+      "pdf_path": "materials/admissions/pdf/中国传媒大学传媒起航计划招生简章.pdf",
+      "pdf_sha256": "4d4e80420ef66774d98359de90d2ccfb31174e842058b67b5d8d8c1d25c61348",
+      "conversion_method": "libreoffice_pdf_export"
+    },
+    {
+      "original_name": "中国传媒大学关于2026年硕士研究生招生考试初试科目调整的公告.pdf",
+      "original_path": "materials/admissions/originals/中国传媒大学关于2026年硕士研究生招生考试初试科目调整的公告.pdf",
+      "original_sha256": "2cd5eab3bf52a585e72929ed21f543d890060218a9f40b7a0b09600129a9356e",
+      "pdf_path": "materials/admissions/pdf/中国传媒大学关于2026年硕士研究生招生考试初试科目调整的公告.pdf",
+      "pdf_sha256": "2cd5eab3bf52a585e72929ed21f543d890060218a9f40b7a0b09600129a9356e",
+      "conversion_method": "original_pdf_byte_copy"
+    },
+    {
+      "original_name": "中国传媒大学招生章程.docx",
+      "original_path": "materials/admissions/originals/中国传媒大学招生章程.docx",
+      "original_sha256": "24c30299a96b9d4d877d51c9086f496332a55230caec011cd577e646141b3748",
+      "pdf_path": "materials/admissions/pdf/中国传媒大学招生章程.pdf",
+      "pdf_sha256": "d4156025c777c2e268ea9b1c289bb08c28adbb54d24e87b39b527c9d2f7fcb69",
+      "conversion_method": "libreoffice_pdf_export"
+    }
+  ]
+}

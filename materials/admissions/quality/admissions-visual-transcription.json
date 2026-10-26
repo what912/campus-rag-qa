@@ -1,0 +1,416 @@
+{
+  "method": "assistant_visual_transcription",
+  "reviewer": "Codex assistant",
+  "independent_human_review": false,
+  "source_evidence": "12 full-resolution line crops from the supplied source PNGs, visually inspected in output/admissions-low-confidence-review.png. No text inferred from common policy knowledge.",
+  "items": [
+    {
+      "id": "doctoral-p1-y978",
+      "original_filename": "中国传媒大学2026年博士学位研究生招生简章（官方发布页）.png",
+      "page": 1,
+      "source_y": 978,
+      "text": "面向未来，学校正全面布局智能传媒教育，推进交叉学科建设，加强国际传播人才培养。通过实施从传统高等教育向未来高等教育、从传统传媒教育向智能传媒教育、",
+      "source_quad": [
+        [
+          397.0,
+          978.0
+        ],
+        [
+          2138.0,
+          978.0
+        ],
+        [
+          2138.0,
+          1005.0
+        ],
+        [
+          397.0,
+          1005.0
+        ]
+      ],
+      "pdf_rect": [
+        143.315,
+        332.564,
+        710.411,
+        341.359
+      ],
+      "original_ocr_text": "使替使采系梁符校交带使替系校",
+      "original_ocr_confidence": 0.63824,
+      "review_status": "assistant_checked_against_supplied_image"
+    },
+    {
+      "id": "doctoral-p1-y1388",
+      "original_filename": "中国传媒大学2026年博士学位研究生招生简章（官方发布页）.png",
+      "page": 1,
+      "source_y": 1388,
+      "text": "2026年我校在国际传播学专业（专业代码050377）招收“国际传播白杨班（博士）”。“国际传播白杨班（博士）”是中国传媒大学落实习近平总书记在中共中央政治",
+      "source_quad": [
+        [
+          396.0,
+          1388.0
+        ],
+        [
+          2150.0,
+          1388.0
+        ],
+        [
+          2150.0,
+          1416.0
+        ],
+        [
+          396.0,
+          1416.0
+        ]
+      ],
+      "pdf_rect": [
+        142.989,
+        466.114,
+        714.32,
+        475.234
+      ],
+      "original_ocr_text": "（（（2",
+      "original_ocr_confidence": 0.63188,
+      "review_status": "assistant_checked_against_supplied_image"
+    },
+    {
+      "id": "doctoral-p1-y1472",
+      "original_filename": "中国传媒大学2026年博士学位研究生招生简章（官方发布页）.png",
+      "page": 1,
+      "source_y": 1472,
+      "text": "师，集纳“政产学研用”各界国际传播力量，以加强我国国际传播能力建设为导向，着力培养卓越国际传播人才。“国际传播白杨班（博士）”以高水平、宽口径、多元素",
+      "source_quad": [
+        [
+          349.0,
+          1472.0
+        ],
+        [
+          2150.0,
+          1472.0
+        ],
+        [
+          2150.0,
+          1500.0
+        ],
+        [
+          349.0,
+          1500.0
+        ]
+      ],
+      "pdf_rect": [
+        127.68,
+        493.475,
+        714.32,
+        502.595
+      ],
+      "original_ocr_text": "关系梁关校",
+      "original_ocr_confidence": 0.55245,
+      "review_status": "assistant_checked_against_supplied_image"
+    },
+    {
+      "id": "doctoral-p2-y2809",
+      "original_filename": "中国传媒大学2026年博士学位研究生招生简章（官方发布页）.png",
+      "page": 2,
+      "source_y": 2809,
+      "text": "1. 须为具有我校学籍的全日制非定向一年级（仅限工学门类及交叉学科相关专业）在学硕士研究生和二年级学术学位在学硕士研究生（不含专项计划）。",
+      "source_quad": [
+        [
+          397.0,
+          2809.0
+        ],
+        [
+          2005.0,
+          2809.0
+        ],
+        [
+          2005.0,
+          2837.0
+        ],
+        [
+          397.0,
+          2837.0
+        ]
+      ],
+      "pdf_rect": [
+        143.315,
+        378.492,
+        667.089,
+        387.613
+      ],
+      "original_ocr_text": "和一",
+      "original_ocr_confidence": 0.65905,
+      "review_status": "assistant_checked_against_supplied_image"
+    },
+    {
+      "id": "doctoral-p3-y3632",
+      "original_filename": "中国传媒大学2026年博士学位研究生招生简章（官方发布页）.png",
+      "page": 3,
+      "source_y": 3632,
+      "text": "此外，报考专业学位博士研究生还须满足相关专业的报考条件，具体可查看附件《中国传媒大学2026年专业学位博士研究生报考条件及申请材料要求》。",
+      "source_quad": [
+        [
+          397.0,
+          3632.0
+        ],
+        [
+          1991.0,
+          3632.0
+        ],
+        [
+          1991.0,
+          3658.0
+        ],
+        [
+          397.0,
+          3658.0
+        ]
+      ],
+      "pdf_rect": [
+        143.315,
+        97.387,
+        662.529,
+        105.856
+      ],
+      "original_ocr_text": "《采粮无》采粮",
+      "original_ocr_confidence": 0.63126,
+      "review_status": "assistant_checked_against_supplied_image"
+    },
+    {
+      "id": "doctoral-p3-y5026",
+      "original_filename": "中国传媒大学2026年博士学位研究生招生简章（官方发布页）.png",
+      "page": 3,
+      "source_y": 5026,
+      "text": "报考专业学位博士研究生须提交本人的代表性作品，具体要求见附件《中国传媒大学2026年专业学位博士研究生报考条件及申请材料要求》。",
+      "source_quad": [
+        [
+          396.0,
+          5026.0
+        ],
+        [
+          1874.0,
+          5026.0
+        ],
+        [
+          1874.0,
+          5053.0
+        ],
+        [
+          396.0,
+          5053.0
+        ]
+      ],
+      "pdf_rect": [
+        142.989,
+        551.455,
+        624.419,
+        560.25
+      ],
+      "original_ocr_text": "《采梁无》系交花无粮",
+      "original_ocr_confidence": 0.57753,
+      "review_status": "assistant_checked_against_supplied_image"
+    },
+    {
+      "id": "doctoral-p6-y9538",
+      "original_filename": "中国传媒大学2026年博士学位研究生招生简章（官方发布页）.png",
+      "page": 6,
+      "source_y": 9538,
+      "text": "3. 普通招考考生提交申请材料后，须在报名系统中缴纳报名费200元。缴费成功后，报名方有效。报名费仅可通过“网上支付”方式进行缴纳，一经缴纳，不予退还。",
+      "source_quad": [
+        [
+          395.0,
+          9538.0
+        ],
+        [
+          2127.0,
+          9538.0
+        ],
+        [
+          2127.0,
+          9570.0
+        ],
+        [
+          395.0,
+          9570.0
+        ]
+      ],
+      "pdf_rect": [
+        142.663,
+        383.052,
+        706.828,
+        393.476
+      ],
+      "original_ocr_text": "热垫胡赞赞离热交替",
+      "original_ocr_confidence": 0.50236,
+      "review_status": "assistant_checked_against_supplied_image"
+    },
+    {
+      "id": "doctoral-p6-y9709",
+      "original_filename": "中国传媒大学2026年博士学位研究生招生简章（官方发布页）.png",
+      "page": 6,
+      "source_y": 9709,
+      "text": "6. 报考非定向就业类别的考生因任何原因不能调档，造成不能被录取或无法正常办理入学报到手续的，后果由考生承担。",
+      "source_quad": [
+        [
+          395.0,
+          9709.0
+        ],
+        [
+          1658.0,
+          9709.0
+        ],
+        [
+          1658.0,
+          9741.0
+        ],
+        [
+          395.0,
+          9741.0
+        ]
+      ],
+      "pdf_rect": [
+        142.663,
+        438.752,
+        554.061,
+        449.176
+      ],
+      "original_ocr_text": "热粮涩使粮",
+      "original_ocr_confidence": 0.50963,
+      "review_status": "assistant_checked_against_supplied_image"
+    },
+    {
+      "id": "doctoral-p6-y10063",
+      "original_filename": "中国传媒大学2026年博士学位研究生招生简章（官方发布页）.png",
+      "page": 6,
+      "source_y": 10063,
+      "text": "10. 一旦发现有不符合报考条件、考试违纪、作弊等，或者发现通过弄虚作假手段取得录取资格的，一律不予录取。已经录取的取消录取资格，已入学的取消学籍。",
+      "source_quad": [
+        [
+          396.0,
+          10063.0
+        ],
+        [
+          2104.0,
+          10063.0
+        ],
+        [
+          2104.0,
+          10094.0
+        ],
+        [
+          396.0,
+          10094.0
+        ]
+      ],
+      "pdf_rect": [
+        142.989,
+        554.061,
+        699.337,
+        564.158
+      ],
+      "original_ocr_text": "垫一符系系采一",
+      "original_ocr_confidence": 0.63135,
+      "review_status": "assistant_checked_against_supplied_image"
+    },
+    {
+      "id": "masters-p2-y2653",
+      "original_filename": "中国传媒大学攻读硕士学位研究生招生专业目录（官方发布页）.png",
+      "page": 2,
+      "source_y": 2653,
+      "text": "注2：在校研究生报考须在报名前征得所在培养单位同意，并在录取前先办理原就读单位的退学手续。",
+      "source_quad": [
+        [
+          397.0,
+          2653.0
+        ],
+        [
+          1453.0,
+          2653.0
+        ],
+        [
+          1453.0,
+          2681.0
+        ],
+        [
+          397.0,
+          2681.0
+        ]
+      ],
+      "pdf_rect": [
+        143.315,
+        333.541,
+        487.286,
+        342.662
+      ],
+      "original_ocr_text": "护市杀系系范粮系杀花无：",
+      "original_ocr_confidence": 0.52219,
+      "review_status": "assistant_checked_against_supplied_image"
+    },
+    {
+      "id": "masters-p3-y4175",
+      "original_filename": "中国传媒大学攻读硕士学位研究生招生专业目录（官方发布页）.png",
+      "page": 3,
+      "source_y": 4175,
+      "text": "①符合中传研招网（https://yz.cuc.edu.cn）发布的《2027年全国硕士研究生招生考试1133中国传媒大学考点公告》相关要求的考生，须选择中国传媒大学考点",
+      "source_quad": [
+        [
+          423.0,
+          4175.0
+        ],
+        [
+          2114.0,
+          4175.0
+        ],
+        [
+          2114.0,
+          4203.0
+        ],
+        [
+          423.0,
+          4203.0
+        ]
+      ],
+      "pdf_rect": [
+        151.784,
+        278.819,
+        702.594,
+        287.939
+      ],
+      "original_ocr_text": "《》//:",
+      "original_ocr_confidence": 0.75313,
+      "review_status": "assistant_checked_against_supplied_image"
+    },
+    {
+      "id": "masters-p4-y6047",
+      "original_filename": "中国传媒大学攻读硕士学位研究生招生专业目录（官方发布页）.png",
+      "page": 4,
+      "source_y": 6047,
+      "text": "考生应严格按照报考条件及相关政策要求选择填报志愿并选择报考点。因不符合报考条件、未正确选择报考点、未按要求提交所需材料、未完成网上缴纳报名费或提交",
+      "source_quad": [
+        [
+          397.0,
+          6047.0
+        ],
+        [
+          2150.0,
+          6047.0
+        ],
+        [
+          2150.0,
+          6073.0
+        ],
+        [
+          397.0,
+          6073.0
+        ]
+      ],
+      "pdf_rect": [
+        143.315,
+        338.102,
+        714.32,
+        346.571
+      ],
+      "original_ocr_text": "粮垫采粮垫垫荣校采粮#",
+      "original_ocr_confidence": 0.63171,
+      "review_status": "assistant_checked_against_supplied_image"
+    }
+  ]
+}

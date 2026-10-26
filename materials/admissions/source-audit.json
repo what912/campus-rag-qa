@@ -1,0 +1,207 @@
+{
+  "audited_on": "2026-10-26",
+  "scope": "two DOCX, one legacy DOC, one HTML, three original PDF; screenshots audited separately by parent/other agent",
+  "sources": [
+    {
+      "filename": "中传工商管理专硕招生简章.docx",
+      "source_sha256": "5a0d4412bed6e145e83177db562e387735996dfa97a90d9eaeaeb3af95fb0611",
+      "body_title": "中传工商管理专硕招生简章",
+      "admission_year": null,
+      "program_type": "MBA/工商管理硕士",
+      "cohort": "",
+      "major": "",
+      "reference_only_recommended": true,
+      "authority_recommended": "用户提供的Word整理稿，非已核验官方发布文件",
+      "review_note": "通用整理稿；年份未确定；2023/2024示例及考试年份矛盾。奖学金金额为例示，不能作为当年正式政策。",
+      "pdf_pages": null,
+      "extractable_characters": 1359,
+      "text_quality": "Word/HTML/PDF正文可抽取"
+    },
+    {
+      "filename": "中国传媒大学1+1国际硕士名校项目2026年招生简章.pdf",
+      "source_sha256": "ced8d486985def943a59f97f013cbb6e775adc3a4aa935713c2a5fc15fc1dbc7",
+      "body_title": "中国传媒大学1+1国际硕士名校项目2026年招生简章",
+      "admission_year": "2026",
+      "program_type": "国际硕士预科/出国留学培训",
+      "cohort": "",
+      "major": "",
+      "reference_only_recommended": false,
+      "authority_recommended": "用户提供的招生项目PDF，未独立核验发布网址",
+      "review_note": "不是国内统招硕士招生简章；结业证与海外硕士学位须区分；奖学金文字有条件。",
+      "pdf_pages": 8,
+      "extractable_characters": 3713,
+      "text_quality": "Word/HTML/PDF正文可抽取"
+    },
+    {
+      "filename": "中国传媒大学2026年本科招生章程.htm",
+      "source_sha256": "eac1230cc375ff80a2c19c8ddf88111981912a4016339507f93ab072b7cb95e7",
+      "body_title": "中国传媒大学2026年本科招生章程",
+      "admission_year": "2026",
+      "program_type": "普通本科招生",
+      "cohort": "",
+      "major": "",
+      "reference_only_recommended": false,
+      "authority_recommended": "用户提供的学校本科招生网保存页",
+      "review_note": "保存网页显示2026-05-28。转换应连续保留内联数字，如110%，避免span逐行拆断数字。",
+      "pdf_pages": null,
+      "extractable_characters": 4234,
+      "text_quality": "Word/HTML/PDF正文可抽取"
+    },
+    {
+      "filename": "中国传媒大学2026年艺术类本科校考专业招生简章（PDF原件）.pdf",
+      "source_sha256": "2fad0e7e84babdea92c7bb42b31c525b2be61aa23aefe23728669b8e14deda10",
+      "body_title": "中国传媒大学2026年艺术类本科校考专业招生简章",
+      "admission_year": "2026",
+      "program_type": "艺术类本科校考",
+      "cohort": "",
+      "major": "",
+      "reference_only_recommended": false,
+      "authority_recommended": "用户提供的正式样式PDF，未独立核验发布网址",
+      "review_note": "正文26页，页码与PDF页序一致。表中费用为2025标准、2026以审批为准，不应直接写为2026已定学费。",
+      "pdf_pages": 26,
+      "extractable_characters": 16953,
+      "text_quality": "Word/HTML/PDF正文可抽取"
+    },
+    {
+      "filename": "中国传媒大学传媒起航计划招生简章.doc",
+      "source_sha256": "f846ee7350dd29a6f9b37c1db97c46d42463b9c4adbb70c57837605c4b72eb20",
+      "body_title": "中国传媒大学xx传媒起航方案招生简章",
+      "admission_year": null,
+      "program_type": "高校专项/传媒起航",
+      "cohort": "",
+      "major": "",
+      "reference_only_recommended": true,
+      "authority_recommended": "用户提供的占位模板/转载材料",
+      "review_note": "含xx年份占位、出guo转载文字、模板内容仅供参考；不能作为当前真实招生人数、报名日期依据。",
+      "pdf_pages": null,
+      "extractable_characters": 954,
+      "text_quality": "OLE WordDocument FIB fcMin/fcMac范围可识别，已保存954字符审计文本"
+    },
+    {
+      "filename": "中国传媒大学关于2026年硕士研究生招生考试初试科目调整的公告.pdf",
+      "source_sha256": "2cd5eab3bf52a585e72929ed21f543d890060218a9f40b7a0b09600129a9356e",
+      "body_title": "中国传媒大学关于2026年硕士研究生招生考试初试科目调整的公告",
+      "admission_year": "2026",
+      "program_type": "硕士统招初试科目调整",
+      "cohort": "",
+      "major": "",
+      "reference_only_recommended": false,
+      "authority_recommended": "用户提供的学校公告PDF，未独立核验发布网址",
+      "review_note": "正文为调整公告，不含附件大纲全文，末页要求最终以正式招生简章和专业目录为准。",
+      "pdf_pages": 3,
+      "extractable_characters": 1564,
+      "text_quality": "Word/HTML/PDF正文可抽取"
+    },
+    {
+      "filename": "中国传媒大学招生章程.docx",
+      "source_sha256": "24c30299a96b9d4d877d51c9086f496332a55230caec011cd577e646141b3748",
+      "body_title": "中国传媒大学招生章程（正文为2017年）",
+      "admission_year": "2017",
+      "program_type": "普通本科招生历史版本",
+      "cohort": "",
+      "major": "",
+      "reference_only_recommended": true,
+      "authority_recommended": "用户提供的历史Word文本，年份据正文判断",
+      "review_note": "正文两次引用2017，含专业志愿级差规则，与2026网页“各专业间不设专业级差分”不同，严禁混为同一版。",
+      "pdf_pages": null,
+      "extractable_characters": 3956,
+      "text_quality": "Word/HTML/PDF正文可抽取"
+    }
+  ],
+  "draft_smoke_cases": [
+    {
+      "id": "admissions_smoke_01",
+      "question": "2026年1+1国际硕士预科项目的招生对象是什么？",
+      "document": "中国传媒大学1+1国际硕士名校项目2026年招生简章.pdf",
+      "page": 6,
+      "evidence": "招生对象：应往届本科毕业生、大四在读学生；应往届专科毕业生。",
+      "answer": "文件列明应往届本科毕业生、大四在读学生及应往届专科毕业生。",
+      "scope": {
+        "admission_year": "2026",
+        "program_type": "国际硕士预科"
+      },
+      "role": "integration_smoke_draft",
+      "reviewed": false,
+      "reviewer": "assistant_initial_source_check",
+      "note": "仅供导入与范围过滤的开发验证，不是独立测试或正式人工标注"
+    },
+    {
+      "id": "admissions_smoke_02",
+      "question": "2026年1+1国际硕士名校项目学费和报名费分别是多少？",
+      "document": "中国传媒大学1+1国际硕士名校项目2026年招生简章.pdf",
+      "page": 7,
+      "evidence": "1）报名费：500元。报名费缴纳成功后，报名即确认生效；费用一经缴纳，不予退还。\n2）学费：128000元/学年",
+      "answer": "据该PDF：报名费500元，学费128000元/学年；报名费不予退还。",
+      "scope": {
+        "admission_year": "2026",
+        "program_type": "国际硕士预科"
+      },
+      "role": "integration_smoke_draft",
+      "reviewed": false,
+      "reviewer": "assistant_initial_source_check",
+      "note": "仅供导入与范围过滤的开发验证，不是独立测试或正式人工标注"
+    },
+    {
+      "id": "admissions_smoke_03",
+      "question": "2026年艺术类本科校考每人最多可报几个专业？",
+      "document": "中国传媒大学2026年艺术类本科校考专业招生简章（PDF原件）.pdf",
+      "page": 3,
+      "evidence": "2.每位考生最多可报考三个专业（含招考方向）。",
+      "answer": "最多三个专业（含招考方向）。",
+      "scope": {
+        "admission_year": "2026",
+        "program_type": "艺术类本科校考"
+      },
+      "role": "integration_smoke_draft",
+      "reviewed": false,
+      "reviewer": "assistant_initial_source_check",
+      "note": "仅供导入与范围过滤的开发验证，不是独立测试或正式人工标注"
+    },
+    {
+      "id": "admissions_smoke_04",
+      "question": "2026年艺术类本科校考初试主要考什么？",
+      "document": "中国传媒大学2026年艺术类本科校考专业招生简章（PDF原件）.pdf",
+      "page": 4,
+      "evidence": "2.初试考试内容：文化素养基础测试\n具体考试内容包括文学、历史、哲学。",
+      "answer": "文化素养基础测试，具体包括文学、历史和哲学。",
+      "scope": {
+        "admission_year": "2026",
+        "program_type": "艺术类本科校考"
+      },
+      "role": "integration_smoke_draft",
+      "reviewed": false,
+      "reviewer": "assistant_initial_source_check",
+      "note": "仅供导入与范围过滤的开发验证，不是独立测试或正式人工标注"
+    },
+    {
+      "id": "admissions_smoke_05",
+      "question": "2026年应用经济学硕士初试业务课二调整为什么科目？",
+      "document": "中国传媒大学关于2026年硕士研究生招生考试初试科目调整的公告.pdf",
+      "page": 2,
+      "evidence": "四、应用经济学（专业代码 020200）初试业务课 2 考试科目，《883 人文社科基础》调整为《884 概率论与数理统计》，考试大纲见附件 5。",
+      "answer": "公告写明由883人文社科基础调整为884概率论与数理统计，并要求以最终正式简章和目录为准。",
+      "scope": {
+        "admission_year": "2026",
+        "program_type": "硕士统招"
+      },
+      "role": "integration_smoke_draft",
+      "reviewed": false,
+      "reviewer": "assistant_initial_source_check",
+      "note": "仅供导入与范围过滤的开发验证，不是独立测试或正式人工标注"
+    }
+  ],
+  "important_conflict": {
+    "old_document": "中国传媒大学招生章程.docx",
+    "old_year": "2017",
+    "old_evidence": "第一、第二、第三专业志愿之间的级差为2分",
+    "new_document": "中国传媒大学2026年本科招生章程.htm",
+    "new_year": "2026",
+    "new_evidence": "各专业间不设专业级差分。"
+  },
+  "limitations": [
+    "未联网独立核验文件是否与官方最新版本一致",
+    "转换后PDF页码须由转换过程另行核实；上述Word/HTML没有虚构页码",
+    "截图内容不由本审计文件认证",
+    "reference_only建议是防止旧文/模板混作现行依据，并非丢弃文件"
+  ]
+}

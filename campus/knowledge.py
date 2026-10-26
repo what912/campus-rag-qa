@@ -15,8 +15,9 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 
 from .documents import parse_document, chunk_pages
 from .search_features import focus_query,intent_match
+from .admissions import infer_admission_scope,scope_matches,choose_admission_year
 
-CATEGORIES = ['培养方案', '课程大纲', '办事流程', '校园服务', '其他']
+CATEGORIES = ['培养方案', '课程大纲', '办事流程', '校园服务', '招生信息', '其他']
 
 
 class KnowledgeBase:
@@ -152,9 +153,11 @@ class KnowledgeBase:
                 if duplicate:
                     raise ValueError('这份文件已经在知识库中，无需重复导入。')
                 pages = parse_document(filename, content, enable_ocr=self.enable_ocr)
-                allowed = {'faculty', 'major', 'cohort', 'published_at', 'review_note', 'reference_only', 'authority'}
+                allowed = {'faculty', 'major', 'cohort', 'published_at', 'review_note', 'reference_only', 'authority',
+                           'domain','admission_year','admission_level','admission_program','original_filename',
+                           'conversion_method','original_sha256','ocr_text_layer','actual_title'}
                 meta = {key:value for key,value in (metadata or {}).items() if key in allowed}
-                meta['extraction_method'] = 'ocr' if any(p.get('extraction_method') == 'ocr' for p in pages) else 'text'
+                meta['extraction_method'] = 'ocr' if meta.get('ocr_text_layer') or any(p.get('extraction_method') == 'ocr' for p in pages) else 'text'
                 if any(p.get('contains_images') for p in pages):
                     meta['contains_images'] = True
                 chunks = chunk_pages(pages)
@@ -240,27 +243,37 @@ class KnowledgeBase:
             else:
                 vector = self.vectorizer.transform([query])
                 scores = (self.matrix @ vector.T).toarray().ravel()
+            admission_scope=choose_admission_year(self.rows,infer_admission_scope(query,category))
             def applies(row):
                 meta = row['metadata']
                 years = re.findall(r'20\d{2}', str(meta.get('cohort', '')))
                 return (not meta.get('reference_only')
+                        and scope_matches(meta,admission_scope)
                         and (not cohort or not years or cohort in years)
                         and (not major or not meta.get('major') or major == meta['major']))
             lexical_scores = None
             query_terms = set(self.vectorizer.build_analyzer()(query)) if self.vectorizer is not None else set()
             coverage = [len(query_terms & terms) / max(1, len(query_terms)) for terms in self.lexical_features]
             focused_scores = None
+            focused_coverage=coverage
             if strategy in ('hybrid','hybrid_rerank') and self.mode == 'semantic':
                 lexical_scores = (self.lexical_matrix @ self.vectorizer.transform([query]).T).toarray().ravel()
                 if strategy == 'hybrid_rerank':
                     focused_scores=(self.lexical_matrix @ self.vectorizer.transform([focus_query(query)]).T).toarray().ravel()
+                    if admission_scope['domain']:
+                        focused_terms=set(self.vectorizer.build_analyzer()(focus_query(query)))
+                        focused_coverage=[len(focused_terms & terms)/max(1,len(focused_terms)) for terms in self.lexical_features]
             eligible = [i for i, row in enumerate(self.rows)
                         if (not category or row['category'] == category)
                         and (include_samples or not row['sample'])
                         and applies(row)
                         and ((scores[i] >= min_score and (self.mode == 'semantic' or coverage[i] >= 0.12))
                              or (lexical_scores is not None and lexical_scores[i] >= 0.08 and coverage[i] >= 0.12)
-                             or (focused_scores is not None and focused_scores[i] >= 0.08 and coverage[i] >= 0.12))]
+                             or (focused_scores is not None and focused_scores[i] >= 0.08 and focused_coverage[i] >= (0.3 if admission_scope['domain'] else 0.12))
+                             # A short, explicit clause label can have low cosine similarity in a long PDF.
+                             # Exact labels admit candidates only after year/program hard filtering.
+                             or (focused_scores is not None and admission_scope['domain']
+                                 and intent_match(query,row['text'])==1.0))]
             ranking = {i:float(scores[i]) for i in eligible}
             if lexical_scores is not None:
                 ranking = {i:0.0 for i in eligible}

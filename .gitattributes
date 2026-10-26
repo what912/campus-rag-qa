@@ -8,4 +8,7 @@
 *.cmd text eol=crlf
 # Preserve original documents exactly so provenance hashes remain valid.
 materials/** -text
+# Archive sources and generated PDFs are reviewed as files, not textual patches.
+materials/admissions/originals/** -diff
+materials/admissions/pdf/** -diff
 evaluation/results/** -text

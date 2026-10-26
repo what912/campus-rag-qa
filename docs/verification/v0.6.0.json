@@ -1,0 +1,351 @@
+{
+  "verified_at": "2026-10-27T03:05:27.365702+08:00",
+  "version": "0.6.0",
+  "automated_tests": {
+    "passed": 74,
+    "failures": 0,
+    "command": "python scripts/run_checks.py",
+    "isolation": "temporary application data; real API environment variables removed"
+  },
+  "javascript_syntax": {
+    "files": [
+      "static/app.js",
+      "static/chat-history.js",
+      "static/review.js"
+    ],
+    "passed": true
+  },
+  "corpus": {
+    "documents": 20,
+    "chunks": 310,
+    "real_documents": 16,
+    "sample_documents": 4,
+    "reference_only_documents": 3,
+    "default_eligible_real_documents": 13,
+    "embedding_dimension": 512
+  },
+  "pdf_conversion": {
+    "documents": 9,
+    "pages": 67,
+    "original_files_unchanged": true,
+    "all_pdf_hashes_verified": true,
+    "png_pages_reviewed": 14,
+    "word_html_pages_reviewed": 16,
+    "original_pdf_first_last_pages_reviewed": true,
+    "ocr_visual_transcriptions": 12,
+    "independent_human_ocr_review": false
+  },
+  "clean_bootstrap": {
+    "documents": 20,
+    "chunks": 310,
+    "mode": "tfidf",
+    "generation_calls": 0
+  },
+  "backup_restore": {
+    "verified_at": "2026-10-27T03:02:50.972971+08:00",
+    "backup": "knowledge-20261027-030219.zip",
+    "stats": {
+      "documents": 20,
+      "chunks": 310,
+      "dimension": 30000,
+      "sample_documents": 4,
+      "mode": "tfidf"
+    },
+    "original_file_hashes_match": true,
+    "paths_relocated": true,
+    "credentials_excluded": true,
+    "retrieval_smoke_passed": true,
+    "model_calls": 0,
+    "note": "本机独立恢复目录演练，不是另一台电脑的完整安装测试；恢复测试使用TF-IDF，不验证远程生成。"
+  },
+  "browser": {
+    "original_text_mode_checked_before_submission": true,
+    "undergraduate_2026_clause_and_page_verified": true,
+    "admission_upload_fields_verified": true,
+    "reference_only_badge_and_review_note_visible": true,
+    "renamed_master_2027_visible": true,
+    "static_resource_version": "0.6.0",
+    "generation_calls": 0
+  },
+  "admissions_integration": {
+    "cases": [
+      {
+        "id": "admissions_smoke_01",
+        "question": "2026年1+1国际硕士预科项目的招生对象是什么？",
+        "mode": "extractive",
+        "scope": {
+          "domain": true,
+          "year": "2026",
+          "level": "master",
+          "program": "international_1plus1"
+        },
+        "source_names": [
+          "中国传媒大学1+1国际硕士名校项目2026年招生简章.pdf"
+        ],
+        "source_pages": [
+          6,
+          1,
+          1,
+          8
+        ],
+        "evidence_found": true,
+        "expected_mode_ok": true,
+        "evidence_hint": "招生对象：应往届本科毕业生、大四在读学生；应往届专科毕业生。",
+        "role": "development_integration_smoke_not_independent_test"
+      },
+      {
+        "id": "admissions_smoke_02",
+        "question": "2026年1+1国际硕士名校项目学费和报名费分别是多少？",
+        "mode": "extractive",
+        "scope": {
+          "domain": true,
+          "year": "2026",
+          "level": "master",
+          "program": "international_1plus1"
+        },
+        "source_names": [
+          "中国传媒大学1+1国际硕士名校项目2026年招生简章.pdf"
+        ],
+        "source_pages": [
+          7,
+          7,
+          1,
+          8
+        ],
+        "evidence_found": true,
+        "expected_mode_ok": true,
+        "evidence_hint": "1）报名费：500元。报名费缴纳成功后，报名即确认生效；费用一经缴纳，不予退还。",
+        "role": "development_integration_smoke_not_independent_test"
+      },
+      {
+        "id": "admissions_smoke_03",
+        "question": "2026年艺术类本科校考每人最多可报几个专业？",
+        "mode": "extractive",
+        "scope": {
+          "domain": true,
+          "year": "2026",
+          "level": "undergraduate",
+          "program": "art_undergraduate"
+        },
+        "source_names": [
+          "中国传媒大学2026年艺术类本科校考专业招生简章（PDF原件）.pdf"
+        ],
+        "source_pages": [
+          3,
+          3,
+          5,
+          1
+        ],
+        "evidence_found": true,
+        "expected_mode_ok": true,
+        "evidence_hint": "2.每位考生最多可报考三个专业（含招考方向）。",
+        "role": "development_integration_smoke_not_independent_test"
+      },
+      {
+        "id": "admissions_smoke_04",
+        "question": "2026年艺术类本科校考初试主要考什么？",
+        "mode": "extractive",
+        "scope": {
+          "domain": true,
+          "year": "2026",
+          "level": "undergraduate",
+          "program": "art_undergraduate"
+        },
+        "source_names": [
+          "中国传媒大学2026年艺术类本科校考专业招生简章（PDF原件）.pdf"
+        ],
+        "source_pages": [
+          4,
+          3,
+          5,
+          9
+        ],
+        "evidence_found": true,
+        "expected_mode_ok": true,
+        "evidence_hint": "2.初试考试内容：文化素养基础测试",
+        "role": "development_integration_smoke_not_independent_test"
+      },
+      {
+        "id": "admissions_smoke_05",
+        "question": "2026年应用经济学硕士初试业务课二调整为什么科目？",
+        "mode": "extractive",
+        "scope": {
+          "domain": true,
+          "year": "2026",
+          "level": "master",
+          "program": "general_master"
+        },
+        "source_names": [
+          "中国传媒大学关于2026年硕士研究生招生考试初试科目调整的公告.pdf"
+        ],
+        "source_pages": [
+          2,
+          2,
+          1
+        ],
+        "evidence_found": true,
+        "expected_mode_ok": true,
+        "evidence_hint": "四、应用经济学（专业代码 020200）初试业务课 2 考试科目，《883 人文社科基础》调整为《884 概率论与数理统计》，考试大纲见附件 5。",
+        "role": "development_integration_smoke_not_independent_test"
+      },
+      {
+        "id": "undergraduate",
+        "question": "2026年本科招生是否设置专业级差？",
+        "mode": "extractive",
+        "scope": {
+          "domain": true,
+          "year": "2026",
+          "level": "undergraduate",
+          "program": "general_undergraduate"
+        },
+        "source_names": [
+          "中国传媒大学2026年本科招生章程.pdf"
+        ],
+        "source_pages": [
+          2,
+          3,
+          1,
+          1
+        ],
+        "evidence_found": true,
+        "expected_mode_ok": true,
+        "evidence_hint": "不设专业级差",
+        "role": "development_integration_smoke_not_independent_test"
+      },
+      {
+        "id": "doctor_fee",
+        "question": "2026年博士招生报名费缴纳后能否退还？",
+        "mode": "extractive",
+        "scope": {
+          "domain": true,
+          "year": "2026",
+          "level": "doctor",
+          "program": "general_doctor"
+        },
+        "source_names": [
+          "中国传媒大学2026年博士学位研究生招生简章（官方发布页）.pdf"
+        ],
+        "source_pages": [
+          6,
+          3,
+          2,
+          6
+        ],
+        "evidence_found": true,
+        "expected_mode_ok": true,
+        "evidence_hint": "不予退还",
+        "role": "development_integration_smoke_not_independent_test"
+      },
+      {
+        "id": "master2027",
+        "question": "2027年硕士研究生招生简章的报考条件是什么？",
+        "mode": "extractive",
+        "scope": {
+          "domain": true,
+          "year": "2027",
+          "level": "master",
+          "program": "general_master"
+        },
+        "source_names": [
+          "中国传媒大学2027年硕士研究生招生简章（截图转PDF）.pdf"
+        ],
+        "source_pages": [
+          4,
+          4,
+          4,
+          2
+        ],
+        "evidence_found": null,
+        "expected_mode_ok": true,
+        "evidence_hint": "",
+        "role": "development_integration_smoke_not_independent_test"
+      },
+      {
+        "id": "mba_reference",
+        "question": "2026年MBA招生学费是多少？",
+        "mode": "no_evidence",
+        "scope": {
+          "domain": true,
+          "year": "2026",
+          "level": "master",
+          "program": "mba"
+        },
+        "source_names": [],
+        "source_pages": [],
+        "evidence_found": null,
+        "expected_mode_ok": true,
+        "evidence_hint": "",
+        "role": "development_integration_smoke_not_independent_test"
+      },
+      {
+        "id": "qihang_reference",
+        "question": "2026年传媒起航计划报名时间是什么？",
+        "mode": "no_evidence",
+        "scope": {
+          "domain": true,
+          "year": "2026",
+          "level": "undergraduate",
+          "program": "media_qihang"
+        },
+        "source_names": [],
+        "source_pages": [],
+        "evidence_found": null,
+        "expected_mode_ok": true,
+        "evidence_hint": "",
+        "role": "development_integration_smoke_not_independent_test"
+      },
+      {
+        "id": "unknown_year",
+        "question": "2027年普通本科招生章程的录取原则是什么？",
+        "mode": "no_evidence",
+        "scope": {
+          "domain": true,
+          "year": "2027",
+          "level": "undergraduate",
+          "program": "general_undergraduate"
+        },
+        "source_names": [],
+        "source_pages": [],
+        "evidence_found": null,
+        "expected_mode_ok": true,
+        "evidence_hint": "",
+        "role": "development_integration_smoke_not_independent_test"
+      },
+      {
+        "id": "compare",
+        "question": "2026年本科招生和硕士招生有什么区别？",
+        "mode": "clarification",
+        "scope": {
+          "domain": true,
+          "year": "2026",
+          "level": "",
+          "program": "",
+          "ambiguous": true
+        },
+        "source_names": [],
+        "source_pages": [],
+        "evidence_found": null,
+        "expected_mode_ok": true,
+        "evidence_hint": "",
+        "role": "development_integration_smoke_not_independent_test"
+      }
+    ],
+    "role": "assistant-developed integration checks, not independent test or generated-answer grading"
+  },
+  "development_retrieval_regression": {
+    "total_questions": 19,
+    "evidence_hit_rate": 1.0,
+    "mean_recall_at_k": 1.0,
+    "mean_mrr": 0.9736842105263158,
+    "top_k": 4,
+    "role": "previous development set, not independent evaluation or answer accuracy"
+  },
+  "assistant_live_generation_requests": 0,
+  "limitations": [
+    "Three historical or uncertain sources are preserved for reference and excluded from answers.",
+    "Screenshots contain page bodies and link labels, not linked directory or syllabus attachments.",
+    "OCR includes assistant visual transcription, not independent human proofreading.",
+    "New retrieval rules were tuned against these development checks; formal independent evaluation remains to be done.",
+    "Live external generation and streaming were not retested in this batch."
+  ]
+}

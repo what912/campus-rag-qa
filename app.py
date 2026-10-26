@@ -22,6 +22,7 @@ from campus.evaluation import evaluate_cases
 from campus.experiments import list_reports,read_report,read_review,save_review
 from campus.conversations import ConversationStore,resolve_question
 from campus.ingestion import ImportLog
+from campus.admissions import infer_admission_scope,choose_admission_year,describe_scope,PROGRAMS
 
 ROOT = Path(__file__).resolve().parent
 DATA = Path(os.environ.get('CAMPUS_DATA_DIR', str(ROOT / 'data')))
@@ -109,7 +110,7 @@ def create_app(data_dir=DATA, seed=True):
     async def lifespan(application):
         yield
 
-    api = FastAPI(title='知校 · 校园知识问答', version='0.5.0', lifespan=lifespan)
+    api = FastAPI(title='知校 · 校园知识问答', version='0.6.0', lifespan=lifespan)
     api.state.kb = kb
     api.state.settings = settings
     api.state.conversations=conversations
@@ -160,12 +161,20 @@ def create_app(data_dir=DATA, seed=True):
     def upload(file: UploadFile = File(...), category: str = Form('其他'),
                version: str = Form(''), source: str = Form(''), major: str = Form('', max_length=150),
                cohort: str = Form('', max_length=50), published_at: str = Form('', max_length=50),
-               reference_only: bool = Form(False)):
+               reference_only: bool = Form(False),admission_year:str=Form('',max_length=4),
+               admission_program:str=Form('',max_length=80)):
         data = file.file.read(MAX_BYTES + 1)
         try:
+            metadata={'major':major,'cohort':cohort,'published_at':published_at,'reference_only':reference_only}
+            if category=='招生信息':
+                if admission_year and not re.fullmatch(r'20\d{2}',admission_year):raise ValueError('招生年份须按正文填写四位年份。')
+                if admission_program and admission_program not in PROGRAMS:raise ValueError('请选择有效的招生项目。')
+                if not reference_only and (not admission_year or not admission_program):
+                    raise ValueError('招生资料请填写正文招生年份和项目；无法确定时勾选仅参考。')
+                metadata.update(domain='admissions',admission_year=admission_year,admission_program=admission_program,
+                                admission_level=PROGRAMS[admission_program][1] if admission_program else '',major='',cohort='')
             document_id = kb.add(file.filename or 'document.txt', data, category, version, source,
-                                 metadata={'major':major, 'cohort':cohort, 'published_at':published_at,
-                                           'reference_only':reference_only})
+                                 metadata=metadata)
         except ValueError as exc:
             imports.record(file.filename or 'document.txt','failed',message=str(exc))
             raise HTTPException(400, str(exc)) from exc
@@ -211,6 +220,9 @@ def create_app(data_dir=DATA, seed=True):
             if len(turns)>=100: raise HTTPException(409,'单个会话最多100轮，请新建会话。')
         resolution=resolve_question(question,turns)
         resolved=resolution['query']
+        inherited_admission=(resolution['context'] or {}).get('admission_scope',{})
+        if inherited_admission.get('domain') and inherited_admission.get('year') and infer_admission_scope(resolved)['domain'] and not infer_admission_scope(resolved)['year']:
+            resolved=inherited_admission['year']+'年'+resolved
         with config_lock:
             active = dict(settings)
             context=resolution['context'] or {}
@@ -220,21 +232,34 @@ def create_app(data_dir=DATA, seed=True):
             named_major=next((m for m in ('计算机科学与技术','软件工程','网络空间安全') if m+'专业' in resolved),'')
             major = request.major if request.major is not None else named_major or context.get('major',active['target_major'])
             category = infer_category(resolved,request.category)
+            admission_scope=choose_admission_year(kb.rows,infer_admission_scope(resolved,category))
+            if admission_scope.get('ambiguous'):
+                resolution['clarification']='这次问题涉及不同招生层次，请分别提问，或说明需要比较的具体项目、年份和条件，以免套用不同规定。'
             sources = [] if resolution['clarification'] else kb.search(resolved, request.top_k, category,
                                 request.include_samples, active['min_score'], cohort, major,
                                 active['retrieval_strategy'])
             retrieval_mode = kb.mode
+            reference_notice=''
+            if admission_scope['domain'] and not sources and any(
+                row['metadata'].get('reference_only') and row['metadata'].get('domain')=='admissions'
+                and row['metadata'].get('admission_program')==admission_scope.get('program') for row in kb.rows):
+                reference_notice='库内有该项目的旧版或整理稿，仅作为参考保存，不能据此确认当前招生政策；可在知识库查看原件与说明。'
         retrieval_ms = round((time.perf_counter() - start) * 1000)
-        scoped=resolved+f'\n用户所在学校：中国传媒大学。用户选择的适用范围：{cohort or "未指定"}级，{major or "未指定专业"}。'
+        if admission_scope['domain']:
+            scoped=resolved+'\n用户所在学校：中国传媒大学。当前招生资料范围：'+describe_scope(admission_scope)+'。'
+        else:
+            scoped=resolved+f'\n用户所在学校：中国传媒大学。用户选择的适用范围：{cohort or "未指定"}级，{major or "未指定专业"}。'
         return {'question':question,'resolved_question':resolved,'query_rewritten':resolution['rewritten'],
                 'clarification':resolution['clarification'],'sources':sources,'active':active,'start':start,
-                'retrieval_ms':retrieval_ms,'retrieval_mode':retrieval_mode,'cohort':cohort,'major':major,'scoped':scoped}
+                'retrieval_ms':retrieval_ms,'retrieval_mode':retrieval_mode,'cohort':cohort,'major':major,
+                'admission_scope':admission_scope,'scoped':scoped,'reference_notice':reference_notice}
 
     def local_answer(prepared):
         sources=prepared['sources']
         if prepared['clarification']:
             return prepared['clarification'],'clarification'
         if not sources:
+            if prepared.get('reference_notice'):return prepared['reference_notice'],'no_evidence'
             answer = '当前检索未找到足够依据，暂时无法确认。可换一种问法，或说明专业、年级和文件版本；相关资料尚未入库时再补充文件。'
             return answer,'no_evidence'
         answer='本次显示检索原文摘录，请根据原文核对答案。\n\n'+'\n\n'.join(
@@ -258,6 +283,7 @@ def create_app(data_dir=DATA, seed=True):
                 'retrieval_ms':prepared['retrieval_ms'],'generation_ms':generation_ms,
                 'retrieval_mode':prepared['retrieval_mode'],'retrieval_strategy':active['retrieval_strategy'],
                 'cohort':prepared['cohort'],'major':prepared['major'],'provider':telemetry or {}}
+        result['admission_scope']=prepared['admission_scope']
         if session_id: conversations.append(session_id,prepared['question'],result)
         return result
 
@@ -288,7 +314,7 @@ def create_app(data_dir=DATA, seed=True):
                     yield event('status',{'message':'正在检索原文…'})
                     prepared=prepare_question(request);started=time.perf_counter();telemetry={}
                     yield event('sources',{'sources':prepared['sources'],'resolved_question':prepared['resolved_question'],
-                                           'query_rewritten':prepared['query_rewritten']})
+                                           'query_rewritten':prepared['query_rewritten'],'admission_scope':prepared['admission_scope']})
                     if prepared['sources'] and prepared['active']['enabled'] and request.answer_mode=='auto':
                         parts=[]
                         for delta in stream_answer(prepared['scoped'],prepared['sources'],prepared['active'],telemetry=telemetry):

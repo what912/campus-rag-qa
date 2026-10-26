@@ -20,6 +20,8 @@ if __name__=='__main__':
     public=json.loads((ROOT/'materials/manifest.json').read_text(encoding='utf-8'))
     professional=json.loads((ROOT/'materials/user-material-manifest.json').read_text(encoding='utf-8'))['documents']
     items=[p for p in public if p['usage']=='knowledge']+professional
+    admissions=ROOT/'materials/admissions/manifest.json'
+    if admissions.is_file():items.extend(json.loads(admissions.read_text(encoding='utf-8'))['documents'])
     rows=[]
     for item in items:
         path=(ROOT/item['local_path'].replace('\\','/')).resolve()

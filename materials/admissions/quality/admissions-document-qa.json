@@ -1,0 +1,163 @@
+{
+  "qa_date": "2026-10-26",
+  "role": "independent_document_conversion_review",
+  "scope": "four converted Word/HTML PDFs and three unchanged PDF copies; screenshot PDFs reviewed by other agent",
+  "method": [
+    "rendered every converted page with PyMuPDF 1.5x",
+    "inspected every converted page in 2x2 contact sheets, with MBA page2 individually before repair",
+    "re-rendered and inspected all2 pages of repaired MBA",
+    "compared normalized complete source text with both PyMuPDF and project-default pypdf",
+    "verified unchanged PDFs by SHA256 and visually inspected first/last pages"
+  ],
+  "converted": [
+    {
+      "filename": "中传工商管理专硕招生简章.pdf",
+      "sha256": "847141c64c482d0ce7c4f1444674a62cf801d0fae9afebbf1f0ef319ea8ebd23",
+      "pages": 2,
+      "pypdf_characters_excluding_whitespace": 1287,
+      "source_characters_excluding_whitespace": 1287,
+      "pypdf_exact_content_match": true,
+      "pypdf_differences": [],
+      "only_added_title_and_page_numbers": false,
+      "pypdf_replacement_characters": 0,
+      "visual_pages_inspected": [
+        1,
+        2
+      ],
+      "visual_findings": [],
+      "status": "pass",
+      "resolved_issues": [
+        "原导出第2页丢失的“结业后，”逗号已保留",
+        "原导出第3页孤立标题已消除；新PDF为2页"
+      ]
+    },
+    {
+      "filename": "中国传媒大学传媒起航计划招生简章.pdf",
+      "sha256": "4d4e80420ef66774d98359de90d2ccfb31174e842058b67b5d8d8c1d25c61348",
+      "pages": 2,
+      "pypdf_characters_excluding_whitespace": 867,
+      "source_characters_excluding_whitespace": 867,
+      "pypdf_exact_content_match": true,
+      "pypdf_differences": [],
+      "only_added_title_and_page_numbers": false,
+      "pypdf_replacement_characters": 0,
+      "visual_pages_inspected": [
+        1,
+        2
+      ],
+      "visual_findings": [],
+      "status": "pass"
+    },
+    {
+      "filename": "中国传媒大学招生章程.pdf",
+      "sha256": "d4156025c777c2e268ea9b1c289bb08c28adbb54d24e87b39b527c9d2f7fcb69",
+      "pages": 8,
+      "pypdf_characters_excluding_whitespace": 3687,
+      "source_characters_excluding_whitespace": 3687,
+      "pypdf_exact_content_match": true,
+      "pypdf_differences": [],
+      "only_added_title_and_page_numbers": false,
+      "pypdf_replacement_characters": 0,
+      "visual_pages_inspected": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "visual_findings": [],
+      "status": "pass"
+    },
+    {
+      "filename": "中国传媒大学2026年本科招生章程.pdf",
+      "sha256": "d39ab878093f74fd3c5830ac494a85418c28fc575426308bd50c8e2c5197e580",
+      "pages": 4,
+      "pypdf_characters_excluding_whitespace": 3918,
+      "source_characters_excluding_whitespace": 3897,
+      "pypdf_exact_content_match": false,
+      "pypdf_differences": [
+        {
+          "op": "insert",
+          "source": "",
+          "pdf": "1中国传媒大学2026年本科招生章程"
+        },
+        {
+          "op": "insert",
+          "source": "",
+          "pdf": "2"
+        },
+        {
+          "op": "insert",
+          "source": "",
+          "pdf": "3"
+        },
+        {
+          "op": "insert",
+          "source": "",
+          "pdf": "4"
+        }
+      ],
+      "only_added_title_and_page_numbers": true,
+      "pypdf_replacement_characters": 0,
+      "visual_pages_inspected": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "visual_findings": [],
+      "status": "pass"
+    }
+  ],
+  "original_pdf_copies": [
+    {
+      "id": "international",
+      "name": "中国传媒大学1+1国际硕士名校项目2026年招生简章.pdf",
+      "pages": 8,
+      "sha256_identical": true,
+      "sha256": "ced8d486985def943a59f97f013cbb6e775adc3a4aa935713c2a5fc15fc1dbc7",
+      "visual_pages_inspected": [
+        1,
+        8
+      ],
+      "visual_findings": [],
+      "status": "pass"
+    },
+    {
+      "id": "art",
+      "name": "中国传媒大学2026年艺术类本科校考专业招生简章（PDF原件）.pdf",
+      "pages": 26,
+      "sha256_identical": true,
+      "sha256": "2fad0e7e84babdea92c7bb42b31c525b2be61aa23aefe23728669b8e14deda10",
+      "visual_pages_inspected": [
+        1,
+        26
+      ],
+      "visual_findings": [],
+      "status": "pass"
+    },
+    {
+      "id": "exam",
+      "name": "中国传媒大学关于2026年硕士研究生招生考试初试科目调整的公告.pdf",
+      "pages": 3,
+      "sha256_identical": true,
+      "sha256": "2cd5eab3bf52a585e72929ed21f543d890060218a9f40b7a0b09600129a9356e",
+      "visual_pages_inspected": [
+        1,
+        3
+      ],
+      "visual_findings": [],
+      "status": "pass"
+    }
+  ],
+  "overall_status": "pass",
+  "unresolved_defects": [],
+  "notes": [
+    "Source errors/placeholders preserved; reliability handled in metadata, not silently rewritten.",
+    "HTML adds title/page numbers only.",
+    "QA does not authenticate official publication or certify image OCR."
+  ]
+}

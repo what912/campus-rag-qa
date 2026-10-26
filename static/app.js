@@ -64,7 +64,7 @@ async function refresh() {
         ['培养方案', '2023级计算机科学与技术专业毕业总学分是多少？'],
         ['课程大纲', '数据结构课程的考核方式是什么？'],
         ['学位申请', '申请学士学位需要满足什么要求？'],
-        ['成绩单', '电子成绩单发送后在哪里查看订单进度？']
+        ['本科招生', '2026年本科招生是否设置专业级差？']
       ];
       $('#welcome .suggestions').innerHTML = suggestions.map(([category, question]) => '<button data-question="' + escapeHtml(question) + '"><small>' + escapeHtml(category) + '</small><span>' + escapeHtml(question) + '</span><span class="suggestion-icon" aria-hidden="true">↗</span></button>').join('');
       $('#welcome .demo-note').textContent = '已载入学校公开资料，请核对文件版本和适用范围。演示资料默认不参与问答。';
@@ -87,7 +87,7 @@ function renderDocuments() {
   const docs = state.documents.filter((doc) => (!category || doc.category === category) && (doc.name + ' ' + doc.source).toLowerCase().includes(query));
   $('#document-rows').innerHTML = docs.map((doc) => {
     const suffix = doc.name.split('.').pop().toUpperCase();
-    return '<tr><td><div class="document-name"><span class="file-icon">' + escapeHtml(suffix) + '</span><div><strong>' + escapeHtml(doc.name) + '</strong>' + (doc.sample ? '<span class="sample-tag">演示</span>' : '') + '<small>' + escapeHtml(doc.source || '来源未填写') + '</small></div></div></td><td>' + escapeHtml(doc.category) + '</td><td>' + doc.chunk_count + '</td><td>' + escapeHtml(doc.version || '未填写') + '</td><td><div class="row-actions"><button data-document="' + doc.id + '">查看</button><a href="/api/documents/' + doc.id + '/download" aria-label="下载 ' + escapeHtml(doc.name) + '">下载</a><button class="delete" data-delete="' + doc.id + '">删除</button></div></td></tr>';
+    return '<tr><td><div class="document-name"><span class="file-icon">' + escapeHtml(suffix) + '</span><div><strong>' + escapeHtml(doc.name) + '</strong>' + (doc.sample ? '<span class="sample-tag">演示</span>' : '') + (doc.metadata?.reference_only ? '<span class="sample-tag">仅参考</span>' : '') + '<small>' + escapeHtml(doc.source || '来源未填写') + '</small></div></div></td><td>' + escapeHtml(doc.category) + '</td><td>' + doc.chunk_count + '</td><td>' + escapeHtml(doc.version || '未填写') + '</td><td><div class="row-actions"><button data-document="' + doc.id + '">查看</button><a href="/api/documents/' + doc.id + '/download" aria-label="下载 ' + escapeHtml(doc.name) + '">下载</a><button class="delete" data-delete="' + doc.id + '">删除</button></div></td></tr>';
   }).join('');
   $('#library-empty').hidden = docs.length > 0;
   $('#library-empty').textContent = state.documents.length ? '没有符合搜索条件的文档。' : '这里还没有资料。点击“导入文档”开始建立知识库。';
@@ -146,6 +146,10 @@ function message(kind, text, result) {
     if(result.query_rewritten){
       const note=document.createElement('p');note.className='query-resolution';
       note.textContent='结合上一轮，本次查询：'+result.resolved_question;article.append(note);
+    }
+    if(result.admission_scope?.domain){
+      const note=document.createElement('p');note.className='query-resolution';
+      note.textContent='招生资料范围：'+(result.admission_scope.year?result.admission_scope.year+'年':'年份未指定')+(result.admission_scope.year_selected_from_corpus?'（该项目库内最新已知年份）':'');article.append(note);
     }
     result.warnings.forEach((warning) => {
       const notice = document.createElement('p');
@@ -208,7 +212,8 @@ document.addEventListener('click', async (event) => {
       const doc = await api('/api/documents/' + button.dataset.document);
       $('#document-title').textContent = doc.name;
       const metadata = doc.metadata || {};
-      $('#document-meta').textContent = doc.category + ' / ' + (doc.version || '版本未填写') + ' / ' + doc.chunks.length + ' 个片段' + (doc.sample ? ' / 虚构演示资料' : '') + ' / ' + (metadata.cohort ? metadata.cohort + ' 级' : '年级未单独限定') + ' / ' + (metadata.major || '专业未单独限定') + (metadata.reference_only ? ' / 仅参考，不进入问答' : '') + (metadata.published_at ? ' / 发布：' + metadata.published_at : '');
+      $('#document-meta').textContent = doc.category + ' / ' + (doc.version || '版本未填写') + ' / ' + doc.chunks.length + ' 个片段' + (doc.sample ? ' / 虚构演示资料' : '') + (metadata.domain==='admissions'?' / 招生年度：'+(metadata.admission_year||'未确认')+' / 正文标题：'+(metadata.actual_title||doc.name):' / ' + (metadata.cohort ? metadata.cohort + ' 级' : '年级未单独限定') + ' / ' + (metadata.major || '专业未单独限定')) + (metadata.reference_only ? ' / 仅参考，不进入问答' : '') + (metadata.published_at ? ' / 发布：' + metadata.published_at : '');
+      if (metadata.review_note) $('#document-meta').textContent+=' / 资料说明：'+metadata.review_note;
       $('#document-chunks').innerHTML = doc.chunks.map((chunk) => '<article class="chunk-preview"><h3>片段 ' + chunk.ordinal + (chunk.page ? ' · 第 ' + chunk.page + ' 页' : '') + (chunk.heading ? ' · ' + escapeHtml(chunk.heading) : '') + '</h3><p>' + escapeHtml(chunk.text) + '</p></article>').join('');
       $('#document-dialog').showModal();
     } catch (error) { toast(error.message); }
@@ -238,6 +243,7 @@ $('#library-category').addEventListener('change', renderDocuments);
 $('#upload-open').addEventListener('click', () => {
   $('#upload-form').reset();
   $('#upload-category').value = '其他';
+  $('#admission-fields').hidden=true;
   $('#file-caption').textContent = '点击选择文件，或拖放到这里';
   $('#upload-error').textContent = '';
   $('#upload-dialog').showModal();
@@ -317,6 +323,8 @@ refresh().then(() => {
 }).catch((error) => { $('#mode-text').textContent = '服务未连接'; toast(error.message); });
 
 $('#upload-form .form-grid').insertAdjacentHTML('afterend', '<div class="form-grid"><label>适用专业<input name="major" maxlength="150" placeholder="全校通用文件留空"></label><label>适用入学年级<input name="cohort" maxlength="50" placeholder="例如 2023，通用文件留空"></label></div><label class="field-label">发布日期<input name="published_at" type="date"></label><label class="checkbox-label"><input name="reference_only" type="checkbox"> 仅作为参考版本保存，不进入问答检索</label>');
+$('#upload-form .dialog-actions').insertAdjacentHTML('beforebegin','<div id="admission-fields" class="form-grid" hidden><label>正文招生年份<input name="admission_year" maxlength="4" placeholder="如2026，区别于在读年级"></label><label>招生项目<select name="admission_program"><option value="">请选择正文对应项目</option><option value="general_undergraduate">普通本科招生</option><option value="art_undergraduate">艺术类本科校考</option><option value="general_master">普通硕士招生</option><option value="mba">工商管理硕士MBA</option><option value="international_1plus1">1+1国际硕士项目</option><option value="general_doctor">博士招生</option><option value="media_qihang">传媒起航计划</option></select></label></div>');
+$('#upload-category').addEventListener('change',()=>{$('#admission-fields').hidden=$('#upload-category').value!=='招生信息';});
 $('#key-status').insertAdjacentHTML('afterend', '<label class="checkbox-label"><input name="remember_key" type="checkbox"> 使用 Windows 本机加密保存密钥，重启后可用</label>');
 $('#settings-form .dialog-actions').insertAdjacentHTML('beforebegin', '<label class="field-label">检索策略<select name="retrieval_strategy"><option value="vector">向量检索</option><option value="hybrid">语义 + TF-IDF 混合检索</option><option value="hybrid_rerank">混合检索与问题重点重排序</option></select></label><label class="field-label">语义查询前缀<input name="query_prefix" placeholder="不同模型采用各自的检索指令"></label><div class="form-grid"><label>默认入学年级<input name="target_cohort" value="2023" maxlength="50"></label><label>默认专业<input name="target_major" value="计算机科学与技术" maxlength="150"></label></div><label class="checkbox-label"><input name="enable_ocr" type="checkbox"> 对 PDF 扫描页启用本地 OCR</label><p class="field-hint">OCR 文字需核对数字与表格。换电脑时需先安装 OCR 依赖并准备模型。</p><div class="connection-actions"><button id="preset-deepseek" class="secondary-button" type="button">填入 DeepSeek 配置示例</button><button id="test-model" class="secondary-button" type="button">检测 API 连接</button></div><p id="connection-result" class="field-hint" role="status"></p>');
 $('#preset-deepseek').addEventListener('click', () => {

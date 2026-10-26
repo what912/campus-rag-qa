@@ -7,9 +7,9 @@
   <title>知校 · 校园知识问答</title>
   <link rel="icon" href="/static/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="/static/styles.css">
-  <script src="/static/app.js" defer></script>
-  <script src="/static/chat-history.js" defer></script>
-  <script src="/static/review.js" defer></script>
+  <script src="/static/app.js?v=0.6.0" defer></script>
+  <script src="/static/chat-history.js?v=0.6.0" defer></script>
+  <script src="/static/review.js?v=0.6.0" defer></script>
 </head>
 <body>
   <aside class="sidebar">
@@ -64,14 +64,14 @@
       <section id="view-library" class="view content-view" hidden aria-label="我的知识库">
         <div class="page-heading"><div><h1>我的知识库</h1><p>导入校园资料，让每一次问答都有据可查。</p></div><button id="upload-open" class="primary-button">＋ 导入文档</button></div>
         <div class="library-stats"><div><strong id="stat-documents">0</strong><span>份文档</span></div><div><strong id="stat-chunks">0</strong><span>个可检索片段</span></div><div><strong id="stat-dimension">0</strong><span>向量维度</span></div><div class="stats-note">资料与向量索引保存在项目的 data 文件夹。</div></div>
-        <div class="notice">已导入学校公开文件，另有虚构示例。已导入2023级沿用的培养方案与课程大纲，请核对版本及适用范围。</div>
+        <div class="notice">已导入培养方案、课程大纲和招生PDF。“仅参考”资料保留供查看，不进入问答；招生年度与在读年级分别筛选。</div>
         <details class="import-history"><summary>最近导入记录</summary><div id="import-records">尚无导入记录。</div></details><div class="library-toolbar"><label class="search-field"><span aria-hidden="true">⌕</span><input id="document-search" aria-label="搜索文档" placeholder="搜索文件名或来源"></label><select id="library-category" aria-label="文档分类"><option value="">全部分类</option></select></div>
         <div class="table-wrap"><table class="document-table"><thead><tr><th>文档名称</th><th>分类</th><th>片段</th><th>版本 / 年级</th><th>操作</th></tr></thead><tbody id="document-rows"></tbody></table><div id="library-empty" class="empty-state" hidden>这里还没有资料。点击“导入文档”开始建立知识库。</div></div>
       </section>
 
       <section id="view-evaluation" class="view content-view" hidden aria-label="检索检查"><div class="page-heading"><div><h1>检索检查</h1><p>检查开发题的正确文件与正确证据，使用当前问答检索配置。</p></div><button id="run-evaluation" class="primary-button">运行检查</button></div><div class="notice">这里使用你已核对的 19 道开发题。检查不调用大模型，按原文证据定位条款，文件命中单独展示，不作为独立测试结论。</div><div id="evaluation-results" class="evaluation-results"><div class="empty-state">运行后可查看证据命中、Recall@4、MRR 和逐题依据。当前题集不包含无依据题。</div></div></section>
 
-      <section id="view-guide" class="view content-view guide-view" hidden aria-label="项目指南"><div class="page-heading"><div><h1>从原型到毕业设计</h1><p>先跑通流程，再用真实资料验证效果。</p></div></div><div class="guide-intro"><h2>你的课题正在做什么？</h2><p>把分散的校园文件整理成可检索的知识库。用户提问后，系统找出相关片段，再把问题和片段一起交给大模型，生成附有出处的回答。</p></div><div class="pipeline"><div><b>1</b><h3>收集资料</h3><p>培养方案、课程大纲、办事指南</p></div><div><b>2</b><h3>解析与切片</h3><p>提取文字，保留文件与位置信息</p></div><div><b>3</b><h3>向量化与检索</h3><p>把问题与片段转成向量，寻找相似内容</p></div><div><b>4</b><h3>生成与溯源</h3><p>依据检索结果回答，并展示原文</p></div></div><div class="guide-sections"><article><h2>现在可以体验</h2><ul><li>上传和管理文档与保存的 HTML 网页</li><li>查看文本切片与来源位置</li><li>本地中文语义、TF-IDF 与混合检索</li><li>扫描 PDF 文字识别与年级专业筛选</li><li>检查19道开发题的检索结果</li></ul></article><article><h2>资料与验证进展</h2><ul><li>已导入 2023 级适用培养方案与课程大纲</li><li>19 道开发题已核对，继续建立独立测试集</li><li>大模型已接通，核对真实回答与引用</li><li>整理人工标注的问题集，完成对照实验</li></ul></article></div><div class="guide-footer"><h2>两个概念要区分</h2><p>TF-IDF 是词面匹配的向量检索基线，不是大模型语义向量。未接入大模型时，系统提供直接摘录；当前语义模型与 DeepSeek 均已接通；关闭大模型后可体验摘录。正式效果仍需对照与人工评分。</p><button id="guide-settings" class="secondary-button">打开模型设置</button></div></section>
+      <section id="view-guide" class="view content-view guide-view" hidden aria-label="项目指南"><div class="page-heading"><div><h1>从原型到毕业设计</h1><p>先跑通流程，再用真实资料验证效果。</p></div></div><div class="guide-intro"><h2>你的课题正在做什么？</h2><p>把分散的校园文件整理成可检索的知识库。用户提问后，系统找出相关片段，再把问题和片段一起交给大模型，生成附有出处的回答。</p></div><div class="pipeline"><div><b>1</b><h3>收集资料</h3><p>培养方案、课程大纲、办事与招生资料</p></div><div><b>2</b><h3>解析与切片</h3><p>提取文字，保留文件与位置信息</p></div><div><b>3</b><h3>向量化与检索</h3><p>把问题与片段转成向量，寻找相似内容</p></div><div><b>4</b><h3>生成与溯源</h3><p>依据检索结果回答，并展示原文</p></div></div><div class="guide-sections"><article><h2>现在可以体验</h2><ul><li>上传和管理文档与保存的 HTML 网页</li><li>查看文本切片与来源位置</li><li>本地中文语义、TF-IDF 与混合检索</li><li>扫描PDF文字识别与年级、专业筛选</li><li>按招生年度与项目查找资料，查看仅参考版本</li><li>检查19道开发题的检索结果</li></ul></article><article><h2>资料与验证进展</h2><ul><li>已导入 2023 级适用培养方案与课程大纲</li><li>19 道开发题已核对，继续建立独立测试集</li><li>大模型已接通，核对真实回答与引用</li><li>整理人工标注的问题集，完成对照实验</li></ul></article></div><div class="guide-footer"><h2>两个概念要区分</h2><p>TF-IDF 是词面匹配的向量检索基线，不是大模型语义向量。未接入大模型时，系统提供直接摘录；当前语义模型与 DeepSeek 均已接通；关闭大模型后可体验摘录。正式效果仍需对照与人工评分。</p><button id="guide-settings" class="secondary-button">打开模型设置</button></div></section>
     </main>
   </div>
 

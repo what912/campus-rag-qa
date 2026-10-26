@@ -10,6 +10,7 @@ import uuid
 from contextlib import contextmanager
 from datetime import datetime, timezone
 from pathlib import Path
+from .admissions import PROGRAM_PATTERNS
 
 
 class ConversationStore:
@@ -86,14 +87,60 @@ class ConversationStore:
 
 
 TOPICS=('计算机科学与技术','网络空间安全','辅修学士学位','学士学位','在读证明','在学证明','成绩单','转专业','保留入学资格','学籍',
-        '奖学金','请假','毕业','数据结构','操作系统','计算机网络','计算机组成原理','程序设计','软件工程')
+        '奖学金','请假','毕业','数据结构','操作系统','计算机网络','计算机组成原理','程序设计','软件工程',
+        '艺术类本科招生','艺术类校考','本科招生','硕士招生','硕士研究生招生','博士招生','博士研究生招生','MBA','工商管理专硕','1+1国际硕士','国际硕士','传媒起航计划')
 FACETS=(('学分',r'学分|修满多少'),('学时',r'学时'),('考核方式',r'考核|考查|考试|成绩|占比'),
         ('申请材料',r'材料|委托|代办'),('办理流程',r'办理|申请|流程'))
+ADMISSION_SUBJECTS={
+    'general_undergraduate':'普通本科招生','art_undergraduate':'艺术类本科校考招生',
+    'general_master':'普通硕士招生','mba':'MBA招生','international_1plus1':'1+1国际硕士项目招生',
+    'general_doctor':'博士招生','media_qihang':'传媒起航计划招生',
+}
+
+
+def _admission_project_followup(question,last):
+    """Replace an explicit new admission subject without carrying over the old project."""
+    scope=last['result'].get('admission_scope',{})
+    if not scope.get('domain'):return None
+    match=re.fullmatch(r'(?:那|那么)?[，,\s]*(?:(20\d{2})\s*年?\s*)?(.+?)呢[？?]?',question)
+    if not match:return None
+    target=match.group(2).strip()
+    program=next((key for key,pattern in PROGRAM_PATTERNS.items() if re.fullmatch(pattern,target,re.I)),None)
+    if program is None:
+        program={'本科':'general_undergraduate','硕士':'general_master','普通硕士':'general_master',
+                 '普通本科':'general_undergraduate','博士':'general_doctor','艺术类':'art_undergraduate'}.get(target)
+    if not program:return None
+    old=last['result'].get('resolved_question') or last['question']
+    old_pattern=PROGRAM_PATTERNS.get(scope.get('program'),'')
+    matches=list(re.finditer(old_pattern,old,re.I)) if old_pattern else []
+    if not matches and scope.get('program') in ('general_undergraduate','general_master'):
+        bare='本科' if scope['program']=='general_undergraduate' else '硕士(?:研究生)?'
+        matches=list(re.finditer(bare+r'(?=\s*(?:学费|报名|报考|申请|录取|入学))',old))
+    if not matches:
+        return {'query':question,'rewritten':False,'clarification':'请说明希望了解该招生项目的哪方面，例如招生对象、报名条件、费用或考试内容。','context':None}
+    targets=[m for m in matches if '招生' in m.group()]
+    selected=(targets or matches)[-1]
+    query=old[:selected.start()]+ADMISSION_SUBJECTS[program]+old[selected.end():]
+    query=query.replace('招生招生','招生')
+    if match.group(1):
+        pattern=r'20\d{2}(?!\s*(?:级|届|年\s*(?:入学|级|出生|毕业)))\s*年?'
+        query=re.sub(pattern,match.group(1)+'年',query,count=1) if re.search(pattern,query) else match.group(1)+'年'+query
+    return {'query':query,'rewritten':query!=question,'clarification':'','context':last['result']}
 
 
 def resolve_question(question, turns, topic_terms=()):
     """Resolve common explicit ellipsis; ask for clarification when the referent is unclear."""
     question=question.strip()
+    last=turns[-1] if turns else None
+    if last and last['result'].get('admission_scope',{}).get('domain'):
+        year=re.fullmatch(r'(?:那|那么)?\s*(20\d{2})\s*年?呢[？?]?',question)
+        if year:
+            old=last['result'].get('resolved_question') or last['question']
+            cycle_pattern=r'20\d{2}(?!\s*(?:级|届|年\s*(?:入学|级|出生|毕业)))\s*年?'
+            query=re.sub(cycle_pattern,year.group(1)+'年',old,count=1) if re.search(cycle_pattern,old) else year.group(1)+'年'+old
+            return {'query':query,'rewritten':True,'clarification':'','context':last['result']}
+        switched=_admission_project_followup(question,last)
+        if switched:return switched
     previous=turns[-1] if turns and turns[-1]['result'].get('sources') and turns[-1]['result'].get('mode') in ('rag','extractive') else None
     topics=sorted(set(TOPICS)|{s for s in topic_terms if 2<=len(s)<=30},key=len,reverse=True)
     def topic(text):
