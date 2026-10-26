@@ -1,0 +1,11 @@
+*.py text eol=lf
+*.js text eol=lf
+*.css text eol=lf
+*.html text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.cmd text eol=crlf
+# Preserve original documents exactly so provenance hashes remain valid.
+materials/** -text
+evaluation/results/** -text

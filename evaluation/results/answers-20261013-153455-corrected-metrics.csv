@@ -1,0 +1,5 @@
+﻿mode,label,questions,generation_calls,local_no_evidence,mean_elapsed_ms,p95_elapsed_ms,mean_generation_ms,prompt_tokens,completion_tokens,total_tokens,responses_with_usage,truncated_answers,answers_with_invalid_citation_numbers,generated_answers_without_citations,reference_fragment_found
+direct,直接回答,19,19,0,3334.282842105263,4732.936899999999,3334.2592631578946,836,4650,5486,19,0,0,0,
+tfidf,TF-IDF RAG,19,19,0,2447.2511578947365,2895.6924999999987,2445.7087368421053,20015,2606,22621,19,0,0,0,17
+semantic,语义 RAG,19,18,1,2357.9030526315787,3080.8753,2479.9950000000003,19088,2355,21443,18,0,0,0,16
+hybrid,混合 RAG,19,19,0,2454.1621578947365,2855.6127,2444.245,21811,2370,24181,19,0,0,0,16

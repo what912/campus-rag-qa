@@ -1,0 +1,3557 @@
+{
+  "created_at": "2026-10-13T16:26:46.706011+08:00",
+  "dataset_role": "development",
+  "dataset_sha256": "4eab6e8de09243f48258b42c2cfa3f6929aafa3c7701f5fab7133aedc567560d",
+  "rerank_version": "focus-rrf-v1",
+  "results": [
+    {
+      "mode": "tfidf",
+      "strategy": "vector",
+      "threshold": 0.08,
+      "top_k": 4,
+      "scored_answerable": 19,
+      "total_questions": 19,
+      "unresolved_labels": [],
+      "document_hit_rate": 1.0,
+      "evidence_hit_rate": 0.8947368421052632,
+      "mean_recall_at_k": 0.8947368421052632,
+      "mean_mrr": 0.868421052631579,
+      "negative_rejection_rate": null,
+      "rejection_rate": null,
+      "answerable_false_rejection_rate": 0.0,
+      "retrieval_p95_ms": 0.6373999999999987,
+      "rows": [
+        {
+          "id": "proof01",
+          "question": "在读证明可以线上自助办理吗？",
+          "expected_document": "在读证明管理办法_2024.pdf",
+          "reference_page": 2,
+          "reference_evidence": "可信电子凭证系统",
+          "category": "",
+          "answerable": true,
+          "skipped": false,
+          "label_resolved": true,
+          "document_hit": true,
+          "evidence_hit": true,
+          "hit": true,
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "rejected": false,
+          "elapsed_ms": 1.154,
+          "sources": [
+            {
+              "document": "在读证明管理办法_2024.pdf",
+              "page": 2,
+              "chunk": 3,
+              "score": 0.1456,
+              "ranking_score": 0.145577
+            },
+            {
+              "document": "在读证明管理办法_2024.pdf",
+              "page": 1,
+              "chunk": 1,
+              "score": 0.1229,
+              "ranking_score": 0.122867
+            },
+            {
+              "document": "在读证明管理办法_2024.pdf",
+              "page": 2,
+              "chunk": 2,
+              "score": 0.0963,
+              "ranking_score": 0.096348
+            },
+            {
+              "document": "在读证明管理办法_2024.pdf",
+              "page": 4,
+              "chunk": 6,
+              "score": 0.0903,
+              "ranking_score": 0.090307
+            }
+          ]
+        },
+        {
+          "id": "proof02",
+          "question": "学校在读证明是否有中英文版本？",
+          "expected_document": "在读证明管理办法_2024.pdf",
+          "reference_page": 2,
+          "reference_evidence": "含中、英文版",
+          "category": "",
+          "answerable": true,
+          "skipped": false,
+          "label_resolved": true,
+          "document_hit": true,
+          "evidence_hit": true,
+          "hit": true,
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "rejected": false,
+          "elapsed_ms": 0.522,
+          "sources": [
+            {
+              "document": "在读证明管理办法_2024.pdf",
+              "page": 2,
+              "chunk": 2,
+              "score": 0.1265,
+              "ranking_score": 0.126451
+            },
+            {
+              "document": "在读证明管理办法_2024.pdf",
+              "page": 1,
+              "chunk": 1,
+              "score": 0.112,
+              "ranking_score": 0.112006
+            },
+            {
+              "document": "在读证明管理办法_2024.pdf",
+              "page": 4,
+              "chunk": 6,
+              "score": 0.094,
+              "ranking_score": 0.093952
+            },
+            {
+              "document": "在读证明管理办法_2024.pdf",
+              "page": 2,
+              "chunk": 3,
+              "score": 0.092,
+              "ranking_score": 0.091954
+            }
+          ]
+        },
+        {
+          "id": "proof03",
+          "question": "对在读证明格式或用章有特殊要求时应该怎么办？",
+          "expected_document": "在读证明管理办法_2024.pdf",
+          "reference_page": 2,
+          "reference_evidence": "特殊要求",
+          "category": "",
+          "answerable": true,
+          "skipped": false,
+          "label_resolved": true,
+          "document_hit": true,
+          "evidence_hit": true,
+          "hit": true,
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "rejected": false,
+          "elapsed_ms": 0.513,
+          "sources": [
+            {
+              "document": "在读证明管理办法_2024.pdf",
+              "page": 2,
+              "chunk": 3,
+              "score": 0.2445,
+              "ranking_score": 0.244466
+            },
+            {
+              "document": "在读证明管理办法_2024.pdf",
+              "page": 4,
+              "chunk": 6,
+              "score": 0.0985,
+              "ranking_score": 0.098508
+            },
+            {
+              "document": "在读证明管理办法_2024.pdf",
+              "page": 1,
+              "chunk": 1,
+              "score": 0.0882,
+              "ranking_score": 0.08821
+            },
+            {
+              "document": "在读证明管理办法_2024.pdf",
+              "page": 3,
+              "chunk": 5,
+              "score": 0.0879,
+              "ranking_score": 0.087934
+            }
+          ]
+        },
+        {
+          "id": "proof04",
+          "question": "在读证明能否委托别人办理？",
+          "expected_document": "在读证明管理办法_2024.pdf",
+          "reference_page": 3,
+          "reference_evidence": "委托书",
+          "category": "",
+          "answerable": true,
+          "skipped": false,
+          "label_resolved": true,
+          "document_hit": true,
+          "evidence_hit": true,
+          "hit": true,
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "rejected": false,
+          "elapsed_ms": 0.456,
+          "sources": [
+            {
+              "document": "在读证明管理办法_2024.pdf",
+              "page": 3,
+              "chunk": 5,
+              "score": 0.1769,
+              "ranking_score": 0.176934
+            },
+            {
+              "document": "在读证明管理办法_2024.pdf",
+              "page": 1,
+              "chunk": 1,
+              "score": 0.1725,
+              "ranking_score": 0.172499
+            },
+            {
+              "document": "在读证明管理办法_2024.pdf",
+              "page": 2,
+              "chunk": 3,
+              "score": 0.1426,
+              "ranking_score": 0.142623
+            },
+            {
+              "document": "在读证明管理办法_2024.pdf",
+              "page": 2,
+              "chunk": 2,
+              "score": 0.1353,
+              "ranking_score": 0.135267
+            }
+          ]
+        },
+        {
+          "id": "proof05",
+          "question": "非北京户籍学生办理在学证明需要什么材料？",
+          "expected_document": "在读证明管理办法_2024.pdf",
+          "reference_page": 3,
+          "reference_evidence": "教育部学籍在线验证报告",
+          "category": "",
+          "answerable": true,
+          "skipped": false,
+          "label_resolved": true,
+          "document_hit": true,
+          "evidence_hit": true,
+          "hit": true,
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "rejected": false,
+          "elapsed_ms": 0.49,
+          "sources": [
+            {
+              "document": "在读证明管理办法_2024.pdf",
+              "page": 3,
+              "chunk": 4,
+              "score": 0.2341,
+              "ranking_score": 0.234076
+            },
+            {
+              "document": "在读证明管理办法_2024.pdf",
+              "page": 2,
+              "chunk": 2,
+              "score": 0.2196,
+              "ranking_score": 0.219604
+            },
+            {
+              "document": "在读证明管理办法_2024.pdf",
+              "page": 2,
+              "chunk": 3,
+              "score": 0.1469,
+              "ranking_score": 0.146867
+            },
+            {
+              "document": "在读证明管理办法_2024.pdf",
+              "page": 8,
+              "chunk": 11,
+              "score": 0.1218,
+              "ranking_score": 0.121774
+            }
+          ]
+        },
+        {
+          "id": "proof06",
+          "question": "毕业年级办理非北京户籍在学证明的申请时间怎么规定？",
+          "expected_document": "在读证明管理办法_2024.pdf",
+          "reference_page": 3,
+          "reference_evidence": "4月1日",
+          "category": "",
+          "answerable": true,
+          "skipped": false,
+          "label_resolved": true,
+          "document_hit": true,
+          "evidence_hit": true,
+          "hit": true,
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "rejected": false,
+          "elapsed_ms": 0.518,
+          "sources": [
+            {
+              "document": "在读证明管理办法_2024.pdf",
+              "page": 3,
+              "chunk": 4,
+              "score": 0.2388,
+              "ranking_score": 0.238779
+            },
+            {
+              "document": "在读证明管理办法_2024.pdf",
+              "page": 2,
+              "chunk": 2,
+              "score": 0.1521,
+              "ranking_score": 0.152103
+            },
+            {
+              "document": "在读证明管理办法_2024.pdf",
+              "page": 8,
+              "chunk": 11,
+              "score": 0.1081,
+              "ranking_score": 0.108129
+            },
+            {
+              "document": "在读证明管理办法_2024.pdf",
+              "page": 7,
+              "chunk": 10,
+              "score": 0.099,
+              "ranking_score": 0.099033
+            }
+          ]
+        },
+        {
+          "id": "degree01",
+          "question": "学士学位申请是否要求通过毕业论文或毕业设计审查？",
+          "expected_document": "学士学位授予办法_2025.pdf",
+          "reference_page": 3,
+          "reference_evidence": "毕业设计等毕业环节审查",
+          "category": "",
+          "answerable": true,
+          "skipped": false,
+          "label_resolved": true,
+          "document_hit": true,
+          "evidence_hit": true,
+          "hit": true,
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "rejected": false,
+          "elapsed_ms": 0.547,
+          "sources": [
+            {
+              "document": "学士学位授予办法_2025.pdf",
+              "page": 3,
+              "chunk": 4,
+              "score": 0.1696,
+              "ranking_score": 0.169643
+            },
+            {
+              "document": "学士学位授予办法_2025.pdf",
+              "page": 3,
+              "chunk": 5,
+              "score": 0.1206,
+              "ranking_score": 0.120575
+            },
+            {
+              "document": "学士学位授予办法_2025.pdf",
+              "page": 4,
+              "chunk": 6,
+              "score": 0.1053,
+              "ranking_score": 0.105254
+            },
+            {
+              "document": "本科专业人才培养方案(2022版).html",
+              "page": null,
+              "chunk": 18,
+              "score": 0.0922,
+              "ranking_score": 0.092184
+            }
+          ]
+        },
+        {
+          "id": "degree02",
+          "question": "理工科重修重考的必修课学分对学位申请有什么限制？",
+          "expected_document": "学士学位授予办法_2025.pdf",
+          "reference_page": 3,
+          "reference_evidence": "28学分",
+          "category": "",
+          "answerable": true,
+          "skipped": false,
+          "label_resolved": true,
+          "document_hit": true,
+          "evidence_hit": true,
+          "hit": true,
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "rejected": false,
+          "elapsed_ms": 0.52,
+          "sources": [
+            {
+              "document": "学士学位授予办法_2025.pdf",
+              "page": 3,
+              "chunk": 4,
+              "score": 0.1099,
+              "ranking_score": 0.109883
+            },
+            {
+              "document": "学籍管理规定_2025.pdf",
+              "page": 6,
+              "chunk": 10,
+              "score": 0.0841,
+              "ranking_score": 0.084113
+            }
+          ]
+        },
+        {
+          "id": "degree03",
+          "question": "辅修学士学位的平均学分绩点最低要求是什么？",
+          "expected_document": "学士学位授予办法_2025.pdf",
+          "reference_page": 3,
+          "reference_evidence": "2.0",
+          "category": "",
+          "answerable": true,
+          "skipped": false,
+          "label_resolved": true,
+          "document_hit": true,
+          "evidence_hit": true,
+          "hit": true,
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "rejected": false,
+          "elapsed_ms": 0.523,
+          "sources": [
+            {
+              "document": "学士学位授予办法_2025.pdf",
+              "page": 3,
+              "chunk": 4,
+              "score": 0.2563,
+              "ranking_score": 0.256272
+            },
+            {
+              "document": "学士学位授予办法_2025.pdf",
+              "page": 3,
+              "chunk": 5,
+              "score": 0.1973,
+              "ranking_score": 0.197299
+            },
+            {
+              "document": "学士学位授予办法_2025.pdf",
+              "page": 4,
+              "chunk": 6,
+              "score": 0.0894,
+              "ranking_score": 0.089404
+            }
+          ]
+        },
+        {
+          "id": "degree04",
+          "question": "学校学士学位授予办法从什么时候施行？",
+          "expected_document": "学士学位授予办法_2025.pdf",
+          "reference_page": 6,
+          "reference_evidence": "2025年1月1日",
+          "category": "",
+          "answerable": true,
+          "skipped": false,
+          "label_resolved": true,
+          "document_hit": true,
+          "evidence_hit": false,
+          "hit": false,
+          "recall_at_k": 0.0,
+          "mrr": 0,
+          "rejected": false,
+          "elapsed_ms": 0.489,
+          "sources": [
+            {
+              "document": "学士学位授予办法_2025.pdf",
+              "page": 3,
+              "chunk": 5,
+              "score": 0.1959,
+              "ranking_score": 0.195937
+            },
+            {
+              "document": "学士学位授予办法_2025.pdf",
+              "page": 4,
+              "chunk": 6,
+              "score": 0.1908,
+              "ranking_score": 0.190764
+            },
+            {
+              "document": "学士学位授予办法_2025.pdf",
+              "page": 2,
+              "chunk": 2,
+              "score": 0.172,
+              "ranking_score": 0.172038
+            },
+            {
+              "document": "学士学位授予办法_2025.pdf",
+              "page": 4,
+              "chunk": 7,
+              "score": 0.1609,
+              "ranking_score": 0.160908
+            }
+          ]
+        },
+        {
+          "id": "degree05",
+          "question": "对学术评价结论有异议，何时能申请学术复核？",
+          "expected_document": "学士学位授予办法_2025.pdf",
+          "reference_page": 5,
+          "reference_evidence": "三个工作日",
+          "category": "",
+          "answerable": true,
+          "skipped": false,
+          "label_resolved": true,
+          "document_hit": true,
+          "evidence_hit": true,
+          "hit": true,
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "rejected": false,
+          "elapsed_ms": 0.497,
+          "sources": [
+            {
+              "document": "学士学位授予办法_2025.pdf",
+              "page": 5,
+              "chunk": 9,
+              "score": 0.3602,
+              "ranking_score": 0.360242
+            },
+            {
+              "document": "学士学位授予办法_2025.pdf",
+              "page": 5,
+              "chunk": 8,
+              "score": 0.169,
+              "ranking_score": 0.169017
+            }
+          ]
+        },
+        {
+          "id": "transfer01",
+          "question": "学校转专业一般在哪个学期组织？",
+          "expected_document": "转专业管理办法_2025修订.pdf",
+          "reference_page": 3,
+          "reference_evidence": "通常安排在秋季学期",
+          "category": "",
+          "answerable": true,
+          "skipped": false,
+          "label_resolved": true,
+          "document_hit": true,
+          "evidence_hit": false,
+          "hit": false,
+          "recall_at_k": 0.0,
+          "mrr": 0,
+          "rejected": false,
+          "elapsed_ms": 0.469,
+          "sources": [
+            {
+              "document": "学籍管理规定_2025.pdf",
+              "page": 10,
+              "chunk": 18,
+              "score": 0.096,
+              "ranking_score": 0.095958
+            },
+            {
+              "document": "转专业管理办法_2025修订.pdf",
+              "page": 2,
+              "chunk": 2,
+              "score": 0.0834,
+              "ranking_score": 0.083444
+            },
+            {
+              "document": "转专业管理办法_2025修订.pdf",
+              "page": 5,
+              "chunk": 8,
+              "score": 0.0802,
+              "ranking_score": 0.080159
+            }
+          ]
+        },
+        {
+          "id": "transfer02",
+          "question": "转专业拟录取名单公示期有多久？",
+          "expected_document": "转专业管理办法_2025修订.pdf",
+          "reference_page": 4,
+          "reference_evidence": "公示期5天",
+          "category": "",
+          "answerable": true,
+          "skipped": false,
+          "label_resolved": true,
+          "document_hit": true,
+          "evidence_hit": true,
+          "hit": true,
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "rejected": false,
+          "elapsed_ms": 0.447,
+          "sources": [
+            {
+              "document": "转专业管理办法_2025修订.pdf",
+              "page": 4,
+              "chunk": 6,
+              "score": 0.1891,
+              "ranking_score": 0.189064
+            },
+            {
+              "document": "转专业管理办法_2025修订.pdf",
+              "page": 6,
+              "chunk": 11,
+              "score": 0.1192,
+              "ranking_score": 0.119151
+            },
+            {
+              "document": "转专业管理办法_2025修订.pdf",
+              "page": 6,
+              "chunk": 10,
+              "score": 0.0973,
+              "ranking_score": 0.097296
+            }
+          ]
+        },
+        {
+          "id": "transfer03",
+          "question": "原专业修过的相近课程能申请课程置换吗？",
+          "expected_document": "转专业管理办法_2025修订.pdf",
+          "reference_page": 6,
+          "reference_evidence": "可申请课程置换",
+          "category": "",
+          "answerable": true,
+          "skipped": false,
+          "label_resolved": true,
+          "document_hit": true,
+          "evidence_hit": true,
+          "hit": true,
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "rejected": false,
+          "elapsed_ms": 0.454,
+          "sources": [
+            {
+              "document": "转专业管理办法_2025修订.pdf",
+              "page": 6,
+              "chunk": 10,
+              "score": 0.159,
+              "ranking_score": 0.158959
+            },
+            {
+              "document": "学籍管理规定_2025.pdf",
+              "page": 7,
+              "chunk": 13,
+              "score": 0.0821,
+              "ranking_score": 0.082104
+            }
+          ]
+        },
+        {
+          "id": "student01",
+          "question": "保留入学资格期间是否具有学籍？",
+          "expected_document": "学籍管理规定_2025.pdf",
+          "reference_page": 3,
+          "reference_evidence": "不具有学籍",
+          "category": "",
+          "answerable": true,
+          "skipped": false,
+          "label_resolved": true,
+          "document_hit": true,
+          "evidence_hit": true,
+          "hit": true,
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "rejected": false,
+          "elapsed_ms": 0.452,
+          "sources": [
+            {
+              "document": "学籍管理规定_2025.pdf",
+              "page": 3,
+              "chunk": 4,
+              "score": 0.2779,
+              "ranking_score": 0.277925
+            },
+            {
+              "document": "学籍管理规定_2025.pdf",
+              "page": 4,
+              "chunk": 6,
+              "score": 0.1459,
+              "ranking_score": 0.145949
+            },
+            {
+              "document": "学籍管理规定_2025.pdf",
+              "page": 3,
+              "chunk": 5,
+              "score": 0.1014,
+              "ranking_score": 0.101405
+            },
+            {
+              "document": "学籍管理规定_2025.pdf",
+              "page": 2,
+              "chunk": 3,
+              "score": 0.0869,
+              "ranking_score": 0.086911
+            }
+          ]
+        },
+        {
+          "id": "student02",
+          "question": "每门课程期末考试与平时成绩的比例由谁确定？",
+          "expected_document": "学籍管理规定_2025.pdf",
+          "reference_page": 6,
+          "reference_evidence": "由教研室或任课教师",
+          "category": "办事流程",
+          "answerable": true,
+          "skipped": false,
+          "label_resolved": true,
+          "document_hit": true,
+          "evidence_hit": true,
+          "hit": true,
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "rejected": false,
+          "elapsed_ms": 0.58,
+          "sources": [
+            {
+              "document": "学籍管理规定_2025.pdf",
+              "page": 6,
+              "chunk": 10,
+              "score": 0.1432,
+              "ranking_score": 0.143211
+            },
+            {
+              "document": "学籍管理规定_2025.pdf",
+              "page": 6,
+              "chunk": 11,
+              "score": 0.1094,
+              "ranking_score": 0.109405
+            }
+          ]
+        },
+        {
+          "id": "student03",
+          "question": "应征入伍服义务兵役可以保留学籍到何时？",
+          "expected_document": "学籍管理规定_2025.pdf",
+          "reference_page": 13,
+          "reference_evidence": "退役后两年",
+          "category": "",
+          "answerable": true,
+          "skipped": false,
+          "label_resolved": true,
+          "document_hit": true,
+          "evidence_hit": true,
+          "hit": true,
+          "recall_at_k": 1.0,
+          "mrr": 0.5,
+          "rejected": false,
+          "elapsed_ms": 0.516,
+          "sources": [
+            {
+              "document": "学籍管理规定_2025.pdf",
+              "page": 12,
+              "chunk": 22,
+              "score": 0.2998,
+              "ranking_score": 0.299794
+            },
+            {
+              "document": "学籍管理规定_2025.pdf",
+              "page": 13,
+              "chunk": 24,
+              "score": 0.2663,
+              "ranking_score": 0.266338
+            },
+            {
+              "document": "学籍管理规定_2025.pdf",
+              "page": 3,
+              "chunk": 4,
+              "score": 0.2276,
+              "ranking_score": 0.22761
+            },
+            {
+              "document": "学籍管理规定_2025.pdf",
+              "page": 12,
+              "chunk": 23,
+              "score": 0.103,
+              "ranking_score": 0.102968
+            }
+          ]
+        },
+        {
+          "id": "transcript01",
+          "question": "电子成绩单发送后在哪里查看订单进度？",
+          "expected_document": "成绩单办理服务流程.pdf",
+          "reference_page": 4,
+          "reference_evidence": "我的订单",
+          "category": "",
+          "answerable": true,
+          "skipped": false,
+          "label_resolved": true,
+          "document_hit": true,
+          "evidence_hit": true,
+          "hit": true,
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "rejected": false,
+          "elapsed_ms": 0.45,
+          "sources": [
+            {
+              "document": "成绩单办理服务流程.pdf",
+              "page": 4,
+              "chunk": 4,
+              "score": 0.2486,
+              "ranking_score": 0.248571
+            },
+            {
+              "document": "成绩单办理服务流程.pdf",
+              "page": 2,
+              "chunk": 2,
+              "score": 0.1451,
+              "ranking_score": 0.14505
+            },
+            {
+              "document": "成绩单办理服务流程.pdf",
+              "page": 1,
+              "chunk": 1,
+              "score": 0.1135,
+              "ranking_score": 0.11347
+            }
+          ]
+        },
+        {
+          "id": "transcript02",
+          "question": "电子成绩单是否可以在学信网上验证？",
+          "expected_document": "成绩单办理服务流程.pdf",
+          "reference_page": 4,
+          "reference_evidence": "学信网上在线验证",
+          "category": "",
+          "answerable": true,
+          "skipped": false,
+          "label_resolved": true,
+          "document_hit": true,
+          "evidence_hit": true,
+          "hit": true,
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "rejected": false,
+          "elapsed_ms": 0.458,
+          "sources": [
+            {
+              "document": "成绩单办理服务流程.pdf",
+              "page": 4,
+              "chunk": 4,
+              "score": 0.2684,
+              "ranking_score": 0.268418
+            },
+            {
+              "document": "成绩单办理服务流程.pdf",
+              "page": 5,
+              "chunk": 5,
+              "score": 0.0987,
+              "ranking_score": 0.098711
+            },
+            {
+              "document": "成绩单办理服务流程.pdf",
+              "page": 2,
+              "chunk": 2,
+              "score": 0.0927,
+              "ranking_score": 0.092733
+            },
+            {
+              "document": "成绩单办理服务流程.pdf",
+              "page": 1,
+              "chunk": 1,
+              "score": 0.0815,
+              "ranking_score": 0.081491
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "semantic",
+      "strategy": "vector",
+      "threshold": 0.55,
+      "top_k": 4,
+      "scored_answerable": 19,
+      "total_questions": 19,
+      "unresolved_labels": [],
+      "document_hit_rate": 0.9473684210526315,
+      "evidence_hit_rate": 0.8421052631578947,
+      "mean_recall_at_k": 0.8157894736842105,
+      "mean_mrr": 0.5921052631578947,
+      "negative_rejection_rate": null,
+      "rejection_rate": null,
+      "answerable_false_rejection_rate": 0.05263157894736842,
+      "retrieval_p95_ms": 8.345499999999998,
+      "rows": [
+        {
+          "id": "proof01",
+          "question": "在读证明可以线上自助办理吗？",
+          "expected_document": "在读证明管理办法_2024.pdf",
+          "reference_page": 2,
+          "reference_evidence": "可信电子凭证系统",
+          "category": "",
+          "answerable": true,
+          "skipped": false,
+          "label_resolved": true,
+          "document_hit": true,
+          "evidence_hit": true,
+          "hit": true,
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "rejected": false,
+          "elapsed_ms": 9.52,
+          "sources": [
+            {
+              "document": "在读证明管理办法_2024.pdf",
+              "page": 2,
+              "chunk": 3,
+              "score": 0.6514,
+              "ranking_score": 0.651398
+            },
+            {
+              "document": "在读证明管理办法_2024.pdf",
+              "page": 1,
+              "chunk": 1,
+              "score": 0.5555,
+              "ranking_score": 0.555508
+            }
+          ]
+        },
+        {
+          "id": "proof02",
+          "question": "学校在读证明是否有中英文版本？",
+          "expected_document": "在读证明管理办法_2024.pdf",
+          "reference_page": 2,
+          "reference_evidence": "含中、英文版",
+          "category": "",
+          "answerable": true,
+          "skipped": false,
+          "label_resolved": true,
+          "document_hit": true,
+          "evidence_hit": true,
+          "hit": true,
+          "recall_at_k": 1.0,
+          "mrr": 0.3333333333333333,
+          "rejected": false,
+          "elapsed_ms": 7.415,
+          "sources": [
+            {
+              "document": "在读证明管理办法_2024.pdf",
+              "page": 2,
+              "chunk": 3,
+              "score": 0.6309,
+              "ranking_score": 0.630907
+            },
+            {
+              "document": "在读证明管理办法_2024.pdf",
+              "page": 4,
+              "chunk": 6,
+              "score": 0.5921,
+              "ranking_score": 0.5921
+            },
+            {
+              "document": "在读证明管理办法_2024.pdf",
+              "page": 2,
+              "chunk": 2,
+              "score": 0.5744,
+              "ranking_score": 0.574427
+            },
+            {
+              "document": "在读证明管理办法_2024.pdf",
+              "page": 1,
+              "chunk": 1,
+              "score": 0.5705,
+              "ranking_score": 0.570518
+            }
+          ]
+        },
+        {
+          "id": "proof03",
+          "question": "对在读证明格式或用章有特殊要求时应该怎么办？",
+          "expected_document": "在读证明管理办法_2024.pdf",
+          "reference_page": 2,
+          "reference_evidence": "特殊要求",
+          "category": "",
+          "answerable": true,
+          "skipped": false,
+          "label_resolved": true,
+          "document_hit": true,
+          "evidence_hit": true,
+          "hit": true,
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "rejected": false,
+          "elapsed_ms": 7.877,
+          "sources": [
+            {
+              "document": "在读证明管理办法_2024.pdf",
+              "page": 2,
+              "chunk": 3,
+              "score": 0.5992,
+              "ranking_score": 0.599223
+            },
+            {
+              "document": "在读证明管理办法_2024.pdf",
+              "page": 4,
+              "chunk": 6,
+              "score": 0.5759,
+              "ranking_score": 0.575864
+            }
+          ]
+        },
+        {
+          "id": "proof04",
+          "question": "在读证明能否委托别人办理？",
+          "expected_document": "在读证明管理办法_2024.pdf",
+          "reference_page": 3,
+          "reference_evidence": "委托书",
+          "category": "",
+          "answerable": true,
+          "skipped": false,
+          "label_resolved": true,
+          "document_hit": true,
+          "evidence_hit": false,
+          "hit": false,
+          "recall_at_k": 0.0,
+          "mrr": 0,
+          "rejected": false,
+          "elapsed_ms": 6.932,
+          "sources": [
+            {
+              "document": "在读证明管理办法_2024.pdf",
+              "page": 2,
+              "chunk": 3,
+              "score": 0.6286,
+              "ranking_score": 0.628615
+            },
+            {
+              "document": "在读证明管理办法_2024.pdf",
+              "page": 4,
+              "chunk": 6,
+              "score": 0.5848,
+              "ranking_score": 0.584832
+            },
+            {
+              "document": "在读证明管理办法_2024.pdf",
+              "page": 1,
+              "chunk": 1,
+              "score": 0.5816,
+              "ranking_score": 0.581646
+            },
+            {
+              "document": "在读证明管理办法_2024.pdf",
+              "page": 2,
+              "chunk": 2,
+              "score": 0.5803,
+              "ranking_score": 0.580318
+            }
+          ]
+        },
+        {
+          "id": "proof05",
+          "question": "非北京户籍学生办理在学证明需要什么材料？",
+          "expected_document": "在读证明管理办法_2024.pdf",
+          "reference_page": 3,
+          "reference_evidence": "教育部学籍在线验证报告",
+          "category": "",
+          "answerable": true,
+          "skipped": false,
+          "label_resolved": true,
+          "document_hit": true,
+          "evidence_hit": true,
+          "hit": true,
+          "recall_at_k": 1.0,
+          "mrr": 0.5,
+          "rejected": false,
+          "elapsed_ms": 7.677,
+          "sources": [
+            {
+              "document": "在读证明管理办法_2024.pdf",
+              "page": 2,
+              "chunk": 3,
+              "score": 0.7321,
+              "ranking_score": 0.732134
+            },
+            {
+              "document": "在读证明管理办法_2024.pdf",
+              "page": 3,
+              "chunk": 4,
+              "score": 0.7049,
+              "ranking_score": 0.704947
+            },
+            {
+              "document": "在读证明管理办法_2024.pdf",
+              "page": 7,
+              "chunk": 10,
+              "score": 0.6857,
+              "ranking_score": 0.685655
+            },
+            {
+              "document": "在读证明管理办法_2024.pdf",
+              "page": 2,
+              "chunk": 2,
+              "score": 0.661,
+              "ranking_score": 0.660955
+            }
+          ]
+        },
+        {
+          "id": "proof06",
+          "question": "毕业年级办理非北京户籍在学证明的申请时间怎么规定？",
+          "expected_document": "在读证明管理办法_2024.pdf",
+          "reference_page": 3,
+          "reference_evidence": "4月1日",
+          "category": "",
+          "answerable": true,
+          "skipped": false,
+          "label_resolved": true,
+          "document_hit": true,
+          "evidence_hit": true,
+          "hit": true,
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "rejected": false,
+          "elapsed_ms": 7.821,
+          "sources": [
+            {
+              "document": "在读证明管理办法_2024.pdf",
+              "page": 3,
+              "chunk": 4,
+              "score": 0.7405,
+              "ranking_score": 0.740506
+            },
+            {
+              "document": "在读证明管理办法_2024.pdf",
+              "page": 2,
+              "chunk": 3,
+              "score": 0.7068,
+              "ranking_score": 0.706838
+            },
+            {
+              "document": "在读证明管理办法_2024.pdf",
+              "page": 7,
+              "chunk": 10,
+              "score": 0.6883,
+              "ranking_score": 0.688322
+            },
+            {
+              "document": "在读证明管理办法_2024.pdf",
+              "page": 2,
+              "chunk": 2,
+              "score": 0.6557,
+              "ranking_score": 0.65567
+            }
+          ]
+        },
+        {
+          "id": "degree01",
+          "question": "学士学位申请是否要求通过毕业论文或毕业设计审查？",
+          "expected_document": "学士学位授予办法_2025.pdf",
+          "reference_page": 3,
+          "reference_evidence": "毕业设计等毕业环节审查",
+          "category": "",
+          "answerable": true,
+          "skipped": false,
+          "label_resolved": true,
+          "document_hit": true,
+          "evidence_hit": false,
+          "hit": false,
+          "recall_at_k": 0.0,
+          "mrr": 0,
+          "rejected": false,
+          "elapsed_ms": 8.215,
+          "sources": [
+            {
+              "document": "学士学位授予办法_2025.pdf",
+              "page": 5,
+              "chunk": 8,
+              "score": 0.5762,
+              "ranking_score": 0.576246
+            },
+            {
+              "document": "学士学位授予办法_2025.pdf",
+              "page": 5,
+              "chunk": 9,
+              "score": 0.5649,
+              "ranking_score": 0.564852
+            },
+            {
+              "document": "学士学位授予办法_2025.pdf",
+              "page": 4,
+              "chunk": 7,
+              "score": 0.5556,
+              "ranking_score": 0.555566
+            }
+          ]
+        },
+        {
+          "id": "degree02",
+          "question": "理工科重修重考的必修课学分对学位申请有什么限制？",
+          "expected_document": "学士学位授予办法_2025.pdf",
+          "reference_page": 3,
+          "reference_evidence": "28学分",
+          "category": "",
+          "answerable": true,
+          "skipped": false,
+          "label_resolved": true,
+          "document_hit": true,
+          "evidence_hit": true,
+          "hit": true,
+          "recall_at_k": 1.0,
+          "mrr": 0.5,
+          "rejected": false,
+          "elapsed_ms": 7.879,
+          "sources": [
+            {
+              "document": "学籍管理规定_2025.pdf",
+              "page": 8,
+              "chunk": 15,
+              "score": 0.6577,
+              "ranking_score": 0.657651
+            },
+            {
+              "document": "学士学位授予办法_2025.pdf",
+              "page": 3,
+              "chunk": 4,
+              "score": 0.6454,
+              "ranking_score": 0.645418
+            },
+            {
+              "document": "学士学位授予办法_2025.pdf",
+              "page": 3,
+              "chunk": 5,
+              "score": 0.631,
+              "ranking_score": 0.630968
+            },
+            {
+              "document": "学籍管理规定_2025.pdf",
+              "page": 6,
+              "chunk": 11,
+              "score": 0.6309,
+              "ranking_score": 0.630858
+            }
+          ]
+        },
+        {
+          "id": "degree03",
+          "question": "辅修学士学位的平均学分绩点最低要求是什么？",
+          "expected_document": "学士学位授予办法_2025.pdf",
+          "reference_page": 3,
+          "reference_evidence": "2.0",
+          "category": "",
+          "answerable": true,
+          "skipped": false,
+          "label_resolved": true,
+          "document_hit": true,
+          "evidence_hit": true,
+          "hit": true,
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "rejected": false,
+          "elapsed_ms": 7.658,
+          "sources": [
+            {
+              "document": "学士学位授予办法_2025.pdf",
+              "page": 3,
+              "chunk": 4,
+              "score": 0.6397,
+              "ranking_score": 0.63974
+            },
+            {
+              "document": "学士学位授予办法_2025.pdf",
+              "page": 3,
+              "chunk": 5,
+              "score": 0.6366,
+              "ranking_score": 0.636576
+            },
+            {
+              "document": "学籍管理规定_2025.pdf",
+              "page": 8,
+              "chunk": 15,
+              "score": 0.5656,
+              "ranking_score": 0.565554
+            },
+            {
+              "document": "学籍管理规定_2025.pdf",
+              "page": 7,
+              "chunk": 13,
+              "score": 0.5646,
+              "ranking_score": 0.5646
+            }
+          ]
+        },
+        {
+          "id": "degree04",
+          "question": "学校学士学位授予办法从什么时候施行？",
+          "expected_document": "学士学位授予办法_2025.pdf",
+          "reference_page": 6,
+          "reference_evidence": "2025年1月1日",
+          "category": "",
+          "answerable": true,
+          "skipped": false,
+          "label_resolved": true,
+          "document_hit": true,
+          "evidence_hit": true,
+          "hit": true,
+          "recall_at_k": 0.5,
+          "mrr": 0.25,
+          "rejected": false,
+          "elapsed_ms": 7.378,
+          "sources": [
+            {
+              "document": "学士学位授予办法_2025.pdf",
+              "page": 2,
+              "chunk": 3,
+              "score": 0.6978,
+              "ranking_score": 0.69785
+            },
+            {
+              "document": "学士学位授予办法_2025.pdf",
+              "page": 4,
+              "chunk": 6,
+              "score": 0.6924,
+              "ranking_score": 0.692354
+            },
+            {
+              "document": "学士学位授予办法_2025.pdf",
+              "page": 4,
+              "chunk": 7,
+              "score": 0.6692,
+              "ranking_score": 0.66921
+            },
+            {
+              "document": "学士学位授予办法_2025.pdf",
+              "page": 6,
+              "chunk": 11,
+              "score": 0.6688,
+              "ranking_score": 0.668824
+            }
+          ]
+        },
+        {
+          "id": "degree05",
+          "question": "对学术评价结论有异议，何时能申请学术复核？",
+          "expected_document": "学士学位授予办法_2025.pdf",
+          "reference_page": 5,
+          "reference_evidence": "三个工作日",
+          "category": "",
+          "answerable": true,
+          "skipped": false,
+          "label_resolved": true,
+          "document_hit": true,
+          "evidence_hit": true,
+          "hit": true,
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "rejected": false,
+          "elapsed_ms": 7.509,
+          "sources": [
+            {
+              "document": "学士学位授予办法_2025.pdf",
+              "page": 5,
+              "chunk": 9,
+              "score": 0.8247,
+              "ranking_score": 0.824672
+            },
+            {
+              "document": "学籍管理规定_2025.pdf",
+              "page": 17,
+              "chunk": 32,
+              "score": 0.6001,
+              "ranking_score": 0.600086
+            },
+            {
+              "document": "学籍管理规定_2025.pdf",
+              "page": 16,
+              "chunk": 31,
+              "score": 0.5985,
+              "ranking_score": 0.598536
+            },
+            {
+              "document": "学士学位授予办法_2025.pdf",
+              "page": 5,
+              "chunk": 8,
+              "score": 0.5925,
+              "ranking_score": 0.592487
+            }
+          ]
+        },
+        {
+          "id": "transfer01",
+          "question": "学校转专业一般在哪个学期组织？",
+          "expected_document": "转专业管理办法_2025修订.pdf",
+          "reference_page": 3,
+          "reference_evidence": "通常安排在秋季学期",
+          "category": "",
+          "answerable": true,
+          "skipped": false,
+          "label_resolved": true,
+          "document_hit": true,
+          "evidence_hit": true,
+          "hit": true,
+          "recall_at_k": 1.0,
+          "mrr": 0.3333333333333333,
+          "rejected": false,
+          "elapsed_ms": 7.209,
+          "sources": [
+            {
+              "document": "转专业管理办法_2025修订.pdf",
+              "page": 5,
+              "chunk": 9,
+              "score": 0.6973,
+              "ranking_score": 0.697264
+            },
+            {
+              "document": "学籍管理规定_2025.pdf",
+              "page": 9,
+              "chunk": 17,
+              "score": 0.6715,
+              "ranking_score": 0.671542
+            },
+            {
+              "document": "转专业管理办法_2025修订.pdf",
+              "page": 3,
+              "chunk": 4,
+              "score": 0.6712,
+              "ranking_score": 0.671154
+            },
+            {
+              "document": "转专业管理办法_2025修订.pdf",
+              "page": 4,
+              "chunk": 7,
+              "score": 0.6581,
+              "ranking_score": 0.65808
+            }
+          ]
+        },
+        {
+          "id": "transfer02",
+          "question": "转专业拟录取名单公示期有多久？",
+          "expected_document": "转专业管理办法_2025修订.pdf",
+          "reference_page": 4,
+          "reference_evidence": "公示期5天",
+          "category": "",
+          "answerable": true,
+          "skipped": false,
+          "label_resolved": true,
+          "document_hit": true,
+          "evidence_hit": true,
+          "hit": true,
+          "recall_at_k": 1.0,
+          "mrr": 0.5,
+          "rejected": false,
+          "elapsed_ms": 7.058,
+          "sources": [
+            {
+              "document": "转专业管理办法_2025修订.pdf",
+              "page": 6,
+              "chunk": 11,
+              "score": 0.7253,
+              "ranking_score": 0.725344
+            },
+            {
+              "document": "转专业管理办法_2025修订.pdf",
+              "page": 4,
+              "chunk": 6,
+              "score": 0.6903,
+              "ranking_score": 0.690342
+            },
+            {
+              "document": "转专业管理办法_2025修订.pdf",
+              "page": 3,
+              "chunk": 5,
+              "score": 0.6697,
+              "ranking_score": 0.669738
+            },
+            {
+              "document": "转专业管理办法_2025修订.pdf",
+              "page": 3,
+              "chunk": 4,
+              "score": 0.647,
+              "ranking_score": 0.647015
+            }
+          ]
+        },
+        {
+          "id": "transfer03",
+          "question": "原专业修过的相近课程能申请课程置换吗？",
+          "expected_document": "转专业管理办法_2025修订.pdf",
+          "reference_page": 6,
+          "reference_evidence": "可申请课程置换",
+          "category": "",
+          "answerable": true,
+          "skipped": false,
+          "label_resolved": true,
+          "document_hit": true,
+          "evidence_hit": true,
+          "hit": true,
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "rejected": false,
+          "elapsed_ms": 7.487,
+          "sources": [
+            {
+              "document": "转专业管理办法_2025修订.pdf",
+              "page": 6,
+              "chunk": 10,
+              "score": 0.6481,
+              "ranking_score": 0.648073
+            },
+            {
+              "document": "学籍管理规定_2025.pdf",
+              "page": 7,
+              "chunk": 13,
+              "score": 0.6348,
+              "ranking_score": 0.634846
+            },
+            {
+              "document": "学籍管理规定_2025.pdf",
+              "page": 9,
+              "chunk": 17,
+              "score": 0.5984,
+              "ranking_score": 0.598422
+            },
+            {
+              "document": "学籍管理规定_2025.pdf",
+              "page": 8,
+              "chunk": 15,
+              "score": 0.5843,
+              "ranking_score": 0.58432
+            }
+          ]
+        },
+        {
+          "id": "student01",
+          "question": "保留入学资格期间是否具有学籍？",
+          "expected_document": "学籍管理规定_2025.pdf",
+          "reference_page": 3,
+          "reference_evidence": "不具有学籍",
+          "category": "",
+          "answerable": true,
+          "skipped": false,
+          "label_resolved": true,
+          "document_hit": true,
+          "evidence_hit": true,
+          "hit": true,
+          "recall_at_k": 1.0,
+          "mrr": 0.5,
+          "rejected": false,
+          "elapsed_ms": 7.202,
+          "sources": [
+            {
+              "document": "学籍管理规定_2025.pdf",
+              "page": 12,
+              "chunk": 23,
+              "score": 0.6864,
+              "ranking_score": 0.686411
+            },
+            {
+              "document": "学籍管理规定_2025.pdf",
+              "page": 3,
+              "chunk": 4,
+              "score": 0.6299,
+              "ranking_score": 0.629941
+            },
+            {
+              "document": "学籍管理规定_2025.pdf",
+              "page": 8,
+              "chunk": 15,
+              "score": 0.6266,
+              "ranking_score": 0.626634
+            },
+            {
+              "document": "学籍管理规定_2025.pdf",
+              "page": 2,
+              "chunk": 3,
+              "score": 0.6243,
+              "ranking_score": 0.624294
+            }
+          ]
+        },
+        {
+          "id": "student02",
+          "question": "每门课程期末考试与平时成绩的比例由谁确定？",
+          "expected_document": "学籍管理规定_2025.pdf",
+          "reference_page": 6,
+          "reference_evidence": "由教研室或任课教师",
+          "category": "办事流程",
+          "answerable": true,
+          "skipped": false,
+          "label_resolved": true,
+          "document_hit": false,
+          "evidence_hit": false,
+          "hit": false,
+          "recall_at_k": 0.0,
+          "mrr": 0,
+          "rejected": true,
+          "elapsed_ms": 7.692,
+          "sources": []
+        },
+        {
+          "id": "student03",
+          "question": "应征入伍服义务兵役可以保留学籍到何时？",
+          "expected_document": "学籍管理规定_2025.pdf",
+          "reference_page": 13,
+          "reference_evidence": "退役后两年",
+          "category": "",
+          "answerable": true,
+          "skipped": false,
+          "label_resolved": true,
+          "document_hit": true,
+          "evidence_hit": true,
+          "hit": true,
+          "recall_at_k": 1.0,
+          "mrr": 0.3333333333333333,
+          "rejected": false,
+          "elapsed_ms": 7.273,
+          "sources": [
+            {
+              "document": "学籍管理规定_2025.pdf",
+              "page": 12,
+              "chunk": 23,
+              "score": 0.6305,
+              "ranking_score": 0.630515
+            },
+            {
+              "document": "学籍管理规定_2025.pdf",
+              "page": 12,
+              "chunk": 22,
+              "score": 0.6204,
+              "ranking_score": 0.620433
+            },
+            {
+              "document": "学籍管理规定_2025.pdf",
+              "page": 13,
+              "chunk": 24,
+              "score": 0.6065,
+              "ranking_score": 0.606524
+            },
+            {
+              "document": "学籍管理规定_2025.pdf",
+              "page": 14,
+              "chunk": 26,
+              "score": 0.5742,
+              "ranking_score": 0.574224
+            }
+          ]
+        },
+        {
+          "id": "transcript01",
+          "question": "电子成绩单发送后在哪里查看订单进度？",
+          "expected_document": "成绩单办理服务流程.pdf",
+          "reference_page": 4,
+          "reference_evidence": "我的订单",
+          "category": "",
+          "answerable": true,
+          "skipped": false,
+          "label_resolved": true,
+          "document_hit": true,
+          "evidence_hit": true,
+          "hit": true,
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "rejected": false,
+          "elapsed_ms": 7.548,
+          "sources": [
+            {
+              "document": "成绩单办理服务流程.pdf",
+              "page": 4,
+              "chunk": 4,
+              "score": 0.6812,
+              "ranking_score": 0.681219
+            },
+            {
+              "document": "成绩单办理服务流程.pdf",
+              "page": 2,
+              "chunk": 2,
+              "score": 0.6644,
+              "ranking_score": 0.664404
+            },
+            {
+              "document": "成绩单办理服务流程.pdf",
+              "page": 1,
+              "chunk": 1,
+              "score": 0.6195,
+              "ranking_score": 0.619548
+            },
+            {
+              "document": "成绩单办理服务流程.pdf",
+              "page": 5,
+              "chunk": 5,
+              "score": 0.5785,
+              "ranking_score": 0.57846
+            }
+          ]
+        },
+        {
+          "id": "transcript02",
+          "question": "电子成绩单是否可以在学信网上验证？",
+          "expected_document": "成绩单办理服务流程.pdf",
+          "reference_page": 4,
+          "reference_evidence": "学信网上在线验证",
+          "category": "",
+          "answerable": true,
+          "skipped": false,
+          "label_resolved": true,
+          "document_hit": true,
+          "evidence_hit": true,
+          "hit": true,
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "rejected": false,
+          "elapsed_ms": 7.393,
+          "sources": [
+            {
+              "document": "成绩单办理服务流程.pdf",
+              "page": 4,
+              "chunk": 4,
+              "score": 0.7496,
+              "ranking_score": 0.749632
+            },
+            {
+              "document": "成绩单办理服务流程.pdf",
+              "page": 5,
+              "chunk": 5,
+              "score": 0.6742,
+              "ranking_score": 0.674222
+            },
+            {
+              "document": "成绩单办理服务流程.pdf",
+              "page": 2,
+              "chunk": 2,
+              "score": 0.6291,
+              "ranking_score": 0.629059
+            },
+            {
+              "document": "成绩单办理服务流程.pdf",
+              "page": 1,
+              "chunk": 1,
+              "score": 0.6203,
+              "ranking_score": 0.620284
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "semantic",
+      "strategy": "hybrid",
+      "threshold": 0.55,
+      "top_k": 4,
+      "scored_answerable": 19,
+      "total_questions": 19,
+      "unresolved_labels": [],
+      "document_hit_rate": 1.0,
+      "evidence_hit_rate": 0.8421052631578947,
+      "mean_recall_at_k": 0.8421052631578947,
+      "mean_mrr": 0.7719298245614035,
+      "negative_rejection_rate": null,
+      "rejection_rate": null,
+      "answerable_false_rejection_rate": 0.0,
+      "retrieval_p95_ms": 8.5271,
+      "rows": [
+        {
+          "id": "proof01",
+          "question": "在读证明可以线上自助办理吗？",
+          "expected_document": "在读证明管理办法_2024.pdf",
+          "reference_page": 2,
+          "reference_evidence": "可信电子凭证系统",
+          "category": "",
+          "answerable": true,
+          "skipped": false,
+          "label_resolved": true,
+          "document_hit": true,
+          "evidence_hit": true,
+          "hit": true,
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "rejected": false,
+          "elapsed_ms": 8.373,
+          "sources": [
+            {
+              "document": "在读证明管理办法_2024.pdf",
+              "page": 2,
+              "chunk": 3,
+              "score": 0.6514,
+              "ranking_score": 0.032787
+            },
+            {
+              "document": "在读证明管理办法_2024.pdf",
+              "page": 1,
+              "chunk": 1,
+              "score": 0.5555,
+              "ranking_score": 0.032258
+            },
+            {
+              "document": "在读证明管理办法_2024.pdf",
+              "page": 2,
+              "chunk": 2,
+              "score": 0.5474,
+              "ranking_score": 0.015873
+            },
+            {
+              "document": "在读证明管理办法_2024.pdf",
+              "page": 4,
+              "chunk": 6,
+              "score": 0.5333,
+              "ranking_score": 0.015625
+            }
+          ]
+        },
+        {
+          "id": "proof02",
+          "question": "学校在读证明是否有中英文版本？",
+          "expected_document": "在读证明管理办法_2024.pdf",
+          "reference_page": 2,
+          "reference_evidence": "含中、英文版",
+          "category": "",
+          "answerable": true,
+          "skipped": false,
+          "label_resolved": true,
+          "document_hit": true,
+          "evidence_hit": true,
+          "hit": true,
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "rejected": false,
+          "elapsed_ms": 7.939,
+          "sources": [
+            {
+              "document": "在读证明管理办法_2024.pdf",
+              "page": 2,
+              "chunk": 2,
+              "score": 0.5744,
+              "ranking_score": 0.032266
+            },
+            {
+              "document": "在读证明管理办法_2024.pdf",
+              "page": 2,
+              "chunk": 3,
+              "score": 0.6309,
+              "ranking_score": 0.032018
+            },
+            {
+              "document": "在读证明管理办法_2024.pdf",
+              "page": 4,
+              "chunk": 6,
+              "score": 0.5921,
+              "ranking_score": 0.032002
+            },
+            {
+              "document": "在读证明管理办法_2024.pdf",
+              "page": 1,
+              "chunk": 1,
+              "score": 0.5705,
+              "ranking_score": 0.031754
+            }
+          ]
+        },
+        {
+          "id": "proof03",
+          "question": "对在读证明格式或用章有特殊要求时应该怎么办？",
+          "expected_document": "在读证明管理办法_2024.pdf",
+          "reference_page": 2,
+          "reference_evidence": "特殊要求",
+          "category": "",
+          "answerable": true,
+          "skipped": false,
+          "label_resolved": true,
+          "document_hit": true,
+          "evidence_hit": true,
+          "hit": true,
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "rejected": false,
+          "elapsed_ms": 8.525,
+          "sources": [
+            {
+              "document": "在读证明管理办法_2024.pdf",
+              "page": 2,
+              "chunk": 3,
+              "score": 0.5992,
+              "ranking_score": 0.032787
+            },
+            {
+              "document": "在读证明管理办法_2024.pdf",
+              "page": 4,
+              "chunk": 6,
+              "score": 0.5759,
+              "ranking_score": 0.032258
+            },
+            {
+              "document": "在读证明管理办法_2024.pdf",
+              "page": 1,
+              "chunk": 1,
+              "score": 0.5175,
+              "ranking_score": 0.015873
+            },
+            {
+              "document": "在读证明管理办法_2024.pdf",
+              "page": 3,
+              "chunk": 5,
+              "score": 0.4449,
+              "ranking_score": 0.015625
+            }
+          ]
+        },
+        {
+          "id": "proof04",
+          "question": "在读证明能否委托别人办理？",
+          "expected_document": "在读证明管理办法_2024.pdf",
+          "reference_page": 3,
+          "reference_evidence": "委托书",
+          "category": "",
+          "answerable": true,
+          "skipped": false,
+          "label_resolved": true,
+          "document_hit": true,
+          "evidence_hit": false,
+          "hit": false,
+          "recall_at_k": 0.0,
+          "mrr": 0,
+          "rejected": false,
+          "elapsed_ms": 7.695,
+          "sources": [
+            {
+              "document": "在读证明管理办法_2024.pdf",
+              "page": 2,
+              "chunk": 3,
+              "score": 0.6286,
+              "ranking_score": 0.032266
+            },
+            {
+              "document": "在读证明管理办法_2024.pdf",
+              "page": 1,
+              "chunk": 1,
+              "score": 0.5816,
+              "ranking_score": 0.032002
+            },
+            {
+              "document": "在读证明管理办法_2024.pdf",
+              "page": 4,
+              "chunk": 6,
+              "score": 0.5848,
+              "ranking_score": 0.031514
+            },
+            {
+              "document": "在读证明管理办法_2024.pdf",
+              "page": 2,
+              "chunk": 2,
+              "score": 0.5803,
+              "ranking_score": 0.03125
+            }
+          ]
+        },
+        {
+          "id": "proof05",
+          "question": "非北京户籍学生办理在学证明需要什么材料？",
+          "expected_document": "在读证明管理办法_2024.pdf",
+          "reference_page": 3,
+          "reference_evidence": "教育部学籍在线验证报告",
+          "category": "",
+          "answerable": true,
+          "skipped": false,
+          "label_resolved": true,
+          "document_hit": true,
+          "evidence_hit": true,
+          "hit": true,
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "rejected": false,
+          "elapsed_ms": 8.497,
+          "sources": [
+            {
+              "document": "在读证明管理办法_2024.pdf",
+              "page": 3,
+              "chunk": 4,
+              "score": 0.7049,
+              "ranking_score": 0.032522
+            },
+            {
+              "document": "在读证明管理办法_2024.pdf",
+              "page": 2,
+              "chunk": 3,
+              "score": 0.7321,
+              "ranking_score": 0.032266
+            },
+            {
+              "document": "在读证明管理办法_2024.pdf",
+              "page": 2,
+              "chunk": 2,
+              "score": 0.661,
+              "ranking_score": 0.031754
+            },
+            {
+              "document": "在读证明管理办法_2024.pdf",
+              "page": 7,
+              "chunk": 10,
+              "score": 0.6857,
+              "ranking_score": 0.031258
+            }
+          ]
+        },
+        {
+          "id": "proof06",
+          "question": "毕业年级办理非北京户籍在学证明的申请时间怎么规定？",
+          "expected_document": "在读证明管理办法_2024.pdf",
+          "reference_page": 3,
+          "reference_evidence": "4月1日",
+          "category": "",
+          "answerable": true,
+          "skipped": false,
+          "label_resolved": true,
+          "document_hit": true,
+          "evidence_hit": true,
+          "hit": true,
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "rejected": false,
+          "elapsed_ms": 8.248,
+          "sources": [
+            {
+              "document": "在读证明管理办法_2024.pdf",
+              "page": 3,
+              "chunk": 4,
+              "score": 0.7405,
+              "ranking_score": 0.032787
+            },
+            {
+              "document": "在读证明管理办法_2024.pdf",
+              "page": 2,
+              "chunk": 2,
+              "score": 0.6557,
+              "ranking_score": 0.031754
+            },
+            {
+              "document": "在读证明管理办法_2024.pdf",
+              "page": 2,
+              "chunk": 3,
+              "score": 0.7068,
+              "ranking_score": 0.031514
+            },
+            {
+              "document": "在读证明管理办法_2024.pdf",
+              "page": 7,
+              "chunk": 10,
+              "score": 0.6883,
+              "ranking_score": 0.031498
+            }
+          ]
+        },
+        {
+          "id": "degree01",
+          "question": "学士学位申请是否要求通过毕业论文或毕业设计审查？",
+          "expected_document": "学士学位授予办法_2025.pdf",
+          "reference_page": 3,
+          "reference_evidence": "毕业设计等毕业环节审查",
+          "category": "",
+          "answerable": true,
+          "skipped": false,
+          "label_resolved": true,
+          "document_hit": true,
+          "evidence_hit": true,
+          "hit": true,
+          "recall_at_k": 1.0,
+          "mrr": 0.3333333333333333,
+          "rejected": false,
+          "elapsed_ms": 8.485,
+          "sources": [
+            {
+              "document": "学士学位授予办法_2025.pdf",
+              "page": 5,
+              "chunk": 8,
+              "score": 0.5762,
+              "ranking_score": 0.031545
+            },
+            {
+              "document": "学士学位授予办法_2025.pdf",
+              "page": 4,
+              "chunk": 7,
+              "score": 0.5556,
+              "ranking_score": 0.031258
+            },
+            {
+              "document": "学士学位授予办法_2025.pdf",
+              "page": 3,
+              "chunk": 4,
+              "score": 0.505,
+              "ranking_score": 0.016393
+            },
+            {
+              "document": "学士学位授予办法_2025.pdf",
+              "page": 3,
+              "chunk": 5,
+              "score": 0.5496,
+              "ranking_score": 0.016129
+            }
+          ]
+        },
+        {
+          "id": "degree02",
+          "question": "理工科重修重考的必修课学分对学位申请有什么限制？",
+          "expected_document": "学士学位授予办法_2025.pdf",
+          "reference_page": 3,
+          "reference_evidence": "28学分",
+          "category": "",
+          "answerable": true,
+          "skipped": false,
+          "label_resolved": true,
+          "document_hit": true,
+          "evidence_hit": true,
+          "hit": true,
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "rejected": false,
+          "elapsed_ms": 7.735,
+          "sources": [
+            {
+              "document": "学士学位授予办法_2025.pdf",
+              "page": 3,
+              "chunk": 4,
+              "score": 0.6454,
+              "ranking_score": 0.032522
+            },
+            {
+              "document": "学籍管理规定_2025.pdf",
+              "page": 6,
+              "chunk": 10,
+              "score": 0.6215,
+              "ranking_score": 0.031514
+            },
+            {
+              "document": "学籍管理规定_2025.pdf",
+              "page": 8,
+              "chunk": 15,
+              "score": 0.6577,
+              "ranking_score": 0.016393
+            },
+            {
+              "document": "学士学位授予办法_2025.pdf",
+              "page": 3,
+              "chunk": 5,
+              "score": 0.631,
+              "ranking_score": 0.015873
+            }
+          ]
+        },
+        {
+          "id": "degree03",
+          "question": "辅修学士学位的平均学分绩点最低要求是什么？",
+          "expected_document": "学士学位授予办法_2025.pdf",
+          "reference_page": 3,
+          "reference_evidence": "2.0",
+          "category": "",
+          "answerable": true,
+          "skipped": false,
+          "label_resolved": true,
+          "document_hit": true,
+          "evidence_hit": true,
+          "hit": true,
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "rejected": false,
+          "elapsed_ms": 7.567,
+          "sources": [
+            {
+              "document": "学士学位授予办法_2025.pdf",
+              "page": 3,
+              "chunk": 4,
+              "score": 0.6397,
+              "ranking_score": 0.032787
+            },
+            {
+              "document": "学士学位授予办法_2025.pdf",
+              "page": 3,
+              "chunk": 5,
+              "score": 0.6366,
+              "ranking_score": 0.032258
+            },
+            {
+              "document": "学籍管理规定_2025.pdf",
+              "page": 8,
+              "chunk": 15,
+              "score": 0.5656,
+              "ranking_score": 0.015873
+            },
+            {
+              "document": "学士学位授予办法_2025.pdf",
+              "page": 4,
+              "chunk": 6,
+              "score": 0.5094,
+              "ranking_score": 0.015873
+            }
+          ]
+        },
+        {
+          "id": "degree04",
+          "question": "学校学士学位授予办法从什么时候施行？",
+          "expected_document": "学士学位授予办法_2025.pdf",
+          "reference_page": 6,
+          "reference_evidence": "2025年1月1日",
+          "category": "",
+          "answerable": true,
+          "skipped": false,
+          "label_resolved": true,
+          "document_hit": true,
+          "evidence_hit": false,
+          "hit": false,
+          "recall_at_k": 0.0,
+          "mrr": 0,
+          "rejected": false,
+          "elapsed_ms": 8.326,
+          "sources": [
+            {
+              "document": "学士学位授予办法_2025.pdf",
+              "page": 4,
+              "chunk": 6,
+              "score": 0.6924,
+              "ranking_score": 0.032258
+            },
+            {
+              "document": "学士学位授予办法_2025.pdf",
+              "page": 2,
+              "chunk": 3,
+              "score": 0.6978,
+              "ranking_score": 0.031545
+            },
+            {
+              "document": "学士学位授予办法_2025.pdf",
+              "page": 4,
+              "chunk": 7,
+              "score": 0.6692,
+              "ranking_score": 0.031498
+            },
+            {
+              "document": "学士学位授予办法_2025.pdf",
+              "page": 3,
+              "chunk": 5,
+              "score": 0.6341,
+              "ranking_score": 0.031099
+            }
+          ]
+        },
+        {
+          "id": "degree05",
+          "question": "对学术评价结论有异议，何时能申请学术复核？",
+          "expected_document": "学士学位授予办法_2025.pdf",
+          "reference_page": 5,
+          "reference_evidence": "三个工作日",
+          "category": "",
+          "answerable": true,
+          "skipped": false,
+          "label_resolved": true,
+          "document_hit": true,
+          "evidence_hit": true,
+          "hit": true,
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "rejected": false,
+          "elapsed_ms": 8.403,
+          "sources": [
+            {
+              "document": "学士学位授予办法_2025.pdf",
+              "page": 5,
+              "chunk": 9,
+              "score": 0.8247,
+              "ranking_score": 0.032787
+            },
+            {
+              "document": "学士学位授予办法_2025.pdf",
+              "page": 5,
+              "chunk": 8,
+              "score": 0.5925,
+              "ranking_score": 0.031754
+            },
+            {
+              "document": "学籍管理规定_2025.pdf",
+              "page": 17,
+              "chunk": 32,
+              "score": 0.6001,
+              "ranking_score": 0.016129
+            },
+            {
+              "document": "学籍管理规定_2025.pdf",
+              "page": 16,
+              "chunk": 31,
+              "score": 0.5985,
+              "ranking_score": 0.015873
+            }
+          ]
+        },
+        {
+          "id": "transfer01",
+          "question": "学校转专业一般在哪个学期组织？",
+          "expected_document": "转专业管理办法_2025修订.pdf",
+          "reference_page": 3,
+          "reference_evidence": "通常安排在秋季学期",
+          "category": "",
+          "answerable": true,
+          "skipped": false,
+          "label_resolved": true,
+          "document_hit": true,
+          "evidence_hit": false,
+          "hit": false,
+          "recall_at_k": 0.0,
+          "mrr": 0,
+          "rejected": false,
+          "elapsed_ms": 7.526,
+          "sources": [
+            {
+              "document": "转专业管理办法_2025修订.pdf",
+              "page": 2,
+              "chunk": 2,
+              "score": 0.6546,
+              "ranking_score": 0.031514
+            },
+            {
+              "document": "学籍管理规定_2025.pdf",
+              "page": 10,
+              "chunk": 18,
+              "score": 0.6257,
+              "ranking_score": 0.031099
+            },
+            {
+              "document": "转专业管理办法_2025修订.pdf",
+              "page": 5,
+              "chunk": 8,
+              "score": 0.6445,
+              "ranking_score": 0.030798
+            },
+            {
+              "document": "转专业管理办法_2025修订.pdf",
+              "page": 5,
+              "chunk": 9,
+              "score": 0.6973,
+              "ranking_score": 0.016393
+            }
+          ]
+        },
+        {
+          "id": "transfer02",
+          "question": "转专业拟录取名单公示期有多久？",
+          "expected_document": "转专业管理办法_2025修订.pdf",
+          "reference_page": 4,
+          "reference_evidence": "公示期5天",
+          "category": "",
+          "answerable": true,
+          "skipped": false,
+          "label_resolved": true,
+          "document_hit": true,
+          "evidence_hit": true,
+          "hit": true,
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "rejected": false,
+          "elapsed_ms": 8.391,
+          "sources": [
+            {
+              "document": "转专业管理办法_2025修订.pdf",
+              "page": 4,
+              "chunk": 6,
+              "score": 0.6903,
+              "ranking_score": 0.032522
+            },
+            {
+              "document": "转专业管理办法_2025修订.pdf",
+              "page": 6,
+              "chunk": 11,
+              "score": 0.7253,
+              "ranking_score": 0.032522
+            },
+            {
+              "document": "转专业管理办法_2025修订.pdf",
+              "page": 6,
+              "chunk": 10,
+              "score": 0.647,
+              "ranking_score": 0.031258
+            },
+            {
+              "document": "转专业管理办法_2025修订.pdf",
+              "page": 3,
+              "chunk": 5,
+              "score": 0.6697,
+              "ranking_score": 0.015873
+            }
+          ]
+        },
+        {
+          "id": "transfer03",
+          "question": "原专业修过的相近课程能申请课程置换吗？",
+          "expected_document": "转专业管理办法_2025修订.pdf",
+          "reference_page": 6,
+          "reference_evidence": "可申请课程置换",
+          "category": "",
+          "answerable": true,
+          "skipped": false,
+          "label_resolved": true,
+          "document_hit": true,
+          "evidence_hit": true,
+          "hit": true,
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "rejected": false,
+          "elapsed_ms": 6.372,
+          "sources": [
+            {
+              "document": "转专业管理办法_2025修订.pdf",
+              "page": 6,
+              "chunk": 10,
+              "score": 0.6481,
+              "ranking_score": 0.032787
+            },
+            {
+              "document": "学籍管理规定_2025.pdf",
+              "page": 7,
+              "chunk": 13,
+              "score": 0.6348,
+              "ranking_score": 0.032258
+            },
+            {
+              "document": "学籍管理规定_2025.pdf",
+              "page": 9,
+              "chunk": 17,
+              "score": 0.5984,
+              "ranking_score": 0.015873
+            },
+            {
+              "document": "学籍管理规定_2025.pdf",
+              "page": 8,
+              "chunk": 15,
+              "score": 0.5843,
+              "ranking_score": 0.015625
+            }
+          ]
+        },
+        {
+          "id": "student01",
+          "question": "保留入学资格期间是否具有学籍？",
+          "expected_document": "学籍管理规定_2025.pdf",
+          "reference_page": 3,
+          "reference_evidence": "不具有学籍",
+          "category": "",
+          "answerable": true,
+          "skipped": false,
+          "label_resolved": true,
+          "document_hit": true,
+          "evidence_hit": true,
+          "hit": true,
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "rejected": false,
+          "elapsed_ms": 8.288,
+          "sources": [
+            {
+              "document": "学籍管理规定_2025.pdf",
+              "page": 3,
+              "chunk": 4,
+              "score": 0.6299,
+              "ranking_score": 0.032522
+            },
+            {
+              "document": "学籍管理规定_2025.pdf",
+              "page": 2,
+              "chunk": 3,
+              "score": 0.6243,
+              "ranking_score": 0.03125
+            },
+            {
+              "document": "学籍管理规定_2025.pdf",
+              "page": 3,
+              "chunk": 5,
+              "score": 0.5664,
+              "ranking_score": 0.029031
+            },
+            {
+              "document": "学籍管理规定_2025.pdf",
+              "page": 4,
+              "chunk": 6,
+              "score": 0.5559,
+              "ranking_score": 0.028629
+            }
+          ]
+        },
+        {
+          "id": "student02",
+          "question": "每门课程期末考试与平时成绩的比例由谁确定？",
+          "expected_document": "学籍管理规定_2025.pdf",
+          "reference_page": 6,
+          "reference_evidence": "由教研室或任课教师",
+          "category": "办事流程",
+          "answerable": true,
+          "skipped": false,
+          "label_resolved": true,
+          "document_hit": true,
+          "evidence_hit": true,
+          "hit": true,
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "rejected": false,
+          "elapsed_ms": 8.546,
+          "sources": [
+            {
+              "document": "学籍管理规定_2025.pdf",
+              "page": 6,
+              "chunk": 10,
+              "score": 0.4898,
+              "ranking_score": 0.016393
+            },
+            {
+              "document": "学籍管理规定_2025.pdf",
+              "page": 6,
+              "chunk": 11,
+              "score": 0.4844,
+              "ranking_score": 0.016129
+            }
+          ]
+        },
+        {
+          "id": "student03",
+          "question": "应征入伍服义务兵役可以保留学籍到何时？",
+          "expected_document": "学籍管理规定_2025.pdf",
+          "reference_page": 13,
+          "reference_evidence": "退役后两年",
+          "category": "",
+          "answerable": true,
+          "skipped": false,
+          "label_resolved": true,
+          "document_hit": true,
+          "evidence_hit": true,
+          "hit": true,
+          "recall_at_k": 1.0,
+          "mrr": 0.3333333333333333,
+          "rejected": false,
+          "elapsed_ms": 8.214,
+          "sources": [
+            {
+              "document": "学籍管理规定_2025.pdf",
+              "page": 12,
+              "chunk": 22,
+              "score": 0.6204,
+              "ranking_score": 0.032522
+            },
+            {
+              "document": "学籍管理规定_2025.pdf",
+              "page": 12,
+              "chunk": 23,
+              "score": 0.6305,
+              "ranking_score": 0.032018
+            },
+            {
+              "document": "学籍管理规定_2025.pdf",
+              "page": 13,
+              "chunk": 24,
+              "score": 0.6065,
+              "ranking_score": 0.032002
+            },
+            {
+              "document": "学籍管理规定_2025.pdf",
+              "page": 3,
+              "chunk": 4,
+              "score": 0.5578,
+              "ranking_score": 0.031258
+            }
+          ]
+        },
+        {
+          "id": "transcript01",
+          "question": "电子成绩单发送后在哪里查看订单进度？",
+          "expected_document": "成绩单办理服务流程.pdf",
+          "reference_page": 4,
+          "reference_evidence": "我的订单",
+          "category": "",
+          "answerable": true,
+          "skipped": false,
+          "label_resolved": true,
+          "document_hit": true,
+          "evidence_hit": true,
+          "hit": true,
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "rejected": false,
+          "elapsed_ms": 8.193,
+          "sources": [
+            {
+              "document": "成绩单办理服务流程.pdf",
+              "page": 4,
+              "chunk": 4,
+              "score": 0.6812,
+              "ranking_score": 0.032787
+            },
+            {
+              "document": "成绩单办理服务流程.pdf",
+              "page": 2,
+              "chunk": 2,
+              "score": 0.6644,
+              "ranking_score": 0.032258
+            },
+            {
+              "document": "成绩单办理服务流程.pdf",
+              "page": 1,
+              "chunk": 1,
+              "score": 0.6195,
+              "ranking_score": 0.031746
+            },
+            {
+              "document": "成绩单办理服务流程.pdf",
+              "page": 5,
+              "chunk": 5,
+              "score": 0.5785,
+              "ranking_score": 0.015625
+            }
+          ]
+        },
+        {
+          "id": "transcript02",
+          "question": "电子成绩单是否可以在学信网上验证？",
+          "expected_document": "成绩单办理服务流程.pdf",
+          "reference_page": 4,
+          "reference_evidence": "学信网上在线验证",
+          "category": "",
+          "answerable": true,
+          "skipped": false,
+          "label_resolved": true,
+          "document_hit": true,
+          "evidence_hit": true,
+          "hit": true,
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "rejected": false,
+          "elapsed_ms": 7.878,
+          "sources": [
+            {
+              "document": "成绩单办理服务流程.pdf",
+              "page": 4,
+              "chunk": 4,
+              "score": 0.7496,
+              "ranking_score": 0.032787
+            },
+            {
+              "document": "成绩单办理服务流程.pdf",
+              "page": 5,
+              "chunk": 5,
+              "score": 0.6742,
+              "ranking_score": 0.032258
+            },
+            {
+              "document": "成绩单办理服务流程.pdf",
+              "page": 2,
+              "chunk": 2,
+              "score": 0.6291,
+              "ranking_score": 0.031746
+            },
+            {
+              "document": "成绩单办理服务流程.pdf",
+              "page": 1,
+              "chunk": 1,
+              "score": 0.6203,
+              "ranking_score": 0.03125
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "semantic",
+      "strategy": "hybrid_rerank",
+      "threshold": 0.55,
+      "top_k": 4,
+      "scored_answerable": 19,
+      "total_questions": 19,
+      "unresolved_labels": [],
+      "document_hit_rate": 1.0,
+      "evidence_hit_rate": 1.0,
+      "mean_recall_at_k": 1.0,
+      "mean_mrr": 0.9736842105263158,
+      "negative_rejection_rate": null,
+      "rejection_rate": null,
+      "answerable_false_rejection_rate": 0.0,
+      "retrieval_p95_ms": 9.916699999999999,
+      "rows": [
+        {
+          "id": "proof01",
+          "question": "在读证明可以线上自助办理吗？",
+          "expected_document": "在读证明管理办法_2024.pdf",
+          "reference_page": 2,
+          "reference_evidence": "可信电子凭证系统",
+          "category": "",
+          "answerable": true,
+          "skipped": false,
+          "label_resolved": true,
+          "document_hit": true,
+          "evidence_hit": true,
+          "hit": true,
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "rejected": false,
+          "elapsed_ms": 9.499,
+          "sources": [
+            {
+              "document": "在读证明管理办法_2024.pdf",
+              "page": 2,
+              "chunk": 3,
+              "score": 0.6514,
+              "ranking_score": 0.6
+            },
+            {
+              "document": "在读证明管理办法_2024.pdf",
+              "page": 1,
+              "chunk": 1,
+              "score": 0.5555,
+              "ranking_score": 0.399385
+            },
+            {
+              "document": "在读证明管理办法_2024.pdf",
+              "page": 2,
+              "chunk": 2,
+              "score": 0.5474,
+              "ranking_score": 0.310608
+            },
+            {
+              "document": "在读证明管理办法_2024.pdf",
+              "page": 3,
+              "chunk": 5,
+              "score": 0.4913,
+              "ranking_score": 0.291901
+            }
+          ]
+        },
+        {
+          "id": "proof02",
+          "question": "学校在读证明是否有中英文版本？",
+          "expected_document": "在读证明管理办法_2024.pdf",
+          "reference_page": 2,
+          "reference_evidence": "含中、英文版",
+          "category": "",
+          "answerable": true,
+          "skipped": false,
+          "label_resolved": true,
+          "document_hit": true,
+          "evidence_hit": true,
+          "hit": true,
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "rejected": false,
+          "elapsed_ms": 8.521,
+          "sources": [
+            {
+              "document": "在读证明管理办法_2024.pdf",
+              "page": 2,
+              "chunk": 2,
+              "score": 0.5744,
+              "ranking_score": 0.6
+            },
+            {
+              "document": "在读证明管理办法_2024.pdf",
+              "page": 2,
+              "chunk": 3,
+              "score": 0.6309,
+              "ranking_score": 0.348847
+            },
+            {
+              "document": "在读证明管理办法_2024.pdf",
+              "page": 4,
+              "chunk": 6,
+              "score": 0.5921,
+              "ranking_score": 0.348771
+            },
+            {
+              "document": "在读证明管理办法_2024.pdf",
+              "page": 1,
+              "chunk": 1,
+              "score": 0.5705,
+              "ranking_score": 0.347618
+            }
+          ]
+        },
+        {
+          "id": "proof03",
+          "question": "对在读证明格式或用章有特殊要求时应该怎么办？",
+          "expected_document": "在读证明管理办法_2024.pdf",
+          "reference_page": 2,
+          "reference_evidence": "特殊要求",
+          "category": "",
+          "answerable": true,
+          "skipped": false,
+          "label_resolved": true,
+          "document_hit": true,
+          "evidence_hit": true,
+          "hit": true,
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "rejected": false,
+          "elapsed_ms": 9.932,
+          "sources": [
+            {
+              "document": "在读证明管理办法_2024.pdf",
+              "page": 2,
+              "chunk": 3,
+              "score": 0.5992,
+              "ranking_score": 0.6
+            },
+            {
+              "document": "在读证明管理办法_2024.pdf",
+              "page": 4,
+              "chunk": 6,
+              "score": 0.5759,
+              "ranking_score": 0.402889
+            },
+            {
+              "document": "在读证明管理办法_2024.pdf",
+              "page": 3,
+              "chunk": 5,
+              "score": 0.4449,
+              "ranking_score": 0.324833
+            },
+            {
+              "document": "在读证明管理办法_2024.pdf",
+              "page": 1,
+              "chunk": 1,
+              "score": 0.5175,
+              "ranking_score": 0.272619
+            }
+          ]
+        },
+        {
+          "id": "proof04",
+          "question": "在读证明能否委托别人办理？",
+          "expected_document": "在读证明管理办法_2024.pdf",
+          "reference_page": 3,
+          "reference_evidence": "委托书",
+          "category": "",
+          "answerable": true,
+          "skipped": false,
+          "label_resolved": true,
+          "document_hit": true,
+          "evidence_hit": true,
+          "hit": true,
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "rejected": false,
+          "elapsed_ms": 9.218,
+          "sources": [
+            {
+              "document": "在读证明管理办法_2024.pdf",
+              "page": 3,
+              "chunk": 5,
+              "score": 0.5288,
+              "ranking_score": 0.92621
+            },
+            {
+              "document": "在读证明管理办法_2024.pdf",
+              "page": 2,
+              "chunk": 3,
+              "score": 0.6286,
+              "ranking_score": 0.381705
+            },
+            {
+              "document": "在读证明管理办法_2024.pdf",
+              "page": 1,
+              "chunk": 1,
+              "score": 0.5816,
+              "ranking_score": 0.378564
+            },
+            {
+              "document": "在读证明管理办法_2024.pdf",
+              "page": 2,
+              "chunk": 2,
+              "score": 0.5803,
+              "ranking_score": 0.367122
+            }
+          ]
+        },
+        {
+          "id": "proof05",
+          "question": "非北京户籍学生办理在学证明需要什么材料？",
+          "expected_document": "在读证明管理办法_2024.pdf",
+          "reference_page": 3,
+          "reference_evidence": "教育部学籍在线验证报告",
+          "category": "",
+          "answerable": true,
+          "skipped": false,
+          "label_resolved": true,
+          "document_hit": true,
+          "evidence_hit": true,
+          "hit": true,
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "rejected": false,
+          "elapsed_ms": 9.038,
+          "sources": [
+            {
+              "document": "在读证明管理办法_2024.pdf",
+              "page": 3,
+              "chunk": 4,
+              "score": 0.7049,
+              "ranking_score": 0.6
+            },
+            {
+              "document": "在读证明管理办法_2024.pdf",
+              "page": 2,
+              "chunk": 2,
+              "score": 0.661,
+              "ranking_score": 0.546298
+            },
+            {
+              "document": "在读证明管理办法_2024.pdf",
+              "page": 8,
+              "chunk": 11,
+              "score": 0.6546,
+              "ranking_score": 0.486536
+            },
+            {
+              "document": "在读证明管理办法_2024.pdf",
+              "page": 7,
+              "chunk": 10,
+              "score": 0.6857,
+              "ranking_score": 0.481173
+            }
+          ]
+        },
+        {
+          "id": "proof06",
+          "question": "毕业年级办理非北京户籍在学证明的申请时间怎么规定？",
+          "expected_document": "在读证明管理办法_2024.pdf",
+          "reference_page": 3,
+          "reference_evidence": "4月1日",
+          "category": "",
+          "answerable": true,
+          "skipped": false,
+          "label_resolved": true,
+          "document_hit": true,
+          "evidence_hit": true,
+          "hit": true,
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "rejected": false,
+          "elapsed_ms": 9.915,
+          "sources": [
+            {
+              "document": "在读证明管理办法_2024.pdf",
+              "page": 3,
+              "chunk": 4,
+              "score": 0.7405,
+              "ranking_score": 0.6
+            },
+            {
+              "document": "在读证明管理办法_2024.pdf",
+              "page": 2,
+              "chunk": 2,
+              "score": 0.6557,
+              "ranking_score": 0.489816
+            },
+            {
+              "document": "在读证明管理办法_2024.pdf",
+              "page": 8,
+              "chunk": 11,
+              "score": 0.647,
+              "ranking_score": 0.462834
+            },
+            {
+              "document": "在读证明管理办法_2024.pdf",
+              "page": 7,
+              "chunk": 10,
+              "score": 0.6883,
+              "ranking_score": 0.453853
+            }
+          ]
+        },
+        {
+          "id": "degree01",
+          "question": "学士学位申请是否要求通过毕业论文或毕业设计审查？",
+          "expected_document": "学士学位授予办法_2025.pdf",
+          "reference_page": 3,
+          "reference_evidence": "毕业设计等毕业环节审查",
+          "category": "",
+          "answerable": true,
+          "skipped": false,
+          "label_resolved": true,
+          "document_hit": true,
+          "evidence_hit": true,
+          "hit": true,
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "rejected": false,
+          "elapsed_ms": 9.033,
+          "sources": [
+            {
+              "document": "学士学位授予办法_2025.pdf",
+              "page": 3,
+              "chunk": 4,
+              "score": 0.505,
+              "ranking_score": 0.527953
+            },
+            {
+              "document": "学士学位授予办法_2025.pdf",
+              "page": 5,
+              "chunk": 8,
+              "score": 0.5762,
+              "ranking_score": 0.407408
+            },
+            {
+              "document": "学士学位授予办法_2025.pdf",
+              "page": 3,
+              "chunk": 5,
+              "score": 0.5496,
+              "ranking_score": 0.400367
+            },
+            {
+              "document": "学士学位授予办法_2025.pdf",
+              "page": 4,
+              "chunk": 7,
+              "score": 0.5556,
+              "ranking_score": 0.354925
+            }
+          ]
+        },
+        {
+          "id": "degree02",
+          "question": "理工科重修重考的必修课学分对学位申请有什么限制？",
+          "expected_document": "学士学位授予办法_2025.pdf",
+          "reference_page": 3,
+          "reference_evidence": "28学分",
+          "category": "",
+          "answerable": true,
+          "skipped": false,
+          "label_resolved": true,
+          "document_hit": true,
+          "evidence_hit": true,
+          "hit": true,
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "rejected": false,
+          "elapsed_ms": 9.796,
+          "sources": [
+            {
+              "document": "学士学位授予办法_2025.pdf",
+              "page": 3,
+              "chunk": 4,
+              "score": 0.6454,
+              "ranking_score": 0.6
+            },
+            {
+              "document": "学士学位授予办法_2025.pdf",
+              "page": 4,
+              "chunk": 7,
+              "score": 0.5751,
+              "ranking_score": 0.486779
+            },
+            {
+              "document": "学士学位授予办法_2025.pdf",
+              "page": 4,
+              "chunk": 6,
+              "score": 0.571,
+              "ranking_score": 0.417012
+            },
+            {
+              "document": "学士学位授予办法_2025.pdf",
+              "page": 5,
+              "chunk": 8,
+              "score": 0.5743,
+              "ranking_score": 0.41059
+            }
+          ]
+        },
+        {
+          "id": "degree03",
+          "question": "辅修学士学位的平均学分绩点最低要求是什么？",
+          "expected_document": "学士学位授予办法_2025.pdf",
+          "reference_page": 3,
+          "reference_evidence": "2.0",
+          "category": "",
+          "answerable": true,
+          "skipped": false,
+          "label_resolved": true,
+          "document_hit": true,
+          "evidence_hit": true,
+          "hit": true,
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "rejected": false,
+          "elapsed_ms": 9.19,
+          "sources": [
+            {
+              "document": "学士学位授予办法_2025.pdf",
+              "page": 3,
+              "chunk": 5,
+              "score": 0.6366,
+              "ranking_score": 0.597581
+            },
+            {
+              "document": "学士学位授予办法_2025.pdf",
+              "page": 3,
+              "chunk": 4,
+              "score": 0.6397,
+              "ranking_score": 0.562455
+            },
+            {
+              "document": "学士学位授予办法_2025.pdf",
+              "page": 4,
+              "chunk": 6,
+              "score": 0.5094,
+              "ranking_score": 0.272619
+            },
+            {
+              "document": "学籍管理规定_2025.pdf",
+              "page": 7,
+              "chunk": 13,
+              "score": 0.5646,
+              "ranking_score": 0.148253
+            }
+          ]
+        },
+        {
+          "id": "degree04",
+          "question": "学校学士学位授予办法从什么时候施行？",
+          "expected_document": "学士学位授予办法_2025.pdf",
+          "reference_page": 6,
+          "reference_evidence": "2025年1月1日",
+          "category": "",
+          "answerable": true,
+          "skipped": false,
+          "label_resolved": true,
+          "document_hit": true,
+          "evidence_hit": true,
+          "hit": true,
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "rejected": false,
+          "elapsed_ms": 9.434,
+          "sources": [
+            {
+              "document": "学士学位授予办法_2025.pdf",
+              "page": 6,
+              "chunk": 11,
+              "score": 0.6688,
+              "ranking_score": 0.988149
+            },
+            {
+              "document": "学士学位授予办法_2025.pdf",
+              "page": 6,
+              "chunk": 10,
+              "score": 0.6403,
+              "ranking_score": 0.914594
+            },
+            {
+              "document": "在读证明管理办法_2024.pdf",
+              "page": 4,
+              "chunk": 6,
+              "score": 0.5537,
+              "ranking_score": 0.602193
+            },
+            {
+              "document": "学士学位授予办法_2025.pdf",
+              "page": 2,
+              "chunk": 2,
+              "score": 0.6626,
+              "ranking_score": 0.488146
+            }
+          ]
+        },
+        {
+          "id": "degree05",
+          "question": "对学术评价结论有异议，何时能申请学术复核？",
+          "expected_document": "学士学位授予办法_2025.pdf",
+          "reference_page": 5,
+          "reference_evidence": "三个工作日",
+          "category": "",
+          "answerable": true,
+          "skipped": false,
+          "label_resolved": true,
+          "document_hit": true,
+          "evidence_hit": true,
+          "hit": true,
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "rejected": false,
+          "elapsed_ms": 8.915,
+          "sources": [
+            {
+              "document": "学士学位授予办法_2025.pdf",
+              "page": 5,
+              "chunk": 9,
+              "score": 0.8247,
+              "ranking_score": 0.4
+            },
+            {
+              "document": "学士学位授予办法_2025.pdf",
+              "page": 5,
+              "chunk": 8,
+              "score": 0.5925,
+              "ranking_score": 0.262569
+            },
+            {
+              "document": "学籍管理规定_2025.pdf",
+              "page": 16,
+              "chunk": 31,
+              "score": 0.5985,
+              "ranking_score": 0.107194
+            },
+            {
+              "document": "学士学位授予办法_2025.pdf",
+              "page": 6,
+              "chunk": 10,
+              "score": 0.5545,
+              "ranking_score": 0.101301
+            }
+          ]
+        },
+        {
+          "id": "transfer01",
+          "question": "学校转专业一般在哪个学期组织？",
+          "expected_document": "转专业管理办法_2025修订.pdf",
+          "reference_page": 3,
+          "reference_evidence": "通常安排在秋季学期",
+          "category": "",
+          "answerable": true,
+          "skipped": false,
+          "label_resolved": true,
+          "document_hit": true,
+          "evidence_hit": true,
+          "hit": true,
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "rejected": false,
+          "elapsed_ms": 8.718,
+          "sources": [
+            {
+              "document": "转专业管理办法_2025修订.pdf",
+              "page": 3,
+              "chunk": 4,
+              "score": 0.6712,
+              "ranking_score": 0.778046
+            },
+            {
+              "document": "转专业管理办法_2025修订.pdf",
+              "page": 2,
+              "chunk": 2,
+              "score": 0.6546,
+              "ranking_score": 0.397702
+            },
+            {
+              "document": "转专业管理办法_2025修订.pdf",
+              "page": 5,
+              "chunk": 8,
+              "score": 0.6445,
+              "ranking_score": 0.396641
+            },
+            {
+              "document": "转专业管理办法_2025修订.pdf",
+              "page": 5,
+              "chunk": 9,
+              "score": 0.6973,
+              "ranking_score": 0.389356
+            }
+          ]
+        },
+        {
+          "id": "transfer02",
+          "question": "转专业拟录取名单公示期有多久？",
+          "expected_document": "转专业管理办法_2025修订.pdf",
+          "reference_page": 4,
+          "reference_evidence": "公示期5天",
+          "category": "",
+          "answerable": true,
+          "skipped": false,
+          "label_resolved": true,
+          "document_hit": true,
+          "evidence_hit": true,
+          "hit": true,
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "rejected": false,
+          "elapsed_ms": 8.882,
+          "sources": [
+            {
+              "document": "转专业管理办法_2025修订.pdf",
+              "page": 4,
+              "chunk": 6,
+              "score": 0.6903,
+              "ranking_score": 0.6
+            },
+            {
+              "document": "转专业管理办法_2025修订.pdf",
+              "page": 6,
+              "chunk": 11,
+              "score": 0.7253,
+              "ranking_score": 0.480056
+            },
+            {
+              "document": "转专业管理办法_2025修订.pdf",
+              "page": 6,
+              "chunk": 10,
+              "score": 0.647,
+              "ranking_score": 0.42782
+            },
+            {
+              "document": "转专业管理办法_2025修订.pdf",
+              "page": 2,
+              "chunk": 2,
+              "score": 0.6294,
+              "ranking_score": 0.307092
+            }
+          ]
+        },
+        {
+          "id": "transfer03",
+          "question": "原专业修过的相近课程能申请课程置换吗？",
+          "expected_document": "转专业管理办法_2025修订.pdf",
+          "reference_page": 6,
+          "reference_evidence": "可申请课程置换",
+          "category": "",
+          "answerable": true,
+          "skipped": false,
+          "label_resolved": true,
+          "document_hit": true,
+          "evidence_hit": true,
+          "hit": true,
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "rejected": false,
+          "elapsed_ms": 8.899,
+          "sources": [
+            {
+              "document": "转专业管理办法_2025修订.pdf",
+              "page": 6,
+              "chunk": 10,
+              "score": 0.6481,
+              "ranking_score": 0.6
+            },
+            {
+              "document": "转专业管理办法_2025修订.pdf",
+              "page": 4,
+              "chunk": 7,
+              "score": 0.5631,
+              "ranking_score": 0.32878
+            },
+            {
+              "document": "学籍管理规定_2025.pdf",
+              "page": 7,
+              "chunk": 13,
+              "score": 0.6348,
+              "ranking_score": 0.328346
+            },
+            {
+              "document": "转专业管理办法_2025修订.pdf",
+              "page": 5,
+              "chunk": 9,
+              "score": 0.5713,
+              "ranking_score": 0.268284
+            }
+          ]
+        },
+        {
+          "id": "student01",
+          "question": "保留入学资格期间是否具有学籍？",
+          "expected_document": "学籍管理规定_2025.pdf",
+          "reference_page": 3,
+          "reference_evidence": "不具有学籍",
+          "category": "",
+          "answerable": true,
+          "skipped": false,
+          "label_resolved": true,
+          "document_hit": true,
+          "evidence_hit": true,
+          "hit": true,
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "rejected": false,
+          "elapsed_ms": 9.136,
+          "sources": [
+            {
+              "document": "学籍管理规定_2025.pdf",
+              "page": 3,
+              "chunk": 4,
+              "score": 0.6299,
+              "ranking_score": 0.6
+            },
+            {
+              "document": "学籍管理规定_2025.pdf",
+              "page": 4,
+              "chunk": 6,
+              "score": 0.5559,
+              "ranking_score": 0.45354
+            },
+            {
+              "document": "学籍管理规定_2025.pdf",
+              "page": 2,
+              "chunk": 3,
+              "score": 0.6243,
+              "ranking_score": 0.42231
+            },
+            {
+              "document": "学籍管理规定_2025.pdf",
+              "page": 3,
+              "chunk": 5,
+              "score": 0.5664,
+              "ranking_score": 0.4075
+            }
+          ]
+        },
+        {
+          "id": "student02",
+          "question": "每门课程期末考试与平时成绩的比例由谁确定？",
+          "expected_document": "学籍管理规定_2025.pdf",
+          "reference_page": 6,
+          "reference_evidence": "由教研室或任课教师",
+          "category": "办事流程",
+          "answerable": true,
+          "skipped": false,
+          "label_resolved": true,
+          "document_hit": true,
+          "evidence_hit": true,
+          "hit": true,
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "rejected": false,
+          "elapsed_ms": 9.322,
+          "sources": [
+            {
+              "document": "学籍管理规定_2025.pdf",
+              "page": 6,
+              "chunk": 10,
+              "score": 0.4898,
+              "ranking_score": 0.4
+            },
+            {
+              "document": "学籍管理规定_2025.pdf",
+              "page": 6,
+              "chunk": 11,
+              "score": 0.4844,
+              "ranking_score": 0.22862
+            }
+          ]
+        },
+        {
+          "id": "student03",
+          "question": "应征入伍服义务兵役可以保留学籍到何时？",
+          "expected_document": "学籍管理规定_2025.pdf",
+          "reference_page": 13,
+          "reference_evidence": "退役后两年",
+          "category": "",
+          "answerable": true,
+          "skipped": false,
+          "label_resolved": true,
+          "document_hit": true,
+          "evidence_hit": true,
+          "hit": true,
+          "recall_at_k": 1.0,
+          "mrr": 0.5,
+          "rejected": false,
+          "elapsed_ms": 9.018,
+          "sources": [
+            {
+              "document": "学籍管理规定_2025.pdf",
+              "page": 12,
+              "chunk": 22,
+              "score": 0.6204,
+              "ranking_score": 0.6
+            },
+            {
+              "document": "学籍管理规定_2025.pdf",
+              "page": 13,
+              "chunk": 24,
+              "score": 0.6065,
+              "ranking_score": 0.564767
+            },
+            {
+              "document": "学籍管理规定_2025.pdf",
+              "page": 3,
+              "chunk": 4,
+              "score": 0.5578,
+              "ranking_score": 0.533717
+            },
+            {
+              "document": "学籍管理规定_2025.pdf",
+              "page": 12,
+              "chunk": 23,
+              "score": 0.6305,
+              "ranking_score": 0.428281
+            }
+          ]
+        },
+        {
+          "id": "transcript01",
+          "question": "电子成绩单发送后在哪里查看订单进度？",
+          "expected_document": "成绩单办理服务流程.pdf",
+          "reference_page": 4,
+          "reference_evidence": "我的订单",
+          "category": "",
+          "answerable": true,
+          "skipped": false,
+          "label_resolved": true,
+          "document_hit": true,
+          "evidence_hit": true,
+          "hit": true,
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "rejected": false,
+          "elapsed_ms": 8.788,
+          "sources": [
+            {
+              "document": "成绩单办理服务流程.pdf",
+              "page": 4,
+              "chunk": 4,
+              "score": 0.6812,
+              "ranking_score": 0.6
+            },
+            {
+              "document": "成绩单办理服务流程.pdf",
+              "page": 2,
+              "chunk": 2,
+              "score": 0.6644,
+              "ranking_score": 0.493465
+            },
+            {
+              "document": "成绩单办理服务流程.pdf",
+              "page": 1,
+              "chunk": 1,
+              "score": 0.6195,
+              "ranking_score": 0.459361
+            },
+            {
+              "document": "成绩单办理服务流程.pdf",
+              "page": 5,
+              "chunk": 5,
+              "score": 0.5785,
+              "ranking_score": 0.346528
+            }
+          ]
+        },
+        {
+          "id": "transcript02",
+          "question": "电子成绩单是否可以在学信网上验证？",
+          "expected_document": "成绩单办理服务流程.pdf",
+          "reference_page": 4,
+          "reference_evidence": "学信网上在线验证",
+          "category": "",
+          "answerable": true,
+          "skipped": false,
+          "label_resolved": true,
+          "document_hit": true,
+          "evidence_hit": true,
+          "hit": true,
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "rejected": false,
+          "elapsed_ms": 8.708,
+          "sources": [
+            {
+              "document": "成绩单办理服务流程.pdf",
+              "page": 4,
+              "chunk": 4,
+              "score": 0.7496,
+              "ranking_score": 0.6
+            },
+            {
+              "document": "成绩单办理服务流程.pdf",
+              "page": 1,
+              "chunk": 1,
+              "score": 0.6203,
+              "ranking_score": 0.445376
+            },
+            {
+              "document": "成绩单办理服务流程.pdf",
+              "page": 5,
+              "chunk": 5,
+              "score": 0.6742,
+              "ranking_score": 0.439518
+            },
+            {
+              "document": "成绩单办理服务流程.pdf",
+              "page": 2,
+              "chunk": 2,
+              "score": 0.6291,
+              "ranking_score": 0.431608
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "note": "仅19道已核对开发题。新增重排序依据开发集设计，不是独立测试结论；没有调用生成或运行20道候选题。"
+}

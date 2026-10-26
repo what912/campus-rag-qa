@@ -1,0 +1,12 @@
+[
+  {"question":"毕业总学分是多少？", "expected_document":"01_培养方案.md"},
+  {"question":"如何查询自己年级的培养方案？", "expected_document":"01_培养方案.md"},
+  {"question":"数据分析基础的考核方式是什么？", "expected_document":"02_课程大纲.md"},
+  {"question":"期末项目需要提交什么？", "expected_document":"02_课程大纲.md"},
+  {"question":"在读证明怎么办理？", "expected_document":"03_办事流程.md"},
+  {"question":"课程补选申请的流程？", "expected_document":"03_办事流程.md"},
+  {"question":"图书借阅怎么操作？", "expected_document":"04_校园服务.md"},
+  {"question":"校园网络故障怎么报修？", "expected_document":"04_校园服务.md"},
+  {"question":"火星上存在外星生命吗？", "expected_document":null},
+  {"question":"红烧牛肉的烹饪温度？", "expected_document":null}
+]

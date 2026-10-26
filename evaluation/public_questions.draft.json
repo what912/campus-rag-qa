@@ -1,0 +1,206 @@
+{
+  "name": "学校公开规定开发题集 v2（用户核对）",
+  "status": "reviewed_development",
+  "created_at": "2026-10-13",
+  "note": "用户确认其余19题正确，并要求删除4道无依据题。本集已用于开发，不能作为独立测试集；不再评价拒答率。",
+  "cases": [
+    {
+      "id": "proof01",
+      "question": "在读证明可以线上自助办理吗？",
+      "document": "在读证明管理办法_2024.pdf",
+      "page": 2,
+      "evidence": "可信电子凭证系统",
+      "reviewed": true,
+      "reviewed_by": "用户人工核对",
+      "reviewed_at": "2026-10-13"
+    },
+    {
+      "id": "proof02",
+      "question": "学校在读证明是否有中英文版本？",
+      "document": "在读证明管理办法_2024.pdf",
+      "page": 2,
+      "evidence": "含中、英文版",
+      "reviewed": true,
+      "reviewed_by": "用户人工核对",
+      "reviewed_at": "2026-10-13"
+    },
+    {
+      "id": "proof03",
+      "question": "对在读证明格式或用章有特殊要求时应该怎么办？",
+      "document": "在读证明管理办法_2024.pdf",
+      "page": 2,
+      "evidence": "特殊要求",
+      "reviewed": true,
+      "reviewed_by": "用户人工核对",
+      "reviewed_at": "2026-10-13"
+    },
+    {
+      "id": "proof04",
+      "question": "在读证明能否委托别人办理？",
+      "document": "在读证明管理办法_2024.pdf",
+      "page": 3,
+      "evidence": "委托书",
+      "reviewed": true,
+      "reviewed_by": "用户人工核对",
+      "reviewed_at": "2026-10-13"
+    },
+    {
+      "id": "proof05",
+      "question": "非北京户籍学生办理在学证明需要什么材料？",
+      "document": "在读证明管理办法_2024.pdf",
+      "page": 3,
+      "evidence": "教育部学籍在线验证报告",
+      "reviewed": true,
+      "reviewed_by": "用户人工核对",
+      "reviewed_at": "2026-10-13"
+    },
+    {
+      "id": "proof06",
+      "question": "毕业年级办理非北京户籍在学证明的申请时间怎么规定？",
+      "document": "在读证明管理办法_2024.pdf",
+      "page": 3,
+      "evidence": "4月1日",
+      "reviewed": true,
+      "reviewed_by": "用户人工核对",
+      "reviewed_at": "2026-10-13"
+    },
+    {
+      "id": "degree01",
+      "question": "学士学位申请是否要求通过毕业论文或毕业设计审查？",
+      "document": "学士学位授予办法_2025.pdf",
+      "page": 3,
+      "evidence": "毕业设计等毕业环节审查",
+      "reviewed": true,
+      "reviewed_by": "用户人工核对",
+      "reviewed_at": "2026-10-13"
+    },
+    {
+      "id": "degree02",
+      "question": "理工科重修重考的必修课学分对学位申请有什么限制？",
+      "document": "学士学位授予办法_2025.pdf",
+      "page": 3,
+      "evidence": "28学分",
+      "reviewed": true,
+      "reviewed_by": "用户人工核对",
+      "reviewed_at": "2026-10-13"
+    },
+    {
+      "id": "degree03",
+      "question": "辅修学士学位的平均学分绩点最低要求是什么？",
+      "document": "学士学位授予办法_2025.pdf",
+      "page": 3,
+      "evidence": "2.0",
+      "reviewed": true,
+      "reviewed_by": "用户人工核对",
+      "reviewed_at": "2026-10-13"
+    },
+    {
+      "id": "degree04",
+      "question": "学校学士学位授予办法从什么时候施行？",
+      "document": "学士学位授予办法_2025.pdf",
+      "page": 6,
+      "evidence": "2025年1月1日",
+      "reviewed": true,
+      "reviewed_by": "用户人工核对",
+      "reviewed_at": "2026-10-13"
+    },
+    {
+      "id": "degree05",
+      "question": "对学术评价结论有异议，何时能申请学术复核？",
+      "document": "学士学位授予办法_2025.pdf",
+      "page": 5,
+      "evidence": "三个工作日",
+      "reviewed": true,
+      "reviewed_by": "用户人工核对",
+      "reviewed_at": "2026-10-13"
+    },
+    {
+      "id": "transfer01",
+      "question": "学校转专业一般在哪个学期组织？",
+      "document": "转专业管理办法_2025修订.pdf",
+      "page": 3,
+      "evidence": "通常安排在秋季学期",
+      "reviewed": true,
+      "reviewed_by": "用户人工核对",
+      "reviewed_at": "2026-10-13"
+    },
+    {
+      "id": "transfer02",
+      "question": "转专业拟录取名单公示期有多久？",
+      "document": "转专业管理办法_2025修订.pdf",
+      "page": 4,
+      "evidence": "公示期5天",
+      "reviewed": true,
+      "reviewed_by": "用户人工核对",
+      "reviewed_at": "2026-10-13"
+    },
+    {
+      "id": "transfer03",
+      "question": "原专业修过的相近课程能申请课程置换吗？",
+      "document": "转专业管理办法_2025修订.pdf",
+      "page": 6,
+      "evidence": "可申请课程置换",
+      "reviewed": true,
+      "reviewed_by": "用户人工核对",
+      "reviewed_at": "2026-10-13"
+    },
+    {
+      "id": "student01",
+      "question": "保留入学资格期间是否具有学籍？",
+      "document": "学籍管理规定_2025.pdf",
+      "page": 3,
+      "evidence": "不具有学籍",
+      "reviewed": true,
+      "reviewed_by": "用户人工核对",
+      "reviewed_at": "2026-10-13"
+    },
+    {
+      "id": "student02",
+      "question": "每门课程期末考试与平时成绩的比例由谁确定？",
+      "document": "学籍管理规定_2025.pdf",
+      "page": 6,
+      "evidence": "由教研室或任课教师",
+      "reviewed": true,
+      "reviewed_by": "用户人工核对",
+      "reviewed_at": "2026-10-13"
+    },
+    {
+      "id": "student03",
+      "question": "应征入伍服义务兵役可以保留学籍到何时？",
+      "document": "学籍管理规定_2025.pdf",
+      "page": 13,
+      "evidence": "退役后两年",
+      "reviewed": true,
+      "reviewed_by": "用户人工核对",
+      "reviewed_at": "2026-10-13"
+    },
+    {
+      "id": "transcript01",
+      "question": "电子成绩单发送后在哪里查看订单进度？",
+      "document": "成绩单办理服务流程.pdf",
+      "page": 4,
+      "evidence": "我的订单",
+      "reviewed": true,
+      "reviewed_by": "用户人工核对",
+      "reviewed_at": "2026-10-13"
+    },
+    {
+      "id": "transcript02",
+      "question": "电子成绩单是否可以在学信网上验证？",
+      "document": "成绩单办理服务流程.pdf",
+      "page": 4,
+      "evidence": "学信网上在线验证",
+      "reviewed": true,
+      "reviewed_by": "用户人工核对",
+      "reviewed_at": "2026-10-13"
+    }
+  ],
+  "role": "development",
+  "reviewed_at": "2026-10-13",
+  "removed_cases": [
+    "negative01",
+    "negative02",
+    "negative03",
+    "negative04"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "verified_on": "2026-10-26",
+  "version": "0.5.0",
+  "automated_tests": {
+    "passed": 44,
+    "failures": 0,
+    "command": "python scripts/run_checks.py",
+    "data_isolation": "temporary directory, real API environment variables removed",
+    "streaming_provider": "httpx MockTransport, no paid request"
+  },
+  "clean_bootstrap": {
+    "documents": 11,
+    "chunks": 134,
+    "sample_documents": 4,
+    "real_documents": 7,
+    "mode": "tfidf",
+    "generation_calls": 0
+  },
+  "browser": {
+    "desktop_width": 1440,
+    "mobile_width": 390,
+    "mobile_document_width": 390,
+    "mobile_composer_within_viewport": true,
+    "followup_example": "数据结构课程的考核方式是什么？ / 那操作系统呢？",
+    "resolved_followup": "操作系统的考核方式是什么？",
+    "restored_after_reload": 2,
+    "citation_click_opens_source": true,
+    "history_deletion_verified": true,
+    "page_errors_observed": 0,
+    "test_conversation_removed": true
+  },
+  "development_retrieval_regression": {
+    "questions": 19,
+    "top_k": 4,
+    "evidence_hit_rate": 1.0,
+    "mean_recall_at_k": 1.0,
+    "role": "development, not independent test or generation accuracy"
+  },
+  "assistant_live_generation_requests": 0,
+  "remaining": [
+    "independent human review of candidate questions and answer ratings",
+    "new authorized frozen online comparison",
+    "school template and final thesis updates",
+    "live external streaming generation not re-tested in this run"
+  ]
+}

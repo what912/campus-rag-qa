@@ -1,0 +1,931 @@
+{
+  "created_at": "2026-10-13T15:52:25.031799+08:00",
+  "completed": true,
+  "dataset_role": "development",
+  "generation_attempts": 75,
+  "generation_successes": 75,
+  "result_rows": 76,
+  "corrections": [
+    {
+      "reason": "一般课程成绩制度误路由至课程大纲，修正为办事流程；补全原本未调用API的三个结果。",
+      "previous_rows": [
+        {
+          "id": "student02",
+          "mode": "tfidf",
+          "question": "每门课程期末考试与平时成绩的比例由谁确定？",
+          "reference": {
+            "document": "学籍管理规定_2025.pdf",
+            "page": 6,
+            "evidence": "由教研室或任课教师",
+            "reference_answer": null
+          },
+          "answer": "当前知识库中未找到足够相关的资料，无法确认。",
+          "warnings": [],
+          "sources": [],
+          "provider": {},
+          "retrieval_ms": 0.952,
+          "generation_ms": 0,
+          "elapsed_ms": 0.959,
+          "manual_correctness": null,
+          "manual_evidence_support": null,
+          "manual_citation_correctness": null
+        },
+        {
+          "id": "student02",
+          "mode": "semantic",
+          "question": "每门课程期末考试与平时成绩的比例由谁确定？",
+          "reference": {
+            "document": "学籍管理规定_2025.pdf",
+            "page": 6,
+            "evidence": "由教研室或任课教师",
+            "reference_answer": null
+          },
+          "answer": "当前知识库中未找到足够相关的资料，无法确认。",
+          "warnings": [],
+          "sources": [],
+          "provider": {},
+          "retrieval_ms": 8.773,
+          "generation_ms": 0,
+          "elapsed_ms": 8.784,
+          "manual_correctness": null,
+          "manual_evidence_support": null,
+          "manual_citation_correctness": null
+        },
+        {
+          "id": "student02",
+          "mode": "hybrid",
+          "question": "每门课程期末考试与平时成绩的比例由谁确定？",
+          "reference": {
+            "document": "学籍管理规定_2025.pdf",
+            "page": 6,
+            "evidence": "由教研室或任课教师",
+            "reference_answer": null
+          },
+          "answer": "当前知识库中未找到足够相关的资料，无法确认。",
+          "warnings": [],
+          "sources": [],
+          "provider": {},
+          "retrieval_ms": 9.816,
+          "generation_ms": 0,
+          "elapsed_ms": 9.826,
+          "manual_correctness": null,
+          "manual_evidence_support": null,
+          "manual_citation_correctness": null
+        }
+      ],
+      "calls_before": 73,
+      "maximum_added_calls": 3,
+      "calls_after": 75
+    }
+  ],
+  "response_models": {
+    "deepseek-flash": 75
+  },
+  "groups": [
+    {
+      "mode": "direct",
+      "label": "直接回答",
+      "questions": 19,
+      "generation_calls": 19,
+      "local_no_evidence": 0,
+      "mean_elapsed_ms": 3334.282842105263,
+      "p95_elapsed_ms": 4732.936899999999,
+      "mean_generation_ms": 3334.2592631578946,
+      "prompt_tokens": 836,
+      "completion_tokens": 4650,
+      "total_tokens": 5486,
+      "responses_with_usage": 19,
+      "truncated_answers": 0,
+      "answers_with_invalid_citation_numbers": 0,
+      "generated_answers_without_citations": 0,
+      "reference_fragment_found": null
+    },
+    {
+      "mode": "tfidf",
+      "label": "TF-IDF RAG",
+      "questions": 19,
+      "generation_calls": 19,
+      "local_no_evidence": 0,
+      "mean_elapsed_ms": 2447.2511578947365,
+      "p95_elapsed_ms": 2895.6924999999987,
+      "mean_generation_ms": 2445.7087368421053,
+      "prompt_tokens": 20015,
+      "completion_tokens": 2606,
+      "total_tokens": 22621,
+      "responses_with_usage": 19,
+      "truncated_answers": 0,
+      "answers_with_invalid_citation_numbers": 0,
+      "generated_answers_without_citations": 0,
+      "reference_fragment_found": 17
+    },
+    {
+      "mode": "semantic",
+      "label": "语义 RAG",
+      "questions": 19,
+      "generation_calls": 18,
+      "local_no_evidence": 1,
+      "mean_elapsed_ms": 2357.9030526315787,
+      "p95_elapsed_ms": 3080.8753,
+      "mean_generation_ms": 2479.9950000000003,
+      "prompt_tokens": 19088,
+      "completion_tokens": 2355,
+      "total_tokens": 21443,
+      "responses_with_usage": 18,
+      "truncated_answers": 0,
+      "answers_with_invalid_citation_numbers": 0,
+      "generated_answers_without_citations": 0,
+      "reference_fragment_found": 16
+    },
+    {
+      "mode": "hybrid",
+      "label": "混合 RAG",
+      "questions": 19,
+      "generation_calls": 19,
+      "local_no_evidence": 0,
+      "mean_elapsed_ms": 2454.1621578947365,
+      "p95_elapsed_ms": 2855.6127,
+      "mean_generation_ms": 2444.245,
+      "prompt_tokens": 21811,
+      "completion_tokens": 2370,
+      "total_tokens": 24181,
+      "responses_with_usage": 19,
+      "truncated_answers": 0,
+      "answers_with_invalid_citation_numbers": 0,
+      "generated_answers_without_citations": 0,
+      "reference_fragment_found": 16
+    }
+  ],
+  "audit": [
+    {
+      "id": "proof01",
+      "mode": "direct",
+      "generated": true,
+      "reference_fragment_found": null,
+      "citation_numbers_present": null,
+      "invalid_citation_numbers": [],
+      "truncated": false,
+      "needs_content_review": true
+    },
+    {
+      "id": "proof02",
+      "mode": "direct",
+      "generated": true,
+      "reference_fragment_found": null,
+      "citation_numbers_present": null,
+      "invalid_citation_numbers": [],
+      "truncated": false,
+      "needs_content_review": true
+    },
+    {
+      "id": "proof03",
+      "mode": "direct",
+      "generated": true,
+      "reference_fragment_found": null,
+      "citation_numbers_present": null,
+      "invalid_citation_numbers": [],
+      "truncated": false,
+      "needs_content_review": true
+    },
+    {
+      "id": "proof04",
+      "mode": "direct",
+      "generated": true,
+      "reference_fragment_found": null,
+      "citation_numbers_present": null,
+      "invalid_citation_numbers": [],
+      "truncated": false,
+      "needs_content_review": true
+    },
+    {
+      "id": "proof05",
+      "mode": "direct",
+      "generated": true,
+      "reference_fragment_found": null,
+      "citation_numbers_present": null,
+      "invalid_citation_numbers": [],
+      "truncated": false,
+      "needs_content_review": true
+    },
+    {
+      "id": "proof06",
+      "mode": "direct",
+      "generated": true,
+      "reference_fragment_found": null,
+      "citation_numbers_present": null,
+      "invalid_citation_numbers": [],
+      "truncated": false,
+      "needs_content_review": true
+    },
+    {
+      "id": "degree01",
+      "mode": "direct",
+      "generated": true,
+      "reference_fragment_found": null,
+      "citation_numbers_present": null,
+      "invalid_citation_numbers": [],
+      "truncated": false,
+      "needs_content_review": true
+    },
+    {
+      "id": "degree02",
+      "mode": "direct",
+      "generated": true,
+      "reference_fragment_found": null,
+      "citation_numbers_present": null,
+      "invalid_citation_numbers": [],
+      "truncated": false,
+      "needs_content_review": true
+    },
+    {
+      "id": "degree03",
+      "mode": "direct",
+      "generated": true,
+      "reference_fragment_found": null,
+      "citation_numbers_present": null,
+      "invalid_citation_numbers": [],
+      "truncated": false,
+      "needs_content_review": true
+    },
+    {
+      "id": "degree04",
+      "mode": "direct",
+      "generated": true,
+      "reference_fragment_found": null,
+      "citation_numbers_present": null,
+      "invalid_citation_numbers": [],
+      "truncated": false,
+      "needs_content_review": true
+    },
+    {
+      "id": "degree05",
+      "mode": "direct",
+      "generated": true,
+      "reference_fragment_found": null,
+      "citation_numbers_present": null,
+      "invalid_citation_numbers": [],
+      "truncated": false,
+      "needs_content_review": true
+    },
+    {
+      "id": "transfer01",
+      "mode": "direct",
+      "generated": true,
+      "reference_fragment_found": null,
+      "citation_numbers_present": null,
+      "invalid_citation_numbers": [],
+      "truncated": false,
+      "needs_content_review": true
+    },
+    {
+      "id": "transfer02",
+      "mode": "direct",
+      "generated": true,
+      "reference_fragment_found": null,
+      "citation_numbers_present": null,
+      "invalid_citation_numbers": [],
+      "truncated": false,
+      "needs_content_review": true
+    },
+    {
+      "id": "transfer03",
+      "mode": "direct",
+      "generated": true,
+      "reference_fragment_found": null,
+      "citation_numbers_present": null,
+      "invalid_citation_numbers": [],
+      "truncated": false,
+      "needs_content_review": true
+    },
+    {
+      "id": "student01",
+      "mode": "direct",
+      "generated": true,
+      "reference_fragment_found": null,
+      "citation_numbers_present": null,
+      "invalid_citation_numbers": [],
+      "truncated": false,
+      "needs_content_review": true
+    },
+    {
+      "id": "student02",
+      "mode": "direct",
+      "generated": true,
+      "reference_fragment_found": null,
+      "citation_numbers_present": null,
+      "invalid_citation_numbers": [],
+      "truncated": false,
+      "needs_content_review": true
+    },
+    {
+      "id": "student03",
+      "mode": "direct",
+      "generated": true,
+      "reference_fragment_found": null,
+      "citation_numbers_present": null,
+      "invalid_citation_numbers": [],
+      "truncated": false,
+      "needs_content_review": true
+    },
+    {
+      "id": "transcript01",
+      "mode": "direct",
+      "generated": true,
+      "reference_fragment_found": null,
+      "citation_numbers_present": null,
+      "invalid_citation_numbers": [],
+      "truncated": false,
+      "needs_content_review": true
+    },
+    {
+      "id": "transcript02",
+      "mode": "direct",
+      "generated": true,
+      "reference_fragment_found": null,
+      "citation_numbers_present": null,
+      "invalid_citation_numbers": [],
+      "truncated": false,
+      "needs_content_review": true
+    },
+    {
+      "id": "proof01",
+      "mode": "tfidf",
+      "generated": true,
+      "reference_fragment_found": true,
+      "citation_numbers_present": true,
+      "invalid_citation_numbers": [],
+      "truncated": false,
+      "needs_content_review": true
+    },
+    {
+      "id": "proof02",
+      "mode": "tfidf",
+      "generated": true,
+      "reference_fragment_found": true,
+      "citation_numbers_present": true,
+      "invalid_citation_numbers": [],
+      "truncated": false,
+      "needs_content_review": true
+    },
+    {
+      "id": "proof03",
+      "mode": "tfidf",
+      "generated": true,
+      "reference_fragment_found": true,
+      "citation_numbers_present": true,
+      "invalid_citation_numbers": [],
+      "truncated": false,
+      "needs_content_review": true
+    },
+    {
+      "id": "proof04",
+      "mode": "tfidf",
+      "generated": true,
+      "reference_fragment_found": true,
+      "citation_numbers_present": true,
+      "invalid_citation_numbers": [],
+      "truncated": false,
+      "needs_content_review": true
+    },
+    {
+      "id": "proof05",
+      "mode": "tfidf",
+      "generated": true,
+      "reference_fragment_found": true,
+      "citation_numbers_present": true,
+      "invalid_citation_numbers": [],
+      "truncated": false,
+      "needs_content_review": true
+    },
+    {
+      "id": "proof06",
+      "mode": "tfidf",
+      "generated": true,
+      "reference_fragment_found": true,
+      "citation_numbers_present": true,
+      "invalid_citation_numbers": [],
+      "truncated": false,
+      "needs_content_review": true
+    },
+    {
+      "id": "degree01",
+      "mode": "tfidf",
+      "generated": true,
+      "reference_fragment_found": true,
+      "citation_numbers_present": true,
+      "invalid_citation_numbers": [],
+      "truncated": false,
+      "needs_content_review": true
+    },
+    {
+      "id": "degree02",
+      "mode": "tfidf",
+      "generated": true,
+      "reference_fragment_found": true,
+      "citation_numbers_present": true,
+      "invalid_citation_numbers": [],
+      "truncated": false,
+      "needs_content_review": true
+    },
+    {
+      "id": "degree03",
+      "mode": "tfidf",
+      "generated": true,
+      "reference_fragment_found": true,
+      "citation_numbers_present": true,
+      "invalid_citation_numbers": [],
+      "truncated": false,
+      "needs_content_review": true
+    },
+    {
+      "id": "degree04",
+      "mode": "tfidf",
+      "generated": true,
+      "reference_fragment_found": false,
+      "citation_numbers_present": true,
+      "invalid_citation_numbers": [],
+      "truncated": false,
+      "needs_content_review": true
+    },
+    {
+      "id": "degree05",
+      "mode": "tfidf",
+      "generated": true,
+      "reference_fragment_found": true,
+      "citation_numbers_present": true,
+      "invalid_citation_numbers": [],
+      "truncated": false,
+      "needs_content_review": true
+    },
+    {
+      "id": "transfer01",
+      "mode": "tfidf",
+      "generated": true,
+      "reference_fragment_found": false,
+      "citation_numbers_present": true,
+      "invalid_citation_numbers": [],
+      "truncated": false,
+      "needs_content_review": true
+    },
+    {
+      "id": "transfer02",
+      "mode": "tfidf",
+      "generated": true,
+      "reference_fragment_found": true,
+      "citation_numbers_present": true,
+      "invalid_citation_numbers": [],
+      "truncated": false,
+      "needs_content_review": true
+    },
+    {
+      "id": "transfer03",
+      "mode": "tfidf",
+      "generated": true,
+      "reference_fragment_found": true,
+      "citation_numbers_present": true,
+      "invalid_citation_numbers": [],
+      "truncated": false,
+      "needs_content_review": true
+    },
+    {
+      "id": "student01",
+      "mode": "tfidf",
+      "generated": true,
+      "reference_fragment_found": true,
+      "citation_numbers_present": true,
+      "invalid_citation_numbers": [],
+      "truncated": false,
+      "needs_content_review": true
+    },
+    {
+      "id": "student02",
+      "mode": "tfidf",
+      "generated": true,
+      "reference_fragment_found": true,
+      "citation_numbers_present": true,
+      "invalid_citation_numbers": [],
+      "truncated": false,
+      "needs_content_review": true
+    },
+    {
+      "id": "student03",
+      "mode": "tfidf",
+      "generated": true,
+      "reference_fragment_found": true,
+      "citation_numbers_present": true,
+      "invalid_citation_numbers": [],
+      "truncated": false,
+      "needs_content_review": true
+    },
+    {
+      "id": "transcript01",
+      "mode": "tfidf",
+      "generated": true,
+      "reference_fragment_found": true,
+      "citation_numbers_present": true,
+      "invalid_citation_numbers": [],
+      "truncated": false,
+      "needs_content_review": true
+    },
+    {
+      "id": "transcript02",
+      "mode": "tfidf",
+      "generated": true,
+      "reference_fragment_found": true,
+      "citation_numbers_present": true,
+      "invalid_citation_numbers": [],
+      "truncated": false,
+      "needs_content_review": true
+    },
+    {
+      "id": "proof01",
+      "mode": "semantic",
+      "generated": true,
+      "reference_fragment_found": true,
+      "citation_numbers_present": true,
+      "invalid_citation_numbers": [],
+      "truncated": false,
+      "needs_content_review": true
+    },
+    {
+      "id": "proof02",
+      "mode": "semantic",
+      "generated": true,
+      "reference_fragment_found": true,
+      "citation_numbers_present": true,
+      "invalid_citation_numbers": [],
+      "truncated": false,
+      "needs_content_review": true
+    },
+    {
+      "id": "proof03",
+      "mode": "semantic",
+      "generated": true,
+      "reference_fragment_found": true,
+      "citation_numbers_present": true,
+      "invalid_citation_numbers": [],
+      "truncated": false,
+      "needs_content_review": true
+    },
+    {
+      "id": "proof04",
+      "mode": "semantic",
+      "generated": true,
+      "reference_fragment_found": false,
+      "citation_numbers_present": true,
+      "invalid_citation_numbers": [],
+      "truncated": false,
+      "needs_content_review": true
+    },
+    {
+      "id": "proof05",
+      "mode": "semantic",
+      "generated": true,
+      "reference_fragment_found": true,
+      "citation_numbers_present": true,
+      "invalid_citation_numbers": [],
+      "truncated": false,
+      "needs_content_review": true
+    },
+    {
+      "id": "proof06",
+      "mode": "semantic",
+      "generated": true,
+      "reference_fragment_found": true,
+      "citation_numbers_present": true,
+      "invalid_citation_numbers": [],
+      "truncated": false,
+      "needs_content_review": true
+    },
+    {
+      "id": "degree01",
+      "mode": "semantic",
+      "generated": true,
+      "reference_fragment_found": false,
+      "citation_numbers_present": true,
+      "invalid_citation_numbers": [],
+      "truncated": false,
+      "needs_content_review": true
+    },
+    {
+      "id": "degree02",
+      "mode": "semantic",
+      "generated": true,
+      "reference_fragment_found": true,
+      "citation_numbers_present": true,
+      "invalid_citation_numbers": [],
+      "truncated": false,
+      "needs_content_review": true
+    },
+    {
+      "id": "degree03",
+      "mode": "semantic",
+      "generated": true,
+      "reference_fragment_found": true,
+      "citation_numbers_present": true,
+      "invalid_citation_numbers": [],
+      "truncated": false,
+      "needs_content_review": true
+    },
+    {
+      "id": "degree04",
+      "mode": "semantic",
+      "generated": true,
+      "reference_fragment_found": true,
+      "citation_numbers_present": true,
+      "invalid_citation_numbers": [],
+      "truncated": false,
+      "needs_content_review": true
+    },
+    {
+      "id": "degree05",
+      "mode": "semantic",
+      "generated": true,
+      "reference_fragment_found": true,
+      "citation_numbers_present": true,
+      "invalid_citation_numbers": [],
+      "truncated": false,
+      "needs_content_review": true
+    },
+    {
+      "id": "transfer01",
+      "mode": "semantic",
+      "generated": true,
+      "reference_fragment_found": true,
+      "citation_numbers_present": true,
+      "invalid_citation_numbers": [],
+      "truncated": false,
+      "needs_content_review": true
+    },
+    {
+      "id": "transfer02",
+      "mode": "semantic",
+      "generated": true,
+      "reference_fragment_found": true,
+      "citation_numbers_present": true,
+      "invalid_citation_numbers": [],
+      "truncated": false,
+      "needs_content_review": true
+    },
+    {
+      "id": "transfer03",
+      "mode": "semantic",
+      "generated": true,
+      "reference_fragment_found": true,
+      "citation_numbers_present": true,
+      "invalid_citation_numbers": [],
+      "truncated": false,
+      "needs_content_review": true
+    },
+    {
+      "id": "student01",
+      "mode": "semantic",
+      "generated": true,
+      "reference_fragment_found": true,
+      "citation_numbers_present": true,
+      "invalid_citation_numbers": [],
+      "truncated": false,
+      "needs_content_review": true
+    },
+    {
+      "id": "student02",
+      "mode": "semantic",
+      "generated": false,
+      "reference_fragment_found": false,
+      "citation_numbers_present": null,
+      "invalid_citation_numbers": [],
+      "truncated": false,
+      "needs_content_review": true
+    },
+    {
+      "id": "student03",
+      "mode": "semantic",
+      "generated": true,
+      "reference_fragment_found": true,
+      "citation_numbers_present": true,
+      "invalid_citation_numbers": [],
+      "truncated": false,
+      "needs_content_review": true
+    },
+    {
+      "id": "transcript01",
+      "mode": "semantic",
+      "generated": true,
+      "reference_fragment_found": true,
+      "citation_numbers_present": true,
+      "invalid_citation_numbers": [],
+      "truncated": false,
+      "needs_content_review": true
+    },
+    {
+      "id": "transcript02",
+      "mode": "semantic",
+      "generated": true,
+      "reference_fragment_found": true,
+      "citation_numbers_present": true,
+      "invalid_citation_numbers": [],
+      "truncated": false,
+      "needs_content_review": true
+    },
+    {
+      "id": "proof01",
+      "mode": "hybrid",
+      "generated": true,
+      "reference_fragment_found": true,
+      "citation_numbers_present": true,
+      "invalid_citation_numbers": [],
+      "truncated": false,
+      "needs_content_review": true
+    },
+    {
+      "id": "proof02",
+      "mode": "hybrid",
+      "generated": true,
+      "reference_fragment_found": true,
+      "citation_numbers_present": true,
+      "invalid_citation_numbers": [],
+      "truncated": false,
+      "needs_content_review": true
+    },
+    {
+      "id": "proof03",
+      "mode": "hybrid",
+      "generated": true,
+      "reference_fragment_found": true,
+      "citation_numbers_present": true,
+      "invalid_citation_numbers": [],
+      "truncated": false,
+      "needs_content_review": true
+    },
+    {
+      "id": "proof04",
+      "mode": "hybrid",
+      "generated": true,
+      "reference_fragment_found": false,
+      "citation_numbers_present": true,
+      "invalid_citation_numbers": [],
+      "truncated": false,
+      "needs_content_review": true
+    },
+    {
+      "id": "proof05",
+      "mode": "hybrid",
+      "generated": true,
+      "reference_fragment_found": true,
+      "citation_numbers_present": true,
+      "invalid_citation_numbers": [],
+      "truncated": false,
+      "needs_content_review": true
+    },
+    {
+      "id": "proof06",
+      "mode": "hybrid",
+      "generated": true,
+      "reference_fragment_found": true,
+      "citation_numbers_present": true,
+      "invalid_citation_numbers": [],
+      "truncated": false,
+      "needs_content_review": true
+    },
+    {
+      "id": "degree01",
+      "mode": "hybrid",
+      "generated": true,
+      "reference_fragment_found": true,
+      "citation_numbers_present": true,
+      "invalid_citation_numbers": [],
+      "truncated": false,
+      "needs_content_review": true
+    },
+    {
+      "id": "degree02",
+      "mode": "hybrid",
+      "generated": true,
+      "reference_fragment_found": true,
+      "citation_numbers_present": true,
+      "invalid_citation_numbers": [],
+      "truncated": false,
+      "needs_content_review": true
+    },
+    {
+      "id": "degree03",
+      "mode": "hybrid",
+      "generated": true,
+      "reference_fragment_found": true,
+      "citation_numbers_present": true,
+      "invalid_citation_numbers": [],
+      "truncated": false,
+      "needs_content_review": true
+    },
+    {
+      "id": "degree04",
+      "mode": "hybrid",
+      "generated": true,
+      "reference_fragment_found": false,
+      "citation_numbers_present": true,
+      "invalid_citation_numbers": [],
+      "truncated": false,
+      "needs_content_review": true
+    },
+    {
+      "id": "degree05",
+      "mode": "hybrid",
+      "generated": true,
+      "reference_fragment_found": true,
+      "citation_numbers_present": true,
+      "invalid_citation_numbers": [],
+      "truncated": false,
+      "needs_content_review": true
+    },
+    {
+      "id": "transfer01",
+      "mode": "hybrid",
+      "generated": true,
+      "reference_fragment_found": false,
+      "citation_numbers_present": true,
+      "invalid_citation_numbers": [],
+      "truncated": false,
+      "needs_content_review": true
+    },
+    {
+      "id": "transfer02",
+      "mode": "hybrid",
+      "generated": true,
+      "reference_fragment_found": true,
+      "citation_numbers_present": true,
+      "invalid_citation_numbers": [],
+      "truncated": false,
+      "needs_content_review": true
+    },
+    {
+      "id": "transfer03",
+      "mode": "hybrid",
+      "generated": true,
+      "reference_fragment_found": true,
+      "citation_numbers_present": true,
+      "invalid_citation_numbers": [],
+      "truncated": false,
+      "needs_content_review": true
+    },
+    {
+      "id": "student01",
+      "mode": "hybrid",
+      "generated": true,
+      "reference_fragment_found": true,
+      "citation_numbers_present": true,
+      "invalid_citation_numbers": [],
+      "truncated": false,
+      "needs_content_review": true
+    },
+    {
+      "id": "student02",
+      "mode": "hybrid",
+      "generated": true,
+      "reference_fragment_found": true,
+      "citation_numbers_present": true,
+      "invalid_citation_numbers": [],
+      "truncated": false,
+      "needs_content_review": true
+    },
+    {
+      "id": "student03",
+      "mode": "hybrid",
+      "generated": true,
+      "reference_fragment_found": true,
+      "citation_numbers_present": true,
+      "invalid_citation_numbers": [],
+      "truncated": false,
+      "needs_content_review": true
+    },
+    {
+      "id": "transcript01",
+      "mode": "hybrid",
+      "generated": true,
+      "reference_fragment_found": true,
+      "citation_numbers_present": true,
+      "invalid_citation_numbers": [],
+      "truncated": false,
+      "needs_content_review": true
+    },
+    {
+      "id": "transcript02",
+      "mode": "hybrid",
+      "generated": true,
+      "reference_fragment_found": true,
+      "citation_numbers_present": true,
+      "invalid_citation_numbers": [],
+      "truncated": false,
+      "needs_content_review": true
+    }
+  ],
+  "baseline_school_explicit": false,
+  "limitations": [
+    "19题已参与开发，不是独立测试集。",
+    "当前题集没有无依据题，无法评价无依据拒答率。",
+    "引用编号存在不代表对应结论受证据支持；答案正确性需逐条核对。",
+    "四组顺序执行，API负载与缓存会影响时延，未随机化。",
+    "直接回答组未明确学校名称，而RAG组可从资料获知学校；本轮不能作为公平的RAG效果结论。",
+    "本报告含开发后路由修正，原始记录另保留；不能视为冻结配置的一次独立实验。"
+  ],
+  "source_report": "answers-20261013-153455-corrected.json",
+  "source_sha256": "5e9b96fc1062d6968b8488f157437936065008323457b662c2f2ffce06edeb45"
+}

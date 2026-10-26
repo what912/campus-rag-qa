@@ -1,0 +1,758 @@
+[
+  {
+    "name": "学籍管理规定_2025",
+    "page_url": "https://jwc.cuc.edu.cn/2025/1118/c13082a263811/page.htm",
+    "resources": [
+      {
+        "tag": "script",
+        "attribute": "sys-path",
+        "url": "https://jwc.cuc.edu.cn/_upload/site/1/style/1/1.css",
+        "label": ""
+      },
+      {
+        "tag": "script",
+        "attribute": "site-path",
+        "url": "https://jwc.cuc.edu.cn/_upload/site/00/29/41/style/29/29.css",
+        "label": ""
+      },
+      {
+        "tag": "script",
+        "attribute": "src",
+        "url": "https://jwc.cuc.edu.cn/_upload/tpl/01/f3/499/template499/extends/extends.js",
+        "label": ""
+      },
+      {
+        "tag": "link",
+        "attribute": "href",
+        "url": "https://jwc.cuc.edu.cn/_upload/tpl/01/f3/499/template499/style.css",
+        "label": ""
+      },
+      {
+        "tag": "link",
+        "attribute": "href",
+        "url": "https://jwc.cuc.edu.cn/_upload/tpl/01/f3/499/template499/mobile.css",
+        "label": ""
+      },
+      {
+        "tag": "link",
+        "attribute": "href",
+        "url": "https://jwc.cuc.edu.cn/_upload/tpl/01/f3/499/template499/media.css",
+        "label": ""
+      },
+      {
+        "tag": "link",
+        "attribute": "href",
+        "url": "https://jwc.cuc.edu.cn/_upload/tpl/01/f3/499/template499/favicon.ico",
+        "label": ""
+      },
+      {
+        "tag": "img",
+        "attribute": "src",
+        "url": "https://jwc.cuc.edu.cn/_upload/site/00/29/41/logo.png",
+        "label": ""
+      },
+      {
+        "tag": "img",
+        "attribute": "src",
+        "url": "https://jwc.cuc.edu.cn/_upload/column/18/d8/6360/picture.jpg",
+        "label": ""
+      },
+      {
+        "tag": "img",
+        "attribute": "data-imgsrc",
+        "url": "https://jwc.cuc.edu.cn/_upload/tpl/01/f3/499/template499/images/list_banner.jpg",
+        "label": ""
+      },
+      {
+        "tag": "div",
+        "attribute": "pdfsrc",
+        "url": "https://jwc.cuc.edu.cn/_upload/article/files/72/2f/0577f1274b53a5b835027ea48677/8efcee37-e10a-42c3-9bb5-d3bf1bf8e2a3.pdf",
+        "label": ""
+      },
+      {
+        "tag": "div",
+        "attribute": "sudyfile-attr",
+        "url": "https://jwc.cuc.edu.cn/2025/1118/c13082a263811/{'title':'中传教字〔2025〕195号 关于印发《中国传媒大学本科生学籍管理规定》的通知.pdf'}",
+        "label": ""
+      },
+      {
+        "tag": "script",
+        "attribute": "src",
+        "url": "https://jwc.cuc.edu.cn/_upload/tpl/01/f3/499/template499/js/comcus.js",
+        "label": ""
+      },
+      {
+        "tag": "script",
+        "attribute": "src",
+        "url": "https://jwc.cuc.edu.cn/_upload/tpl/01/f3/499/template499/js/list.js",
+        "label": ""
+      },
+      {
+        "tag": "script",
+        "attribute": "src",
+        "url": "https://jwc.cuc.edu.cn/_upload/tpl/01/f3/499/template499/js/app.js",
+        "label": ""
+      },
+      {
+        "tag": "script",
+        "attribute": "src",
+        "url": "https://jwc.cuc.edu.cn/_upload/tpl/01/f3/499/template499/js/zn.js",
+        "label": ""
+      }
+    ]
+  },
+  {
+    "name": "转专业管理办法_2025修订",
+    "page_url": "https://jwc.cuc.edu.cn/2026/0106/c13082a265999/page.htm",
+    "resources": [
+      {
+        "tag": "meta",
+        "attribute": "content",
+        "url": "https://jwc.cuc.edu.cn/2026/0106/c13082a265999/中国传媒大学本科生转专业管理办法（2025年修订）.pdf",
+        "label": ""
+      },
+      {
+        "tag": "script",
+        "attribute": "sys-path",
+        "url": "https://jwc.cuc.edu.cn/_upload/site/1/style/1/1.css",
+        "label": ""
+      },
+      {
+        "tag": "script",
+        "attribute": "site-path",
+        "url": "https://jwc.cuc.edu.cn/_upload/site/00/29/41/style/29/29.css",
+        "label": ""
+      },
+      {
+        "tag": "script",
+        "attribute": "src",
+        "url": "https://jwc.cuc.edu.cn/_upload/tpl/01/f3/499/template499/extends/extends.js",
+        "label": ""
+      },
+      {
+        "tag": "link",
+        "attribute": "href",
+        "url": "https://jwc.cuc.edu.cn/_upload/tpl/01/f3/499/template499/style.css",
+        "label": ""
+      },
+      {
+        "tag": "link",
+        "attribute": "href",
+        "url": "https://jwc.cuc.edu.cn/_upload/tpl/01/f3/499/template499/mobile.css",
+        "label": ""
+      },
+      {
+        "tag": "link",
+        "attribute": "href",
+        "url": "https://jwc.cuc.edu.cn/_upload/tpl/01/f3/499/template499/media.css",
+        "label": ""
+      },
+      {
+        "tag": "link",
+        "attribute": "href",
+        "url": "https://jwc.cuc.edu.cn/_upload/tpl/01/f3/499/template499/favicon.ico",
+        "label": ""
+      },
+      {
+        "tag": "img",
+        "attribute": "src",
+        "url": "https://jwc.cuc.edu.cn/_upload/site/00/29/41/logo.png",
+        "label": ""
+      },
+      {
+        "tag": "img",
+        "attribute": "src",
+        "url": "https://jwc.cuc.edu.cn/_upload/column/18/d8/6360/picture.jpg",
+        "label": ""
+      },
+      {
+        "tag": "img",
+        "attribute": "data-imgsrc",
+        "url": "https://jwc.cuc.edu.cn/_upload/tpl/01/f3/499/template499/images/list_banner.jpg",
+        "label": ""
+      },
+      {
+        "tag": "a",
+        "attribute": "href",
+        "url": "https://jwc.cuc.edu.cn/_upload/article/files/35/14/f74b824d4d71be0e171fe029a713/83d8fcad-3cbf-460f-b9d7-cca73b29e83d.pdf",
+        "label": ""
+      },
+      {
+        "tag": "a",
+        "attribute": "sudyfile-attr",
+        "url": "https://jwc.cuc.edu.cn/2026/0106/c13082a265999/{'title':'中国传媒大学本科生转专业管理办法（2025年修订）.pdf'}",
+        "label": ""
+      },
+      {
+        "tag": "script",
+        "attribute": "src",
+        "url": "https://jwc.cuc.edu.cn/_upload/tpl/01/f3/499/template499/js/comcus.js",
+        "label": ""
+      },
+      {
+        "tag": "script",
+        "attribute": "src",
+        "url": "https://jwc.cuc.edu.cn/_upload/tpl/01/f3/499/template499/js/list.js",
+        "label": ""
+      },
+      {
+        "tag": "script",
+        "attribute": "src",
+        "url": "https://jwc.cuc.edu.cn/_upload/tpl/01/f3/499/template499/js/app.js",
+        "label": ""
+      },
+      {
+        "tag": "script",
+        "attribute": "src",
+        "url": "https://jwc.cuc.edu.cn/_upload/tpl/01/f3/499/template499/js/zn.js",
+        "label": ""
+      }
+    ]
+  },
+  {
+    "name": "学士学位授予办法_2025",
+    "page_url": "https://jwc.cuc.edu.cn/2025/0221/c13082a251196/page.htm",
+    "resources": [
+      {
+        "tag": "script",
+        "attribute": "sys-path",
+        "url": "https://jwc.cuc.edu.cn/_upload/site/1/style/1/1.css",
+        "label": ""
+      },
+      {
+        "tag": "script",
+        "attribute": "site-path",
+        "url": "https://jwc.cuc.edu.cn/_upload/site/00/29/41/style/29/29.css",
+        "label": ""
+      },
+      {
+        "tag": "script",
+        "attribute": "src",
+        "url": "https://jwc.cuc.edu.cn/_upload/tpl/01/f3/499/template499/extends/extends.js",
+        "label": ""
+      },
+      {
+        "tag": "link",
+        "attribute": "href",
+        "url": "https://jwc.cuc.edu.cn/_upload/tpl/01/f3/499/template499/style.css",
+        "label": ""
+      },
+      {
+        "tag": "link",
+        "attribute": "href",
+        "url": "https://jwc.cuc.edu.cn/_upload/tpl/01/f3/499/template499/mobile.css",
+        "label": ""
+      },
+      {
+        "tag": "link",
+        "attribute": "href",
+        "url": "https://jwc.cuc.edu.cn/_upload/tpl/01/f3/499/template499/media.css",
+        "label": ""
+      },
+      {
+        "tag": "link",
+        "attribute": "href",
+        "url": "https://jwc.cuc.edu.cn/_upload/tpl/01/f3/499/template499/favicon.ico",
+        "label": ""
+      },
+      {
+        "tag": "img",
+        "attribute": "src",
+        "url": "https://jwc.cuc.edu.cn/_upload/site/00/29/41/logo.png",
+        "label": ""
+      },
+      {
+        "tag": "img",
+        "attribute": "src",
+        "url": "https://jwc.cuc.edu.cn/_upload/column/18/d8/6360/picture.jpg",
+        "label": ""
+      },
+      {
+        "tag": "img",
+        "attribute": "data-imgsrc",
+        "url": "https://jwc.cuc.edu.cn/_upload/tpl/01/f3/499/template499/images/list_banner.jpg",
+        "label": ""
+      },
+      {
+        "tag": "div",
+        "attribute": "pdfsrc",
+        "url": "https://jwc.cuc.edu.cn/_upload/article/files/20/db/9a84239946018a6450b8db7c906a/77f7131b-a35f-4af4-a59c-8d0fddceba03.pdf",
+        "label": ""
+      },
+      {
+        "tag": "div",
+        "attribute": "sudyfile-attr",
+        "url": "https://jwc.cuc.edu.cn/2025/0221/c13082a251196/{'title':'中传教字〔2025〕7号 关于印发《中国传媒大学全日制本科生学士学位授予工作实施办法》的通知 (1).pdf'}",
+        "label": ""
+      },
+      {
+        "tag": "script",
+        "attribute": "src",
+        "url": "https://jwc.cuc.edu.cn/_upload/tpl/01/f3/499/template499/js/comcus.js",
+        "label": ""
+      },
+      {
+        "tag": "script",
+        "attribute": "src",
+        "url": "https://jwc.cuc.edu.cn/_upload/tpl/01/f3/499/template499/js/list.js",
+        "label": ""
+      },
+      {
+        "tag": "script",
+        "attribute": "src",
+        "url": "https://jwc.cuc.edu.cn/_upload/tpl/01/f3/499/template499/js/app.js",
+        "label": ""
+      },
+      {
+        "tag": "script",
+        "attribute": "src",
+        "url": "https://jwc.cuc.edu.cn/_upload/tpl/01/f3/499/template499/js/zn.js",
+        "label": ""
+      }
+    ]
+  },
+  {
+    "name": "在读证明管理办法_2024",
+    "page_url": "https://jwc.cuc.edu.cn/2024/1123/c13082a245777/page.htm",
+    "resources": [
+      {
+        "tag": "script",
+        "attribute": "sys-path",
+        "url": "https://jwc.cuc.edu.cn/_upload/site/1/style/1/1.css",
+        "label": ""
+      },
+      {
+        "tag": "script",
+        "attribute": "site-path",
+        "url": "https://jwc.cuc.edu.cn/_upload/site/00/29/41/style/29/29.css",
+        "label": ""
+      },
+      {
+        "tag": "script",
+        "attribute": "src",
+        "url": "https://jwc.cuc.edu.cn/_upload/tpl/01/f3/499/template499/extends/extends.js",
+        "label": ""
+      },
+      {
+        "tag": "link",
+        "attribute": "href",
+        "url": "https://jwc.cuc.edu.cn/_upload/tpl/01/f3/499/template499/style.css",
+        "label": ""
+      },
+      {
+        "tag": "link",
+        "attribute": "href",
+        "url": "https://jwc.cuc.edu.cn/_upload/tpl/01/f3/499/template499/mobile.css",
+        "label": ""
+      },
+      {
+        "tag": "link",
+        "attribute": "href",
+        "url": "https://jwc.cuc.edu.cn/_upload/tpl/01/f3/499/template499/media.css",
+        "label": ""
+      },
+      {
+        "tag": "link",
+        "attribute": "href",
+        "url": "https://jwc.cuc.edu.cn/_upload/tpl/01/f3/499/template499/favicon.ico",
+        "label": ""
+      },
+      {
+        "tag": "img",
+        "attribute": "src",
+        "url": "https://jwc.cuc.edu.cn/_upload/site/00/29/41/logo.png",
+        "label": ""
+      },
+      {
+        "tag": "img",
+        "attribute": "src",
+        "url": "https://jwc.cuc.edu.cn/_upload/column/18/d8/6360/picture.jpg",
+        "label": ""
+      },
+      {
+        "tag": "img",
+        "attribute": "data-imgsrc",
+        "url": "https://jwc.cuc.edu.cn/_upload/tpl/01/f3/499/template499/images/list_banner.jpg",
+        "label": ""
+      },
+      {
+        "tag": "div",
+        "attribute": "pdfsrc",
+        "url": "https://jwc.cuc.edu.cn/_upload/article/files/7d/bc/b08028c5499bacdf2d271e5251ab/b3147665-e2ab-4ead-80a1-4aafae4bdfe9.pdf",
+        "label": ""
+      },
+      {
+        "tag": "div",
+        "attribute": "sudyfile-attr",
+        "url": "https://jwc.cuc.edu.cn/2024/1123/c13082a245777/{'title':'关于印发《中国传媒大学本科学生在读证明办理管理办法》的通知.pdf'}",
+        "label": ""
+      },
+      {
+        "tag": "script",
+        "attribute": "src",
+        "url": "https://jwc.cuc.edu.cn/_upload/tpl/01/f3/499/template499/js/comcus.js",
+        "label": ""
+      },
+      {
+        "tag": "script",
+        "attribute": "src",
+        "url": "https://jwc.cuc.edu.cn/_upload/tpl/01/f3/499/template499/js/list.js",
+        "label": ""
+      },
+      {
+        "tag": "script",
+        "attribute": "src",
+        "url": "https://jwc.cuc.edu.cn/_upload/tpl/01/f3/499/template499/js/app.js",
+        "label": ""
+      },
+      {
+        "tag": "script",
+        "attribute": "src",
+        "url": "https://jwc.cuc.edu.cn/_upload/tpl/01/f3/499/template499/js/zn.js",
+        "label": ""
+      }
+    ]
+  },
+  {
+    "name": "培养方案修读说明_2025",
+    "page_url": "https://jwc.cuc.edu.cn/2026/0106/c6479a265996/page.htm",
+    "resources": [
+      {
+        "tag": "script",
+        "attribute": "sys-path",
+        "url": "https://jwc.cuc.edu.cn/_upload/site/1/style/1/1.css",
+        "label": ""
+      },
+      {
+        "tag": "script",
+        "attribute": "site-path",
+        "url": "https://jwc.cuc.edu.cn/_upload/site/00/29/41/style/29/29.css",
+        "label": ""
+      },
+      {
+        "tag": "script",
+        "attribute": "src",
+        "url": "https://jwc.cuc.edu.cn/_upload/tpl/01/f3/499/template499/extends/extends.js",
+        "label": ""
+      },
+      {
+        "tag": "link",
+        "attribute": "href",
+        "url": "https://jwc.cuc.edu.cn/_upload/tpl/01/f3/499/template499/style.css",
+        "label": ""
+      },
+      {
+        "tag": "link",
+        "attribute": "href",
+        "url": "https://jwc.cuc.edu.cn/_upload/tpl/01/f3/499/template499/mobile.css",
+        "label": ""
+      },
+      {
+        "tag": "link",
+        "attribute": "href",
+        "url": "https://jwc.cuc.edu.cn/_upload/tpl/01/f3/499/template499/media.css",
+        "label": ""
+      },
+      {
+        "tag": "link",
+        "attribute": "href",
+        "url": "https://jwc.cuc.edu.cn/_upload/tpl/01/f3/499/template499/favicon.ico",
+        "label": ""
+      },
+      {
+        "tag": "img",
+        "attribute": "src",
+        "url": "https://jwc.cuc.edu.cn/_upload/site/00/29/41/logo.png",
+        "label": ""
+      },
+      {
+        "tag": "img",
+        "attribute": "src",
+        "url": "https://jwc.cuc.edu.cn/_upload/column/18/dc/6364/picture.jpg",
+        "label": ""
+      },
+      {
+        "tag": "img",
+        "attribute": "data-imgsrc",
+        "url": "https://jwc.cuc.edu.cn/_upload/tpl/01/f3/499/template499/images/list_banner.jpg",
+        "label": ""
+      },
+      {
+        "tag": "div",
+        "attribute": "pdfsrc",
+        "url": "https://jwc.cuc.edu.cn/_upload/article/files/1c/9a/133c878d4c119cc9d680b5b80c7c/0323d823-01c2-4372-8316-591af7d9b42b.pdf",
+        "label": ""
+      },
+      {
+        "tag": "div",
+        "attribute": "sudyfile-attr",
+        "url": "https://jwc.cuc.edu.cn/2026/0106/c6479a265996/{'title':'2025版本科专业培养方案课程修读说明.pdf'}",
+        "label": ""
+      },
+      {
+        "tag": "script",
+        "attribute": "src",
+        "url": "https://jwc.cuc.edu.cn/_upload/tpl/01/f3/499/template499/js/comcus.js",
+        "label": ""
+      },
+      {
+        "tag": "script",
+        "attribute": "src",
+        "url": "https://jwc.cuc.edu.cn/_upload/tpl/01/f3/499/template499/js/list.js",
+        "label": ""
+      },
+      {
+        "tag": "script",
+        "attribute": "src",
+        "url": "https://jwc.cuc.edu.cn/_upload/tpl/01/f3/499/template499/js/app.js",
+        "label": ""
+      },
+      {
+        "tag": "script",
+        "attribute": "src",
+        "url": "https://jwc.cuc.edu.cn/_upload/tpl/01/f3/499/template499/js/zn.js",
+        "label": ""
+      }
+    ]
+  },
+  {
+    "name": "学院培养方案_2022参考",
+    "page_url": "https://ccs.cuc.edu.cn/2022/0726/c5559a196269/page.htm",
+    "resources": [
+      {
+        "tag": "script",
+        "attribute": "sys-path",
+        "url": "https://ccs.cuc.edu.cn/_upload/site/1/style/1/1.css",
+        "label": ""
+      },
+      {
+        "tag": "script",
+        "attribute": "site-path",
+        "url": "https://ccs.cuc.edu.cn/_upload/site/00/75/117/style/113/113.css",
+        "label": ""
+      },
+      {
+        "tag": "script",
+        "attribute": "src",
+        "url": "https://ccs.cuc.edu.cn/_upload/tpl/01/55/341/template341/extends/extends.js",
+        "label": ""
+      },
+      {
+        "tag": "link",
+        "attribute": "href",
+        "url": "https://ccs.cuc.edu.cn/_upload/tpl/01/55/341/template341/css/base.css",
+        "label": ""
+      },
+      {
+        "tag": "link",
+        "attribute": "href",
+        "url": "https://ccs.cuc.edu.cn/_upload/tpl/01/55/341/template341/css/media.css",
+        "label": ""
+      },
+      {
+        "tag": "link",
+        "attribute": "href",
+        "url": "https://ccs.cuc.edu.cn/_upload/tpl/01/55/341/template341/favicon.ico",
+        "label": ""
+      },
+      {
+        "tag": "img",
+        "attribute": "src",
+        "url": "https://ccs.cuc.edu.cn/_upload/site/00/75/117/logo.png",
+        "label": ""
+      },
+      {
+        "tag": "img",
+        "attribute": "src",
+        "url": "https://ccs.cuc.edu.cn/_upload/tpl/01/55/341/template341/images/banner.jpg",
+        "label": ""
+      },
+      {
+        "tag": "img",
+        "attribute": "src",
+        "url": "https://ccs.cuc.edu.cn/_upload/article/images/da/6a/516e1e0e4d39b63898281a8f74d6/2fbfab17-c8fe-49e0-aec3-26e6b0b260cc.png",
+        "label": ""
+      },
+      {
+        "tag": "img",
+        "attribute": "original-src",
+        "url": "https://ccs.cuc.edu.cn/_upload/article/images/da/6a/516e1e0e4d39b63898281a8f74d6/2fbfab17-c8fe-49e0-aec3-26e6b0b260cc_d.png",
+        "label": ""
+      },
+      {
+        "tag": "img",
+        "attribute": "src",
+        "url": "https://ccs.cuc.edu.cn/_upload/article/images/22/c5/5d79154b43d1a1bd54c0a3e16630/bf143c14-4097-473a-903b-d67612d47ae1_s.png",
+        "label": ""
+      },
+      {
+        "tag": "script",
+        "attribute": "src",
+        "url": "https://ccs.cuc.edu.cn/_upload/tpl/01/55/341/template341/js/app.js",
+        "label": ""
+      }
+    ]
+  },
+  {
+    "name": "成绩单办理流程",
+    "page_url": "https://jwc.cuc.edu.cn/2021/1125/c6366a189267/page.htm",
+    "resources": [
+      {
+        "tag": "script",
+        "attribute": "sys-path",
+        "url": "https://jwc.cuc.edu.cn/_upload/site/1/style/1/1.css",
+        "label": ""
+      },
+      {
+        "tag": "script",
+        "attribute": "site-path",
+        "url": "https://jwc.cuc.edu.cn/_upload/site/00/29/41/style/29/29.css",
+        "label": ""
+      },
+      {
+        "tag": "script",
+        "attribute": "src",
+        "url": "https://jwc.cuc.edu.cn/_upload/tpl/01/f3/499/template499/extends/extends.js",
+        "label": ""
+      },
+      {
+        "tag": "link",
+        "attribute": "href",
+        "url": "https://jwc.cuc.edu.cn/_upload/tpl/01/f3/499/template499/style.css",
+        "label": ""
+      },
+      {
+        "tag": "link",
+        "attribute": "href",
+        "url": "https://jwc.cuc.edu.cn/_upload/tpl/01/f3/499/template499/mobile.css",
+        "label": ""
+      },
+      {
+        "tag": "link",
+        "attribute": "href",
+        "url": "https://jwc.cuc.edu.cn/_upload/tpl/01/f3/499/template499/media.css",
+        "label": ""
+      },
+      {
+        "tag": "link",
+        "attribute": "href",
+        "url": "https://jwc.cuc.edu.cn/_upload/tpl/01/f3/499/template499/favicon.ico",
+        "label": ""
+      },
+      {
+        "tag": "img",
+        "attribute": "src",
+        "url": "https://jwc.cuc.edu.cn/_upload/site/00/29/41/logo.png",
+        "label": ""
+      },
+      {
+        "tag": "img",
+        "attribute": "src",
+        "url": "https://jwc.cuc.edu.cn/_upload/column/18/de/6366/picture.jpg",
+        "label": ""
+      },
+      {
+        "tag": "img",
+        "attribute": "data-imgsrc",
+        "url": "https://jwc.cuc.edu.cn/_upload/tpl/01/f3/499/template499/images/list_banner.jpg",
+        "label": ""
+      },
+      {
+        "tag": "img",
+        "attribute": "src",
+        "url": "https://jwc.cuc.edu.cn/_upload/article/images/7d/e7/3c2800d5484fa74d5d4e4abdca9b/1d85ae18-b3c9-457a-8b1d-406de9dbfe0a.png",
+        "label": ""
+      },
+      {
+        "tag": "img",
+        "attribute": "src",
+        "url": "https://jwc.cuc.edu.cn/_upload/article/images/7d/e7/3c2800d5484fa74d5d4e4abdca9b/7bc49db7-6ac0-4a1a-b031-810c4d657f44.png",
+        "label": ""
+      },
+      {
+        "tag": "img",
+        "attribute": "src",
+        "url": "https://jwc.cuc.edu.cn/_upload/article/images/7d/e7/3c2800d5484fa74d5d4e4abdca9b/e6835f7c-d9a8-4eb1-b7e9-aa0756b686d7.png",
+        "label": ""
+      },
+      {
+        "tag": "img",
+        "attribute": "src",
+        "url": "https://jwc.cuc.edu.cn/_upload/article/images/7d/e7/3c2800d5484fa74d5d4e4abdca9b/d3bccc86-052c-4f37-866b-5919b86f6a79.png",
+        "label": ""
+      },
+      {
+        "tag": "img",
+        "attribute": "src",
+        "url": "https://jwc.cuc.edu.cn/_upload/article/images/7d/e7/3c2800d5484fa74d5d4e4abdca9b/1299527f-516f-4830-bfc1-677e74653ff2.png",
+        "label": ""
+      },
+      {
+        "tag": "img",
+        "attribute": "src",
+        "url": "https://jwc.cuc.edu.cn/_upload/article/images/7d/e7/3c2800d5484fa74d5d4e4abdca9b/63d182ca-7eda-4d03-94ce-04a1d76d4068.png",
+        "label": ""
+      },
+      {
+        "tag": "img",
+        "attribute": "src",
+        "url": "https://jwc.cuc.edu.cn/_upload/article/images/7d/e7/3c2800d5484fa74d5d4e4abdca9b/cc5acca3-a0d4-4a32-8e59-6c88c30d12d5.png",
+        "label": ""
+      },
+      {
+        "tag": "img",
+        "attribute": "src",
+        "url": "https://jwc.cuc.edu.cn/_upload/article/images/7d/e7/3c2800d5484fa74d5d4e4abdca9b/78fa4f32-8795-42dd-b236-c138e2d11d2c.png",
+        "label": ""
+      },
+      {
+        "tag": "img",
+        "attribute": "src",
+        "url": "https://jwc.cuc.edu.cn/_upload/article/images/7d/e7/3c2800d5484fa74d5d4e4abdca9b/149eeb8b-1913-4c62-8623-14bb30715ceb.png",
+        "label": ""
+      },
+      {
+        "tag": "img",
+        "attribute": "src",
+        "url": "https://jwc.cuc.edu.cn/_upload/article/images/7d/e7/3c2800d5484fa74d5d4e4abdca9b/2548189a-d359-4db5-a1b3-90e63da524c4.png",
+        "label": ""
+      },
+      {
+        "tag": "img",
+        "attribute": "src",
+        "url": "https://jwc.cuc.edu.cn/_upload/article/images/7d/e7/3c2800d5484fa74d5d4e4abdca9b/ed309b61-44ba-467a-8286-da4bdde6ed58.png",
+        "label": ""
+      },
+      {
+        "tag": "img",
+        "attribute": "src",
+        "url": "https://jwc.cuc.edu.cn/_upload/article/images/7d/e7/3c2800d5484fa74d5d4e4abdca9b/6ffbc72d-8772-4151-b098-ef72692a18d8.png",
+        "label": ""
+      },
+      {
+        "tag": "script",
+        "attribute": "src",
+        "url": "https://jwc.cuc.edu.cn/_upload/tpl/01/f3/499/template499/js/comcus.js",
+        "label": ""
+      },
+      {
+        "tag": "script",
+        "attribute": "src",
+        "url": "https://jwc.cuc.edu.cn/_upload/tpl/01/f3/499/template499/js/list.js",
+        "label": ""
+      },
+      {
+        "tag": "script",
+        "attribute": "src",
+        "url": "https://jwc.cuc.edu.cn/_upload/tpl/01/f3/499/template499/js/app.js",
+        "label": ""
+      },
+      {
+        "tag": "script",
+        "attribute": "src",
+        "url": "https://jwc.cuc.edu.cn/_upload/tpl/01/f3/499/template499/js/zn.js",
+        "label": ""
+      }
+    ]
+  }
+]

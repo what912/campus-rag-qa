@@ -1,0 +1,2 @@
+# Optional: install only when a local semantic embedding model is needed.
+sentence-transformers>=5,<6

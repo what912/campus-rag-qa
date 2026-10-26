@@ -1,0 +1,57 @@
+{
+  "imported_at": "2026-10-13T14:48:25.270106+08:00",
+  "documents": [
+    {
+      "name": "本科专业人才培养方案(2022版).html",
+      "category": "培养方案",
+      "version": "2022版，2023级沿用（用户确认）",
+      "source": "https://ccs.cuc.edu.cn/2022/0726/c5535a196269/page.htm",
+      "published_at": "2022-07-26",
+      "authority": "学院官网；2023级适用性由用户确认",
+      "review_note": "用户确认2023级沿用2022版；原文表格数字照录，不自动修正；图片课程地图不进入文字检索。",
+      "id": "a689df93c7df40c9a590dd873034f7a0",
+      "metadata": {
+        "authority": "学院官网；2023级适用性由用户确认",
+        "published_at": "2022-07-26",
+        "review_note": "用户确认2023级沿用2022版；原文表格数字照录，不自动修正；图片课程地图不进入文字检索。",
+        "faculty": "计算机与网络空间安全学院",
+        "major": "计算机科学与技术",
+        "cohort": "2023"
+      },
+      "sha256": "0de6b802797593d10a99834c98c5041fe9dac1d551787816adfc4b87d89a7803",
+      "collected_at": "2026-10-13",
+      "local_path": "materials\\incoming\\本科专业人才培养方案(2022版).html",
+      "chunks": 32
+    },
+    {
+      "name": "中国传媒大学计算机科学与技术专业课程大纲_详细版.pdf",
+      "category": "课程大纲",
+      "version": "用户提供详细版，适用于2023级（用户确认）",
+      "source": "用户提供，确认由任课教师/教务提供；未提供公开下载链接",
+      "published_at": "",
+      "authority": "任课教师/教务来源（用户确认）",
+      "review_note": "用户确认教师/教务正式来源；首页注明参考培养要求扩展整理。只回答文件明载内容，未载学分学时、先修和具体考核占比时说明无法确认。",
+      "id": "8f16ec68a91145b2b067063f20fb7b99",
+      "metadata": {
+        "authority": "任课教师/教务来源（用户确认）",
+        "published_at": "",
+        "review_note": "用户确认教师/教务正式来源；首页注明参考培养要求扩展整理。只回答文件明载内容，未载学分学时、先修和具体考核占比时说明无法确认。",
+        "faculty": "计算机与网络空间安全学院",
+        "major": "计算机科学与技术",
+        "cohort": "2023"
+      },
+      "sha256": "6c3a96361663cecf6e3b7a16ad4f9be051f3acb3a299deec300edce6b0c1f85a",
+      "collected_at": "2026-10-13",
+      "local_path": "materials\\incoming\\中国传媒大学计算机科学与技术专业课程大纲_详细版.pdf",
+      "chunks": 12
+    }
+  ],
+  "status": {
+    "documents": 11,
+    "chunks": 134,
+    "dimension": 512,
+    "sample_documents": 4,
+    "mode": "semantic"
+  },
+  "max_chunk_tokens": 376
+}

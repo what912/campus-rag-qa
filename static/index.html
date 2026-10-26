@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#173f52">
+  <title>知校 · 校园知识问答</title>
+  <link rel="icon" href="/static/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/static/styles.css">
+  <script src="/static/app.js" defer></script>
+  <script src="/static/chat-history.js" defer></script>
+  <script src="/static/review.js" defer></script>
+</head>
+<body>
+  <aside class="sidebar">
+    <a class="brand" href="/" aria-label="知校首页">
+      <svg width="38" height="38" viewBox="0 0 40 40" aria-hidden="true"><path d="M7 8h11l3 4 3-4h9v25H23l-3 3-3-3H7Z" fill="none" stroke="currentColor" stroke-width="2"/><path d="M20 13v17M11 16h5M11 21h5M24 16h5M24 21h5" stroke="currentColor" stroke-width="2"/></svg>
+      <span>知校<small>校园知识问答</small></span>
+    </a>
+    <button id="new-chat" class="new-chat"><span aria-hidden="true">＋</span> 新建问答</button>
+    <nav aria-label="主导航">
+      <button class="nav-button active" data-view="chat"><span aria-hidden="true">◌</span> 校园问答</button>
+      <button class="nav-button" data-view="library"><span aria-hidden="true">▤</span> 我的知识库 <span id="nav-count" class="count">0</span></button>
+      <button class="nav-button" data-view="evaluation"><span aria-hidden="true">✓</span> 检索检查</button>
+      <button class="nav-button" data-view="review"><span aria-hidden="true">▥</span> 回答核对</button>
+      <button class="nav-button" data-view="guide"><span aria-hidden="true">◇</span> 项目指南</button>
+    </nav>
+    <div class="sidebar-note"><span class="tiny-dot"></span> 资料保存在本机<p>每一个答案，都能回到原文。</p></div>
+    <div class="sidebar-bottom"><span class="avatar">毕</span><div>本科毕业设计<small>校园 RAG 系统原型</small></div><button id="settings-open" class="icon-button" title="模型设置" aria-label="模型设置">⚙</button></div>
+  </aside>
+
+  <div class="workspace">
+    <header class="topbar"><div><span class="breadcrumb">我的工作空间</span><span aria-hidden="true"> / </span><strong id="page-title">校园问答</strong></div><button id="mode-button" class="mode-badge"><span class="tiny-dot"></span><span id="mode-text">正在连接…</span></button></header>
+    <main>
+      <section id="view-chat" class="view chat-layout" aria-label="校园问答">
+        <div class="chat-column">
+          <div class="chat-controls"><label class="select-label">问答范围<select id="chat-category" aria-label="问答范围"><option value="">全部资料</option></select></label><label class="sample-switch"><input id="include-samples" type="checkbox" checked> 包含演示资料</label><label class="sample-switch"><input id="extractive-only" type="checkbox"> 仅查看原文（不调用模型）</label></div>
+          <div class="session-bar"><span id="active-session-label">新会话</span><button id="history-open" class="text-button" type="button">历史会话</button><small>自动保存在本机，可删除</small></div><div id="conversation" class="conversation" aria-live="polite">
+            <div id="welcome" class="welcome">
+              <div class="welcome-symbol" aria-hidden="true"><svg width="48" height="48" viewBox="0 0 48 48"><path d="M9 10h12l3 4 3-4h12v27H28l-4 3-4-3H9Z" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M24 15v19M14 19h5M14 25h5M29 19h5M29 25h5" stroke="currentColor" stroke-width="1.8"/></svg></div>
+              <h1>校园里的问题，<br>从资料中找到答案。</h1>
+              <p class="welcome-copy">培养方案、课程要求、办事流程。<br>先查阅知识库，再带你找到原文依据。</p>
+              <div class="suggestions">
+                <button data-question="毕业总学分是多少？"><small>培养方案</small><span>毕业总学分是多少？</span><span class="suggestion-icon" aria-hidden="true">↗</span></button>
+                <button data-question="在读证明怎么办理？"><small>办事流程</small><span>在读证明怎么办理？</span><span class="suggestion-icon" aria-hidden="true">↗</span></button>
+                <button data-question="数据分析基础的考核方式是什么？"><small>课程大纲</small><span>这门课如何考核？</span><span class="suggestion-icon" aria-hidden="true">↗</span></button>
+                <button data-question="校园网络故障怎么报修？"><small>校园服务</small><span>校园网络故障怎么报修？</span><span class="suggestion-icon" aria-hidden="true">↗</span></button>
+              </div>
+              <div class="demo-note"><span aria-hidden="true">ⓘ</span> 内置资料为虚构示例，不代表学校正式规定。</div>
+            </div>
+          </div>
+          <div class="composer-area"><form id="question-form" class="composer"><label class="sr-only" for="question">输入校园问题</label><textarea id="question" rows="2" maxlength="2000" placeholder="输入你的校园问题，例如：在读证明怎么办理？"></textarea><div class="composer-bottom"><span>Enter 发送 · Shift + Enter 换行</span><button id="stop-answer" class="text-button" type="button" hidden>停止接收</button><button id="send-button" type="submit" aria-label="发送问题"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M12 19V5m-6 6 6-6 6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></button></div></form><p id="composer-caption" class="composer-caption">当前为原文检索演示。接入大模型后，可生成带来源的回答。</p></div>
+        </div>
+        <aside class="evidence-panel" aria-label="原文依据"><div class="evidence-header"><h2>原文依据</h2><span id="evidence-count">等待提问</span></div><div id="evidence-content" class="evidence-content"><div class="evidence-empty"><span aria-hidden="true">▤</span><h3>答案从这里开始</h3><p>提问后，这里会展示检索到的资料片段、文件名和位置。</p><div class="evidence-flow"><span>你的问题</span><i>↓</i><span>查找相关资料</span><i>↓</i><span>回答与原文依据</span></div></div></div><div class="evidence-footer">支持 PDF、DOCX、TXT、Markdown、HTML<button class="text-button" data-go="library">管理知识库</button></div></aside>
+      </section>
+
+      <section id="view-review" class="view content-view" hidden aria-label="回答核对">
+        <div class="page-heading"><div><h1>回答核对</h1><p>对照已保存的模型回答与原文，记录评分和复核意见。</p></div><button id="export-review" class="secondary-button">导出评分 CSV</button></div>
+        <p id="review-status" class="notice">读取已保存的实验记录，不发送模型请求。</p>
+        <div class="review-toolbar"><label>实验记录<select id="review-report"></select></label><label>题目<select id="review-question"></select></label><label>评分人<input id="reviewer-name" maxlength="100" placeholder="填写姓名或复核标识"></label><button id="save-review" class="primary-button">保存评分</button></div>
+        <p class="evaluation-note">正确性：0 未答对或未回答；1 部分正确；2 核心事实正确且条件完整。引用编号有效还需检查对应原文是否支持结论。</p>
+        <h2 id="review-question-text"></h2><p id="review-reference" class="muted"></p><div id="review-cards" class="review-grid"></div>
+      </section>
+      <section id="view-library" class="view content-view" hidden aria-label="我的知识库">
+        <div class="page-heading"><div><h1>我的知识库</h1><p>导入校园资料，让每一次问答都有据可查。</p></div><button id="upload-open" class="primary-button">＋ 导入文档</button></div>
+        <div class="library-stats"><div><strong id="stat-documents">0</strong><span>份文档</span></div><div><strong id="stat-chunks">0</strong><span>个可检索片段</span></div><div><strong id="stat-dimension">0</strong><span>向量维度</span></div><div class="stats-note">资料与向量索引保存在项目的 data 文件夹。</div></div>
+        <div class="notice">已导入学校公开文件，另有虚构示例。已导入2023级沿用的培养方案与课程大纲，请核对版本及适用范围。</div>
+        <details class="import-history"><summary>最近导入记录</summary><div id="import-records">尚无导入记录。</div></details><div class="library-toolbar"><label class="search-field"><span aria-hidden="true">⌕</span><input id="document-search" aria-label="搜索文档" placeholder="搜索文件名或来源"></label><select id="library-category" aria-label="文档分类"><option value="">全部分类</option></select></div>
+        <div class="table-wrap"><table class="document-table"><thead><tr><th>文档名称</th><th>分类</th><th>片段</th><th>版本 / 年级</th><th>操作</th></tr></thead><tbody id="document-rows"></tbody></table><div id="library-empty" class="empty-state" hidden>这里还没有资料。点击“导入文档”开始建立知识库。</div></div>
+      </section>
+
+      <section id="view-evaluation" class="view content-view" hidden aria-label="检索检查"><div class="page-heading"><div><h1>检索检查</h1><p>检查开发题的正确文件与正确证据，使用当前问答检索配置。</p></div><button id="run-evaluation" class="primary-button">运行检查</button></div><div class="notice">这里使用你已核对的 19 道开发题。检查不调用大模型，按原文证据定位条款，文件命中单独展示，不作为独立测试结论。</div><div id="evaluation-results" class="evaluation-results"><div class="empty-state">运行后可查看证据命中、Recall@4、MRR 和逐题依据。当前题集不包含无依据题。</div></div></section>
+
+      <section id="view-guide" class="view content-view guide-view" hidden aria-label="项目指南"><div class="page-heading"><div><h1>从原型到毕业设计</h1><p>先跑通流程，再用真实资料验证效果。</p></div></div><div class="guide-intro"><h2>你的课题正在做什么？</h2><p>把分散的校园文件整理成可检索的知识库。用户提问后，系统找出相关片段，再把问题和片段一起交给大模型，生成附有出处的回答。</p></div><div class="pipeline"><div><b>1</b><h3>收集资料</h3><p>培养方案、课程大纲、办事指南</p></div><div><b>2</b><h3>解析与切片</h3><p>提取文字，保留文件与位置信息</p></div><div><b>3</b><h3>向量化与检索</h3><p>把问题与片段转成向量，寻找相似内容</p></div><div><b>4</b><h3>生成与溯源</h3><p>依据检索结果回答，并展示原文</p></div></div><div class="guide-sections"><article><h2>现在可以体验</h2><ul><li>上传和管理文档与保存的 HTML 网页</li><li>查看文本切片与来源位置</li><li>本地中文语义、TF-IDF 与混合检索</li><li>扫描 PDF 文字识别与年级专业筛选</li><li>检查19道开发题的检索结果</li></ul></article><article><h2>资料与验证进展</h2><ul><li>已导入 2023 级适用培养方案与课程大纲</li><li>19 道开发题已核对，继续建立独立测试集</li><li>大模型已接通，核对真实回答与引用</li><li>整理人工标注的问题集，完成对照实验</li></ul></article></div><div class="guide-footer"><h2>两个概念要区分</h2><p>TF-IDF 是词面匹配的向量检索基线，不是大模型语义向量。未接入大模型时，系统提供直接摘录；当前语义模型与 DeepSeek 均已接通；关闭大模型后可体验摘录。正式效果仍需对照与人工评分。</p><button id="guide-settings" class="secondary-button">打开模型设置</button></div></section>
+    </main>
+  </div>
+
+  <dialog id="history-dialog" class="wide-dialog"><div class="dialog-body"><div class="dialog-heading"><h2>历史会话</h2><button class="close-dialog icon-button" type="button" aria-label="关闭">×</button></div><p class="muted">问题、回答和当时检索到的原文保存在本机。打开历史记录不会调用模型；文件更新后请重新提问核对。</p><div id="session-list"></div></div></dialog><dialog id="upload-dialog"><form id="upload-form" class="dialog-body"><div class="dialog-heading"><h2>导入校园文档</h2><button class="close-dialog icon-button" type="button" aria-label="关闭">×</button></div><p class="muted">支持 PDF、DOCX、TXT、Markdown 和 HTML，单个文件不超过 10 MB。</p><label id="drop-zone" class="drop-zone" for="upload-file"><span aria-hidden="true">▤</span><strong id="file-caption">点击选择文件，或拖放到这里</strong><small>开启本地 OCR 后可处理扫描 PDF，识别文字需核对</small></label><input id="upload-file" type="file" accept=".pdf,.docx,.txt,.md,.html,.htm" required><div class="form-grid"><label>文档分类<select id="upload-category" name="category"></select></label><label>版本 / 适用年级<input name="version" maxlength="100" placeholder="例如：2023 级 / 2026 年修订"></label></div><label class="field-label">资料来源<input name="source" maxlength="1000" placeholder="例如：学院官网下载，或正式文件链接"></label><p id="upload-error" class="form-error" role="alert"></p><div class="dialog-actions"><button type="button" class="secondary-button close-dialog">取消</button><button id="upload-submit" type="submit" class="primary-button">解析并建立索引</button></div></form></dialog>
+
+  <dialog id="settings-dialog"><form id="settings-form" class="dialog-body"><div class="dialog-heading"><h2>模型与检索设置</h2><button type="button" class="icon-button close-dialog" aria-label="关闭">×</button></div><p class="muted">没有 API 也能体验原文检索。开启大模型后，检索到的片段将发送给你配置的服务。</p><label class="checkbox-label"><input name="enabled" id="llm-enabled" type="checkbox"> 开启大模型回答</label><label class="field-label">API 基础地址<input name="base_url" placeholder="填写服务商给出的兼容 API 地址，如 …/v1" autocomplete="off"></label><div class="form-grid"><label>模型名称<input name="model" placeholder="填写服务商支持的模型名" autocomplete="off"></label><label>API 密钥<input name="api_key" type="password" placeholder="留空保留本次运行的密钥" autocomplete="new-password"></label></div><p id="key-status" class="field-hint">密钥不以明文保存，也不会出现在页面响应中。</p><label class="checkbox-label"><input name="clear_key" type="checkbox"> 清除当前及加密保存的密钥</label><hr><label class="field-label">向量检索方式<select name="embedding_mode" id="embedding-mode"><option value="tfidf">TF-IDF 中文字符向量（无需下载，检索基线）</option><option value="semantic">本地语义向量模型（需安装依赖和下载模型）</option></select></label><label class="field-label">本地语义模型文件夹<input name="model_path" placeholder="例如：D:\models\your-embedding-model"></label><label class="field-label">最低相似度<input name="min_score" type="number" min="0" max="1" step="0.01" value="0.08"></label><p class="field-hint">相似度不是答案正确率。不同模型需要分别校准阈值；TF-IDF 默认 0.08。</p><p id="settings-error" class="form-error" role="alert"></p><div class="dialog-actions"><button type="button" class="secondary-button close-dialog">取消</button><button id="settings-save" type="submit" class="primary-button">保存设置</button></div></form></dialog>
+
+  <dialog id="document-dialog" class="wide-dialog"><div class="dialog-body"><div class="dialog-heading"><h2 id="document-title">文档片段</h2><button type="button" class="icon-button close-dialog" aria-label="关闭">×</button></div><p id="document-meta" class="muted"></p><div id="document-chunks"></div></div></dialog>
+  <dialog id="delete-dialog"><div class="dialog-body"><div class="dialog-heading"><h2>删除文档</h2><button type="button" class="icon-button close-dialog" aria-label="关闭">×</button></div><p id="delete-caption"></p><p class="muted">原文件和对应片段将从本机知识库删除。之后可以重新导入。</p><div class="dialog-actions"><button class="secondary-button close-dialog" type="button">取消</button><button id="confirm-delete" class="danger-button" type="button">删除文档</button></div></div></dialog>
+  <div id="toast" class="toast" role="status" hidden></div>
+</body>
+</html>
