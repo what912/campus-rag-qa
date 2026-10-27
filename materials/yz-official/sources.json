@@ -1,0 +1,238 @@
+{
+  "entry_url": "https://yz.cuc.edu.cn/main.htm",
+  "sources": [
+    {
+      "id": "01",
+      "title": "中国传媒大学2027年硕士研究生招生简章（官网正文）",
+      "source_url": "https://yz.cuc.edu.cn/2026/0930/c8549a274491/page.htm",
+      "admission_year": "2027",
+      "admission_program": "general_master",
+      "admission_level": "master",
+      "kind": "article",
+      "published_at": "2026-10-03",
+      "download_url": "",
+      "note": "官网完整正文；含不同专业的特别条款。所列2026学费是参考标准，2027最终以审批为准。附件链接不等于全部附件已下载。",
+      "degree_type": "",
+      "faculty": "招生处"
+    },
+    {
+      "id": "02",
+      "title": "中国传媒大学2026年硕士研究生招生简章（官网正文）",
+      "source_url": "https://yz.cuc.edu.cn/2025/0929/c8549a260582/page.htm",
+      "admission_year": "2026",
+      "admission_program": "general_master",
+      "admission_level": "master",
+      "kind": "article",
+      "published_at": "2025-10-05",
+      "download_url": "",
+      "note": "2026招生周期材料，按明确年份检索；费用及时间保留原文中的参考年度、拟定和待审批限定。",
+      "degree_type": "",
+      "faculty": "招生处"
+    },
+    {
+      "id": "03",
+      "title": "中国传媒大学2027年硕士招生专业目录（官网表格展开）",
+      "source_url": "https://yz.cuc.edu.cn/2026/0930/c8549a274497/page.htm",
+      "admission_year": "2027",
+      "admission_program": "general_master",
+      "admission_level": "master",
+      "kind": "directory",
+      "published_at": "2026-10-03",
+      "download_url": "",
+      "note": "完整官网目录；合并单元格仅按HTML明确跨度展开。原备注：2027拟招生人数参照2026年计划指标数，实际以当年教育部下达指标为准；实际推免人数也会变化。人数按原格分组，重复展示不得逐方向累加。408仅确认考试科目设置，完整大纲未取得。",
+      "degree_type": "",
+      "faculty": "招生处"
+    },
+    {
+      "id": "04",
+      "title": "中国传媒大学2026年博士学位研究生招生简章（官网正文）",
+      "source_url": "https://yz.cuc.edu.cn/2025/1111/c8549a262367/page.htm",
+      "admission_year": "2026",
+      "admission_program": "general_doctor",
+      "admission_level": "doctor",
+      "kind": "article",
+      "published_at": "2025-11-12",
+      "download_url": "",
+      "note": "官网完整正文；直博、硕博连读、普通招考条件不同。所列2025学费只是参考标准，2026最终以审批为准。",
+      "degree_type": "",
+      "faculty": "招生处"
+    },
+    {
+      "id": "05",
+      "title": "中国传媒大学2026年专业学位博士报考条件及申请材料要求（官网正文）",
+      "source_url": "https://yz.cuc.edu.cn/2025/1111/c8549a262368/page.htm",
+      "admission_year": "2026",
+      "admission_program": "general_doctor",
+      "admission_level": "doctor",
+      "kind": "article",
+      "published_at": "2025-11-12",
+      "download_url": "",
+      "note": "仅适用文中对应专业学位博士；是博士总简章之外的附加条件，不能套用到学术学位博士。保留附录及表格合并关系。",
+      "degree_type": "professional",
+      "faculty": "招生处"
+    },
+    {
+      "id": "06",
+      "title": "中国传媒大学2026年博士目录－0810Z1信息计算技术（官网正文）",
+      "source_url": "https://yz.cuc.edu.cn/2025/1106/c14246a262032/page.htm",
+      "admission_year": "2026",
+      "admission_program": "general_doctor",
+      "admission_level": "doctor",
+      "kind": "directory",
+      "published_at": "2025-11-12",
+      "download_url": "",
+      "note": "来自2026年学术博士目录入口的本专业完整页面；不是全校博士总目录。导师方向、招生方式和笔试科目按表格对应。",
+      "degree_type": "academic",
+      "faculty": "计算机与网络空间安全学院"
+    },
+    {
+      "id": "07",
+      "title": "中国传媒大学2026年博士目录－081000信息与通信工程（官网正文）",
+      "source_url": "https://yz.cuc.edu.cn/2025/1106/c14246a262029/page.htm",
+      "admission_year": "2026",
+      "admission_program": "general_doctor",
+      "admission_level": "doctor",
+      "kind": "directory",
+      "published_at": "2025-11-12",
+      "download_url": "",
+      "note": "2026学术博士目录中的本专业完整页面；不是全校博士总目录，导师方向与招生方式需对应。",
+      "degree_type": "academic",
+      "faculty": "信息与通信工程学院"
+    },
+    {
+      "id": "08",
+      "title": "2027年研考中国传媒大学考点1133报名须知（官网正文）",
+      "source_url": "https://yz.cuc.edu.cn/2026/1008/c8549a274551/page.htm",
+      "admission_year": "2027",
+      "admission_program": "general_master",
+      "admission_level": "master",
+      "kind": "article",
+      "published_at": "2026-10-08",
+      "download_url": "",
+      "note": "仅适用1133中传考点选择与报名；报考学校不等于报考点。文件中2026年10月报名对应2027招生周期，时间按原文，不承诺当前仍可报名。",
+      "degree_type": "",
+      "faculty": "招生处"
+    },
+    {
+      "id": "09",
+      "title": "2027年硕士初试823信号与系统考试大纲（官方PDF）",
+      "source_url": "https://yz.cuc.edu.cn/2026/0929/c8549a274435/page.htm",
+      "admission_year": "2027",
+      "admission_program": "general_master",
+      "admission_level": "master",
+      "kind": "pdf",
+      "published_at": "2026-10-03",
+      "download_url": "https://yz.cuc.edu.cn/_upload/article/files/52/d8/2cf0c90d470d87e2169495baf054/870995f8-2ba3-4ace-ab53-3dbff178a682.pdf",
+      "note": "官方2027自命题大纲索引所链接的PDF原件，原文题头未单独标年度；不属于408，不可替代计算机或网安专业的统考大纲。",
+      "degree_type": "",
+      "faculty": "招生处",
+      "exam_codes": [
+        "823"
+      ]
+    },
+    {
+      "id": "10",
+      "title": "2027年硕士初试884概率论与数理统计考试大纲（官方PDF）",
+      "source_url": "https://yz.cuc.edu.cn/2026/0929/c8549a274435/page.htm",
+      "admission_year": "2027",
+      "admission_program": "general_master",
+      "admission_level": "master",
+      "kind": "pdf",
+      "published_at": "2026-10-03",
+      "download_url": "https://yz.cuc.edu.cn/_upload/article/files/52/d8/2cf0c90d470d87e2169495baf054/c37908d7-9125-42e0-a33c-d04ac03374e7.pdf",
+      "note": "年度依据官方2027自命题大纲索引，PDF原件未改写；不属于408，不可替代计算机或网安专业的统考大纲。",
+      "degree_type": "",
+      "faculty": "招生处",
+      "exam_codes": [
+        "884"
+      ]
+    },
+    {
+      "id": "11",
+      "title": "研究生奖助一览表（2027硕士简章官方附件）",
+      "source_url": "https://yz.cuc.edu.cn/2026/0930/c8549a274491/page.htm",
+      "admission_year": "2027",
+      "admission_program": "general_master",
+      "admission_level": "master",
+      "kind": "pdf",
+      "published_at": "2026-10-03",
+      "download_url": "https://yz.cuc.edu.cn/_upload/article/files/14/61/fa4f7dae40499884a51713b0c1d4/d0355f21-fe66-41a5-9886-2f0ca3dcaeb2.pdf",
+      "note": "2027硕士简章链接的官方附件；适用对象、全日制限制、定额和现行标准以原文为准，不扩展到所有学生。 原PDF部分标题/表头/左列项目标签无法被文字解析器抽取，正文说明及金额可读；表格结构请核对原PDF，不宣称全文结构提取完整。",
+      "degree_type": "",
+      "faculty": "招生处"
+    },
+    {
+      "id": "12",
+      "title": "2026年博士复试科技文献阅读与写作考试大纲（官方PDF）",
+      "source_url": "https://yz.cuc.edu.cn/2025/1111/c8549a262371/page.htm",
+      "admission_year": "2026",
+      "admission_program": "general_doctor",
+      "admission_level": "doctor",
+      "kind": "pdf",
+      "published_at": "2025-11-12",
+      "download_url": "https://yz.cuc.edu.cn/_upload/article/files/3c/c6/960dad124266ad2796a28c034b17/59fbc958-eda2-4ad0-85f2-5691e3cf7209.pdf",
+      "note": "来自2026博士初试及复试大纲官方索引；仅为所标科目，不代表所有博士专业均考该科。公式与符号请对照PDF原件。",
+      "degree_type": "academic",
+      "faculty": "招生处"
+    },
+    {
+      "id": "13",
+      "title": "2026年博士复试随机数学考试大纲（官方PDF）",
+      "source_url": "https://yz.cuc.edu.cn/2025/1111/c8549a262371/page.htm",
+      "admission_year": "2026",
+      "admission_program": "general_doctor",
+      "admission_level": "doctor",
+      "kind": "pdf",
+      "published_at": "2025-11-12",
+      "download_url": "https://yz.cuc.edu.cn/_upload/article/files/3c/c6/960dad124266ad2796a28c034b17/d5dc2c44-a10b-4f9d-88cd-f78e82876b67.pdf",
+      "note": "来自2026博士初试及复试大纲官方索引；仅为所标科目，不代表所有博士专业均考该科。公式与符号请对照PDF原件。",
+      "degree_type": "academic",
+      "faculty": "招生处"
+    },
+    {
+      "id": "14",
+      "title": "2026年博士复试数学物理方程考试大纲（官方PDF）",
+      "source_url": "https://yz.cuc.edu.cn/2025/1111/c8549a262371/page.htm",
+      "admission_year": "2026",
+      "admission_program": "general_doctor",
+      "admission_level": "doctor",
+      "kind": "pdf",
+      "published_at": "2025-11-12",
+      "download_url": "https://yz.cuc.edu.cn/_upload/article/files/3c/c6/960dad124266ad2796a28c034b17/2d509321-973e-4385-8da0-62caab863a0d.pdf",
+      "note": "来自2026博士初试及复试大纲官方索引；仅为所标科目，不代表所有博士专业均考该科。公式与符号请对照PDF原件。",
+      "degree_type": "academic",
+      "faculty": "招生处"
+    }
+  ],
+  "reference_overrides": [
+    {
+      "sha256": "d2e6f7d12b599eb7d3b16700db95187ad85496d527b5ae505fd9832aa7735d83",
+      "reference_only": true,
+      "review_note_suffix": "本轮已从研招网取得同年度正式网页正文PDF，本截图版保留作来源追溯与OCR演示，不再参与默认问答。",
+      "preferred_document_id": "04"
+    },
+    {
+      "sha256": "7ccf3553b4671ec3a4dead7a070c13a62d3cfee5d607508e696bd0e8dd4e6dda",
+      "reference_only": true,
+      "review_note_suffix": "本轮已从研招网取得同年度正式网页正文PDF，本截图版保留作来源追溯与OCR演示，不再参与默认问答。",
+      "preferred_document_id": "01"
+    }
+  ],
+  "limitations": [
+    "仅采集选定的公开招生政策和学科资料，不是全站镜像；不含考生名单和个人成绩。",
+    "官网2027自命题大纲索引没有408附件，仅能据专业目录确认408科目设置，本轮未取得其完整大纲。",
+    "MBA学院最新简章链接到本次无法读取的微信正文，未据整理稿推断当年收费或政策。",
+    "博士分专业目录仅收集信息计算技术和信息与通信工程，不宣称全校博士目录已完整收齐。",
+    "采集日期不等于政策有效期；网页正文排版PDF不是官网原始PDF。"
+  ],
+  "discovery_pages": [
+    {
+      "url": "https://yz.cuc.edu.cn/2026/0929/c8549a274435/page.htm",
+      "filename": "2027硕士自命题大纲官方索引.html"
+    },
+    {
+      "url": "https://yz.cuc.edu.cn/2025/1111/c8549a262371/page.htm",
+      "filename": "2026博士笔试大纲官方索引.html"
+    }
+  ]
+}

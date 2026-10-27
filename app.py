@@ -110,7 +110,7 @@ def create_app(data_dir=DATA, seed=True):
     async def lifespan(application):
         yield
 
-    api = FastAPI(title='知校 · 校园知识问答', version='0.6.0', lifespan=lifespan)
+    api = FastAPI(title='知校 · 校园知识问答', version='0.7.0', lifespan=lifespan)
     api.state.kb = kb
     api.state.settings = settings
     api.state.conversations=conversations
@@ -240,7 +240,10 @@ def create_app(data_dir=DATA, seed=True):
                                 active['retrieval_strategy'])
             retrieval_mode = kb.mode
             reference_notice=''
-            if admission_scope['domain'] and not sources and any(
+            outline=re.search(r'(?<!\d)(\d{3})(?!\d)',resolved) if re.search(r'考试大纲|考纲',resolved) else None
+            if admission_scope['domain'] and not sources and outline:
+                reference_notice='当前检索未找到'+outline.group(1)+'科目的完整考试大纲，无法确认具体考试范围；专业目录中的科目名称不能代替大纲正文。'
+            elif admission_scope['domain'] and not sources and any(
                 row['metadata'].get('reference_only') and row['metadata'].get('domain')=='admissions'
                 and row['metadata'].get('admission_program')==admission_scope.get('program') for row in kb.rows):
                 reference_notice='库内有该项目的旧版或整理稿，仅作为参考保存，不能据此确认当前招生政策；可在知识库查看原件与说明。'

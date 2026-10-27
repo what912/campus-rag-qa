@@ -48,9 +48,13 @@ def parse_document(filename: str, content: bytes, enable_ocr=False) -> list[dict
             raise ValueError('PDF 解析失败，请确认文件完整或转为 TXT。') from exc
         sections, heading = [], ''
         course_heading = re.compile(r'^\s*([\u4e00-\u9fff]{2,40}[（(][A-Za-z][^\n()（）]{1,100}[)）])\s*$', re.M)
+        directory_heading=re.compile(r'^[ \t]*(目录记录\s+\d+[｜|][^\n]+)[ \t]*$',re.M)
         for page in pages:
+            # Omit our own conversion footer; it carries no campus policy evidence.
+            page={**page,'text':re.sub(r'(?m)^[ \t]*官网网页正文排版版[｜|]第\s*\d+\s*页[ \t]*\n?','',page['text'])}
             start = 0
-            for match in course_heading.finditer(page['text']):
+            matches=sorted([*course_heading.finditer(page['text']),*directory_heading.finditer(page['text'])],key=lambda match:match.start())
+            for match in matches:
                 before = page['text'][start:match.start()].strip()
                 if before:
                     sections.append({**page, 'text':('# ' + heading + '\n' if heading else '') + before})
@@ -143,23 +147,28 @@ def chunk_pages(pages: list[dict], size=400, overlap=60) -> list[dict]:
             pending_heading = ''
             first_line = section.split('\n', 1)[0]
             heading = first_line.lstrip('# ').strip() if first_line.startswith('#') else ''
+            directory_prefix=''
+            if heading.startswith('目录记录 '):
+                directory_prefix='# '+heading+'\n'
+                section=section.partition('\n')[2]
+            budget=max(1,size-len(directory_prefix))
             start = 0
             while start < len(section):
-                end = min(start + size, len(section))
+                end = min(start + budget, len(section))
                 if end < len(section):
                     # Prefer a paragraph or sentence boundary in the latter half.
-                    boundaries = [section.rfind(c, start + size // 2, end)
+                    boundaries = [section.rfind(c, start + budget // 2, end)
                                   for c in ('\n', '。', '；', '！', '？')]
                     boundary = max(boundaries)
                     if boundary >= 0:
                         end = boundary + 1
                 body = section[start:end].strip()
                 if body:
-                    chunks.append({'text': body, 'page': page['page'], 'heading': heading,
+                    chunks.append({'text': directory_prefix+body, 'page': page['page'], 'heading': heading,
                                    'ordinal': len(chunks) + 1})
                 if end == len(section):
                     break
-                start = max(start + 1, end - overlap)
+                start = max(start + 1, end - min(overlap,max(0,budget-1)))
         if pending_heading.strip():
             chunks.append({'text': pending_heading.strip(), 'page': page['page'],
                            'heading': pending_heading.strip().lstrip('# '), 'ordinal': len(chunks) + 1})

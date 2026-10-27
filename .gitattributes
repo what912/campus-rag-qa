@@ -11,4 +11,7 @@ materials/** -text
 # Archive sources and generated PDFs are reviewed as files, not textual patches.
 materials/admissions/originals/** -diff
 materials/admissions/pdf/** -diff
+materials/yz-official/originals/** -diff
+materials/yz-official/pdf/** -diff
+materials/yz-official/discovery/** -diff
 evaluation/results/** -text

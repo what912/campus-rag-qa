@@ -149,7 +149,7 @@ function message(kind, text, result) {
     }
     if(result.admission_scope?.domain){
       const note=document.createElement('p');note.className='query-resolution';
-      note.textContent='招生资料范围：'+(result.admission_scope.year?result.admission_scope.year+'年':'年份未指定')+(result.admission_scope.year_selected_from_corpus?'（该项目库内最新已知年份）':'');article.append(note);
+      note.textContent='招生资料范围：'+(result.admission_scope.year?result.admission_scope.year+'年':'年份未指定')+(result.admission_scope.degree_type==='academic'?' · 学术学位':result.admission_scope.degree_type==='professional'?' · 专业学位':'')+(result.admission_scope.year_selected_from_corpus?'（该项目库内最新已知年份）':'');article.append(note);
     }
     result.warnings.forEach((warning) => {
       const notice = document.createElement('p');

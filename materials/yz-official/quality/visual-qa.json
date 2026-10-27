@@ -1,0 +1,1925 @@
+{
+  "prepared_at": "2026-10-27T04:48:21.991643+00:00",
+  "total_pdfs": 14,
+  "total_pages": 164,
+  "documents": [
+    {
+      "id": "01",
+      "pdf": "materials/yz-official/pdf/中国传媒大学2027年硕士研究生招生简章（官网正文）.pdf",
+      "pages": 7,
+      "pdf_sha256": "c9e69ee2e0a46414f5ec1e977eb3bac78ad2d6f2e7dd2ed4877f36c42a94b1f1",
+      "mu_characters": [
+        1592,
+        1177,
+        1351,
+        1414,
+        1211,
+        1063,
+        1128
+      ],
+      "pypdf_characters": [
+        1593,
+        1177,
+        1351,
+        1414,
+        1211,
+        1063,
+        1128
+      ],
+      "source_kind": "article",
+      "checks": {
+        "source_text_units": 141,
+        "source_text_units_found_pypdf": 141,
+        "source_text_units_found_both": 141,
+        "html_title_in_pdf": true,
+        "source_url_in_pdf": true
+      },
+      "missing": [],
+      "manifest_hash_matches": true,
+      "visual_review": "All pages inspected via final contact sheets; relevant critical pages enlarged."
+    },
+    {
+      "id": "02",
+      "pdf": "materials/yz-official/pdf/中国传媒大学2026年硕士研究生招生简章（官网正文）.pdf",
+      "pages": 8,
+      "pdf_sha256": "6209c1c269405ee2bcee9a9a76f6e986ec935441bd798ee9aae1c7625725843c",
+      "mu_characters": [
+        1736,
+        1151,
+        1246,
+        1493,
+        1147,
+        1140,
+        1160,
+        627
+      ],
+      "pypdf_characters": [
+        1737,
+        1151,
+        1246,
+        1493,
+        1147,
+        1140,
+        1160,
+        627
+      ],
+      "source_kind": "article",
+      "checks": {
+        "source_text_units": 144,
+        "source_text_units_found_pypdf": 144,
+        "source_text_units_found_both": 144,
+        "html_title_in_pdf": true,
+        "source_url_in_pdf": true
+      },
+      "missing": [],
+      "manifest_hash_matches": true,
+      "visual_review": "All pages inspected via final contact sheets; relevant critical pages enlarged."
+    },
+    {
+      "id": "03",
+      "pdf": "materials/yz-official/pdf/中国传媒大学2027年硕士招生专业目录（官网表格展开）.pdf",
+      "pages": 99,
+      "pdf_sha256": "b39adbe32b973609ebe3a88026629e9f0e82773c34074393471300815e1ea134",
+      "mu_characters": [
+        829,
+        601,
+        600,
+        616,
+        649,
+        629,
+        634,
+        594,
+        588,
+        619,
+        608,
+        604,
+        598,
+        618,
+        619,
+        658,
+        665,
+        697,
+        589,
+        597,
+        593,
+        592,
+        602,
+        612,
+        618,
+        614,
+        607,
+        623,
+        607,
+        606,
+        619,
+        614,
+        606,
+        599,
+        599,
+        598,
+        597,
+        629,
+        631,
+        631,
+        635,
+        632,
+        631,
+        625,
+        626,
+        611,
+        620,
+        621,
+        623,
+        628,
+        629,
+        634,
+        638,
+        626,
+        649,
+        644,
+        637,
+        624,
+        628,
+        615,
+        604,
+        603,
+        599,
+        601,
+        610,
+        608,
+        644,
+        620,
+        628,
+        625,
+        636,
+        632,
+        642,
+        648,
+        630,
+        607,
+        606,
+        644,
+        613,
+        634,
+        649,
+        637,
+        579,
+        607,
+        603,
+        610,
+        611,
+        608,
+        614,
+        617,
+        613,
+        613,
+        603,
+        606,
+        610,
+        599,
+        588,
+        589,
+        593
+      ],
+      "pypdf_characters": [
+        830,
+        601,
+        600,
+        616,
+        649,
+        629,
+        634,
+        594,
+        588,
+        619,
+        608,
+        604,
+        598,
+        618,
+        619,
+        658,
+        665,
+        697,
+        589,
+        597,
+        593,
+        592,
+        602,
+        612,
+        618,
+        614,
+        607,
+        623,
+        607,
+        606,
+        619,
+        614,
+        606,
+        599,
+        599,
+        598,
+        597,
+        629,
+        631,
+        631,
+        635,
+        632,
+        631,
+        625,
+        626,
+        611,
+        620,
+        621,
+        623,
+        628,
+        629,
+        634,
+        638,
+        626,
+        649,
+        644,
+        637,
+        624,
+        628,
+        615,
+        604,
+        603,
+        599,
+        601,
+        610,
+        608,
+        644,
+        620,
+        628,
+        625,
+        636,
+        632,
+        642,
+        648,
+        630,
+        607,
+        606,
+        644,
+        613,
+        634,
+        649,
+        637,
+        579,
+        607,
+        603,
+        610,
+        611,
+        608,
+        614,
+        617,
+        613,
+        613,
+        603,
+        606,
+        610,
+        599,
+        588,
+        589,
+        593
+      ],
+      "source_kind": "directory",
+      "checks": {
+        "source_text_units": 575,
+        "source_text_units_found_pypdf": 575,
+        "source_text_units_found_both": 575,
+        "html_title_in_pdf": true,
+        "source_url_in_pdf": true,
+        "directory_records": 197,
+        "pdf_record_headings": 197,
+        "directory_record_relation_failures": [],
+        "core_same_page_passes": [
+          {
+            "record": 1,
+            "page": 1
+          },
+          {
+            "record": 2,
+            "page": 1
+          },
+          {
+            "record": 3,
+            "page": 2
+          },
+          {
+            "record": 4,
+            "page": 2
+          },
+          {
+            "record": 5,
+            "page": 3
+          },
+          {
+            "record": 6,
+            "page": 3
+          },
+          {
+            "record": 7,
+            "page": 4
+          },
+          {
+            "record": 8,
+            "page": 4
+          },
+          {
+            "record": 9,
+            "page": 5
+          },
+          {
+            "record": 10,
+            "page": 5
+          },
+          {
+            "record": 11,
+            "page": 6
+          },
+          {
+            "record": 12,
+            "page": 6
+          },
+          {
+            "record": 13,
+            "page": 7
+          },
+          {
+            "record": 14,
+            "page": 7
+          },
+          {
+            "record": 15,
+            "page": 8
+          },
+          {
+            "record": 16,
+            "page": 8
+          },
+          {
+            "record": 17,
+            "page": 9
+          },
+          {
+            "record": 18,
+            "page": 9
+          },
+          {
+            "record": 19,
+            "page": 10
+          },
+          {
+            "record": 20,
+            "page": 10
+          },
+          {
+            "record": 21,
+            "page": 11
+          },
+          {
+            "record": 22,
+            "page": 11
+          },
+          {
+            "record": 23,
+            "page": 12
+          },
+          {
+            "record": 24,
+            "page": 12
+          },
+          {
+            "record": 25,
+            "page": 13
+          },
+          {
+            "record": 26,
+            "page": 13
+          },
+          {
+            "record": 27,
+            "page": 14
+          },
+          {
+            "record": 28,
+            "page": 14
+          },
+          {
+            "record": 29,
+            "page": 15
+          },
+          {
+            "record": 30,
+            "page": 15
+          },
+          {
+            "record": 31,
+            "page": 16
+          },
+          {
+            "record": 32,
+            "page": 16
+          },
+          {
+            "record": 33,
+            "page": 17
+          },
+          {
+            "record": 34,
+            "page": 17
+          },
+          {
+            "record": 35,
+            "page": 18
+          },
+          {
+            "record": 36,
+            "page": 18
+          },
+          {
+            "record": 37,
+            "page": 19
+          },
+          {
+            "record": 38,
+            "page": 19
+          },
+          {
+            "record": 39,
+            "page": 20
+          },
+          {
+            "record": 40,
+            "page": 20
+          },
+          {
+            "record": 41,
+            "page": 21
+          },
+          {
+            "record": 42,
+            "page": 21
+          },
+          {
+            "record": 43,
+            "page": 22
+          },
+          {
+            "record": 44,
+            "page": 22
+          },
+          {
+            "record": 45,
+            "page": 23
+          },
+          {
+            "record": 46,
+            "page": 23
+          },
+          {
+            "record": 47,
+            "page": 24
+          },
+          {
+            "record": 48,
+            "page": 24
+          },
+          {
+            "record": 49,
+            "page": 25
+          },
+          {
+            "record": 50,
+            "page": 25
+          },
+          {
+            "record": 51,
+            "page": 26
+          },
+          {
+            "record": 52,
+            "page": 26
+          },
+          {
+            "record": 53,
+            "page": 27
+          },
+          {
+            "record": 54,
+            "page": 27
+          },
+          {
+            "record": 55,
+            "page": 28
+          },
+          {
+            "record": 56,
+            "page": 28
+          },
+          {
+            "record": 57,
+            "page": 29
+          },
+          {
+            "record": 58,
+            "page": 29
+          },
+          {
+            "record": 59,
+            "page": 30
+          },
+          {
+            "record": 60,
+            "page": 30
+          },
+          {
+            "record": 61,
+            "page": 31
+          },
+          {
+            "record": 62,
+            "page": 31
+          },
+          {
+            "record": 63,
+            "page": 32
+          },
+          {
+            "record": 64,
+            "page": 32
+          },
+          {
+            "record": 65,
+            "page": 33
+          },
+          {
+            "record": 66,
+            "page": 33
+          },
+          {
+            "record": 67,
+            "page": 34
+          },
+          {
+            "record": 68,
+            "page": 34
+          },
+          {
+            "record": 69,
+            "page": 35
+          },
+          {
+            "record": 70,
+            "page": 35
+          },
+          {
+            "record": 71,
+            "page": 36
+          },
+          {
+            "record": 72,
+            "page": 36
+          },
+          {
+            "record": 73,
+            "page": 37
+          },
+          {
+            "record": 74,
+            "page": 37
+          },
+          {
+            "record": 75,
+            "page": 38
+          },
+          {
+            "record": 76,
+            "page": 38
+          },
+          {
+            "record": 77,
+            "page": 39
+          },
+          {
+            "record": 78,
+            "page": 39
+          },
+          {
+            "record": 79,
+            "page": 40
+          },
+          {
+            "record": 80,
+            "page": 40
+          },
+          {
+            "record": 81,
+            "page": 41
+          },
+          {
+            "record": 82,
+            "page": 41
+          },
+          {
+            "record": 83,
+            "page": 42
+          },
+          {
+            "record": 84,
+            "page": 42
+          },
+          {
+            "record": 85,
+            "page": 43
+          },
+          {
+            "record": 86,
+            "page": 43
+          },
+          {
+            "record": 87,
+            "page": 44
+          },
+          {
+            "record": 88,
+            "page": 44
+          },
+          {
+            "record": 89,
+            "page": 45
+          },
+          {
+            "record": 90,
+            "page": 45
+          },
+          {
+            "record": 91,
+            "page": 46
+          },
+          {
+            "record": 92,
+            "page": 46
+          },
+          {
+            "record": 93,
+            "page": 47
+          },
+          {
+            "record": 94,
+            "page": 47
+          },
+          {
+            "record": 95,
+            "page": 48
+          },
+          {
+            "record": 96,
+            "page": 48
+          },
+          {
+            "record": 97,
+            "page": 49
+          },
+          {
+            "record": 98,
+            "page": 49
+          },
+          {
+            "record": 99,
+            "page": 50
+          },
+          {
+            "record": 100,
+            "page": 50
+          },
+          {
+            "record": 101,
+            "page": 51
+          },
+          {
+            "record": 102,
+            "page": 51
+          },
+          {
+            "record": 103,
+            "page": 52
+          },
+          {
+            "record": 104,
+            "page": 52
+          },
+          {
+            "record": 105,
+            "page": 53
+          },
+          {
+            "record": 106,
+            "page": 53
+          },
+          {
+            "record": 107,
+            "page": 54
+          },
+          {
+            "record": 108,
+            "page": 54
+          },
+          {
+            "record": 109,
+            "page": 55
+          },
+          {
+            "record": 110,
+            "page": 55
+          },
+          {
+            "record": 111,
+            "page": 56
+          },
+          {
+            "record": 112,
+            "page": 56
+          },
+          {
+            "record": 113,
+            "page": 57
+          },
+          {
+            "record": 114,
+            "page": 57
+          },
+          {
+            "record": 115,
+            "page": 58
+          },
+          {
+            "record": 116,
+            "page": 58
+          },
+          {
+            "record": 117,
+            "page": 59
+          },
+          {
+            "record": 118,
+            "page": 59
+          },
+          {
+            "record": 119,
+            "page": 60
+          },
+          {
+            "record": 120,
+            "page": 60
+          },
+          {
+            "record": 121,
+            "page": 61
+          },
+          {
+            "record": 122,
+            "page": 61
+          },
+          {
+            "record": 123,
+            "page": 62
+          },
+          {
+            "record": 124,
+            "page": 62
+          },
+          {
+            "record": 125,
+            "page": 63
+          },
+          {
+            "record": 126,
+            "page": 63
+          },
+          {
+            "record": 127,
+            "page": 64
+          },
+          {
+            "record": 128,
+            "page": 64
+          },
+          {
+            "record": 129,
+            "page": 65
+          },
+          {
+            "record": 130,
+            "page": 65
+          },
+          {
+            "record": 131,
+            "page": 66
+          },
+          {
+            "record": 132,
+            "page": 66
+          },
+          {
+            "record": 133,
+            "page": 67
+          },
+          {
+            "record": 134,
+            "page": 67
+          },
+          {
+            "record": 135,
+            "page": 68
+          },
+          {
+            "record": 136,
+            "page": 68
+          },
+          {
+            "record": 137,
+            "page": 69
+          },
+          {
+            "record": 138,
+            "page": 69
+          },
+          {
+            "record": 139,
+            "page": 70
+          },
+          {
+            "record": 140,
+            "page": 70
+          },
+          {
+            "record": 141,
+            "page": 71
+          },
+          {
+            "record": 142,
+            "page": 71
+          },
+          {
+            "record": 143,
+            "page": 72
+          },
+          {
+            "record": 144,
+            "page": 72
+          },
+          {
+            "record": 145,
+            "page": 73
+          },
+          {
+            "record": 146,
+            "page": 73
+          },
+          {
+            "record": 147,
+            "page": 74
+          },
+          {
+            "record": 148,
+            "page": 74
+          },
+          {
+            "record": 149,
+            "page": 75
+          },
+          {
+            "record": 150,
+            "page": 75
+          },
+          {
+            "record": 151,
+            "page": 76
+          },
+          {
+            "record": 152,
+            "page": 76
+          },
+          {
+            "record": 153,
+            "page": 77
+          },
+          {
+            "record": 154,
+            "page": 77
+          },
+          {
+            "record": 155,
+            "page": 78
+          },
+          {
+            "record": 156,
+            "page": 78
+          },
+          {
+            "record": 157,
+            "page": 79
+          },
+          {
+            "record": 158,
+            "page": 79
+          },
+          {
+            "record": 159,
+            "page": 80
+          },
+          {
+            "record": 160,
+            "page": 80
+          },
+          {
+            "record": 161,
+            "page": 81
+          },
+          {
+            "record": 162,
+            "page": 81
+          },
+          {
+            "record": 163,
+            "page": 82
+          },
+          {
+            "record": 164,
+            "page": 82
+          },
+          {
+            "record": 165,
+            "page": 83
+          },
+          {
+            "record": 166,
+            "page": 83
+          },
+          {
+            "record": 167,
+            "page": 84
+          },
+          {
+            "record": 168,
+            "page": 84
+          },
+          {
+            "record": 169,
+            "page": 85
+          },
+          {
+            "record": 170,
+            "page": 85
+          },
+          {
+            "record": 171,
+            "page": 86
+          },
+          {
+            "record": 172,
+            "page": 86
+          },
+          {
+            "record": 173,
+            "page": 87
+          },
+          {
+            "record": 174,
+            "page": 87
+          },
+          {
+            "record": 175,
+            "page": 88
+          },
+          {
+            "record": 176,
+            "page": 88
+          },
+          {
+            "record": 177,
+            "page": 89
+          },
+          {
+            "record": 178,
+            "page": 89
+          },
+          {
+            "record": 179,
+            "page": 90
+          },
+          {
+            "record": 180,
+            "page": 90
+          },
+          {
+            "record": 181,
+            "page": 91
+          },
+          {
+            "record": 182,
+            "page": 91
+          },
+          {
+            "record": 183,
+            "page": 92
+          },
+          {
+            "record": 184,
+            "page": 92
+          },
+          {
+            "record": 185,
+            "page": 93
+          },
+          {
+            "record": 186,
+            "page": 93
+          },
+          {
+            "record": 187,
+            "page": 94
+          },
+          {
+            "record": 188,
+            "page": 94
+          },
+          {
+            "record": 189,
+            "page": 95
+          },
+          {
+            "record": 190,
+            "page": 95
+          },
+          {
+            "record": 191,
+            "page": 96
+          },
+          {
+            "record": 192,
+            "page": 96
+          },
+          {
+            "record": 193,
+            "page": 97
+          },
+          {
+            "record": 194,
+            "page": 97
+          },
+          {
+            "record": 195,
+            "page": 98
+          },
+          {
+            "record": 196,
+            "page": 98
+          },
+          {
+            "record": 197,
+            "page": 99
+          }
+        ],
+        "core_same_page_failures": []
+      },
+      "missing": [],
+      "key_professional_pages": {
+        "081200": [
+          55,
+          56
+        ],
+        "083900": [
+          56,
+          57
+        ],
+        "085412": [
+          82
+        ]
+      },
+      "manifest_hash_matches": true,
+      "visual_review": "All pages inspected via final contact sheets; relevant critical pages enlarged."
+    },
+    {
+      "id": "04",
+      "pdf": "materials/yz-official/pdf/中国传媒大学2026年博士学位研究生招生简章（官网正文）.pdf",
+      "pages": 8,
+      "pdf_sha256": "9679c779d0b63f88c311c9162e02dae40db8beddb6ea34e9168114d9e38746a0",
+      "mu_characters": [
+        1641,
+        1152,
+        1068,
+        1065,
+        667,
+        974,
+        1377,
+        1033
+      ],
+      "pypdf_characters": [
+        1641,
+        1152,
+        1068,
+        1065,
+        667,
+        974,
+        1377,
+        1033
+      ],
+      "source_kind": "article",
+      "checks": {
+        "source_text_units": 161,
+        "source_text_units_found_pypdf": 161,
+        "source_text_units_found_both": 161,
+        "html_title_in_pdf": true,
+        "source_url_in_pdf": true
+      },
+      "missing": [],
+      "manifest_hash_matches": true,
+      "visual_review": "All pages inspected via final contact sheets; relevant critical pages enlarged."
+    },
+    {
+      "id": "05",
+      "pdf": "materials/yz-official/pdf/中国传媒大学2026年专业学位博士报考条件及申请材料要求（官网正文）.pdf",
+      "pages": 8,
+      "pdf_sha256": "1dade9491000d1fe1e336b3fdea82119cb211cbe29eb380aab44a9ca5adc338d",
+      "mu_characters": [
+        866,
+        695,
+        1047,
+        829,
+        646,
+        837,
+        489,
+        118
+      ],
+      "pypdf_characters": [
+        867,
+        695,
+        1047,
+        829,
+        646,
+        837,
+        489,
+        118
+      ],
+      "source_kind": "article",
+      "checks": {
+        "source_text_units": 133,
+        "source_text_units_found_pypdf": 133,
+        "source_text_units_found_both": 133,
+        "html_title_in_pdf": true,
+        "source_url_in_pdf": true,
+        "middle_dot_visible_page_7": true,
+        "middle_dot_found_both_parsers": true
+      },
+      "missing": [],
+      "manifest_hash_matches": true,
+      "visual_review": "All pages inspected via final contact sheets; relevant critical pages enlarged."
+    },
+    {
+      "id": "06",
+      "pdf": "materials/yz-official/pdf/中国传媒大学2026年博士目录－0810Z1信息计算技术（官网正文）.pdf",
+      "pages": 4,
+      "pdf_sha256": "c1610285ae40385f026e31500189f359bb29473d0939867b610d51b76b0c17a2",
+      "mu_characters": [
+        838,
+        735,
+        697,
+        56
+      ],
+      "pypdf_characters": [
+        839,
+        735,
+        697,
+        56
+      ],
+      "source_kind": "directory",
+      "checks": {
+        "source_text_units": 46,
+        "source_text_units_found_pypdf": 46,
+        "source_text_units_found_both": 46,
+        "html_title_in_pdf": true,
+        "source_url_in_pdf": true,
+        "directory_records": 8,
+        "pdf_record_headings": 8,
+        "directory_record_relation_failures": [],
+        "core_same_page_passes": [
+          {
+            "record": 1,
+            "page": 1
+          },
+          {
+            "record": 2,
+            "page": 1
+          },
+          {
+            "record": 3,
+            "page": 2
+          },
+          {
+            "record": 4,
+            "page": 2
+          },
+          {
+            "record": 5,
+            "page": 2
+          },
+          {
+            "record": 6,
+            "page": 3
+          },
+          {
+            "record": 7,
+            "page": 3
+          },
+          {
+            "record": 8,
+            "page": 3
+          }
+        ],
+        "core_same_page_failures": []
+      },
+      "missing": [],
+      "manifest_hash_matches": true,
+      "visual_review": "All pages inspected via final contact sheets; relevant critical pages enlarged."
+    },
+    {
+      "id": "07",
+      "pdf": "materials/yz-official/pdf/中国传媒大学2026年博士目录－081000信息与通信工程（官网正文）.pdf",
+      "pages": 11,
+      "pdf_sha256": "974ba989178c773e317d6809d674989ad194de15284f16eafac9a9886f0f9a40",
+      "mu_characters": [
+        840,
+        696,
+        554,
+        738,
+        704,
+        577,
+        754,
+        520,
+        719,
+        550,
+        239
+      ],
+      "pypdf_characters": [
+        841,
+        696,
+        554,
+        738,
+        704,
+        577,
+        754,
+        520,
+        719,
+        550,
+        239
+      ],
+      "source_kind": "directory",
+      "checks": {
+        "source_text_units": 118,
+        "source_text_units_found_pypdf": 118,
+        "source_text_units_found_both": 118,
+        "html_title_in_pdf": true,
+        "source_url_in_pdf": true,
+        "directory_records": 26,
+        "pdf_record_headings": 26,
+        "directory_record_relation_failures": [],
+        "core_same_page_passes": [
+          {
+            "record": 1,
+            "page": 1
+          },
+          {
+            "record": 2,
+            "page": 1
+          },
+          {
+            "record": 3,
+            "page": 2
+          },
+          {
+            "record": 4,
+            "page": 2
+          },
+          {
+            "record": 5,
+            "page": 2
+          },
+          {
+            "record": 6,
+            "page": 3
+          },
+          {
+            "record": 7,
+            "page": 3
+          },
+          {
+            "record": 8,
+            "page": 4
+          },
+          {
+            "record": 9,
+            "page": 4
+          },
+          {
+            "record": 10,
+            "page": 4
+          },
+          {
+            "record": 11,
+            "page": 5
+          },
+          {
+            "record": 12,
+            "page": 5
+          },
+          {
+            "record": 13,
+            "page": 5
+          },
+          {
+            "record": 14,
+            "page": 6
+          },
+          {
+            "record": 15,
+            "page": 6
+          },
+          {
+            "record": 16,
+            "page": 7
+          },
+          {
+            "record": 17,
+            "page": 7
+          },
+          {
+            "record": 18,
+            "page": 7
+          },
+          {
+            "record": 19,
+            "page": 8
+          },
+          {
+            "record": 20,
+            "page": 8
+          },
+          {
+            "record": 21,
+            "page": 9
+          },
+          {
+            "record": 22,
+            "page": 9
+          },
+          {
+            "record": 23,
+            "page": 9
+          },
+          {
+            "record": 24,
+            "page": 10
+          },
+          {
+            "record": 25,
+            "page": 10
+          },
+          {
+            "record": 26,
+            "page": 11
+          }
+        ],
+        "core_same_page_failures": []
+      },
+      "missing": [],
+      "manifest_hash_matches": true,
+      "visual_review": "All pages inspected via final contact sheets; relevant critical pages enlarged."
+    },
+    {
+      "id": "08",
+      "pdf": "materials/yz-official/pdf/2027年研考中国传媒大学考点1133报名须知（官网正文）.pdf",
+      "pages": 5,
+      "pdf_sha256": "447a30699ce78c8069764d22e0efe7014a0c9f41e740f1a5e8d356ebfbbb5179",
+      "mu_characters": [
+        1533,
+        1256,
+        1285,
+        1250,
+        723
+      ],
+      "pypdf_characters": [
+        1535,
+        1256,
+        1285,
+        1250,
+        723
+      ],
+      "source_kind": "article",
+      "checks": {
+        "source_text_units": 76,
+        "source_text_units_found_pypdf": 76,
+        "source_text_units_found_both": 76,
+        "html_title_in_pdf": true,
+        "source_url_in_pdf": true
+      },
+      "missing": [],
+      "manifest_hash_matches": true,
+      "visual_review": "All pages inspected via final contact sheets; relevant critical pages enlarged."
+    },
+    {
+      "id": "09",
+      "pdf": "materials/yz-official/pdf/2027年硕士初试823信号与系统考试大纲（官方PDF）.pdf",
+      "pages": 3,
+      "pdf_sha256": "8ee01dfa6e4af8e7313b0a9ea8e400eb8e1a8835cd4557728e3c1f235845ae88",
+      "mu_characters": [
+        409,
+        395,
+        87
+      ],
+      "pypdf_characters": [
+        413,
+        403,
+        88
+      ],
+      "source_kind": "original_pdf",
+      "checks": {
+        "original_pdf_byte_identical": true
+      },
+      "missing": [],
+      "manifest_hash_matches": true,
+      "visual_review": "All pages inspected via final contact sheets; relevant critical pages enlarged."
+    },
+    {
+      "id": "10",
+      "pdf": "materials/yz-official/pdf/2027年硕士初试884概率论与数理统计考试大纲（官方PDF）.pdf",
+      "pages": 3,
+      "pdf_sha256": "218b00ac1d87e438b3aee36274da8a6f681bcb358b54a4a64b8076c62793dd71",
+      "mu_characters": [
+        481,
+        376,
+        61
+      ],
+      "pypdf_characters": [
+        480,
+        376,
+        62
+      ],
+      "source_kind": "original_pdf",
+      "checks": {
+        "original_pdf_byte_identical": true
+      },
+      "missing": [],
+      "manifest_hash_matches": true,
+      "visual_review": "All pages inspected via final contact sheets; relevant critical pages enlarged."
+    },
+    {
+      "id": "11",
+      "pdf": "materials/yz-official/pdf/研究生奖助一览表（2027硕士简章官方附件）.pdf",
+      "pages": 2,
+      "pdf_sha256": "6312c7f5697195e499eb82f23a7bc4c84c6e8673f5a79115efadfeb2b7d6d3c3",
+      "mu_characters": [
+        1298,
+        387
+      ],
+      "pypdf_characters": [
+        1335,
+        413
+      ],
+      "source_kind": "original_pdf",
+      "checks": {
+        "original_pdf_byte_identical": true
+      },
+      "missing": [],
+      "manifest_hash_matches": true,
+      "visual_review": "All pages inspected via final contact sheets; relevant critical pages enlarged."
+    },
+    {
+      "id": "12",
+      "pdf": "materials/yz-official/pdf/2026年博士复试科技文献阅读与写作考试大纲（官方PDF）.pdf",
+      "pages": 2,
+      "pdf_sha256": "2026b9369a7925b9ffb18fed5bd4d3e0e440388f42fa86e0a446036c089dc0ef",
+      "mu_characters": [
+        533,
+        798
+      ],
+      "pypdf_characters": [
+        546,
+        798
+      ],
+      "source_kind": "original_pdf",
+      "checks": {
+        "original_pdf_byte_identical": true
+      },
+      "missing": [],
+      "manifest_hash_matches": true,
+      "visual_review": "All pages inspected via final contact sheets; relevant critical pages enlarged."
+    },
+    {
+      "id": "13",
+      "pdf": "materials/yz-official/pdf/2026年博士复试随机数学考试大纲（官方PDF）.pdf",
+      "pages": 2,
+      "pdf_sha256": "66ee1adf02afd3652a747b344717e55c3c5e1bbba25e545213963e1f19ce3b85",
+      "mu_characters": [
+        393,
+        242
+      ],
+      "pypdf_characters": [
+        392,
+        243
+      ],
+      "source_kind": "original_pdf",
+      "checks": {
+        "original_pdf_byte_identical": true
+      },
+      "missing": [],
+      "manifest_hash_matches": true,
+      "visual_review": "All pages inspected via final contact sheets; relevant critical pages enlarged."
+    },
+    {
+      "id": "14",
+      "pdf": "materials/yz-official/pdf/2026年博士复试数学物理方程考试大纲（官方PDF）.pdf",
+      "pages": 2,
+      "pdf_sha256": "850c7f7b49c3cdc5e29b198d5ba5ae4c93dba4acb4789ba704e40c6dfb2bcea0",
+      "mu_characters": [
+        388,
+        115
+      ],
+      "pypdf_characters": [
+        388,
+        116
+      ],
+      "source_kind": "original_pdf",
+      "checks": {
+        "original_pdf_byte_identical": true
+      },
+      "missing": [],
+      "manifest_hash_matches": true,
+      "visual_review": "All pages inspected via final contact sheets; relevant critical pages enlarged."
+    }
+  ],
+  "key_pages": [
+    {
+      "id": "01",
+      "page": 1,
+      "file": "final-01-p001.png"
+    },
+    {
+      "id": "01",
+      "page": 6,
+      "file": "final-01-p006.png"
+    },
+    {
+      "id": "01",
+      "page": 7,
+      "file": "final-01-p007.png"
+    },
+    {
+      "id": "02",
+      "page": 1,
+      "file": "final-02-p001.png"
+    },
+    {
+      "id": "02",
+      "page": 6,
+      "file": "final-02-p006.png"
+    },
+    {
+      "id": "02",
+      "page": 8,
+      "file": "final-02-p008.png"
+    },
+    {
+      "id": "03",
+      "page": 1,
+      "file": "final-03-p001.png"
+    },
+    {
+      "id": "03",
+      "page": 55,
+      "file": "final-03-p055.png"
+    },
+    {
+      "id": "03",
+      "page": 56,
+      "file": "final-03-p056.png"
+    },
+    {
+      "id": "03",
+      "page": 57,
+      "file": "final-03-p057.png"
+    },
+    {
+      "id": "03",
+      "page": 82,
+      "file": "final-03-p082.png"
+    },
+    {
+      "id": "03",
+      "page": 99,
+      "file": "final-03-p099.png"
+    },
+    {
+      "id": "04",
+      "page": 1,
+      "file": "final-04-p001.png"
+    },
+    {
+      "id": "04",
+      "page": 7,
+      "file": "final-04-p007.png"
+    },
+    {
+      "id": "04",
+      "page": 8,
+      "file": "final-04-p008.png"
+    },
+    {
+      "id": "05",
+      "page": 1,
+      "file": "final-05-p001.png"
+    },
+    {
+      "id": "05",
+      "page": 2,
+      "file": "final-05-p002.png"
+    },
+    {
+      "id": "05",
+      "page": 3,
+      "file": "final-05-p003.png"
+    },
+    {
+      "id": "05",
+      "page": 4,
+      "file": "final-05-p004.png"
+    },
+    {
+      "id": "05",
+      "page": 5,
+      "file": "final-05-p005.png"
+    },
+    {
+      "id": "05",
+      "page": 6,
+      "file": "final-05-p006.png"
+    },
+    {
+      "id": "05",
+      "page": 7,
+      "file": "final-05-p007.png"
+    },
+    {
+      "id": "05",
+      "page": 8,
+      "file": "final-05-p008.png"
+    },
+    {
+      "id": "06",
+      "page": 1,
+      "file": "final-06-p001.png"
+    },
+    {
+      "id": "06",
+      "page": 2,
+      "file": "final-06-p002.png"
+    },
+    {
+      "id": "06",
+      "page": 3,
+      "file": "final-06-p003.png"
+    },
+    {
+      "id": "06",
+      "page": 4,
+      "file": "final-06-p004.png"
+    },
+    {
+      "id": "07",
+      "page": 1,
+      "file": "final-07-p001.png"
+    },
+    {
+      "id": "07",
+      "page": 2,
+      "file": "final-07-p002.png"
+    },
+    {
+      "id": "07",
+      "page": 3,
+      "file": "final-07-p003.png"
+    },
+    {
+      "id": "07",
+      "page": 4,
+      "file": "final-07-p004.png"
+    },
+    {
+      "id": "07",
+      "page": 5,
+      "file": "final-07-p005.png"
+    },
+    {
+      "id": "07",
+      "page": 6,
+      "file": "final-07-p006.png"
+    },
+    {
+      "id": "07",
+      "page": 7,
+      "file": "final-07-p007.png"
+    },
+    {
+      "id": "07",
+      "page": 8,
+      "file": "final-07-p008.png"
+    },
+    {
+      "id": "07",
+      "page": 9,
+      "file": "final-07-p009.png"
+    },
+    {
+      "id": "07",
+      "page": 10,
+      "file": "final-07-p010.png"
+    },
+    {
+      "id": "07",
+      "page": 11,
+      "file": "final-07-p011.png"
+    },
+    {
+      "id": "08",
+      "page": 1,
+      "file": "final-08-p001.png"
+    },
+    {
+      "id": "08",
+      "page": 5,
+      "file": "final-08-p005.png"
+    },
+    {
+      "id": "09",
+      "page": 1,
+      "file": "final-09-p001.png"
+    },
+    {
+      "id": "09",
+      "page": 3,
+      "file": "final-09-p003.png"
+    },
+    {
+      "id": "10",
+      "page": 1,
+      "file": "final-10-p001.png"
+    },
+    {
+      "id": "10",
+      "page": 3,
+      "file": "final-10-p003.png"
+    },
+    {
+      "id": "11",
+      "page": 1,
+      "file": "final-11-p001.png"
+    },
+    {
+      "id": "11",
+      "page": 2,
+      "file": "final-11-p002.png"
+    },
+    {
+      "id": "12",
+      "page": 1,
+      "file": "final-12-p001.png"
+    },
+    {
+      "id": "12",
+      "page": 2,
+      "file": "final-12-p002.png"
+    },
+    {
+      "id": "13",
+      "page": 1,
+      "file": "final-13-p001.png"
+    },
+    {
+      "id": "13",
+      "page": 2,
+      "file": "final-13-p002.png"
+    },
+    {
+      "id": "14",
+      "page": 1,
+      "file": "final-14-p001.png"
+    },
+    {
+      "id": "14",
+      "page": 2,
+      "file": "final-14-p002.png"
+    }
+  ],
+  "contact_sheets": 11,
+  "verified_at": "2026-10-27T05:08:38.899121+00:00",
+  "status": "pass_with_documented_original_pdf_extraction_limitation",
+  "reviewer": "Codex assistant visual and conversion QA",
+  "independent_human_review": false,
+  "pdf_files_modified": false,
+  "paid_generation_api_calls": 0,
+  "methods": [
+    "14 PDFs / 164 pages rendered with local PyMuPDF; all pages inspected on 11 final contact sheets.",
+    "Critical full-resolution pages inspected for programme/exam relations, fees, doctorate application tables, supervisor records and final directory caveats.",
+    "Every parsed HTML paragraph and unique originating table cell checked as a normalized substring in pypdf and PyMuPDF text; whitespace, zero-width characters and repeated page footers normalized only.",
+    "Every directory record checked between its own record headings; all core source fields also verified on its own heading page.",
+    "Six original PDF copies verified byte-for-byte identical to acquired originals; all final PDF SHA256 values agree with current manifest.",
+    "After final isolated middle-dot font repair, only 05 page 7 was re-rendered and visually checked; all 05 text units rechecked. Other 13 unchanged PDF hashes confirmed."
+  ],
+  "visual_conclusions": [
+    "No observed clipped body glyphs, overlapping paragraphs, out-of-page tables, or missing Chinese body text on reviewed final pages.",
+    "03: all 197 programme/direction core groups remain on their heading page. 081200 pages 55-56, 083900 pages 56-57 and 085412 page 82 enlarged and verified; final original quota caveats visible on page 99.",
+    "05: long merged-cell conditions are expanded with faculty and programme fields; appendix tables readable. Page 7 middle dot in 出版融合技术·编辑创新大赛三等奖及以上 is now visible and extracted correctly by both parsers.",
+    "06/07: 8 and 26 supervisor records retain programme, faculty and exam context; quotas may continue on following pages by design.",
+    "01 page 6: 2027 approval and 2026 reference-fee qualifier retained. 02 pages 6-7: 2026 approval and 2025 reference qualifier retained. 04 page 7: 2026 approval and 2025 reference qualifier retained.",
+    "KeepTogether intentionally leaves some lower-page whitespace to preserve core relationships. Final short pages contain genuine remaining content, not missing source text."
+  ],
+  "critical_pages_inspected_full_resolution": [
+    {
+      "id": "01",
+      "pages": [
+        6
+      ]
+    },
+    {
+      "id": "02",
+      "pages": [
+        6
+      ]
+    },
+    {
+      "id": "03",
+      "pages": [
+        55,
+        56,
+        57,
+        82,
+        99
+      ]
+    },
+    {
+      "id": "04",
+      "pages": [
+        7
+      ]
+    },
+    {
+      "id": "05",
+      "pages": [
+        1,
+        3,
+        7
+      ]
+    },
+    {
+      "id": "06",
+      "pages": [
+        1,
+        3
+      ]
+    },
+    {
+      "id": "07",
+      "pages": [
+        1,
+        11
+      ]
+    },
+    {
+      "id": "11",
+      "pages": [
+        1
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "source_id": "11",
+      "pages": [
+        1,
+        2
+      ],
+      "type": "original_pdf_partial_structural_text_loss",
+      "description": "The original scholarship PDF visibly contains title 中国传媒大学研究生奖助一览表, table headings 项目名称/内容说明 and left-column aid-category labels that neither pypdf nor PyMuPDF extracts. Right-column explanations are extractable. Original PDF is unchanged; this is an original-PDF extraction limitation, not a webpage-conversion omission.",
+      "action": "Use visible original table for label-to-description verification; do not claim the PDF is fully text-extracted or independently human-annotated."
+    },
+    {
+      "type": "review_scope",
+      "description": "Visual layout QA and normalized text coverage are assistant checks, not independent character-by-character human proofreading or verification of current admissions policy."
+    }
+  ],
+  "source_text_units_total": 1394,
+  "source_text_units_pypdf_found": 1394,
+  "directory_core_records_checked": 231,
+  "directory_core_same_page_failures": 0
+}

@@ -155,7 +155,7 @@ class KnowledgeBase:
                 pages = parse_document(filename, content, enable_ocr=self.enable_ocr)
                 allowed = {'faculty', 'major', 'cohort', 'published_at', 'review_note', 'reference_only', 'authority',
                            'domain','admission_year','admission_level','admission_program','original_filename',
-                           'conversion_method','original_sha256','ocr_text_layer','actual_title'}
+                           'conversion_method','original_sha256','ocr_text_layer','actual_title','degree_type','exam_codes'}
                 meta = {key:value for key,value in (metadata or {}).items() if key in allowed}
                 meta['extraction_method'] = 'ocr' if meta.get('ocr_text_layer') or any(p.get('extraction_method') == 'ocr' for p in pages) else 'text'
                 if any(p.get('contains_images') for p in pages):
@@ -244,11 +244,14 @@ class KnowledgeBase:
                 vector = self.vectorizer.transform([query])
                 scores = (self.matrix @ vector.T).toarray().ravel()
             admission_scope=choose_admission_year(self.rows,infer_admission_scope(query,category))
+            requested_exam=re.search(r'(?<!\d)(\d{3})(?!\d)',query) if re.search(r'考试大纲|考纲',query) else None
             def applies(row):
                 meta = row['metadata']
                 years = re.findall(r'20\d{2}', str(meta.get('cohort', '')))
                 return (not meta.get('reference_only')
                         and scope_matches(meta,admission_scope)
+                        and (not admission_scope['domain'] or not requested_exam
+                             or requested_exam.group(1) in meta.get('exam_codes',[]))
                         and (not cohort or not years or cohort in years)
                         and (not major or not meta.get('major') or major == meta['major']))
             lexical_scores = None

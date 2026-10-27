@@ -1,0 +1,478 @@
+{
+  "verified_at": "2026-10-27T13:12:11.465219+08:00",
+  "version": "0.7.0",
+  "automated_tests": {
+    "passed": 100,
+    "failures": 0,
+    "command": "python scripts/run_checks.py",
+    "isolation": "temporary application data, real generation API variables removed"
+  },
+  "javascript_syntax": {
+    "files": [
+      "static/app.js",
+      "static/chat-history.js",
+      "static/review.js"
+    ],
+    "passed": true
+  },
+  "official_corpus": {
+    "entry_url": "https://yz.cuc.edu.cn/main.htm",
+    "pdfs": 14,
+    "pages": 164,
+    "official_pdf_byte_copies": 6,
+    "offline_html_body_exports": 8,
+    "source_hashes_match": true,
+    "attachment_parent_links_verified": true,
+    "full_site_mirror": false
+  },
+  "corpus": {
+    "documents": 34,
+    "chunks": 706,
+    "real_documents": 30,
+    "sample_documents": 4,
+    "reference_only_documents": 5,
+    "default_eligible_real_documents": 25,
+    "semantic_embedding_dimension": 512
+  },
+  "conversion_quality": {
+    "html_text_units_checked": 1394,
+    "directory_core_records_checked": 231,
+    "directory_core_same_page_failures": 0,
+    "all_pages_reviewed_in_contact_sheets": true,
+    "key_pages_reviewed_at_full_resolution": true,
+    "middle_dot_rendering_repaired": true,
+    "original_scholarship_pdf_text_structure_incomplete": true,
+    "independent_human_review": false
+  },
+  "clean_bootstrap": {
+    "documents": 34,
+    "chunks": 706,
+    "dimension": 30000,
+    "sample_documents": 4,
+    "mode": "tfidf"
+  },
+  "backup_restore": {
+    "verified_at": "2026-10-27T13:08:11.185762+08:00",
+    "backup": "knowledge-20261027-130808.zip",
+    "stats": {
+      "documents": 34,
+      "chunks": 706,
+      "dimension": 30000,
+      "sample_documents": 4,
+      "mode": "tfidf"
+    },
+    "original_file_hashes_match": true,
+    "paths_relocated": true,
+    "credentials_excluded": true,
+    "retrieval_smoke_passed": true,
+    "model_calls": 0,
+    "note": "本机独立恢复目录演练，不是另一台电脑的完整安装测试；恢复测试使用TF-IDF，不验证远程生成。"
+  },
+  "functional_integration": {
+    "cases": [
+      {
+        "id": "cs_exam",
+        "question": "2027年计算机科学与技术学硕初试考哪些科目？",
+        "expected_source_id": "03",
+        "evidence_hints": [
+          "081200",
+          "408计算机学科专业基础",
+          "201英语（一）"
+        ],
+        "source_ids": [
+          "03",
+          "03",
+          "03",
+          "03"
+        ],
+        "pages": [
+          56,
+          55,
+          55,
+          47
+        ],
+        "mode": "extractive",
+        "scope": {
+          "domain": true,
+          "year": "2027",
+          "level": "master",
+          "program": "general_master",
+          "degree_type": "academic"
+        },
+        "missing": [],
+        "relation_ok": true,
+        "passed": true,
+        "role": "assistant-developed integration case, not independent evaluation"
+      },
+      {
+        "id": "security_directions",
+        "question": "2027年网络空间安全学硕有哪些研究方向？",
+        "expected_source_id": "03",
+        "evidence_hints": [
+          "083900",
+          "密码学与数智化应用",
+          "人工智能与视听安全",
+          "网络与系统安全"
+        ],
+        "source_ids": [
+          "03",
+          "03",
+          "03",
+          "03"
+        ],
+        "pages": [
+          57,
+          56,
+          57,
+          82
+        ],
+        "mode": "extractive",
+        "scope": {
+          "domain": true,
+          "year": "2027",
+          "level": "master",
+          "program": "general_master",
+          "degree_type": "academic"
+        },
+        "missing": [],
+        "relation_ok": true,
+        "passed": true,
+        "role": "assistant-developed integration case, not independent evaluation"
+      },
+      {
+        "id": "professional_english",
+        "question": "2027年计算机技术专硕考英语一还是英语二？",
+        "expected_source_id": "03",
+        "evidence_hints": [
+          "085404",
+          "204英语（二）"
+        ],
+        "source_ids": [
+          "03",
+          "03",
+          "03",
+          "03"
+        ],
+        "pages": [
+          78,
+          55,
+          55,
+          56
+        ],
+        "mode": "extractive",
+        "scope": {
+          "domain": true,
+          "year": "2027",
+          "level": "master",
+          "program": "general_master",
+          "degree_type": "professional"
+        },
+        "missing": [],
+        "relation_ok": true,
+        "passed": true,
+        "role": "assistant-developed integration case, not independent evaluation"
+      },
+      {
+        "id": "quota_group",
+        "question": "2027年085412网络与信息安全两个方向的招生人数是分别计算的吗？",
+        "expected_source_id": "03",
+        "evidence_hints": [
+          "085412",
+          "同组不得按方向累加",
+          "参照2026年计划指标数"
+        ],
+        "source_ids": [
+          "03",
+          "03",
+          "03",
+          "03"
+        ],
+        "pages": [
+          82,
+          82,
+          80,
+          79
+        ],
+        "mode": "extractive",
+        "scope": {
+          "domain": true,
+          "year": "2027",
+          "level": "",
+          "program": ""
+        },
+        "missing": [],
+        "relation_ok": true,
+        "passed": true,
+        "role": "assistant-developed integration case, not independent evaluation"
+      },
+      {
+        "id": "doctor_faculty",
+        "question": "2026年信息计算技术博士所属哪个学院？",
+        "expected_source_id": "06",
+        "evidence_hints": [
+          "0810Z1",
+          "计算机与网络空间安全学院"
+        ],
+        "source_ids": [
+          "06",
+          "06",
+          "06",
+          "06"
+        ],
+        "pages": [
+          2,
+          3,
+          1,
+          3
+        ],
+        "mode": "extractive",
+        "scope": {
+          "domain": true,
+          "year": "2026",
+          "level": "doctor",
+          "program": "general_doctor"
+        },
+        "missing": [],
+        "relation_ok": true,
+        "passed": true,
+        "role": "assistant-developed integration case, not independent evaluation"
+      },
+      {
+        "id": "doctor_exams",
+        "question": "2026年信息计算技术博士复试笔试科目是什么？",
+        "expected_source_id": "06",
+        "evidence_hints": [
+          "科技文献阅读与写作",
+          "随机数学"
+        ],
+        "source_ids": [
+          "06",
+          "06",
+          "06",
+          "06"
+        ],
+        "pages": [
+          3,
+          3,
+          1,
+          2
+        ],
+        "mode": "extractive",
+        "scope": {
+          "domain": true,
+          "year": "2026",
+          "level": "doctor",
+          "program": "general_doctor"
+        },
+        "missing": [],
+        "relation_ok": true,
+        "passed": true,
+        "role": "assistant-developed integration case, not independent evaluation"
+      },
+      {
+        "id": "registration_end",
+        "question": "2027年硕士考试1133中传考点网上报名截止到什么时候？",
+        "expected_source_id": "08",
+        "evidence_hints": [
+          "2026年10月24日",
+          "22:00"
+        ],
+        "source_ids": [
+          "08",
+          "08",
+          "08",
+          "01"
+        ],
+        "pages": [
+          2,
+          2,
+          2,
+          4
+        ],
+        "mode": "extractive",
+        "scope": {
+          "domain": true,
+          "year": "2027",
+          "level": "master",
+          "program": "general_master"
+        },
+        "missing": [],
+        "relation_ok": true,
+        "passed": true,
+        "role": "assistant-developed integration case, not independent evaluation"
+      },
+      {
+        "id": "registration_fee",
+        "question": "2027年硕士考试1133中传考点初试费是多少？",
+        "expected_source_id": "08",
+        "evidence_hints": [
+          "138元"
+        ],
+        "source_ids": [
+          "08",
+          "08",
+          "08",
+          "08"
+        ],
+        "pages": [
+          2,
+          2,
+          2,
+          1
+        ],
+        "mode": "extractive",
+        "scope": {
+          "domain": true,
+          "year": "2027",
+          "level": "master",
+          "program": "general_master"
+        },
+        "missing": [],
+        "relation_ok": true,
+        "passed": true,
+        "role": "assistant-developed integration case, not independent evaluation"
+      },
+      {
+        "id": "academic_works",
+        "question": "2026年学术学位博士申请材料最多提交几项代表作？",
+        "expected_source_id": "04",
+        "evidence_hints": [
+          "最多提交3项"
+        ],
+        "source_ids": [
+          "04",
+          "04",
+          "04",
+          "04"
+        ],
+        "pages": [
+          4,
+          3,
+          4,
+          4
+        ],
+        "mode": "extractive",
+        "scope": {
+          "domain": true,
+          "year": "2026",
+          "level": "doctor",
+          "program": "general_doctor",
+          "degree_type": "academic"
+        },
+        "missing": [],
+        "relation_ok": true,
+        "passed": true,
+        "role": "assistant-developed integration case, not independent evaluation"
+      },
+      {
+        "id": "professional_work",
+        "question": "2026年专业学位博士播音主持艺术要求几年工作经验？",
+        "expected_source_id": "05",
+        "evidence_hints": [
+          "3年以上"
+        ],
+        "source_ids": [
+          "05",
+          "05",
+          "05",
+          "05"
+        ],
+        "pages": [
+          4,
+          4,
+          1,
+          1
+        ],
+        "mode": "extractive",
+        "scope": {
+          "domain": true,
+          "year": "2026",
+          "level": "doctor",
+          "program": "general_doctor",
+          "degree_type": "professional"
+        },
+        "missing": [],
+        "relation_ok": true,
+        "passed": true,
+        "role": "assistant-developed integration case, not independent evaluation"
+      },
+      {
+        "id": "scholarship",
+        "question": "2027年硕士招生简章附件中的国家奖学金标准是多少？",
+        "expected_source_id": "11",
+        "evidence_hints": [
+          "硕士研究生每人每年2万元"
+        ],
+        "source_ids": [
+          "11",
+          "01",
+          "01",
+          "01"
+        ],
+        "pages": [
+          1,
+          6,
+          6,
+          1
+        ],
+        "mode": "extractive",
+        "scope": {
+          "domain": true,
+          "year": "2027",
+          "level": "master",
+          "program": "general_master"
+        },
+        "missing": [],
+        "relation_ok": true,
+        "passed": true,
+        "role": "assistant-developed integration case, not independent evaluation"
+      },
+      {
+        "id": "missing_408",
+        "question": "2027年硕士初试408计算机学科专业基础考试大纲包含哪些章节？",
+        "expected_source_id": "",
+        "evidence_hints": [],
+        "source_ids": [],
+        "pages": [],
+        "mode": "no_evidence",
+        "scope": {
+          "domain": true,
+          "year": "2027",
+          "level": "master",
+          "program": "general_master"
+        },
+        "missing": [],
+        "relation_ok": true,
+        "passed": true,
+        "role": "assistant-developed integration case, not independent evaluation"
+      }
+    ],
+    "role": "assistant-developed integration checks; not independent evaluation or generated answer grading"
+  },
+  "development_retrieval_regression": {
+    "total_questions": 19,
+    "evidence_hit_rate": 1.0,
+    "mean_recall_at_k": 1.0,
+    "mean_mrr": 0.9736842105263158,
+    "role": "previous development set; not independent evaluation or generated answer accuracy"
+  },
+  "browser": {
+    "original_text_mode_verified": true,
+    "major_exam_relationships_and_pdf_page_citations_visible": true,
+    "degree_type_scope_visible": true,
+    "official_body_and_reference_screenshot_both_visible": true,
+    "missing_outline_notice_verified": true,
+    "test_conversation_removed": true,
+    "original_user_conversation_preserved": true
+  },
+  "assistant_live_generation_requests": 0,
+  "limitations": [
+    "仅采集选定的公开招生政策和学科资料，不是全站镜像；不含考生名单和个人成绩。",
+    "官网2027自命题大纲索引没有408附件，仅能据专业目录确认408科目设置，本轮未取得其完整大纲。",
+    "MBA学院最新简章链接到本次无法读取的微信正文，未据整理稿推断当年收费或政策。",
+    "博士分专业目录仅收集信息计算技术和信息与通信工程，不宣称全校博士目录已完整收齐。",
+    "采集日期不等于政策有效期；网页正文排版PDF不是官网原始PDF。",
+    "The original scholarship PDF contains visible labels not extractable as text; the unchanged source is retained and the limitation is in metadata.",
+    "The question checks were used during development; an independent frozen question set and human answer ratings remain separate work."
+  ]
+}

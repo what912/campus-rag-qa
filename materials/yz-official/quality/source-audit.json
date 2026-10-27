@@ -1,0 +1,998 @@
+{
+  "audited_on": "2026-10-27",
+  "scope": "14份已采集官方原件（8个HTML、6个原始PDF）及2份大纲发现索引；仅来源、适用范围和原件可读性审计，不是后续网页转PDF版式验收。",
+  "reviewer": "Codex assistant source audit",
+  "independent_human_annotation": false,
+  "paid_generation_api_calls": 0,
+  "source_files_modified": false,
+  "method": [
+    "对保存的官方HTML检查实际h1、arti_update发布日期、正文项目与附件链接。",
+    "逐文件核对source-acquisition.json中的SHA256。",
+    "6个原PDF使用pypdf与PyMuPDF独立抽取，并渲染检查全部14页。",
+    "独立展开03原HTML合并单元格，保留人数及考试科目单元格来源跨度。",
+    "06/07沿官方2026博士总目录和学术博士分类页只读验证年度及学位归属。"
+  ],
+  "overall_status": "pass_with_documented_extraction_limitations",
+  "identity_or_metadata_mismatches": [],
+  "material_findings": [
+    {
+      "id": "F01",
+      "severity": "medium",
+      "source_id": "11",
+      "pages": [
+        1,
+        2
+      ],
+      "type": "original_pdf_partial_structural_text_loss",
+      "description": "可见标题“中国传媒大学研究生奖助一览表”、表头“项目名称/内容说明”及左列各资助项目标签不被pypdf或PyMuPDF抽取；右列说明可读。两解析器结果一致不能视为原PDF全文已完整抽取。",
+      "recommended_action": "保留PDF原件，记录解析限制；如需提升检索，应新增与原图逐项绑定的结构化伴随文本，并明确助手视觉转录、非独立人工标注；不得改写原PDF或宣称OCR/抽取全文准确。",
+      "source_unchanged": true
+    }
+  ],
+  "source_count": 14,
+  "html_source_count": 8,
+  "original_pdf_count": 6,
+  "original_pdf_pages": 14,
+  "all_acquisition_hashes_match": true,
+  "all_publication_dates_match": true,
+  "all_pdf_attachment_links_match": true,
+  "sources": [
+    {
+      "id": "01",
+      "configured_title": "中国传媒大学2027年硕士研究生招生简章（官网正文）",
+      "source_url": "https://yz.cuc.edu.cn/2026/0930/c8549a274491/page.htm",
+      "download_url": "",
+      "local_path": "materials/yz-official/originals/01_中国传媒大学2027年硕士研究生招生简章（官网正文）.html",
+      "sha256": "01a6712e608fd10aabf758af3ded1e9f740a4439331d3d2121fa0011490aed7c",
+      "acquisition_sha256_matches": true,
+      "configured_admission_year": "2027",
+      "configured_admission_program": "general_master",
+      "configured_admission_level": "master",
+      "configured_degree_type": "",
+      "scope_metadata_consistent": true,
+      "scope_and_temporal_notes": [
+        "通用硕士总简章，包含MBA、国际合作等特别条款；具体专业仍需目录限定。",
+        "2027年学费以当年度审批为准，展示的是2026年参考收费；不能直接回答为2027年已定费用。"
+      ],
+      "status": "pass",
+      "actual_h1": "中国传媒大学2027年硕士研究生招生简章",
+      "actual_published_at": "2026-10-03",
+      "published_at_matches": true,
+      "h1_explicit_admission_year": [
+        "2027"
+      ],
+      "body_characters_excluding_whitespace": 8088,
+      "content_readability": "HTML正文可解析；表格须按rowspan/colspan继承，不以文件名替代正文核对。"
+    },
+    {
+      "id": "02",
+      "configured_title": "中国传媒大学2026年硕士研究生招生简章（官网正文）",
+      "source_url": "https://yz.cuc.edu.cn/2025/0929/c8549a260582/page.htm",
+      "download_url": "",
+      "local_path": "materials/yz-official/originals/02_中国传媒大学2026年硕士研究生招生简章（官网正文）.html",
+      "sha256": "24ce2629d974887b078260855a7bf1f4fc12b7afa56b7ba119d771a4184ec9c3",
+      "acquisition_sha256_matches": true,
+      "configured_admission_year": "2026",
+      "configured_admission_program": "general_master",
+      "configured_admission_level": "master",
+      "configured_degree_type": "",
+      "scope_metadata_consistent": true,
+      "scope_and_temporal_notes": [
+        "2026招生周期；2026年学费以审批为准，展示的是2025年参考标准。",
+        "MBA原文为2026年学费计划调整为109000元/学年，须保留“计划调整”。"
+      ],
+      "status": "pass",
+      "actual_h1": "​中国传媒大学2026年硕士研究生招生简章",
+      "actual_published_at": "2025-10-05",
+      "published_at_matches": true,
+      "h1_explicit_admission_year": [
+        "2026"
+      ],
+      "body_characters_excluding_whitespace": 8737,
+      "content_readability": "HTML正文可解析；表格须按rowspan/colspan继承，不以文件名替代正文核对。"
+    },
+    {
+      "id": "03",
+      "configured_title": "中国传媒大学2027年硕士招生专业目录（官网表格展开）",
+      "source_url": "https://yz.cuc.edu.cn/2026/0930/c8549a274497/page.htm",
+      "download_url": "",
+      "local_path": "materials/yz-official/originals/03_中国传媒大学2027年硕士招生专业目录（官网表格展开）.html",
+      "sha256": "8605f01d0bdceab6ea026975caf9debb6742bacde9f26cf0fb9dd92373097cba",
+      "acquisition_sha256_matches": true,
+      "configured_admission_year": "2027",
+      "configured_admission_program": "general_master",
+      "configured_admission_level": "master",
+      "configured_degree_type": "",
+      "scope_metadata_consistent": true,
+      "scope_and_temporal_notes": [
+        "目录人数为拟招总人数（含推免），并非统考名额。",
+        "备注明确2027年拟招生人数参照2026年计划指标，实际以当年教育部下达指标为准；实际推免人数也可能增减。",
+        "展开合并单元格只是重复展示共同分组，不可逐研究方向相加。"
+      ],
+      "status": "pass",
+      "actual_h1": "中国传媒大学2027年攻读硕士学位研究生招生专业目录",
+      "actual_published_at": "2026-10-03",
+      "published_at_matches": true,
+      "h1_explicit_admission_year": [
+        "2027"
+      ],
+      "body_characters_excluding_whitespace": 5100,
+      "content_readability": "HTML正文可解析；表格须按rowspan/colspan继承，不以文件名替代正文核对。"
+    },
+    {
+      "id": "04",
+      "configured_title": "中国传媒大学2026年博士学位研究生招生简章（官网正文）",
+      "source_url": "https://yz.cuc.edu.cn/2025/1111/c8549a262367/page.htm",
+      "download_url": "",
+      "local_path": "materials/yz-official/originals/04_中国传媒大学2026年博士学位研究生招生简章（官网正文）.html",
+      "sha256": "71811c878c2939c850ee0eafb415aa0a2e1e972f489b08c8671c5d4c6dbeff15",
+      "acquisition_sha256_matches": true,
+      "configured_admission_year": "2026",
+      "configured_admission_program": "general_doctor",
+      "configured_admission_level": "doctor",
+      "configured_degree_type": "",
+      "scope_metadata_consistent": true,
+      "scope_and_temporal_notes": [
+        "仅2026年博士招生；直博、硕博连读、普通招考条件分别适用。",
+        "2026年学费以北京市当年审批结果为准，列明2025年参考收费。",
+        "初试时间仅拟定为2026年3月，须以后续通知为准；2025年11月13日至12月10日是该招生周期当时的报名窗口。"
+      ],
+      "status": "pass",
+      "actual_h1": "中国传媒大学2026年博士学位研究生招生简章",
+      "actual_published_at": "2025-11-12",
+      "published_at_matches": true,
+      "h1_explicit_admission_year": [
+        "2026"
+      ],
+      "body_characters_excluding_whitespace": 7769,
+      "content_readability": "HTML正文可解析；表格须按rowspan/colspan继承，不以文件名替代正文核对。"
+    },
+    {
+      "id": "05",
+      "configured_title": "中国传媒大学2026年专业学位博士报考条件及申请材料要求（官网正文）",
+      "source_url": "https://yz.cuc.edu.cn/2025/1111/c8549a262368/page.htm",
+      "download_url": "",
+      "local_path": "materials/yz-official/originals/05_中国传媒大学2026年专业学位博士报考条件及申请材料要求（官网正文）.html",
+      "sha256": "9dbeed75d8cec85b09c937d9d42fba5f414b451ca0d7d7e1a56117814a5282ef",
+      "acquisition_sha256_matches": true,
+      "configured_admission_year": "2026",
+      "configured_admission_program": "general_doctor",
+      "configured_admission_level": "doctor",
+      "configured_degree_type": "professional",
+      "scope_metadata_consistent": true,
+      "scope_and_temporal_notes": [
+        "仅2026年专业学位博士对应专业/方向的附加条件与代表作要求；不能套用到学术博士或硕士。",
+        "音乐135200、戏剧与影视135400、美术与书法135600、出版055300的具体方向逐行适用。",
+        "须保留“满足以下条件”与“满足以下条件之一”的区别。",
+        "附录1只适用于戏剧与影视（纪录片艺术）；附录2用于出版奖励/称号；其他奖项须招生单位学术委员会认定。"
+      ],
+      "status": "pass",
+      "actual_h1": "中国传媒大学2026年专业学位博士研究生报考条件及申请材料要求",
+      "actual_published_at": "2025-11-12",
+      "published_at_matches": true,
+      "h1_explicit_admission_year": [
+        "2026"
+      ],
+      "body_characters_excluding_whitespace": 3455,
+      "content_readability": "HTML正文可解析；表格须按rowspan/colspan继承，不以文件名替代正文核对。"
+    },
+    {
+      "id": "06",
+      "configured_title": "中国传媒大学2026年博士目录－0810Z1信息计算技术（官网正文）",
+      "source_url": "https://yz.cuc.edu.cn/2025/1106/c14246a262032/page.htm",
+      "download_url": "",
+      "local_path": "materials/yz-official/originals/06_中国传媒大学2026年博士目录－0810Z1信息计算技术（官网正文）.html",
+      "sha256": "4f9fc8b71dfa5a8a0c12d25b8d2082bc7a6781e503d01ccf15f41def013fa4a5",
+      "acquisition_sha256_matches": true,
+      "configured_admission_year": "2026",
+      "configured_admission_program": "general_doctor",
+      "configured_admission_level": "doctor",
+      "configured_degree_type": "academic",
+      "scope_metadata_consistent": true,
+      "scope_and_temporal_notes": [
+        "不是全校博士总目录；仅0810Z1信息计算技术，所属计算机与网络空间安全学院。",
+        "招生方式：硕博连读、普通招考；复试科目：科技文献阅读与写作、随机数学（或数学物理方程）。",
+        "标题本身未写招生年度；2026及学术学位归属由官方年度目录链接链确认。"
+      ],
+      "status": "pass",
+      "actual_h1": "0810Z1 信息计算技术",
+      "actual_published_at": "2025-11-12",
+      "published_at_matches": true,
+      "h1_explicit_admission_year": [],
+      "body_characters_excluding_whitespace": 561,
+      "content_readability": "HTML正文可解析；表格须按rowspan/colspan继承，不以文件名替代正文核对。",
+      "year_and_degree_basis": {
+        "method": "official_annual_directory_link_chain_verified_read_only",
+        "parent_link_present_in_saved_source_id": "04",
+        "annual_directory_url": "https://yz.cuc.edu.cn/zgcmdx2026nbsxwyjszszyml/list.htm",
+        "annual_directory_title": "中国传媒大学2026年博士学位研究生招生专业目录",
+        "academic_directory_url": "https://yz.cuc.edu.cn/xsxwbsyjs_14246/list.htm",
+        "academic_directory_title": "学术学位博士研究生",
+        "subject_link_resolves_to_configured_source_url": true,
+        "checked_on": "2026-10-27",
+        "evidence_note": "年度入口与学术分类页在线只读核对，未另存文件。"
+      }
+    },
+    {
+      "id": "07",
+      "configured_title": "中国传媒大学2026年博士目录－081000信息与通信工程（官网正文）",
+      "source_url": "https://yz.cuc.edu.cn/2025/1106/c14246a262029/page.htm",
+      "download_url": "",
+      "local_path": "materials/yz-official/originals/07_中国传媒大学2026年博士目录－081000信息与通信工程（官网正文）.html",
+      "sha256": "dfcf242acacba84d725aa64f64d3dbad9b3f4706d0d81fcb7fd9254a7df59a0e",
+      "acquisition_sha256_matches": true,
+      "configured_admission_year": "2026",
+      "configured_admission_program": "general_doctor",
+      "configured_admission_level": "doctor",
+      "configured_degree_type": "academic",
+      "scope_metadata_consistent": true,
+      "scope_and_temporal_notes": [
+        "不是全校博士总目录；仅081000信息与通信工程，所属信息与通信工程学院。",
+        "招生方式：硕博连读、普通招考；复试科目：科技文献阅读与写作、随机数学（或数学物理方程）。",
+        "标题本身未写招生年度；2026及学术学位归属由官方年度目录链接链确认。"
+      ],
+      "status": "pass",
+      "actual_h1": "081000 信息与通信工程",
+      "actual_published_at": "2025-11-12",
+      "published_at_matches": true,
+      "h1_explicit_admission_year": [],
+      "body_characters_excluding_whitespace": 1627,
+      "content_readability": "HTML正文可解析；表格须按rowspan/colspan继承，不以文件名替代正文核对。",
+      "year_and_degree_basis": {
+        "method": "official_annual_directory_link_chain_verified_read_only",
+        "parent_link_present_in_saved_source_id": "04",
+        "annual_directory_url": "https://yz.cuc.edu.cn/zgcmdx2026nbsxwyjszszyml/list.htm",
+        "annual_directory_title": "中国传媒大学2026年博士学位研究生招生专业目录",
+        "academic_directory_url": "https://yz.cuc.edu.cn/xsxwbsyjs_14246/list.htm",
+        "academic_directory_title": "学术学位博士研究生",
+        "subject_link_resolves_to_configured_source_url": true,
+        "checked_on": "2026-10-27",
+        "evidence_note": "年度入口与学术分类页在线只读核对，未另存文件。"
+      }
+    },
+    {
+      "id": "08",
+      "configured_title": "2027年研考中国传媒大学考点1133报名须知（官网正文）",
+      "source_url": "https://yz.cuc.edu.cn/2026/1008/c8549a274551/page.htm",
+      "download_url": "",
+      "local_path": "materials/yz-official/originals/08_2027年研考中国传媒大学考点1133报名须知（官网正文）.html",
+      "sha256": "e130047587e391db959221a9139a06628096fa837b093c89fe0bc91d4507adca",
+      "acquisition_sha256_matches": true,
+      "configured_admission_year": "2027",
+      "configured_admission_program": "general_master",
+      "configured_admission_level": "master",
+      "configured_degree_type": "",
+      "scope_metadata_consistent": true,
+      "scope_and_temporal_notes": [
+        "仅1133中国传媒大学考点的选择、报名与材料核验，不是所有报考中传考生均可选择该考点。",
+        "2027招生周期的报名为2026年10月15日至24日，预报名10月9日至12日；每日9:00至22:00。",
+        "按审计日期2026-10-27该窗口已结束，不得提示当前仍可报名。",
+        "初试费138元/人及其退费规则仅在该须知适用范围内；预计2026年12月底退费不是确定到账承诺。"
+      ],
+      "status": "pass",
+      "actual_h1": "2027年全国硕士研究生招生考试中国传媒大学考点（1133）报名须知",
+      "actual_published_at": "2026-10-08",
+      "published_at_matches": true,
+      "h1_explicit_admission_year": [
+        "2027"
+      ],
+      "body_characters_excluding_whitespace": 5015,
+      "content_readability": "HTML正文可解析；表格须按rowspan/colspan继承，不以文件名替代正文核对。"
+    },
+    {
+      "id": "09",
+      "configured_title": "2027年硕士初试823信号与系统考试大纲（官方PDF）",
+      "source_url": "https://yz.cuc.edu.cn/2026/0929/c8549a274435/page.htm",
+      "download_url": "https://yz.cuc.edu.cn/_upload/article/files/52/d8/2cf0c90d470d87e2169495baf054/870995f8-2ba3-4ace-ab53-3dbff178a682.pdf",
+      "local_path": "materials/yz-official/originals/09_2027年硕士初试823信号与系统考试大纲（官方PDF）.pdf",
+      "sha256": "8ee01dfa6e4af8e7313b0a9ea8e400eb8e1a8835cd4557728e3c1f235845ae88",
+      "acquisition_sha256_matches": true,
+      "configured_admission_year": "2027",
+      "configured_admission_program": "general_master",
+      "configured_admission_level": "master",
+      "configured_degree_type": "",
+      "scope_metadata_consistent": true,
+      "scope_and_temporal_notes": [
+        "PDF题头无年度；2027年与发布日期来自官方自命题大纲索引绑定。",
+        "823不是408；不能将其大纲替代计算机或网安专业的408统考大纲。"
+      ],
+      "status": "pass",
+      "actual_visual_pdf_title": "中国传媒大学硕士研究生招生考试 初试科目《信号与系统》考试大纲",
+      "title_verified_visually": true,
+      "pdf_explicit_admission_year_in_title": false,
+      "actual_parent_h1": "中国传媒大学2027年攻读硕士学位研究生招生初试自命题科目考试大纲",
+      "actual_parent_published_at": "2026-10-03",
+      "published_at_matches": true,
+      "attachment_link_matches": true,
+      "actual_attachment_link_text": "823信号与系统.pdf",
+      "admission_year_basis": "官方年度索引或招生简章附件关系，不是从PDF题头推断",
+      "pages_pypdf": 3,
+      "pages_pymupdf": 3,
+      "pypdf_characters_per_page": [
+        413,
+        403,
+        88
+      ],
+      "pymupdf_characters_per_page": [
+        409,
+        395,
+        87
+      ],
+      "replacement_characters_pypdf": 0,
+      "replacement_characters_pymupdf": 0,
+      "normalized_extractors_identical": true,
+      "visual_pages_inspected": [
+        1,
+        2,
+        3
+      ],
+      "visual_findings": [],
+      "content_readability": "全部页文字可读，两解析器归一化结果一致；视觉未见乱码、缺字、裁切或遮挡。"
+    },
+    {
+      "id": "10",
+      "configured_title": "2027年硕士初试884概率论与数理统计考试大纲（官方PDF）",
+      "source_url": "https://yz.cuc.edu.cn/2026/0929/c8549a274435/page.htm",
+      "download_url": "https://yz.cuc.edu.cn/_upload/article/files/52/d8/2cf0c90d470d87e2169495baf054/c37908d7-9125-42e0-a33c-d04ac03374e7.pdf",
+      "local_path": "materials/yz-official/originals/10_2027年硕士初试884概率论与数理统计考试大纲（官方PDF）.pdf",
+      "sha256": "218b00ac1d87e438b3aee36274da8a6f681bcb358b54a4a64b8076c62793dd71",
+      "acquisition_sha256_matches": true,
+      "configured_admission_year": "2027",
+      "configured_admission_program": "general_master",
+      "configured_admission_level": "master",
+      "configured_degree_type": "",
+      "scope_metadata_consistent": true,
+      "scope_and_temporal_notes": [
+        "PDF题头无年度；2027年与发布日期来自官方自命题大纲索引绑定。",
+        "884不是408；理工科表述不表示所有理工专业都考本科目，仍须查招生目录。"
+      ],
+      "status": "pass",
+      "actual_visual_pdf_title": "中国传媒大学硕士研究生招生考试 初试科目《概率论与数理统计》考试大纲",
+      "title_verified_visually": true,
+      "pdf_explicit_admission_year_in_title": false,
+      "actual_parent_h1": "中国传媒大学2027年攻读硕士学位研究生招生初试自命题科目考试大纲",
+      "actual_parent_published_at": "2026-10-03",
+      "published_at_matches": true,
+      "attachment_link_matches": true,
+      "actual_attachment_link_text": "884概率论与数理统计.pdf",
+      "admission_year_basis": "官方年度索引或招生简章附件关系，不是从PDF题头推断",
+      "pages_pypdf": 3,
+      "pages_pymupdf": 3,
+      "pypdf_characters_per_page": [
+        480,
+        376,
+        62
+      ],
+      "pymupdf_characters_per_page": [
+        481,
+        376,
+        61
+      ],
+      "replacement_characters_pypdf": 0,
+      "replacement_characters_pymupdf": 0,
+      "normalized_extractors_identical": true,
+      "visual_pages_inspected": [
+        1,
+        2,
+        3
+      ],
+      "visual_findings": [],
+      "content_readability": "全部页文字可读，两解析器归一化结果一致；视觉未见乱码、缺字、裁切或遮挡。"
+    },
+    {
+      "id": "11",
+      "configured_title": "研究生奖助一览表（2027硕士简章官方附件）",
+      "source_url": "https://yz.cuc.edu.cn/2026/0930/c8549a274491/page.htm",
+      "download_url": "https://yz.cuc.edu.cn/_upload/article/files/14/61/fa4f7dae40499884a51713b0c1d4/d0355f21-fe66-41a5-9886-2f0ca3dcaeb2.pdf",
+      "local_path": "materials/yz-official/originals/11_研究生奖助一览表（2027硕士简章官方附件）.pdf",
+      "sha256": "6312c7f5697195e499eb82f23a7bc4c84c6e8673f5a79115efadfeb2b7d6d3c3",
+      "acquisition_sha256_matches": true,
+      "configured_admission_year": "2027",
+      "configured_admission_program": "general_master",
+      "configured_admission_level": "master",
+      "configured_degree_type": "",
+      "scope_metadata_consistent": true,
+      "scope_and_temporal_notes": [
+        "经2027硕士简章附件链接取得，PDF正文也提及博士标准；应按各资助项目对象、全日制及收入等限制分别回答。",
+        "国家奖学金属于奖励表现优异者，学业奖学金分等级，不能解释为所有学生固定获奖。",
+        "现行标准及按当年度规定执行的表述须保留；不能将本附件解读为无条件资助承诺。",
+        "原PDF可读，但标题、表头及左列项目名称不被pypdf/PyMuPDF抽取，故纯文本不保持完整表格语义。"
+      ],
+      "status": "pass_with_documented_extraction_limitations",
+      "actual_visual_pdf_title": "中国传媒大学研究生奖助一览表",
+      "title_verified_visually": true,
+      "pdf_explicit_admission_year_in_title": false,
+      "actual_parent_h1": "中国传媒大学2027年硕士研究生招生简章",
+      "actual_parent_published_at": "2026-10-03",
+      "published_at_matches": true,
+      "attachment_link_matches": true,
+      "actual_attachment_link_text": "3.研究生奖助一览表",
+      "admission_year_basis": "官方年度索引或招生简章附件关系，不是从PDF题头推断",
+      "pages_pypdf": 2,
+      "pages_pymupdf": 2,
+      "pypdf_characters_per_page": [
+        1335,
+        413
+      ],
+      "pymupdf_characters_per_page": [
+        1298,
+        387
+      ],
+      "replacement_characters_pypdf": 0,
+      "replacement_characters_pymupdf": 0,
+      "normalized_extractors_identical": true,
+      "visual_pages_inspected": [
+        1,
+        2
+      ],
+      "visual_findings": [],
+      "content_readability": "主体正文可读；可见表格标题/表头/左列名称未进入两解析器文本，见实质发现F01。"
+    },
+    {
+      "id": "12",
+      "configured_title": "2026年博士复试科技文献阅读与写作考试大纲（官方PDF）",
+      "source_url": "https://yz.cuc.edu.cn/2025/1111/c8549a262371/page.htm",
+      "download_url": "https://yz.cuc.edu.cn/_upload/article/files/3c/c6/960dad124266ad2796a28c034b17/59fbc958-eda2-4ad0-85f2-5691e3cf7209.pdf",
+      "local_path": "materials/yz-official/originals/12_2026年博士复试科技文献阅读与写作考试大纲（官方PDF）.pdf",
+      "sha256": "2026b9369a7925b9ffb18fed5bd4d3e0e440388f42fa86e0a446036c089dc0ef",
+      "acquisition_sha256_matches": true,
+      "configured_admission_year": "2026",
+      "configured_admission_program": "general_doctor",
+      "configured_admission_level": "doctor",
+      "configured_degree_type": "academic",
+      "scope_metadata_consistent": true,
+      "scope_and_temporal_notes": [
+        "PDF题头无年度；2026年与发布日期来自官方博士笔试大纲索引。",
+        "06/07专业目录确认它作为复试科目；不能推断所有博士专业均考此科。"
+      ],
+      "status": "pass",
+      "actual_visual_pdf_title": "《科技文献阅读与写作》考试大纲",
+      "title_verified_visually": true,
+      "pdf_explicit_admission_year_in_title": false,
+      "actual_parent_h1": "中国传媒大学2026年博士学位研究生招生初试及复试笔试科目考试大纲",
+      "actual_parent_published_at": "2025-11-12",
+      "published_at_matches": true,
+      "attachment_link_matches": true,
+      "actual_attachment_link_text": "科技文献阅读与写作",
+      "admission_year_basis": "官方年度索引或招生简章附件关系，不是从PDF题头推断",
+      "pages_pypdf": 2,
+      "pages_pymupdf": 2,
+      "pypdf_characters_per_page": [
+        546,
+        798
+      ],
+      "pymupdf_characters_per_page": [
+        533,
+        798
+      ],
+      "replacement_characters_pypdf": 0,
+      "replacement_characters_pymupdf": 0,
+      "normalized_extractors_identical": true,
+      "visual_pages_inspected": [
+        1,
+        2
+      ],
+      "visual_findings": [],
+      "content_readability": "全部页文字可读，两解析器归一化结果一致；视觉未见乱码、缺字、裁切或遮挡。"
+    },
+    {
+      "id": "13",
+      "configured_title": "2026年博士复试随机数学考试大纲（官方PDF）",
+      "source_url": "https://yz.cuc.edu.cn/2025/1111/c8549a262371/page.htm",
+      "download_url": "https://yz.cuc.edu.cn/_upload/article/files/3c/c6/960dad124266ad2796a28c034b17/d5dc2c44-a10b-4f9d-88cd-f78e82876b67.pdf",
+      "local_path": "materials/yz-official/originals/13_2026年博士复试随机数学考试大纲（官方PDF）.pdf",
+      "sha256": "66ee1adf02afd3652a747b344717e55c3c5e1bbba25e545213963e1f19ce3b85",
+      "acquisition_sha256_matches": true,
+      "configured_admission_year": "2026",
+      "configured_admission_program": "general_doctor",
+      "configured_admission_level": "doctor",
+      "configured_degree_type": "academic",
+      "scope_metadata_consistent": true,
+      "scope_and_temporal_notes": [
+        "PDF题头无年度；2026年与发布日期来自官方博士笔试大纲索引。",
+        "06/07专业目录为随机数学（或数学物理方程），不能改为两门同时必考。"
+      ],
+      "status": "pass",
+      "actual_visual_pdf_title": "《随机数学》科目考试大纲",
+      "title_verified_visually": true,
+      "pdf_explicit_admission_year_in_title": false,
+      "actual_parent_h1": "中国传媒大学2026年博士学位研究生招生初试及复试笔试科目考试大纲",
+      "actual_parent_published_at": "2025-11-12",
+      "published_at_matches": true,
+      "attachment_link_matches": true,
+      "actual_attachment_link_text": "随机数学",
+      "admission_year_basis": "官方年度索引或招生简章附件关系，不是从PDF题头推断",
+      "pages_pypdf": 2,
+      "pages_pymupdf": 2,
+      "pypdf_characters_per_page": [
+        392,
+        243
+      ],
+      "pymupdf_characters_per_page": [
+        393,
+        242
+      ],
+      "replacement_characters_pypdf": 0,
+      "replacement_characters_pymupdf": 0,
+      "normalized_extractors_identical": true,
+      "visual_pages_inspected": [
+        1,
+        2
+      ],
+      "visual_findings": [],
+      "content_readability": "全部页文字可读，两解析器归一化结果一致；视觉未见乱码、缺字、裁切或遮挡。"
+    },
+    {
+      "id": "14",
+      "configured_title": "2026年博士复试数学物理方程考试大纲（官方PDF）",
+      "source_url": "https://yz.cuc.edu.cn/2025/1111/c8549a262371/page.htm",
+      "download_url": "https://yz.cuc.edu.cn/_upload/article/files/3c/c6/960dad124266ad2796a28c034b17/2d509321-973e-4385-8da0-62caab863a0d.pdf",
+      "local_path": "materials/yz-official/originals/14_2026年博士复试数学物理方程考试大纲（官方PDF）.pdf",
+      "sha256": "850c7f7b49c3cdc5e29b198d5ba5ae4c93dba4acb4789ba704e40c6dfb2bcea0",
+      "acquisition_sha256_matches": true,
+      "configured_admission_year": "2026",
+      "configured_admission_program": "general_doctor",
+      "configured_admission_level": "doctor",
+      "configured_degree_type": "academic",
+      "scope_metadata_consistent": true,
+      "scope_and_temporal_notes": [
+        "PDF题头无年度；2026年与发布日期来自官方博士笔试大纲索引。",
+        "06/07专业目录为随机数学（或数学物理方程），不能改为两门同时必考。"
+      ],
+      "status": "pass",
+      "actual_visual_pdf_title": "《数学物理方程》科目考试大纲",
+      "title_verified_visually": true,
+      "pdf_explicit_admission_year_in_title": false,
+      "actual_parent_h1": "中国传媒大学2026年博士学位研究生招生初试及复试笔试科目考试大纲",
+      "actual_parent_published_at": "2025-11-12",
+      "published_at_matches": true,
+      "attachment_link_matches": true,
+      "actual_attachment_link_text": "数学物理方程",
+      "admission_year_basis": "官方年度索引或招生简章附件关系，不是从PDF题头推断",
+      "pages_pypdf": 2,
+      "pages_pymupdf": 2,
+      "pypdf_characters_per_page": [
+        388,
+        116
+      ],
+      "pymupdf_characters_per_page": [
+        388,
+        115
+      ],
+      "replacement_characters_pypdf": 0,
+      "replacement_characters_pymupdf": 0,
+      "normalized_extractors_identical": true,
+      "visual_pages_inspected": [
+        1,
+        2
+      ],
+      "visual_findings": [],
+      "content_readability": "全部页文字可读，两解析器归一化结果一致；视觉未见乱码、缺字、裁切或遮挡。"
+    }
+  ],
+  "discovery_index_checks": [
+    {
+      "source_url": "https://yz.cuc.edu.cn/2026/0929/c8549a274435/page.htm",
+      "local_path": "materials/yz-official/discovery/2027硕士自命题大纲官方索引.html",
+      "sha256_matches": true,
+      "actual_h1": "中国传媒大学2027年攻读硕士学位研究生招生初试自命题科目考试大纲",
+      "published_at": "2026-10-03",
+      "attachment_count": 22
+    },
+    {
+      "source_url": "https://yz.cuc.edu.cn/2025/1111/c8549a262371/page.htm",
+      "local_path": "materials/yz-official/discovery/2026博士笔试大纲官方索引.html",
+      "sha256_matches": true,
+      "actual_h1": "中国传媒大学2026年博士学位研究生招生初试及复试笔试科目考试大纲",
+      "published_at": "2025-11-12",
+      "attachment_count": 8
+    }
+  ],
+  "directory_03_validation": {
+    "row_index_convention": "0-based index among direct rows of original HTML table, before any PDF layout or inserted headers",
+    "table_count": 1,
+    "original_table_rows": 204,
+    "selected_expanded_rows": [
+      {
+        "source_table_row_index_zero_based": 110,
+        "major": "081200计算机科学与技术",
+        "direction": "01智能系统与软件工程",
+        "proposed_total_including_recommended": "24",
+        "proposed_recommended": "12",
+        "subjects": "①101思想政治理论②201英语（一）③301数学（一）④408计算机学科专业基础",
+        "faculty": "计算机与网络空间安全学院",
+        "total_count_origin": {
+          "source_table_row_index_zero_based": 110,
+          "column_index_zero_based": 2,
+          "rowspan": 3,
+          "colspan": 1,
+          "text": "24"
+        },
+        "recommended_count_origin": {
+          "source_table_row_index_zero_based": 110,
+          "column_index_zero_based": 3,
+          "rowspan": 3,
+          "colspan": 1,
+          "text": "12"
+        },
+        "subjects_origin": {
+          "source_table_row_index_zero_based": 110,
+          "column_index_zero_based": 4,
+          "rowspan": 7,
+          "colspan": 1,
+          "text": "①101思想政治理论②201英语（一）③301数学（一）④408计算机学科专业基础"
+        }
+      },
+      {
+        "source_table_row_index_zero_based": 111,
+        "major": "081200计算机科学与技术",
+        "direction": "02媒体计算与智能传播",
+        "proposed_total_including_recommended": "24",
+        "proposed_recommended": "12",
+        "subjects": "①101思想政治理论②201英语（一）③301数学（一）④408计算机学科专业基础",
+        "faculty": "计算机与网络空间安全学院",
+        "total_count_origin": {
+          "source_table_row_index_zero_based": 110,
+          "column_index_zero_based": 2,
+          "rowspan": 3,
+          "colspan": 1,
+          "text": "24"
+        },
+        "recommended_count_origin": {
+          "source_table_row_index_zero_based": 110,
+          "column_index_zero_based": 3,
+          "rowspan": 3,
+          "colspan": 1,
+          "text": "12"
+        },
+        "subjects_origin": {
+          "source_table_row_index_zero_based": 110,
+          "column_index_zero_based": 4,
+          "rowspan": 7,
+          "colspan": 1,
+          "text": "①101思想政治理论②201英语（一）③301数学（一）④408计算机学科专业基础"
+        }
+      },
+      {
+        "source_table_row_index_zero_based": 112,
+        "major": "081200计算机科学与技术",
+        "direction": "03数据科学与视觉计算",
+        "proposed_total_including_recommended": "24",
+        "proposed_recommended": "12",
+        "subjects": "①101思想政治理论②201英语（一）③301数学（一）④408计算机学科专业基础",
+        "faculty": "计算机与网络空间安全学院",
+        "total_count_origin": {
+          "source_table_row_index_zero_based": 110,
+          "column_index_zero_based": 2,
+          "rowspan": 3,
+          "colspan": 1,
+          "text": "24"
+        },
+        "recommended_count_origin": {
+          "source_table_row_index_zero_based": 110,
+          "column_index_zero_based": 3,
+          "rowspan": 3,
+          "colspan": 1,
+          "text": "12"
+        },
+        "subjects_origin": {
+          "source_table_row_index_zero_based": 110,
+          "column_index_zero_based": 4,
+          "rowspan": 7,
+          "colspan": 1,
+          "text": "①101思想政治理论②201英语（一）③301数学（一）④408计算机学科专业基础"
+        }
+      },
+      {
+        "source_table_row_index_zero_based": 113,
+        "major": "083900网络空间安全",
+        "direction": "01密码学与数智化应用",
+        "proposed_total_including_recommended": "17",
+        "proposed_recommended": "8",
+        "subjects": "①101思想政治理论②201英语（一）③301数学（一）④408计算机学科专业基础",
+        "faculty": "计算机与网络空间安全学院",
+        "total_count_origin": {
+          "source_table_row_index_zero_based": 113,
+          "column_index_zero_based": 2,
+          "rowspan": 3,
+          "colspan": 1,
+          "text": "17"
+        },
+        "recommended_count_origin": {
+          "source_table_row_index_zero_based": 113,
+          "column_index_zero_based": 3,
+          "rowspan": 3,
+          "colspan": 1,
+          "text": "8"
+        },
+        "subjects_origin": {
+          "source_table_row_index_zero_based": 110,
+          "column_index_zero_based": 4,
+          "rowspan": 7,
+          "colspan": 1,
+          "text": "①101思想政治理论②201英语（一）③301数学（一）④408计算机学科专业基础"
+        }
+      },
+      {
+        "source_table_row_index_zero_based": 114,
+        "major": "083900网络空间安全",
+        "direction": "02人工智能与视听安全",
+        "proposed_total_including_recommended": "17",
+        "proposed_recommended": "8",
+        "subjects": "①101思想政治理论②201英语（一）③301数学（一）④408计算机学科专业基础",
+        "faculty": "计算机与网络空间安全学院",
+        "total_count_origin": {
+          "source_table_row_index_zero_based": 113,
+          "column_index_zero_based": 2,
+          "rowspan": 3,
+          "colspan": 1,
+          "text": "17"
+        },
+        "recommended_count_origin": {
+          "source_table_row_index_zero_based": 113,
+          "column_index_zero_based": 3,
+          "rowspan": 3,
+          "colspan": 1,
+          "text": "8"
+        },
+        "subjects_origin": {
+          "source_table_row_index_zero_based": 110,
+          "column_index_zero_based": 4,
+          "rowspan": 7,
+          "colspan": 1,
+          "text": "①101思想政治理论②201英语（一）③301数学（一）④408计算机学科专业基础"
+        }
+      },
+      {
+        "source_table_row_index_zero_based": 115,
+        "major": "083900网络空间安全",
+        "direction": "03网络与系统安全",
+        "proposed_total_including_recommended": "17",
+        "proposed_recommended": "8",
+        "subjects": "①101思想政治理论②201英语（一）③301数学（一）④408计算机学科专业基础",
+        "faculty": "计算机与网络空间安全学院",
+        "total_count_origin": {
+          "source_table_row_index_zero_based": 113,
+          "column_index_zero_based": 2,
+          "rowspan": 3,
+          "colspan": 1,
+          "text": "17"
+        },
+        "recommended_count_origin": {
+          "source_table_row_index_zero_based": 113,
+          "column_index_zero_based": 3,
+          "rowspan": 3,
+          "colspan": 1,
+          "text": "8"
+        },
+        "subjects_origin": {
+          "source_table_row_index_zero_based": 110,
+          "column_index_zero_based": 4,
+          "rowspan": 7,
+          "colspan": 1,
+          "text": "①101思想政治理论②201英语（一）③301数学（一）④408计算机学科专业基础"
+        }
+      },
+      {
+        "source_table_row_index_zero_based": 159,
+        "major": "085404计算机技术",
+        "direction": "01融媒体技术",
+        "proposed_total_including_recommended": "8",
+        "proposed_recommended": "4",
+        "subjects": "①101思想政治理论②204英语（二）③302数学（二）④408计算机学科专业基础",
+        "faculty": "计算机与网络空间安全学院",
+        "total_count_origin": {
+          "source_table_row_index_zero_based": 159,
+          "column_index_zero_based": 2,
+          "rowspan": 1,
+          "colspan": 1,
+          "text": "8"
+        },
+        "recommended_count_origin": {
+          "source_table_row_index_zero_based": 159,
+          "column_index_zero_based": 3,
+          "rowspan": 1,
+          "colspan": 1,
+          "text": "4"
+        },
+        "subjects_origin": {
+          "source_table_row_index_zero_based": 159,
+          "column_index_zero_based": 4,
+          "rowspan": 1,
+          "colspan": 1,
+          "text": "①101思想政治理论②204英语（二）③302数学（二）④408计算机学科专业基础"
+        }
+      },
+      {
+        "source_table_row_index_zero_based": 163,
+        "major": "085411大数据技术与工程",
+        "direction": "01大数据工程与应用",
+        "proposed_total_including_recommended": "12",
+        "proposed_recommended": "6",
+        "subjects": "①101思想政治理论②204英语（二）③302数学（二）④408计算机学科专业基础",
+        "faculty": "计算机与网络空间安全学院",
+        "total_count_origin": {
+          "source_table_row_index_zero_based": 163,
+          "column_index_zero_based": 2,
+          "rowspan": 1,
+          "colspan": 1,
+          "text": "12"
+        },
+        "recommended_count_origin": {
+          "source_table_row_index_zero_based": 163,
+          "column_index_zero_based": 3,
+          "rowspan": 1,
+          "colspan": 1,
+          "text": "6"
+        },
+        "subjects_origin": {
+          "source_table_row_index_zero_based": 163,
+          "column_index_zero_based": 4,
+          "rowspan": 5,
+          "colspan": 1,
+          "text": "①101思想政治理论②204英语（二）③302数学（二）④408计算机学科专业基础"
+        }
+      },
+      {
+        "source_table_row_index_zero_based": 164,
+        "major": "085411大数据技术与工程",
+        "direction": "02数据智能技术与应用",
+        "proposed_total_including_recommended": "20",
+        "proposed_recommended": "10",
+        "subjects": "①101思想政治理论②204英语（二）③302数学（二）④408计算机学科专业基础",
+        "faculty": "媒体融合与传播国家重点实验室",
+        "total_count_origin": {
+          "source_table_row_index_zero_based": 164,
+          "column_index_zero_based": 2,
+          "rowspan": 1,
+          "colspan": 1,
+          "text": "20"
+        },
+        "recommended_count_origin": {
+          "source_table_row_index_zero_based": 164,
+          "column_index_zero_based": 3,
+          "rowspan": 1,
+          "colspan": 1,
+          "text": "10"
+        },
+        "subjects_origin": {
+          "source_table_row_index_zero_based": 163,
+          "column_index_zero_based": 4,
+          "rowspan": 5,
+          "colspan": 1,
+          "text": "①101思想政治理论②204英语（二）③302数学（二）④408计算机学科专业基础"
+        }
+      },
+      {
+        "source_table_row_index_zero_based": 165,
+        "major": "085411大数据技术与工程",
+        "direction": "03大数据分析与智能计算",
+        "proposed_total_including_recommended": "9",
+        "proposed_recommended": "4",
+        "subjects": "①101思想政治理论②204英语（二）③302数学（二）④408计算机学科专业基础",
+        "faculty": "数据科学与智能媒体学院",
+        "total_count_origin": {
+          "source_table_row_index_zero_based": 165,
+          "column_index_zero_based": 2,
+          "rowspan": 1,
+          "colspan": 1,
+          "text": "9"
+        },
+        "recommended_count_origin": {
+          "source_table_row_index_zero_based": 165,
+          "column_index_zero_based": 3,
+          "rowspan": 1,
+          "colspan": 1,
+          "text": "4"
+        },
+        "subjects_origin": {
+          "source_table_row_index_zero_based": 163,
+          "column_index_zero_based": 4,
+          "rowspan": 5,
+          "colspan": 1,
+          "text": "①101思想政治理论②204英语（二）③302数学（二）④408计算机学科专业基础"
+        }
+      },
+      {
+        "source_table_row_index_zero_based": 166,
+        "major": "085412网络与信息安全",
+        "direction": "01网络安全实践技术",
+        "proposed_total_including_recommended": "17",
+        "proposed_recommended": "8",
+        "subjects": "①101思想政治理论②204英语（二）③302数学（二）④408计算机学科专业基础",
+        "faculty": "计算机与网络空间安全学院",
+        "total_count_origin": {
+          "source_table_row_index_zero_based": 166,
+          "column_index_zero_based": 2,
+          "rowspan": 2,
+          "colspan": 1,
+          "text": "17"
+        },
+        "recommended_count_origin": {
+          "source_table_row_index_zero_based": 166,
+          "column_index_zero_based": 3,
+          "rowspan": 2,
+          "colspan": 1,
+          "text": "8"
+        },
+        "subjects_origin": {
+          "source_table_row_index_zero_based": 163,
+          "column_index_zero_based": 4,
+          "rowspan": 5,
+          "colspan": 1,
+          "text": "①101思想政治理论②204英语（二）③302数学（二）④408计算机学科专业基础"
+        }
+      },
+      {
+        "source_table_row_index_zero_based": 167,
+        "major": "085412网络与信息安全",
+        "direction": "02数据安全",
+        "proposed_total_including_recommended": "17",
+        "proposed_recommended": "8",
+        "subjects": "①101思想政治理论②204英语（二）③302数学（二）④408计算机学科专业基础",
+        "faculty": "计算机与网络空间安全学院",
+        "total_count_origin": {
+          "source_table_row_index_zero_based": 166,
+          "column_index_zero_based": 2,
+          "rowspan": 2,
+          "colspan": 1,
+          "text": "17"
+        },
+        "recommended_count_origin": {
+          "source_table_row_index_zero_based": 166,
+          "column_index_zero_based": 3,
+          "rowspan": 2,
+          "colspan": 1,
+          "text": "8"
+        },
+        "subjects_origin": {
+          "source_table_row_index_zero_based": 163,
+          "column_index_zero_based": 4,
+          "rowspan": 5,
+          "colspan": 1,
+          "text": "①101思想政治理论②204英语（二）③302数学（二）④408计算机学科专业基础"
+        }
+      }
+    ],
+    "grouping_conclusions": [
+      "081200三个方向共享拟招总24、推免12；不是每方向24。",
+      "083900三个方向共享拟招总17、推免8；不是每方向17。",
+      "085404方向01拟招总8、推免4。",
+      "085411的01/02/03为三个不同培养单位分组，分别12/6、20/10、9/4。",
+      "085412方向01网络安全实践技术与02数据安全共享拟招总17、推免8；不是每方向17。",
+      "081200与083900初试均101思想政治理论、201英语（一）、301数学（一）、408计算机学科专业基础。",
+      "085404、085411、085412初试均101思想政治理论、204英语（二）、302数学（二）、408计算机学科专业基础。",
+      "人数均为含推免的拟招人数，不能直接改称统考招生名额；实际数及推免数须以后续确认。"
+    ],
+    "full_408_syllabus_acquired": false,
+    "note": "2027自命题索引没有408附件，目录仅证实科目设置。"
+  },
+  "professional_doctor_source_05_scope": {
+    "degree_type": "professional",
+    "admission_year": "2026",
+    "additional_to_general_doctoral_prospectus": true,
+    "program_codes": [
+      "135200音乐",
+      "135400戏剧与影视",
+      "135600美术与书法",
+      "055300出版"
+    ],
+    "academic_doctor_applicable": false,
+    "appendix_1_scope": "仅戏剧与影视（纪录片艺术）的高级别专业竞赛认定",
+    "appendix_2_scope": "出版专业省部级以上奖励/称号",
+    "logical_conditions_must_be_preserved": [
+      "满足以下条件",
+      "满足以下条件之一",
+      "近五年",
+      "须提供证明材料",
+      "不在范围内奖项/称号须招生单位学术委员会认定"
+    ]
+  },
+  "integration_notes": [
+    "不要将2023级在读年级当作2023招生周期。",
+    "2026与2027政策分开检索；金额、日期的原限定须保留。",
+    "仅有两个博士分专业目录，不宣称已收齐全校博士目录。",
+    "PDF11文本结构限制需在导入/回答说明中保留；原附件完整性没有问题。",
+    "本审计不产生正式人工标注集，也不替代独立人工评测。"
+  ]
+}

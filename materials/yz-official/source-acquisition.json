@@ -1,0 +1,174 @@
+{
+  "sources": [
+    {
+      "id": "01",
+      "requested_url": "https://yz.cuc.edu.cn/2026/0930/c8549a274491/page.htm",
+      "resolved_url": "https://yz.cuc.edu.cn/2026/0930/c8549a274491/page.htm",
+      "source_page": "https://yz.cuc.edu.cn/2026/0930/c8549a274491/page.htm",
+      "content_type": "text/html",
+      "local_path": "materials/yz-official/originals/01_中国传媒大学2027年硕士研究生招生简章（官网正文）.html",
+      "sha256": "01a6712e608fd10aabf758af3ded1e9f740a4439331d3d2121fa0011490aed7c",
+      "bytes": 100562,
+      "collected_at": "2026-10-27T11:59:02.177249+08:00"
+    },
+    {
+      "id": "02",
+      "requested_url": "https://yz.cuc.edu.cn/2025/0929/c8549a260582/page.htm",
+      "resolved_url": "https://yz.cuc.edu.cn/2025/0929/c8549a260582/page.htm",
+      "source_page": "https://yz.cuc.edu.cn/2025/0929/c8549a260582/page.htm",
+      "content_type": "text/html",
+      "local_path": "materials/yz-official/originals/02_中国传媒大学2026年硕士研究生招生简章（官网正文）.html",
+      "sha256": "24ce2629d974887b078260855a7bf1f4fc12b7afa56b7ba119d771a4184ec9c3",
+      "bytes": 108117,
+      "collected_at": "2026-10-27T11:59:02.219451+08:00"
+    },
+    {
+      "id": "03",
+      "requested_url": "https://yz.cuc.edu.cn/2026/0930/c8549a274497/page.htm",
+      "resolved_url": "https://yz.cuc.edu.cn/2026/0930/c8549a274497/page.htm",
+      "source_page": "https://yz.cuc.edu.cn/2026/0930/c8549a274497/page.htm",
+      "content_type": "text/html",
+      "local_path": "materials/yz-official/originals/03_中国传媒大学2027年硕士招生专业目录（官网表格展开）.html",
+      "sha256": "8605f01d0bdceab6ea026975caf9debb6742bacde9f26cf0fb9dd92373097cba",
+      "bytes": 382247,
+      "collected_at": "2026-10-27T11:59:02.274271+08:00"
+    },
+    {
+      "id": "04",
+      "requested_url": "https://yz.cuc.edu.cn/2025/1111/c8549a262367/page.htm",
+      "resolved_url": "https://yz.cuc.edu.cn/2025/1111/c8549a262367/page.htm",
+      "source_page": "https://yz.cuc.edu.cn/2025/1111/c8549a262367/page.htm",
+      "content_type": "text/html",
+      "local_path": "materials/yz-official/originals/04_中国传媒大学2026年博士学位研究生招生简章（官网正文）.html",
+      "sha256": "71811c878c2939c850ee0eafb415aa0a2e1e972f489b08c8671c5d4c6dbeff15",
+      "bytes": 119674,
+      "collected_at": "2026-10-27T11:59:02.315238+08:00"
+    },
+    {
+      "id": "05",
+      "requested_url": "https://yz.cuc.edu.cn/2025/1111/c8549a262368/page.htm",
+      "resolved_url": "https://yz.cuc.edu.cn/2025/1111/c8549a262368/page.htm",
+      "source_page": "https://yz.cuc.edu.cn/2025/1111/c8549a262368/page.htm",
+      "content_type": "text/html",
+      "local_path": "materials/yz-official/originals/05_中国传媒大学2026年专业学位博士报考条件及申请材料要求（官网正文）.html",
+      "sha256": "9dbeed75d8cec85b09c937d9d42fba5f414b451ca0d7d7e1a56117814a5282ef",
+      "bytes": 105683,
+      "collected_at": "2026-10-27T11:59:02.352345+08:00"
+    },
+    {
+      "id": "06",
+      "requested_url": "https://yz.cuc.edu.cn/2025/1106/c14246a262032/page.htm",
+      "resolved_url": "https://yz.cuc.edu.cn/2025/1106/c14246a262032/page.htm",
+      "source_page": "https://yz.cuc.edu.cn/2025/1106/c14246a262032/page.htm",
+      "content_type": "text/html",
+      "local_path": "materials/yz-official/originals/06_中国传媒大学2026年博士目录－0810Z1信息计算技术（官网正文）.html",
+      "sha256": "4f9fc8b71dfa5a8a0c12d25b8d2082bc7a6781e503d01ccf15f41def013fa4a5",
+      "bytes": 33760,
+      "collected_at": "2026-10-27T11:59:02.374554+08:00"
+    },
+    {
+      "id": "07",
+      "requested_url": "https://yz.cuc.edu.cn/2025/1106/c14246a262029/page.htm",
+      "resolved_url": "https://yz.cuc.edu.cn/2025/1106/c14246a262029/page.htm",
+      "source_page": "https://yz.cuc.edu.cn/2025/1106/c14246a262029/page.htm",
+      "content_type": "text/html",
+      "local_path": "materials/yz-official/originals/07_中国传媒大学2026年博士目录－081000信息与通信工程（官网正文）.html",
+      "sha256": "dfcf242acacba84d725aa64f64d3dbad9b3f4706d0d81fcb7fd9254a7df59a0e",
+      "bytes": 73564,
+      "collected_at": "2026-10-27T11:59:02.405818+08:00"
+    },
+    {
+      "id": "08",
+      "requested_url": "https://yz.cuc.edu.cn/2026/1008/c8549a274551/page.htm",
+      "resolved_url": "https://yz.cuc.edu.cn/2026/1008/c8549a274551/page.htm",
+      "source_page": "https://yz.cuc.edu.cn/2026/1008/c8549a274551/page.htm",
+      "content_type": "text/html",
+      "local_path": "materials/yz-official/originals/08_2027年研考中国传媒大学考点1133报名须知（官网正文）.html",
+      "sha256": "e130047587e391db959221a9139a06628096fa837b093c89fe0bc91d4507adca",
+      "bytes": 72221,
+      "collected_at": "2026-10-27T11:59:02.438769+08:00"
+    },
+    {
+      "id": "09",
+      "requested_url": "https://yz.cuc.edu.cn/_upload/article/files/52/d8/2cf0c90d470d87e2169495baf054/870995f8-2ba3-4ace-ab53-3dbff178a682.pdf",
+      "resolved_url": "https://yz.cuc.edu.cn/_upload/article/files/52/d8/2cf0c90d470d87e2169495baf054/870995f8-2ba3-4ace-ab53-3dbff178a682.pdf",
+      "source_page": "https://yz.cuc.edu.cn/2026/0929/c8549a274435/page.htm",
+      "content_type": "application/pdf",
+      "local_path": "materials/yz-official/originals/09_2027年硕士初试823信号与系统考试大纲（官方PDF）.pdf",
+      "sha256": "8ee01dfa6e4af8e7313b0a9ea8e400eb8e1a8835cd4557728e3c1f235845ae88",
+      "bytes": 124277,
+      "collected_at": "2026-10-27T11:59:02.507828+08:00"
+    },
+    {
+      "id": "10",
+      "requested_url": "https://yz.cuc.edu.cn/_upload/article/files/52/d8/2cf0c90d470d87e2169495baf054/c37908d7-9125-42e0-a33c-d04ac03374e7.pdf",
+      "resolved_url": "https://yz.cuc.edu.cn/_upload/article/files/52/d8/2cf0c90d470d87e2169495baf054/c37908d7-9125-42e0-a33c-d04ac03374e7.pdf",
+      "source_page": "https://yz.cuc.edu.cn/2026/0929/c8549a274435/page.htm",
+      "content_type": "application/pdf",
+      "local_path": "materials/yz-official/originals/10_2027年硕士初试884概率论与数理统计考试大纲（官方PDF）.pdf",
+      "sha256": "218b00ac1d87e438b3aee36274da8a6f681bcb358b54a4a64b8076c62793dd71",
+      "bytes": 124253,
+      "collected_at": "2026-10-27T11:59:02.576401+08:00"
+    },
+    {
+      "id": "11",
+      "requested_url": "https://yz.cuc.edu.cn/_upload/article/files/14/61/fa4f7dae40499884a51713b0c1d4/d0355f21-fe66-41a5-9886-2f0ca3dcaeb2.pdf",
+      "resolved_url": "https://yz.cuc.edu.cn/_upload/article/files/14/61/fa4f7dae40499884a51713b0c1d4/d0355f21-fe66-41a5-9886-2f0ca3dcaeb2.pdf",
+      "source_page": "https://yz.cuc.edu.cn/2026/0930/c8549a274491/page.htm",
+      "content_type": "application/pdf",
+      "local_path": "materials/yz-official/originals/11_研究生奖助一览表（2027硕士简章官方附件）.pdf",
+      "sha256": "6312c7f5697195e499eb82f23a7bc4c84c6e8673f5a79115efadfeb2b7d6d3c3",
+      "bytes": 306443,
+      "collected_at": "2026-10-27T11:59:02.706195+08:00"
+    },
+    {
+      "id": "12",
+      "requested_url": "https://yz.cuc.edu.cn/_upload/article/files/3c/c6/960dad124266ad2796a28c034b17/59fbc958-eda2-4ad0-85f2-5691e3cf7209.pdf",
+      "resolved_url": "https://yz.cuc.edu.cn/_upload/article/files/3c/c6/960dad124266ad2796a28c034b17/59fbc958-eda2-4ad0-85f2-5691e3cf7209.pdf",
+      "source_page": "https://yz.cuc.edu.cn/2025/1111/c8549a262371/page.htm",
+      "content_type": "application/pdf",
+      "local_path": "materials/yz-official/originals/12_2026年博士复试科技文献阅读与写作考试大纲（官方PDF）.pdf",
+      "sha256": "2026b9369a7925b9ffb18fed5bd4d3e0e440388f42fa86e0a446036c089dc0ef",
+      "bytes": 100066,
+      "collected_at": "2026-10-27T11:59:02.759188+08:00"
+    },
+    {
+      "id": "13",
+      "requested_url": "https://yz.cuc.edu.cn/_upload/article/files/3c/c6/960dad124266ad2796a28c034b17/d5dc2c44-a10b-4f9d-88cd-f78e82876b67.pdf",
+      "resolved_url": "https://yz.cuc.edu.cn/_upload/article/files/3c/c6/960dad124266ad2796a28c034b17/d5dc2c44-a10b-4f9d-88cd-f78e82876b67.pdf",
+      "source_page": "https://yz.cuc.edu.cn/2025/1111/c8549a262371/page.htm",
+      "content_type": "application/pdf",
+      "local_path": "materials/yz-official/originals/13_2026年博士复试随机数学考试大纲（官方PDF）.pdf",
+      "sha256": "66ee1adf02afd3652a747b344717e55c3c5e1bbba25e545213963e1f19ce3b85",
+      "bytes": 100829,
+      "collected_at": "2026-10-27T11:59:02.814681+08:00"
+    },
+    {
+      "id": "14",
+      "requested_url": "https://yz.cuc.edu.cn/_upload/article/files/3c/c6/960dad124266ad2796a28c034b17/2d509321-973e-4385-8da0-62caab863a0d.pdf",
+      "resolved_url": "https://yz.cuc.edu.cn/_upload/article/files/3c/c6/960dad124266ad2796a28c034b17/2d509321-973e-4385-8da0-62caab863a0d.pdf",
+      "source_page": "https://yz.cuc.edu.cn/2025/1111/c8549a262371/page.htm",
+      "content_type": "application/pdf",
+      "local_path": "materials/yz-official/originals/14_2026年博士复试数学物理方程考试大纲（官方PDF）.pdf",
+      "sha256": "850c7f7b49c3cdc5e29b198d5ba5ae4c93dba4acb4789ba704e40c6dfb2bcea0",
+      "bytes": 93892,
+      "collected_at": "2026-10-27T11:59:03.876923+08:00"
+    }
+  ],
+  "evidence_pages": [
+    {
+      "url": "https://yz.cuc.edu.cn/2026/0929/c8549a274435/page.htm",
+      "resolved_url": "https://yz.cuc.edu.cn/2026/0929/c8549a274435/page.htm",
+      "local_path": "materials/yz-official/discovery/2027硕士自命题大纲官方索引.html",
+      "sha256": "d710ef9a67fe2d9255dcf04126d7f48e9869d0da4b6d13c6ae3f49c69be762ae",
+      "collected_at": "2026-10-27T12:00:54.423126+08:00"
+    },
+    {
+      "url": "https://yz.cuc.edu.cn/2025/1111/c8549a262371/page.htm",
+      "resolved_url": "https://yz.cuc.edu.cn/2025/1111/c8549a262371/page.htm",
+      "local_path": "materials/yz-official/discovery/2026博士笔试大纲官方索引.html",
+      "sha256": "b8ac77bdd210b74297790cbaae8f0f0ad119923c4f042cc906a4aea016496a4e",
+      "collected_at": "2026-10-27T12:00:54.447679+08:00"
+    }
+  ]
+}

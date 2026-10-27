@@ -7,6 +7,128 @@ def metadata(year='2026',program='general_master',level='master',**extra):
 
 
 class AdmissionsScopeTests(unittest.TestCase):
+    def test_directory_and_degree_queries_enter_admissions_without_brochure_keywords(self):
+        examples=[('2027年网络空间安全学硕有哪些研究方向？','2027','general_master','academic'),
+                  ('2027年计算机技术专硕考英语一还是英语二？','2027','general_master','professional'),
+                  ('2026年信息计算技术博士所属哪个学院？','2026','general_doctor',None),
+                  ('2026年专业学位博士播音主持艺术要求几年工作经验？','2026','general_doctor','professional')]
+        for question,year,program,degree in examples:
+            with self.subTest(question=question):
+                scope=infer_admission_scope(question)
+                self.assertTrue(scope['domain'])
+                self.assertEqual(scope['year'],year)
+                self.assertEqual(scope['program'],program)
+                self.assertEqual(scope.get('degree_type'),degree)
+                self.assertFalse(scope.get('ambiguous'))
+
+    def test_degree_identity_and_teaching_questions_stay_out_of_admissions(self):
+        for question in ('我是学硕。','本人目前是专硕。',
+                         '我是学硕，数据结构课程多少学分？',
+                         '目前就读学术学位硕士，计算机网络课程考核方式是什么？',
+                         '我是博士生，数据结构课程所属哪个学院？',
+                         '2027级专硕的数据结构课程需要多少学分？',
+                         '硕士培养方案要求多少学分？'):
+            with self.subTest(question=question):
+                self.assertFalse(infer_admission_scope(question)['domain'])
+
+    def test_explicit_degree_types_and_abbreviations(self):
+        examples=[('2026年学术学位博士招生条件','academic','doctor','general_doctor'),
+                  ('2026年专业学位博士招生申请材料','professional','doctor','general_doctor'),
+                  ('2026年学硕招生条件','academic','master','general_master'),
+                  ('2026年专硕报考条件','professional','master','general_master'),
+                  ('2026年专博报考条件','professional','doctor','general_doctor'),
+                  ('2026年学术硕士招生条件','academic','master','general_master'),
+                  ('2026年专业硕士招生条件','professional','master','general_master')]
+        for question,degree,level,program in examples:
+            with self.subTest(question=question):
+                scope=infer_admission_scope(question)
+                self.assertEqual(scope['degree_type'],degree)
+                self.assertEqual(scope['level'],level)
+                self.assertEqual(scope['program'],program)
+                self.assertEqual(scope['year'],'2026')
+                self.assertFalse(scope.get('ambiguous'))
+
+    def test_generic_program_word_does_not_add_degree_type(self):
+        for question in ('2026年博士招生专业目录','2026年硕士研究生招生专业目录',
+                         '2026年计算机科学与技术专业的硕士招生条件','2026年MBA招生学费'):
+            with self.subTest(question=question):
+                scope=infer_admission_scope(question)
+                self.assertEqual(set(scope),{'domain','year','level','program'})
+        self.assertEqual(infer_admission_scope('学术学位硕士毕业要求'),
+                         {'domain':False,'year':'','level':'','program':''})
+
+    def test_degree_filter_excludes_opposite_type_but_keeps_common_rules(self):
+        academic=infer_admission_scope('2026年学术学位博士招生条件')
+        professional=infer_admission_scope('2026年专业学位博士招生条件')
+        common=metadata(program='general_doctor',level='doctor')
+        for scope,expected,opposite in ((academic,'academic','professional'),
+                                        (professional,'professional','academic')):
+            with self.subTest(degree=expected):
+                self.assertTrue(scope_matches({**common,'degree_type':expected},scope))
+                self.assertTrue(scope_matches(common,scope))
+                self.assertTrue(scope_matches({**common,'degree_type':''},scope))
+                self.assertFalse(scope_matches({**common,'degree_type':opposite},scope))
+        generic=infer_admission_scope('2026年博士招生条件')
+        self.assertTrue(scope_matches({**common,'degree_type':'academic'},generic))
+        self.assertTrue(scope_matches({**common,'degree_type':'professional'},generic))
+
+    def test_multiple_requested_degree_types_require_clarification(self):
+        for question in ('2026年学术硕士与专业硕士招生有什么区别？',
+                         '2026年学硕和专硕招生条件分别是什么？',
+                         '学硕和专硕有什么区别？',
+                         '2026年博士招生中学术学位和专业学位的申请材料是什么？'):
+            with self.subTest(question=question):
+                scope=infer_admission_scope(question)
+                self.assertTrue(scope['domain'])
+                self.assertTrue(scope.get('ambiguous'))
+                self.assertNotIn('degree_type',scope)
+                self.assertFalse(scope_matches(metadata(),scope))
+
+    def test_student_identity_does_not_override_target_degree(self):
+        for question,degree,level in (
+                ('我是2023级本科生，2026年专业学位硕士招生条件是什么？','professional','master'),
+                ('我目前是学术学位硕士，2026年专博招生申请材料是什么？','professional','doctor'),
+                ('本人现在在读专业学位博士，2026年学硕报考条件是什么？','academic','master')):
+            with self.subTest(question=question):
+                scope=infer_admission_scope(question)
+                self.assertEqual(scope['degree_type'],degree)
+                self.assertEqual(scope['level'],level)
+                self.assertEqual(scope['year'],'2026')
+                self.assertFalse(scope.get('ambiguous'))
+
+    def test_latest_cycle_is_selected_after_degree_filtering(self):
+        rows=[{'metadata':metadata(year='2026',degree_type='academic')},
+              {'metadata':metadata(year='2027',degree_type='professional')}]
+        scope=choose_admission_year(rows,infer_admission_scope('学硕招生条件'))
+        self.assertEqual(scope['year'],'2026')
+        self.assertEqual(scope['degree_type'],'academic')
+        self.assertIn('学术学位',describe_scope(scope))
+
+    def test_target_fee_or_condition_takes_priority_over_background_degree(self):
+        for question,degree,level,program in (
+                ('我是学术学位博士，2026年专硕学费多少？','professional','master','general_master'),
+                ('我是专业学位硕士，2026年学术博士条件是什么？','academic','doctor','general_doctor')):
+            with self.subTest(question=question):
+                scope=infer_admission_scope(question)
+                self.assertTrue(scope['domain'])
+                self.assertEqual(scope['degree_type'],degree)
+                self.assertEqual(scope['level'],level)
+                self.assertEqual(scope['program'],program)
+                self.assertEqual(scope['year'],'2026')
+                self.assertFalse(scope.get('ambiguous'))
+
+    def test_completed_or_subjectless_current_degree_is_background(self):
+        for question,degree in (
+                ('学硕毕业报考2026年专博需要哪些材料？','professional'),
+                ('目前就读专业学位硕士，2026年学术学位博士招生条件是什么？','academic')):
+            with self.subTest(question=question):
+                scope=infer_admission_scope(question)
+                self.assertEqual(scope['degree_type'],degree)
+                self.assertEqual(scope['level'],'doctor')
+                self.assertEqual(scope['program'],'general_doctor')
+                self.assertEqual(scope['year'],'2026')
+                self.assertFalse(scope.get('ambiguous'))
+
     def test_comparisons_with_omitted_level_words_or_multiple_programs_are_ambiguous(self):
         for question in ('2026年本科和硕士招生有什么区别？',
                          '2026年1+1国际硕士和MBA学费一样吗？',

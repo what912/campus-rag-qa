@@ -1,0 +1,439 @@
+[
+  {
+    "id": "01",
+    "pdf": "materials/yz-official/pdf/中国传媒大学2027年硕士研究生招生简章（官网正文）.pdf",
+    "source_path": "C:\\Users\\吴少泽\\Documents\\综测\\毕业项目\\materials\\yz-official\\originals\\01_中国传媒大学2027年硕士研究生招生简章（官网正文）.html",
+    "target_path": "C:\\Users\\吴少泽\\Documents\\综测\\毕业项目\\materials\\yz-official\\pdf\\中国传媒大学2027年硕士研究生招生简章（官网正文）.pdf",
+    "title": "中国传媒大学2027年硕士研究生招生简章",
+    "source_url": "https://yz.cuc.edu.cn/2026/0930/c8549a274491/page.htm",
+    "published_at": "2026-10-03",
+    "collected_at": "2026-10-27",
+    "kind": "article",
+    "pages": 7,
+    "characters_per_page": [
+      1593,
+      1177,
+      1351,
+      1414,
+      1211,
+      1063,
+      1128
+    ],
+    "table_count": 0,
+    "directory_records": 0,
+    "quota_caveats": [],
+    "quota_rule": "",
+    "links": [
+      {
+        "text": "《中国传媒大学2027年攻读硕士学位研究生招生专业目录》",
+        "url": "http://yz.cuc.edu.cn/2026/0930/c8543a274497/page.htm"
+      },
+      {
+        "text": "《中国传媒大学2027年攻读硕士学位研究生招生初试自命题科目考试大纲》",
+        "url": "http://yz.cuc.edu.cn/2026/0929/c8543a274435/page.htm"
+      },
+      {
+        "text": "3.研究生奖助一览表",
+        "url": "https://yz.cuc.edu.cn/_upload/article/files/14/61/fa4f7dae40499884a51713b0c1d4/d0355f21-fe66-41a5-9886-2f0ca3dcaeb2.pdf"
+      }
+    ],
+    "warnings": [],
+    "bytes": 23459,
+    "sha256": "c9e69ee2e0a46414f5ec1e977eb3bac78ad2d6f2e7dd2ed4877f36c42a94b1f1"
+  },
+  {
+    "id": "02",
+    "pdf": "materials/yz-official/pdf/中国传媒大学2026年硕士研究生招生简章（官网正文）.pdf",
+    "source_path": "C:\\Users\\吴少泽\\Documents\\综测\\毕业项目\\materials\\yz-official\\originals\\02_中国传媒大学2026年硕士研究生招生简章（官网正文）.html",
+    "target_path": "C:\\Users\\吴少泽\\Documents\\综测\\毕业项目\\materials\\yz-official\\pdf\\中国传媒大学2026年硕士研究生招生简章（官网正文）.pdf",
+    "title": "​中国传媒大学2026年硕士研究生招生简章",
+    "source_url": "https://yz.cuc.edu.cn/2025/0929/c8549a260582/page.htm",
+    "published_at": "2025-10-05",
+    "collected_at": "2026-10-27",
+    "kind": "article",
+    "pages": 8,
+    "characters_per_page": [
+      1737,
+      1151,
+      1246,
+      1493,
+      1147,
+      1140,
+      1160,
+      627
+    ],
+    "table_count": 0,
+    "directory_records": 0,
+    "quota_caveats": [],
+    "quota_rule": "",
+    "links": [
+      {
+        "text": "《中国传媒大学2026年攻读硕士学位研究生招生专业目录》",
+        "url": "https://yz.cuc.edu.cn/2025/1004/c8549a260623/page.htm"
+      },
+      {
+        "text": "中国传媒大学研究生奖助一览表",
+        "url": "https://yz.cuc.edu.cn/_upload/article/files/02/48/1f1954b94cc396f060f5deca40e4/be82d669-c3ee-4dcc-a6f1-1d40a76e52fd.pdf"
+      },
+      {
+        "text": "中国传媒大学2026年攻读硕士学位研究生专业目录",
+        "url": "https://yz.cuc.edu.cn/2025/1004/c8549a260623/page.htm"
+      },
+      {
+        "text": "中国传媒大学2026年攻读硕士学位研究生招生初试自命题科目考试大纲",
+        "url": "https://yz.cuc.edu.cn/2025/0929/c8549a260580/page.htm"
+      }
+    ],
+    "warnings": [],
+    "bytes": 25203,
+    "sha256": "6209c1c269405ee2bcee9a9a76f6e986ec935441bd798ee9aae1c7625725843c"
+  },
+  {
+    "id": "03",
+    "pdf": "materials/yz-official/pdf/中国传媒大学2027年硕士招生专业目录（官网表格展开）.pdf",
+    "source_path": "C:\\Users\\吴少泽\\Documents\\综测\\毕业项目\\materials\\yz-official\\originals\\03_中国传媒大学2027年硕士招生专业目录（官网表格展开）.html",
+    "target_path": "C:\\Users\\吴少泽\\Documents\\综测\\毕业项目\\materials\\yz-official\\pdf\\中国传媒大学2027年硕士招生专业目录（官网表格展开）.pdf",
+    "title": "中国传媒大学2027年攻读硕士学位研究生招生专业目录",
+    "source_url": "https://yz.cuc.edu.cn/2026/0930/c8549a274497/page.htm",
+    "published_at": "2026-10-03",
+    "collected_at": "2026-10-27",
+    "kind": "directory",
+    "pages": 99,
+    "characters_per_page": [
+      830,
+      601,
+      600,
+      616,
+      649,
+      629,
+      634,
+      594,
+      588,
+      619,
+      608,
+      604,
+      598,
+      618,
+      619,
+      658,
+      665,
+      697,
+      589,
+      597,
+      593,
+      592,
+      602,
+      612,
+      618,
+      614,
+      607,
+      623,
+      607,
+      606,
+      619,
+      614,
+      606,
+      599,
+      599,
+      598,
+      597,
+      629,
+      631,
+      631,
+      635,
+      632,
+      631,
+      625,
+      626,
+      611,
+      620,
+      621,
+      623,
+      628,
+      629,
+      634,
+      638,
+      626,
+      649,
+      644,
+      637,
+      624,
+      628,
+      615,
+      604,
+      603,
+      599,
+      601,
+      610,
+      608,
+      644,
+      620,
+      628,
+      625,
+      636,
+      632,
+      642,
+      648,
+      630,
+      607,
+      606,
+      644,
+      613,
+      634,
+      649,
+      637,
+      579,
+      607,
+      603,
+      610,
+      611,
+      608,
+      614,
+      617,
+      613,
+      613,
+      603,
+      606,
+      610,
+      599,
+      588,
+      589,
+      593
+    ],
+    "table_count": 1,
+    "directory_records": 197,
+    "quota_caveats": [
+      "2027年我校拟招生人数参照2026年计划指标数，实际招生人数以当年教育部下达指标为准。"
+    ],
+    "quota_rule": "合并单元格展开；人数按原表分组、不得逐方向相加。重复展示人数用于保留关系，不表示各方向分别招生该人数。",
+    "links": [],
+    "warnings": [],
+    "bytes": 152772,
+    "sha256": "b39adbe32b973609ebe3a88026629e9f0e82773c34074393471300815e1ea134"
+  },
+  {
+    "id": "04",
+    "pdf": "materials/yz-official/pdf/中国传媒大学2026年博士学位研究生招生简章（官网正文）.pdf",
+    "source_path": "C:\\Users\\吴少泽\\Documents\\综测\\毕业项目\\materials\\yz-official\\originals\\04_中国传媒大学2026年博士学位研究生招生简章（官网正文）.html",
+    "target_path": "C:\\Users\\吴少泽\\Documents\\综测\\毕业项目\\materials\\yz-official\\pdf\\中国传媒大学2026年博士学位研究生招生简章（官网正文）.pdf",
+    "title": "中国传媒大学2026年博士学位研究生招生简章",
+    "source_url": "https://yz.cuc.edu.cn/2025/1111/c8549a262367/page.htm",
+    "published_at": "2025-11-12",
+    "collected_at": "2026-10-27",
+    "kind": "article",
+    "pages": 8,
+    "characters_per_page": [
+      1641,
+      1152,
+      1068,
+      1065,
+      667,
+      974,
+      1377,
+      1033
+    ],
+    "table_count": 2,
+    "directory_records": 0,
+    "quota_caveats": [],
+    "quota_rule": "",
+    "links": [
+      {
+        "text": "中国传媒大学2026年博士学位研究生招生专业目录》",
+        "url": "https://yz.cuc.edu.cn/zgcmdx2026nbsxwyjszszyml/list.htm"
+      },
+      {
+        "text": "中国传媒大学2026年博士学位研究生招生专业目录",
+        "url": "https://yz.cuc.edu.cn/zgcmdx2026nbsxwyjszszyml/list.htm"
+      },
+      {
+        "text": "中国传媒大学2026年博士学位研究生招生初试及复试笔试科目考试大纲",
+        "url": "https://yz.cuc.edu.cn/2025/1111/c8549a262371/page.htm"
+      },
+      {
+        "text": "中国传媒大学2026年专业学位博士研究生报考条件及申请材料要求",
+        "url": "https://yz.cuc.edu.cn/2025/1111/c8549a262368/page.htm"
+      }
+    ],
+    "warnings": [],
+    "bytes": 24210,
+    "sha256": "9679c779d0b63f88c311c9162e02dae40db8beddb6ea34e9168114d9e38746a0"
+  },
+  {
+    "id": "05",
+    "pdf": "materials/yz-official/pdf/中国传媒大学2026年专业学位博士报考条件及申请材料要求（官网正文）.pdf",
+    "source_path": "C:\\Users\\吴少泽\\Documents\\综测\\毕业项目\\materials\\yz-official\\originals\\05_中国传媒大学2026年专业学位博士报考条件及申请材料要求（官网正文）.html",
+    "target_path": "C:\\Users\\吴少泽\\Documents\\综测\\毕业项目\\materials\\yz-official\\pdf\\中国传媒大学2026年专业学位博士报考条件及申请材料要求（官网正文）.pdf",
+    "title": "中国传媒大学2026年专业学位博士研究生报考条件及申请材料要求",
+    "source_url": "https://yz.cuc.edu.cn/2025/1111/c8549a262368/page.htm",
+    "published_at": "2025-11-12",
+    "collected_at": "2026-10-27",
+    "kind": "article",
+    "pages": 8,
+    "characters_per_page": [
+      867,
+      695,
+      1047,
+      829,
+      646,
+      837,
+      489,
+      118
+    ],
+    "table_count": 3,
+    "directory_records": 0,
+    "quota_caveats": [],
+    "quota_rule": "",
+    "links": [
+      {
+        "text": "《中国传媒大学2026年博士学位研究生招生简章》",
+        "url": "https://yz.cuc.edu.cn/2025/1111/c8549a262367/page.htm"
+      }
+    ],
+    "warnings": [],
+    "bytes": 17030,
+    "sha256": "1dade9491000d1fe1e336b3fdea82119cb211cbe29eb380aab44a9ca5adc338d"
+  },
+  {
+    "id": "06",
+    "pdf": "materials/yz-official/pdf/中国传媒大学2026年博士目录－0810Z1信息计算技术（官网正文）.pdf",
+    "source_path": "C:\\Users\\吴少泽\\Documents\\综测\\毕业项目\\materials\\yz-official\\originals\\06_中国传媒大学2026年博士目录－0810Z1信息计算技术（官网正文）.html",
+    "target_path": "C:\\Users\\吴少泽\\Documents\\综测\\毕业项目\\materials\\yz-official\\pdf\\中国传媒大学2026年博士目录－0810Z1信息计算技术（官网正文）.pdf",
+    "title": "0810Z1 信息计算技术",
+    "source_url": "https://yz.cuc.edu.cn/2025/1106/c14246a262032/page.htm",
+    "published_at": "2025-11-12",
+    "collected_at": "2026-10-27",
+    "kind": "directory",
+    "pages": 4,
+    "characters_per_page": [
+      839,
+      735,
+      697,
+      56
+    ],
+    "table_count": 2,
+    "directory_records": 8,
+    "quota_caveats": [],
+    "quota_rule": "合并单元格展开；人数按原表分组、不得逐方向相加。重复展示人数用于保留关系，不表示各方向分别招生该人数。",
+    "links": [],
+    "warnings": [],
+    "bytes": 8377,
+    "sha256": "c1610285ae40385f026e31500189f359bb29473d0939867b610d51b76b0c17a2"
+  },
+  {
+    "id": "07",
+    "pdf": "materials/yz-official/pdf/中国传媒大学2026年博士目录－081000信息与通信工程（官网正文）.pdf",
+    "source_path": "C:\\Users\\吴少泽\\Documents\\综测\\毕业项目\\materials\\yz-official\\originals\\07_中国传媒大学2026年博士目录－081000信息与通信工程（官网正文）.html",
+    "target_path": "C:\\Users\\吴少泽\\Documents\\综测\\毕业项目\\materials\\yz-official\\pdf\\中国传媒大学2026年博士目录－081000信息与通信工程（官网正文）.pdf",
+    "title": "081000 信息与通信工程",
+    "source_url": "https://yz.cuc.edu.cn/2025/1106/c14246a262029/page.htm",
+    "published_at": "2025-11-12",
+    "collected_at": "2026-10-27",
+    "kind": "directory",
+    "pages": 11,
+    "characters_per_page": [
+      841,
+      696,
+      554,
+      738,
+      704,
+      577,
+      754,
+      520,
+      719,
+      550,
+      239
+    ],
+    "table_count": 2,
+    "directory_records": 26,
+    "quota_caveats": [],
+    "quota_rule": "合并单元格展开；人数按原表分组、不得逐方向相加。重复展示人数用于保留关系，不表示各方向分别招生该人数。",
+    "links": [],
+    "warnings": [],
+    "bytes": 20410,
+    "sha256": "974ba989178c773e317d6809d674989ad194de15284f16eafac9a9886f0f9a40"
+  },
+  {
+    "id": "08",
+    "pdf": "materials/yz-official/pdf/2027年研考中国传媒大学考点1133报名须知（官网正文）.pdf",
+    "source_path": "C:\\Users\\吴少泽\\Documents\\综测\\毕业项目\\materials\\yz-official\\originals\\08_2027年研考中国传媒大学考点1133报名须知（官网正文）.html",
+    "target_path": "C:\\Users\\吴少泽\\Documents\\综测\\毕业项目\\materials\\yz-official\\pdf\\2027年研考中国传媒大学考点1133报名须知（官网正文）.pdf",
+    "title": "2027年全国硕士研究生招生考试中国传媒大学考点（1133）报名须知",
+    "source_url": "https://yz.cuc.edu.cn/2026/1008/c8549a274551/page.htm",
+    "published_at": "2026-10-08",
+    "collected_at": "2026-10-27",
+    "kind": "article",
+    "pages": 5,
+    "characters_per_page": [
+      1535,
+      1256,
+      1285,
+      1250,
+      723
+    ],
+    "table_count": 0,
+    "directory_records": 0,
+    "quota_caveats": [],
+    "quota_rule": "",
+    "links": [
+      {
+        "text": "https://www.bjeea.cn/html/yk/tzgg/2026/1007/88385.html",
+        "url": "https://www.bjeea.cn/html/yk/tzgg/2026/1007/88385.html"
+      },
+      {
+        "text": "https://yz.cuc.edu.cn/。",
+        "url": "https://yz.cuc.edu.cn/%E3%80%82"
+      },
+      {
+        "text": "1.入学前可毕业的自学考试或网络教育考生承诺书",
+        "url": "https://yz.cuc.edu.cn/_upload/article/files/d6/04/214768524270a78d27a4406e65de/a7f8d3c6-1428-46b7-861c-86f1bb82b782.docx"
+      },
+      {
+        "text": "2.入学前可毕业的境外考生承诺书",
+        "url": "https://yz.cuc.edu.cn/_upload/article/files/d6/04/214768524270a78d27a4406e65de/db3de4fc-665a-48db-aa6a-923d10eda8ce.docx"
+      },
+      {
+        "text": "3.北京教育考试考生合理便利申请表",
+        "url": "https://yz.cuc.edu.cn/_upload/article/files/d6/04/214768524270a78d27a4406e65de/4452b923-df05-4bb6-b0bb-e4366b28afbc.docx"
+      }
+    ],
+    "warnings": [],
+    "bytes": 15625,
+    "sha256": "447a30699ce78c8069764d22e0efe7014a0c9f41e740f1a5e8d356ebfbbb5179"
+  },
+  {
+    "id": "09",
+    "pdf": "materials/yz-official/pdf/2027年硕士初试823信号与系统考试大纲（官方PDF）.pdf",
+    "method": "official_pdf_byte_copy",
+    "source_unchanged": true
+  },
+  {
+    "id": "10",
+    "pdf": "materials/yz-official/pdf/2027年硕士初试884概率论与数理统计考试大纲（官方PDF）.pdf",
+    "method": "official_pdf_byte_copy",
+    "source_unchanged": true
+  },
+  {
+    "id": "11",
+    "pdf": "materials/yz-official/pdf/研究生奖助一览表（2027硕士简章官方附件）.pdf",
+    "method": "official_pdf_byte_copy",
+    "source_unchanged": true
+  },
+  {
+    "id": "12",
+    "pdf": "materials/yz-official/pdf/2026年博士复试科技文献阅读与写作考试大纲（官方PDF）.pdf",
+    "method": "official_pdf_byte_copy",
+    "source_unchanged": true
+  },
+  {
+    "id": "13",
+    "pdf": "materials/yz-official/pdf/2026年博士复试随机数学考试大纲（官方PDF）.pdf",
+    "method": "official_pdf_byte_copy",
+    "source_unchanged": true
+  },
+  {
+    "id": "14",
+    "pdf": "materials/yz-official/pdf/2026年博士复试数学物理方程考试大纲（官方PDF）.pdf",
+    "method": "official_pdf_byte_copy",
+    "source_unchanged": true
+  }
+]

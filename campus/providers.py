@@ -29,6 +29,7 @@ def build_messages(question, sources):
         f"来源：{s.get('source') or '未填写'}；来源性质：{s.get('metadata', {}).get('authority') or '按来源信息核对'}；"
         f"招生年度：{s.get('metadata', {}).get('admission_year') or '非招生资料或未确认'}；"
         f"招生项目：{s.get('metadata', {}).get('admission_program') or '未单独指定'}；"
+        f"学位类型：{s.get('metadata', {}).get('degree_type') or '通用或按正文分组'}；"
         f"资料说明：{s.get('metadata', {}).get('review_note') or '无额外说明'}\n{s['text']}" for s in sources)
     return [
         {'role': 'system', 'content': (
@@ -45,6 +46,7 @@ def build_messages(question, sources):
             '使用中文。只要资料包含虚构示例，就明确提示这不是学校正式规定。'
             '先简要直接回答问题，只补充与问题有关且有依据的必要条件。'
             '招生年度不同于在读入学年级；区分普通本科、艺术校考、统招硕士、MBA、国际预科与博士，不能相互套用。'
+            '学术学位与专业学位的附加条件不同；目录中的每条记录须按该条专业、方向与学院对应，不得拼用相邻记录的科目或人数。'
             '招生图片OCR或文件名与正文不一致时，按正文标题与已标注年份说明；费用若为往年标准或待审批，不说成当年已确定金额。'
         )},
         {'role': 'user', 'content': '文档资料：\n<documents>\n' + context +

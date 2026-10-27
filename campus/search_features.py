@@ -2,7 +2,7 @@
 import re
 from .admissions import infer_admission_scope
 
-RERANK_VERSION='focus-rrf-v2-admissions'
+RERANK_VERSION='focus-rrf-v3-official'
 # General question wording and document topics are separated from the requested detail.
 FILLERS=('中国传媒大学','计算机科学与技术','学校','培养方案','课程大纲','学士学位','在读证明',
          '转专业','本科生','学生','专业','课程','一般','可以','是否','能否','应该','有哪些',
@@ -19,10 +19,14 @@ SYNONYMS=(
 
 def focus_query(question):
     text=re.sub(r'20\d{2}\s*(?:级|年|版)', '', question)
-    if infer_admission_scope(question)['domain']:
-        for term in ('招生简章','招生章程','艺术类本科','国际硕士','名校项目','预科项目','普通本科','研究生','1+1','1＋1','硕士','博士','本科','招生','每人','分别','主要'):
+    admissions=infer_admission_scope(question)['domain']
+    if admissions:
+        text=re.sub(r'(?<!\d)\d{4}(?!\d)','',text)
+        for term in ('招生简章','招生章程','艺术类本科','国际硕士','名校项目','预科项目','普通本科','研究生','1+1','1＋1','硕士','博士','本科','招生','每人','分别','主要','考点','中传','网上'):
             text=text.replace(term,'')
     for term in sorted(FILLERS,key=len,reverse=True):
+        # A shared admissions directory contains many majors; keep the requested major.
+        if admissions and term=='计算机科学与技术':continue
         text=text.replace(term,'')
     expansions=[words for pattern,words in SYNONYMS if re.search(pattern,question)]
     if infer_admission_scope(question)['domain'] and re.search(r'初试.*(?:考什么|内容|主要考)',question):
@@ -43,6 +47,9 @@ def intent_match(question,text):
         (r'专业级差',r'专业级差'),
         (r'初试.*(?:考什么|内容|主要考)',r'初试考试内容|文化素养基础测试'),
         (r'报名费',r'报名费'),
+        (r'初试费|报考费',r'(?:初试费|报考费)[^\d]{0,12}\d+\s*元|报名费用.*\d+\s*元'),
+        (r'报名.*(?:截止|结束|什么时候|何时)',r'(?:报名|填报)(?:截止|结束)?时间[^。；]{0,60}\d{1,2}月\d{1,2}日|截止[^。；]{0,30}\d{1,2}月\d{1,2}日'),
+        (r'(?:几|多少)年.*工作经验|工作经验.*(?:几年|多少)',r'\d+年以上[^。；]{0,16}工作经验|工作经验[^。；]{0,16}\d+年'),
         (r'学费',r'学费'),
         (r'报考条件|报名条件|申请条件',r'报考条件|报名条件|申请条件'),
     )
