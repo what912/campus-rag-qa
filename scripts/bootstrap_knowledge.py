@@ -15,7 +15,7 @@ def load_bundled_items(root=ROOT):
     professional=json.loads((root/'materials/user-material-manifest.json').read_text(encoding='utf-8'))['documents']
     items=[p for p in public if p['usage']=='knowledge']+professional
     overrides=[]
-    for relative in ('materials/admissions/manifest.json','materials/yz-official/manifest.json'):
+    for relative in ('materials/admissions/manifest.json','materials/yz-official/manifest.json','materials/ccs-official/manifest.json'):
         path=root/relative
         if path.is_file():
             payload=json.loads(path.read_text(encoding='utf-8'));items.extend(payload['documents'])

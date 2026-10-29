@@ -110,7 +110,7 @@ def create_app(data_dir=DATA, seed=True):
     async def lifespan(application):
         yield
 
-    api = FastAPI(title='知校 · 校园知识问答', version='0.7.0', lifespan=lifespan)
+    api = FastAPI(title='知校 · 校园知识问答', version='0.8.0', lifespan=lifespan)
     api.state.kb = kb
     api.state.settings = settings
     api.state.conversations=conversations
@@ -231,7 +231,7 @@ def create_app(data_dir=DATA, seed=True):
                 explicit_year.group(1) if explicit_year else context.get('cohort',active['target_cohort']))
             named_major=next((m for m in ('计算机科学与技术','软件工程','网络空间安全') if m+'专业' in resolved),'')
             major = request.major if request.major is not None else named_major or context.get('major',active['target_major'])
-            category = infer_category(resolved,request.category)
+            category = infer_category(resolved,request.category,kb.teacher_subjects)
             admission_scope=choose_admission_year(kb.rows,infer_admission_scope(resolved,category))
             if admission_scope.get('ambiguous'):
                 resolution['clarification']='这次问题涉及不同招生层次，请分别提问，或说明需要比较的具体项目、年份和条件，以免套用不同规定。'
@@ -271,6 +271,8 @@ def create_app(data_dir=DATA, seed=True):
 
     def finish_answer(prepared,answer,mode,warnings,generation_ms,session_id,telemetry=None):
         sources=prepared['sources'];active=prepared['active']
+        if any(s['metadata'].get('domain') in ('faculty','courses') for s in sources):
+            warnings.append('课程与教师关系按公开网页及标注版本记录，不代表当前学期排课；曾经讲授、教学建设参与和社会培训请按原说明区分。')
         if any(s['sample'] for s in sources):
             warnings.insert(0, '本次依据包含虚构演示资料，不代表中国传媒大学的正式规定。')
         if any(s['metadata'].get('extraction_method') == 'ocr' for s in sources):

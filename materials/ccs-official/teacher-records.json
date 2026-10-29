@@ -1,0 +1,3975 @@
+{
+  "teachers": [
+    {
+      "id": "148867",
+      "name": "王淑娟",
+      "roles": [
+        "学院领导"
+      ],
+      "published_at": "2019-09-15",
+      "source_url": "https://ccs.cuc.edu.cn/2019/0910/c6238a148867/page.htm",
+      "fields": [
+        {
+          "label": "姓名",
+          "value": "王淑娟"
+        },
+        {
+          "label": "职称",
+          "value": "学院党委书记"
+        },
+        {
+          "label": "主要职责",
+          "value": "全面负责学院党群工作"
+        }
+      ],
+      "bio_summary": "王淑娟的个人页面列为学院党委书记，负责学院党群工作；简介记载其为副研究员，1996年参加工作，并具有中国传媒大学广播电视专业硕士学习经历。",
+      "course_mentions": [],
+      "notes": [
+        "本页未提供明确讲授课程，课程提及为空。"
+      ]
+    },
+    {
+      "id": "148868",
+      "name": "林卫国",
+      "roles": [
+        "学院领导",
+        "导师情况"
+      ],
+      "published_at": "2019-09-16",
+      "source_url": "https://ccs.cuc.edu.cn/2019/0916/c6238a148868/page.htm",
+      "fields": [
+        {
+          "label": "姓名",
+          "value": "林卫国"
+        },
+        {
+          "label": "职务",
+          "value": "院长兼党委副书记"
+        },
+        {
+          "label": "职称",
+          "value": "教授"
+        },
+        {
+          "label": "系别",
+          "value": "网络空间安全系"
+        },
+        {
+          "label": "主要职责",
+          "value": "全面负责学院行政工作，负责发展规划、财务、人事人才、实验室管理建设、交流与合作工作。"
+        },
+        {
+          "label": "讲授课程",
+          "value": "计算机网络，网络程序设计"
+        },
+        {
+          "label": "科研方向或教学专长",
+          "value": "数字版权管理技术、人工智能深度合成内容的生成与鉴别技术在广播电视及融合媒体行业中的应用"
+        }
+      ],
+      "bio_summary": "林卫国为教授、博士生导师，个人页面列为院长兼党委副书记，系别为网络空间安全系。具有通信与信息系统工学博士和美国南加州大学访问经历，研究数字版权管理及深度合成内容鉴别。",
+      "course_mentions": [
+        {
+          "raw_text": "计算机网络，网络程序设计",
+          "courses": [
+            "计算机网络",
+            "网络程序设计"
+          ],
+          "source_url": "https://ccs.cuc.edu.cn/2019/0916/c6238a148868/page.htm",
+          "course_details": [
+            {
+              "name": "计算机网络",
+              "level": "未注明",
+              "temporal_status": "unspecified"
+            },
+            {
+              "name": "网络程序设计",
+              "level": "未注明",
+              "temporal_status": "unspecified"
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "导师栏目注明2025年6月更新；该身份信息不是特定招生年度招生名额或资格的保证。"
+      ]
+    },
+    {
+      "id": "194124",
+      "name": "宋佳",
+      "roles": [
+        "学院领导"
+      ],
+      "published_at": "2022-06-07",
+      "source_url": "https://ccs.cuc.edu.cn/2022/0607/c6238a194124/page.htm",
+      "fields": [
+        {
+          "label": "姓名",
+          "value": "宋佳"
+        },
+        {
+          "label": "职务",
+          "value": "党委副书记"
+        },
+        {
+          "label": "主要职责",
+          "value": "负责学院学生管理、学生党团建设、宣传、工会、校友会工作。"
+        }
+      ],
+      "bio_summary": "宋佳的个人页面列为党委副书记，职责涉及学生管理、学生党团建设、宣传、工会和校友会工作。简介记载其于2006年毕业后参加工作，之后一直在计算机学院工作。",
+      "course_mentions": [],
+      "notes": [
+        "本页未提供明确讲授课程，课程提及为空。"
+      ]
+    },
+    {
+      "id": "149371",
+      "name": "王琦",
+      "roles": [
+        "学院领导",
+        "导师情况"
+      ],
+      "published_at": "2019-09-14",
+      "source_url": "https://ccs.cuc.edu.cn/2019/1107/c6238a149371/page.htm",
+      "fields": [
+        {
+          "label": "姓名",
+          "value": "王琦"
+        },
+        {
+          "label": "职称",
+          "value": "副教授"
+        },
+        {
+          "label": "系别",
+          "value": "计算机科学与技术系"
+        },
+        {
+          "label": "讲授课程",
+          "value": "数据库原理与安全（本科）、程序设计与编程方法（本科）、web前端开发（本科）、计算思维概论（本科）、大数据技术基础（硕士）、大数据技术与spark开发实践（硕士）"
+        },
+        {
+          "label": "科研方向或教学专长",
+          "value": "智能媒体信息处理、软件工程、数据处理与分析"
+        }
+      ],
+      "bio_summary": "王琦为计算机科学与技术系副教授，研究智能媒体信息处理、软件工程及数据分析。教学涉及本科数据库、程序设计、前端开发和计算思维，以及硕士层次的大数据技术与实践。",
+      "course_mentions": [
+        {
+          "raw_text": "数据库原理与安全（本科）、程序设计与编程方法（本科）、web前端开发（本科）、计算思维概论（本科）、大数据技术基础（硕士）、大数据技术与spark开发实践（硕士）",
+          "courses": [
+            "数据库原理与安全",
+            "程序设计与编程方法",
+            "web前端开发",
+            "计算思维概论",
+            "大数据技术基础",
+            "大数据技术与spark开发实践"
+          ],
+          "source_url": "https://ccs.cuc.edu.cn/2019/1107/c6238a149371/page.htm",
+          "course_details": [
+            {
+              "name": "数据库原理与安全",
+              "level": "本科",
+              "temporal_status": "unspecified"
+            },
+            {
+              "name": "程序设计与编程方法",
+              "level": "本科",
+              "temporal_status": "unspecified"
+            },
+            {
+              "name": "web前端开发",
+              "level": "本科",
+              "temporal_status": "unspecified"
+            },
+            {
+              "name": "计算思维概论",
+              "level": "本科",
+              "temporal_status": "unspecified"
+            },
+            {
+              "name": "大数据技术基础",
+              "level": "硕士",
+              "temporal_status": "unspecified"
+            },
+            {
+              "name": "大数据技术与spark开发实践",
+              "level": "硕士",
+              "temporal_status": "unspecified"
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "导师栏目注明2025年6月更新；该身份信息不是特定招生年度招生名额或资格的保证。"
+      ]
+    },
+    {
+      "id": "194131",
+      "name": "郑中翔",
+      "roles": [
+        "学院领导",
+        "导师情况"
+      ],
+      "published_at": "2022-06-07",
+      "source_url": "https://ccs.cuc.edu.cn/2022/0607/c6238a194131/page.htm",
+      "fields": [
+        {
+          "label": "姓名",
+          "value": "郑中翔"
+        },
+        {
+          "label": "职称",
+          "value": "副教授"
+        },
+        {
+          "label": "系别",
+          "value": "网络空间安全系"
+        },
+        {
+          "label": "讲授课程",
+          "value": "计算思维概论（本科）、计算机导论（本科）、隐私计算（本科）"
+        },
+        {
+          "label": "科研方向或教学专长",
+          "value": "抗量子计算攻击公钥密码算法设计与分析、隐私计算"
+        }
+      ],
+      "bio_summary": "郑中翔为网络空间安全系副教授，2019年在清华大学取得博士学位，2021年完成博士后工作。研究抗量子公钥密码算法与隐私计算，讲授计算思维概论、计算机导论和隐私计算。",
+      "course_mentions": [
+        {
+          "raw_text": "计算思维概论（本科）、计算机导论（本科）、隐私计算（本科）",
+          "courses": [
+            "计算思维概论",
+            "计算机导论",
+            "隐私计算"
+          ],
+          "source_url": "https://ccs.cuc.edu.cn/2022/0607/c6238a194131/page.htm",
+          "course_details": [
+            {
+              "name": "计算思维概论",
+              "level": "本科",
+              "temporal_status": "unspecified"
+            },
+            {
+              "name": "计算机导论",
+              "level": "本科",
+              "temporal_status": "unspecified"
+            },
+            {
+              "name": "隐私计算",
+              "level": "本科",
+              "temporal_status": "unspecified"
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "导师栏目注明2025年6月更新；该身份信息不是特定招生年度招生名额或资格的保证。"
+      ]
+    },
+    {
+      "id": "254363",
+      "name": "徐万山",
+      "roles": [
+        "计算机科学与技术系",
+        "导师情况"
+      ],
+      "published_at": "2022-06-07",
+      "source_url": "https://ccs.cuc.edu.cn/2022/0607/c6239a254363/page.htm",
+      "fields": [
+        {
+          "label": "姓名",
+          "value": "徐万山"
+        },
+        {
+          "label": "职称",
+          "value": "副教授"
+        },
+        {
+          "label": "系别",
+          "value": "网络空间安全系"
+        },
+        {
+          "label": "讲授课程",
+          "value": "计算思维概论（本科）面向对象程序设计（Java）（本科）"
+        },
+        {
+          "label": "科研方向或教学专长",
+          "value": "应用密码学、数据安全与隐私保护、可搜索加密、人工智能安全"
+        }
+      ],
+      "bio_summary": "徐万山为副教授，2022年取得北京工业大学计算机科学与技术工学博士学位。研究应用密码、数据安全、隐私保护与人工智能安全；栏目归在计算机系，个人正文系别却写网络空间安全系。",
+      "course_mentions": [
+        {
+          "raw_text": "计算思维概论（本科）面向对象程序设计（Java）（本科）",
+          "courses": [
+            "计算思维概论",
+            "面向对象程序设计（Java）"
+          ],
+          "source_url": "https://ccs.cuc.edu.cn/2022/0607/c6239a254363/page.htm",
+          "course_details": [
+            {
+              "name": "计算思维概论",
+              "level": "本科",
+              "temporal_status": "unspecified"
+            },
+            {
+              "name": "面向对象程序设计（Java）",
+              "level": "本科",
+              "temporal_status": "unspecified"
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "栏目归属为计算机科学与技术系，正文系别为网络空间安全系；两者分别保留，未擅自判定当前归属。",
+        "导师栏目注明2025年6月更新；该身份信息不是特定招生年度招生名额或资格的保证。"
+      ]
+    },
+    {
+      "id": "255309",
+      "name": "司俊俊",
+      "roles": [
+        "计算机科学与技术系",
+        "导师情况"
+      ],
+      "published_at": "2025-05-08",
+      "source_url": "https://ccs.cuc.edu.cn/2019/0911/c6239a255309/page.htm",
+      "fields": [
+        {
+          "label": "姓名",
+          "value": "司俊俊"
+        },
+        {
+          "label": "职称",
+          "value": "副研究员"
+        },
+        {
+          "label": "系别",
+          "value": "计算机科学与技术系"
+        },
+        {
+          "label": "讲授课程",
+          "value": "软件工程（本科）、软件开发综合实践（本科）、软件开发理论与方法（硕士）、人工智能伦理与法律治理（博士）"
+        },
+        {
+          "label": "科研方向或教学专长",
+          "value": "时空智能、智能化软件"
+        }
+      ],
+      "bio_summary": "司俊俊为计算机科学与技术系副研究员，本科毕业于北京交通大学，硕士、博士毕业于北京大学。研究时空智能与智能化软件，教学覆盖软件工程、开发实践及人工智能伦理与法律治理。",
+      "course_mentions": [
+        {
+          "raw_text": "软件工程（本科）、软件开发综合实践（本科）、软件开发理论与方法（硕士）、人工智能伦理与法律治理（博士）",
+          "courses": [
+            "软件工程",
+            "软件开发综合实践",
+            "软件开发理论与方法",
+            "人工智能伦理与法律治理"
+          ],
+          "source_url": "https://ccs.cuc.edu.cn/2019/0911/c6239a255309/page.htm",
+          "course_details": [
+            {
+              "name": "软件工程",
+              "level": "本科",
+              "temporal_status": "unspecified"
+            },
+            {
+              "name": "软件开发综合实践",
+              "level": "本科",
+              "temporal_status": "unspecified"
+            },
+            {
+              "name": "软件开发理论与方法",
+              "level": "硕士",
+              "temporal_status": "unspecified"
+            },
+            {
+              "name": "人工智能伦理与法律治理",
+              "level": "博士",
+              "temporal_status": "unspecified"
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "导师栏目注明2025年6月更新；该身份信息不是特定招生年度招生名额或资格的保证。"
+      ]
+    },
+    {
+      "id": "148817",
+      "name": "黄祥林",
+      "roles": [
+        "计算机科学与技术系",
+        "导师情况"
+      ],
+      "published_at": "2019-09-15",
+      "source_url": "https://ccs.cuc.edu.cn/2019/0916/c6239a148817/page.htm",
+      "fields": [
+        {
+          "label": "姓名",
+          "value": "黄祥林"
+        },
+        {
+          "label": "职称",
+          "value": "研究员"
+        },
+        {
+          "label": "讲授课程",
+          "value": "计算机图像处理（本）、现代信号处理（博）、信号处理技术（博）"
+        },
+        {
+          "label": "科研方向或教学专长",
+          "value": "图像视频智能化分析、处理及应用"
+        }
+      ],
+      "bio_summary": "黄祥林为研究员、工学博士及博士生导师，研究图像视频智能分析、可视媒体检索等。个人页列有本科计算机图像处理，以及博士现代信号处理、信号处理技术课程。",
+      "course_mentions": [
+        {
+          "raw_text": "计算机图像处理（本）、现代信号处理（博）、信号处理技术（博）",
+          "courses": [
+            "计算机图像处理",
+            "现代信号处理",
+            "信号处理技术"
+          ],
+          "source_url": "https://ccs.cuc.edu.cn/2019/0916/c6239a148817/page.htm",
+          "course_details": [
+            {
+              "name": "计算机图像处理",
+              "level": "本科",
+              "temporal_status": "unspecified"
+            },
+            {
+              "name": "现代信号处理",
+              "level": "博士",
+              "temporal_status": "unspecified"
+            },
+            {
+              "name": "信号处理技术",
+              "level": "博士",
+              "temporal_status": "unspecified"
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "导师栏目注明2025年6月更新；该身份信息不是特定招生年度招生名额或资格的保证。"
+      ]
+    },
+    {
+      "id": "148831",
+      "name": "扈文峰",
+      "roles": [
+        "计算机科学与技术系",
+        "导师情况"
+      ],
+      "published_at": "2019-09-15",
+      "source_url": "https://ccs.cuc.edu.cn/2019/0314/c6239a148831/page.htm",
+      "fields": [
+        {
+          "label": "姓名",
+          "value": "扈文峰"
+        },
+        {
+          "label": "职称",
+          "value": "教授"
+        },
+        {
+          "label": "系别",
+          "value": "数据工程系"
+        },
+        {
+          "label": "讲授课程",
+          "value": "互动媒体程序设计、基于引擎的游戏开发、现代软件工程"
+        },
+        {
+          "label": "科研方向或教学专长",
+          "value": "游戏与仿真、机器人、Web开发技术"
+        }
+      ],
+      "bio_summary": "扈文峰为教授，正文系别写数据工程系，博士毕业于中科院应用数学所。具有软件开发背景，研究和教学涉及游戏仿真、机器人及Web开发，列有互动媒体程序设计和现代软件工程等课程。",
+      "course_mentions": [
+        {
+          "raw_text": "互动媒体程序设计、基于引擎的游戏开发、现代软件工程",
+          "courses": [
+            "互动媒体程序设计",
+            "基于引擎的游戏开发",
+            "现代软件工程"
+          ],
+          "source_url": "https://ccs.cuc.edu.cn/2019/0314/c6239a148831/page.htm",
+          "course_details": [
+            {
+              "name": "互动媒体程序设计",
+              "level": "未注明",
+              "temporal_status": "unspecified"
+            },
+            {
+              "name": "基于引擎的游戏开发",
+              "level": "未注明",
+              "temporal_status": "unspecified"
+            },
+            {
+              "name": "现代软件工程",
+              "level": "未注明",
+              "temporal_status": "unspecified"
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "导师栏目注明2025年6月更新；该身份信息不是特定招生年度招生名额或资格的保证。"
+      ]
+    },
+    {
+      "id": "148866",
+      "name": "尚文倩",
+      "roles": [
+        "计算机科学与技术系",
+        "导师情况"
+      ],
+      "published_at": "2023-04-20",
+      "source_url": "https://ccs.cuc.edu.cn/2019/0910/c6239a148866/page.htm",
+      "fields": [
+        {
+          "label": "姓名",
+          "value": "尚文倩"
+        },
+        {
+          "label": "职称",
+          "value": "教授"
+        },
+        {
+          "label": "系别",
+          "value": "计算机科学与技术系"
+        },
+        {
+          "label": "讲授课程",
+          "value": "计算机导论（本科）、神经网络与深度学习（硕士）、自然语言理解（博士）"
+        },
+        {
+          "label": "科研方向或教学专长",
+          "value": "人工智能/自然语言处理/机器学习"
+        }
+      ],
+      "bio_summary": "尚文倩为计算机科学与技术系教授、博士生及硕士生导师，研究人工智能、自然语言处理和机器学习。先后在东南大学、国防科学技术大学及北京交通大学学习，讲授计算机导论等课程。",
+      "course_mentions": [
+        {
+          "raw_text": "计算机导论（本科）、神经网络与深度学习（硕士）、自然语言理解（博士）",
+          "courses": [
+            "计算机导论",
+            "神经网络与深度学习",
+            "自然语言理解"
+          ],
+          "source_url": "https://ccs.cuc.edu.cn/2019/0910/c6239a148866/page.htm",
+          "course_details": [
+            {
+              "name": "计算机导论",
+              "level": "本科",
+              "temporal_status": "unspecified"
+            },
+            {
+              "name": "神经网络与深度学习",
+              "level": "硕士",
+              "temporal_status": "unspecified"
+            },
+            {
+              "name": "自然语言理解",
+              "level": "博士",
+              "temporal_status": "unspecified"
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "自我介绍内的行政职务属于该个人页原文，未据此覆盖学院领导栏目或断言现任行政职务。",
+        "导师栏目注明2025年6月更新；该身份信息不是特定招生年度招生名额或资格的保证。"
+      ]
+    },
+    {
+      "id": "148863",
+      "name": "董晓晓",
+      "roles": [
+        "计算机科学与技术系"
+      ],
+      "published_at": "2019-09-13",
+      "source_url": "https://ccs.cuc.edu.cn/2019/0910/c6239a148863/page.htm",
+      "fields": [
+        {
+          "label": "姓名",
+          "value": "董晓晓"
+        },
+        {
+          "label": "系别",
+          "value": "数据工程系"
+        },
+        {
+          "label": "讲授课程",
+          "value": "《大学计算机》（本科）、《多媒体技术基础及应用》（本科）、《Python程序设计及数据分析》（本科）"
+        },
+        {
+          "label": "科研方向或教学专长",
+          "value": "计算机应用"
+        }
+      ],
+      "bio_summary": "董晓晓的正文系别为数据工程系，研究方向为计算机应用，主要从事计算机基础教学。页面列出大学计算机、多媒体技术基础及应用、Python程序设计及数据分析三门本科课程。",
+      "course_mentions": [
+        {
+          "raw_text": "《大学计算机》（本科）、《多媒体技术基础及应用》（本科）、《Python程序设计及数据分析》（本科）",
+          "courses": [
+            "大学计算机",
+            "多媒体技术基础及应用",
+            "Python程序设计及数据分析"
+          ],
+          "source_url": "https://ccs.cuc.edu.cn/2019/0910/c6239a148863/page.htm",
+          "course_details": [
+            {
+              "name": "大学计算机",
+              "level": "本科",
+              "temporal_status": "unspecified"
+            },
+            {
+              "name": "多媒体技术基础及应用",
+              "level": "本科",
+              "temporal_status": "unspecified"
+            },
+            {
+              "name": "Python程序设计及数据分析",
+              "level": "本科",
+              "temporal_status": "unspecified"
+            }
+          ]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "148848",
+      "name": "冯爽",
+      "roles": [
+        "计算机科学与技术系",
+        "导师情况"
+      ],
+      "published_at": "2019-09-15",
+      "source_url": "https://ccs.cuc.edu.cn/2019/0911/c6239a148848/page.htm",
+      "fields": [
+        {
+          "label": "姓名",
+          "value": "冯爽"
+        },
+        {
+          "label": "职称",
+          "value": "教授"
+        },
+        {
+          "label": "系别",
+          "value": "计算机科学与技术系"
+        },
+        {
+          "label": "讲授课程",
+          "value": "计算机程序设计1（本科）、计算机程序设计2（本科）、程序设计实践（本科）"
+        },
+        {
+          "label": "科研方向或教学专长",
+          "value": "智能媒体信息处理、推荐系统"
+        }
+      ],
+      "bio_summary": "冯爽为计算机科学与技术系教授，具有博士学位及美国加州大学圣塔芭芭拉分校访问经历。研究智能媒体信息处理和推荐系统，个人页列出计算机程序设计1、2及程序设计实践等本科课程。",
+      "course_mentions": [
+        {
+          "raw_text": "计算机程序设计1（本科）、计算机程序设计2（本科）、程序设计实践（本科）",
+          "courses": [
+            "计算机程序设计1",
+            "计算机程序设计2",
+            "程序设计实践"
+          ],
+          "source_url": "https://ccs.cuc.edu.cn/2019/0911/c6239a148848/page.htm",
+          "course_details": [
+            {
+              "name": "计算机程序设计1",
+              "level": "本科",
+              "temporal_status": "unspecified"
+            },
+            {
+              "name": "计算机程序设计2",
+              "level": "本科",
+              "temporal_status": "unspecified"
+            },
+            {
+              "name": "程序设计实践",
+              "level": "本科",
+              "temporal_status": "unspecified"
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "导师栏目注明2025年6月更新；该身份信息不是特定招生年度招生名额或资格的保证。"
+      ]
+    },
+    {
+      "id": "148861",
+      "name": "冯欣",
+      "roles": [
+        "计算机科学与技术系",
+        "导师情况"
+      ],
+      "published_at": "2019-09-15",
+      "source_url": "https://ccs.cuc.edu.cn/2019/0910/c6239a148861/page.htm",
+      "fields": [
+        {
+          "label": "姓名",
+          "value": "冯欣"
+        },
+        {
+          "label": "职称",
+          "value": "副教授"
+        },
+        {
+          "label": "系别",
+          "value": "计算机科学与技术系"
+        },
+        {
+          "label": "讲授课程",
+          "value": "计算机程序设计1（本科），计算机程序设计2（本科），编译原理（本科），算法设计与分析（本科）"
+        },
+        {
+          "label": "科研方向或教学专长",
+          "value": "科研方向：计算机应用技术游戏与仿真技术方向"
+        }
+      ],
+      "bio_summary": "冯欣为计算机科学与技术系副教授，研究计算机应用技术中的游戏与仿真。个人页列有计算机程序设计1、计算机程序设计2、编译原理及算法设计与分析，均注明为本科课程。",
+      "course_mentions": [
+        {
+          "raw_text": "计算机程序设计1（本科），计算机程序设计2（本科），编译原理（本科），算法设计与分析（本科）",
+          "courses": [
+            "计算机程序设计1",
+            "计算机程序设计2",
+            "编译原理",
+            "算法设计与分析"
+          ],
+          "source_url": "https://ccs.cuc.edu.cn/2019/0910/c6239a148861/page.htm",
+          "course_details": [
+            {
+              "name": "计算机程序设计1",
+              "level": "本科",
+              "temporal_status": "unspecified"
+            },
+            {
+              "name": "计算机程序设计2",
+              "level": "本科",
+              "temporal_status": "unspecified"
+            },
+            {
+              "name": "编译原理",
+              "level": "本科",
+              "temporal_status": "unspecified"
+            },
+            {
+              "name": "算法设计与分析",
+              "level": "本科",
+              "temporal_status": "unspecified"
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "导师栏目注明2025年6月更新；该身份信息不是特定招生年度招生名额或资格的保证。"
+      ]
+    },
+    {
+      "id": "148858",
+      "name": "郭建璞",
+      "roles": [
+        "计算机科学与技术系"
+      ],
+      "published_at": "2019-09-14",
+      "source_url": "https://ccs.cuc.edu.cn/2019/0910/c6239a148858/page.htm",
+      "fields": [
+        {
+          "label": "姓名",
+          "value": "郭建璞"
+        },
+        {
+          "label": "职称",
+          "value": "副教授"
+        },
+        {
+          "label": "系别",
+          "value": "数据工程系"
+        },
+        {
+          "label": "讲授课程",
+          "value": "大学计算机(本科)、数字视频编辑(本科)、多媒体技术基础及应用(本科)"
+        },
+        {
+          "label": "科研方向或教学专长",
+          "value": "计算机应用"
+        }
+      ],
+      "bio_summary": "郭建璞为副教授，正文系别写数据工程系，毕业于中国矿业大学北京研究生院。长期从事计算机基础本科教学，讲授大学计算机、数字视频编辑和多媒体技术基础及应用。",
+      "course_mentions": [
+        {
+          "raw_text": "大学计算机(本科)、数字视频编辑(本科)、多媒体技术基础及应用(本科)",
+          "courses": [
+            "大学计算机",
+            "数字视频编辑",
+            "多媒体技术基础及应用"
+          ],
+          "source_url": "https://ccs.cuc.edu.cn/2019/0910/c6239a148858/page.htm",
+          "course_details": [
+            {
+              "name": "大学计算机",
+              "level": "本科",
+              "temporal_status": "unspecified"
+            },
+            {
+              "name": "数字视频编辑",
+              "level": "本科",
+              "temporal_status": "unspecified"
+            },
+            {
+              "name": "多媒体技术基础及应用",
+              "level": "本科",
+              "temporal_status": "unspecified"
+            }
+          ]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "148862",
+      "name": "刘青",
+      "roles": [
+        "计算机科学与技术系"
+      ],
+      "published_at": "2019-09-13",
+      "source_url": "https://ccs.cuc.edu.cn/2019/0910/c6239a148862/page.htm",
+      "fields": [
+        {
+          "label": "姓名",
+          "value": "刘青"
+        },
+        {
+          "label": "职称",
+          "value": "讲师"
+        },
+        {
+          "label": "系别",
+          "value": "数据工程系"
+        },
+        {
+          "label": "讲授课程",
+          "value": "大学计算机、计算机二维动画、多媒体技术基础及应用、Java编程入门、Access数据库"
+        },
+        {
+          "label": "教学专长",
+          "value": "计算机基础课教学"
+        }
+      ],
+      "bio_summary": "刘青为讲师，具有硕士学位，正文系别写数据工程系，教学专长为计算机基础课。个人页列有大学计算机、计算机二维动画、多媒体技术基础及应用、Java编程入门和Access数据库。",
+      "course_mentions": [
+        {
+          "raw_text": "大学计算机、计算机二维动画、多媒体技术基础及应用、Java编程入门、Access数据库",
+          "courses": [
+            "大学计算机",
+            "计算机二维动画",
+            "多媒体技术基础及应用",
+            "Java编程入门",
+            "Access数据库"
+          ],
+          "source_url": "https://ccs.cuc.edu.cn/2019/0910/c6239a148862/page.htm",
+          "course_details": [
+            {
+              "name": "大学计算机",
+              "level": "未注明",
+              "temporal_status": "unspecified"
+            },
+            {
+              "name": "计算机二维动画",
+              "level": "未注明",
+              "temporal_status": "unspecified"
+            },
+            {
+              "name": "多媒体技术基础及应用",
+              "level": "未注明",
+              "temporal_status": "unspecified"
+            },
+            {
+              "name": "Java编程入门",
+              "level": "未注明",
+              "temporal_status": "unspecified"
+            },
+            {
+              "name": "Access数据库",
+              "level": "未注明",
+              "temporal_status": "unspecified"
+            }
+          ]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "148832",
+      "name": "郭晓梅",
+      "roles": [
+        "计算机科学与技术系",
+        "导师情况"
+      ],
+      "published_at": "2019-09-14",
+      "source_url": "https://ccs.cuc.edu.cn/2019/0911/c6239a148832/page.htm",
+      "fields": [
+        {
+          "label": "姓名",
+          "value": "郭晓梅"
+        },
+        {
+          "label": "职称",
+          "value": "副教授"
+        },
+        {
+          "label": "系别",
+          "value": "计算机科学与技术系"
+        },
+        {
+          "label": "讲授课程",
+          "value": "人工智能（本科）、并行和分布式计算（本科）、云计算技术（本科）、分布式系统与云计算（硕士）"
+        },
+        {
+          "label": "科研方向或教学专长",
+          "value": "大数据技术及应用、并行与分布式计算"
+        }
+      ],
+      "bio_summary": "郭晓梅为计算机科学与技术系副教授，研究大数据应用及并行、分布式计算。教学涉及本科人工智能、并行和分布式计算、云计算技术，以及硕士分布式系统与云计算课程。",
+      "course_mentions": [
+        {
+          "raw_text": "人工智能（本科）、并行和分布式计算（本科）、云计算技术（本科）、分布式系统与云计算（硕士）",
+          "courses": [
+            "人工智能",
+            "并行和分布式计算",
+            "云计算技术",
+            "分布式系统与云计算"
+          ],
+          "source_url": "https://ccs.cuc.edu.cn/2019/0911/c6239a148832/page.htm",
+          "course_details": [
+            {
+              "name": "人工智能",
+              "level": "本科",
+              "temporal_status": "unspecified"
+            },
+            {
+              "name": "并行和分布式计算",
+              "level": "本科",
+              "temporal_status": "unspecified"
+            },
+            {
+              "name": "云计算技术",
+              "level": "本科",
+              "temporal_status": "unspecified"
+            },
+            {
+              "name": "分布式系统与云计算",
+              "level": "硕士",
+              "temporal_status": "unspecified"
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "导师栏目注明2025年6月更新；该身份信息不是特定招生年度招生名额或资格的保证。"
+      ]
+    },
+    {
+      "id": "148824",
+      "name": "李亚峰",
+      "roles": [
+        "计算机科学与技术系"
+      ],
+      "published_at": "2019-09-13",
+      "source_url": "https://ccs.cuc.edu.cn/2019/0915/c6239a148824/page.htm",
+      "fields": [
+        {
+          "label": "姓名",
+          "value": "李亚峰"
+        },
+        {
+          "label": "职称",
+          "value": "讲师"
+        },
+        {
+          "label": "系别",
+          "value": "计算机科学与技术系"
+        },
+        {
+          "label": "讲授课程",
+          "value": "本科课程《操作系统》、《计算机图形学》研究生课程《虚拟现实与人机交互》"
+        },
+        {
+          "label": "科研方向或教学专长",
+          "value": "主要研究兴趣为计算机图形学，虚拟现实和智能媒体技术等领域。"
+        }
+      ],
+      "bio_summary": "李亚峰为计算机科学与技术系讲师，2005年取得清华大学博士学位。研究计算机图形学、虚拟现实和智能媒体技术，个人页列出本科操作系统、计算机图形学及研究生虚拟现实与人机交互。",
+      "course_mentions": [
+        {
+          "raw_text": "本科课程《操作系统》、《计算机图形学》研究生课程《虚拟现实与人机交互》",
+          "courses": [
+            "操作系统",
+            "计算机图形学",
+            "虚拟现实与人机交互"
+          ],
+          "source_url": "https://ccs.cuc.edu.cn/2019/0915/c6239a148824/page.htm",
+          "course_details": [
+            {
+              "name": "操作系统",
+              "level": "本科",
+              "temporal_status": "unspecified"
+            },
+            {
+              "name": "计算机图形学",
+              "level": "本科",
+              "temporal_status": "unspecified"
+            },
+            {
+              "name": "虚拟现实与人机交互",
+              "level": "研究生",
+              "temporal_status": "unspecified"
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "原文以本科课程、研究生课程分组，操作系统和计算机图形学对应本科，虚拟现实与人机交互对应研究生，未擅自细化为硕士。"
+      ]
+    },
+    {
+      "id": "148843",
+      "name": "李春芳",
+      "roles": [
+        "计算机科学与技术系",
+        "导师情况"
+      ],
+      "published_at": "2019-09-14",
+      "source_url": "https://ccs.cuc.edu.cn/2019/0911/c6239a148843/page.htm",
+      "fields": [
+        {
+          "label": "姓名",
+          "value": "李春芳"
+        },
+        {
+          "label": "职称",
+          "value": "副教授"
+        },
+        {
+          "label": "系别",
+          "value": "计算机科学与技术系"
+        },
+        {
+          "label": "讲授课程",
+          "value": "数据可视化（本科，2025国家一流本科线上课），媒体大数据实例分析（本科），生成式人工智能与计量电影（通识课），社交网络分析（本科）"
+        },
+        {
+          "label": "科研方向或教学专长",
+          "value": "数据可视化、基于VLLM的图形图像生成、生成式人工智能与计量电影、影像中的信息论"
+        }
+      ],
+      "bio_summary": "李春芳为计算机科学与技术系副教授，2012年取得北京航空航天大学博士学位并于2015年博士后出站，曾访问北京大学艺术学院。研究数据可视化、生成式人工智能与计量电影等。",
+      "course_mentions": [
+        {
+          "raw_text": "数据可视化（本科，2025国家一流本科线上课），媒体大数据实例分析（本科），生成式人工智能与计量电影（通识课），社交网络分析（本科）",
+          "courses": [
+            "数据可视化",
+            "媒体大数据实例分析",
+            "生成式人工智能与计量电影",
+            "社交网络分析"
+          ],
+          "source_url": "https://ccs.cuc.edu.cn/2019/0911/c6239a148843/page.htm",
+          "course_details": [
+            {
+              "name": "数据可视化",
+              "level": "本科",
+              "temporal_status": "unspecified"
+            },
+            {
+              "name": "媒体大数据实例分析",
+              "level": "本科",
+              "temporal_status": "unspecified"
+            },
+            {
+              "name": "生成式人工智能与计量电影",
+              "level": "未注明",
+              "temporal_status": "unspecified"
+            },
+            {
+              "name": "社交网络分析",
+              "level": "本科",
+              "temporal_status": "unspecified"
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "导师栏目注明2025年6月更新；该身份信息不是特定招生年度招生名额或资格的保证。",
+        "生成式人工智能与计量电影原文只标通识课，未注明学历层次，level保留未注明；2025国家一流本科线上课为数据可视化的课程说明，不属于课程名。"
+      ]
+    },
+    {
+      "id": "148829",
+      "name": "李樱",
+      "roles": [
+        "计算机科学与技术系",
+        "导师情况"
+      ],
+      "published_at": "2019-09-15",
+      "source_url": "https://ccs.cuc.edu.cn/2019/0314/c6239a148829/page.htm",
+      "fields": [
+        {
+          "label": "姓名",
+          "value": "李樱"
+        },
+        {
+          "label": "职称",
+          "value": "教授"
+        },
+        {
+          "label": "系别",
+          "value": "计算机科学与技术系"
+        },
+        {
+          "label": "讲授课程",
+          "value": "数据库原理及应用（本科）、计算机网络（本科）、JAVA语言程序设计（本科）、知识图谱与认知智能（博士）"
+        },
+        {
+          "label": "科研方向或教学专长",
+          "value": "知识生成与智能信息处理，对于借助语言或领域知识帮助计算机理解人类的语言和行为感兴趣"
+        }
+      ],
+      "bio_summary": "李樱为计算机科学与技术系教授，研究知识生成与智能信息处理，关注语言及领域知识辅助理解。个人页列有本科数据库原理及应用、计算机网络、Java语言程序设计及博士知识图谱与认知智能。",
+      "course_mentions": [
+        {
+          "raw_text": "数据库原理及应用（本科）、计算机网络（本科）、JAVA语言程序设计（本科）、知识图谱与认知智能（博士）",
+          "courses": [
+            "数据库原理及应用",
+            "计算机网络",
+            "JAVA语言程序设计",
+            "知识图谱与认知智能"
+          ],
+          "source_url": "https://ccs.cuc.edu.cn/2019/0314/c6239a148829/page.htm",
+          "course_details": [
+            {
+              "name": "数据库原理及应用",
+              "level": "本科",
+              "temporal_status": "unspecified"
+            },
+            {
+              "name": "计算机网络",
+              "level": "本科",
+              "temporal_status": "unspecified"
+            },
+            {
+              "name": "JAVA语言程序设计",
+              "level": "本科",
+              "temporal_status": "unspecified"
+            },
+            {
+              "name": "知识图谱与认知智能",
+              "level": "博士",
+              "temporal_status": "unspecified"
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "导师栏目注明2025年6月更新；该身份信息不是特定招生年度招生名额或资格的保证。"
+      ]
+    },
+    {
+      "id": "148830",
+      "name": "周菁",
+      "roles": [
+        "计算机科学与技术系",
+        "导师情况"
+      ],
+      "published_at": "2019-09-15",
+      "source_url": "https://ccs.cuc.edu.cn/2019/0314/c6239a148830/page.htm",
+      "fields": [
+        {
+          "label": "姓名",
+          "value": "周菁"
+        },
+        {
+          "label": "职称",
+          "value": "教授"
+        },
+        {
+          "label": "系别",
+          "value": "计算机科学与技术系"
+        },
+        {
+          "label": "讲授课程",
+          "value": "数据结构（本科）、Python程序设计（本科）、专业外语（本科）、科技论文写作（博士）"
+        },
+        {
+          "label": "科研方向或教学专长",
+          "value": "分布式系统，语义网，推荐系统"
+        }
+      ],
+      "bio_summary": "周菁为计算机科学与技术系教授，先后在武汉测绘科技大学取得学士、硕士学位，并于英国南安普敦大学取得博士学位。研究分布式系统、语义网和推荐系统，教学涉及数据结构及Python程序设计。",
+      "course_mentions": [
+        {
+          "raw_text": "数据结构（本科）、Python程序设计（本科）、专业外语（本科）、科技论文写作（博士）",
+          "courses": [
+            "数据结构",
+            "Python程序设计",
+            "专业外语",
+            "科技论文写作"
+          ],
+          "source_url": "https://ccs.cuc.edu.cn/2019/0314/c6239a148830/page.htm",
+          "course_details": [
+            {
+              "name": "数据结构",
+              "level": "本科",
+              "temporal_status": "unspecified"
+            },
+            {
+              "name": "Python程序设计",
+              "level": "本科",
+              "temporal_status": "unspecified"
+            },
+            {
+              "name": "专业外语",
+              "level": "本科",
+              "temporal_status": "unspecified"
+            },
+            {
+              "name": "科技论文写作",
+              "level": "博士",
+              "temporal_status": "unspecified"
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "导师栏目注明2025年6月更新；该身份信息不是特定招生年度招生名额或资格的保证。"
+      ]
+    },
+    {
+      "id": "148822",
+      "name": "张伟娜",
+      "roles": [
+        "计算机科学与技术系"
+      ],
+      "published_at": "2019-09-13",
+      "source_url": "https://ccs.cuc.edu.cn/2019/0915/c6239a148822/page.htm",
+      "fields": [
+        {
+          "label": "姓名",
+          "value": "张伟娜"
+        },
+        {
+          "label": "职称",
+          "value": "副教授"
+        },
+        {
+          "label": "系别",
+          "value": "数据工程系"
+        },
+        {
+          "label": "讲授课程",
+          "value": "Python程序设计（本科），融合新闻学(本科)，网页设计与制作(本科)，大学计算机(本科)"
+        },
+        {
+          "label": "科研方向或教学专长",
+          "value": "机器学习，大数据算法及应用"
+        }
+      ],
+      "bio_summary": "张伟娜为副教授，正文系别写数据工程系，具有中国农业大学学习及迈阿密大学访问经历。研究机器学习和大数据算法应用，个人页列出Python程序设计、融合新闻学、网页设计与制作等本科课程。",
+      "course_mentions": [
+        {
+          "raw_text": "Python程序设计（本科），融合新闻学(本科)，网页设计与制作(本科)，大学计算机(本科)",
+          "courses": [
+            "Python程序设计",
+            "融合新闻学",
+            "网页设计与制作",
+            "大学计算机"
+          ],
+          "source_url": "https://ccs.cuc.edu.cn/2019/0915/c6239a148822/page.htm",
+          "course_details": [
+            {
+              "name": "Python程序设计",
+              "level": "本科",
+              "temporal_status": "unspecified"
+            },
+            {
+              "name": "融合新闻学",
+              "level": "本科",
+              "temporal_status": "unspecified"
+            },
+            {
+              "name": "网页设计与制作",
+              "level": "本科",
+              "temporal_status": "unspecified"
+            },
+            {
+              "name": "大学计算机",
+              "level": "本科",
+              "temporal_status": "unspecified"
+            }
+          ]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "148855",
+      "name": "张雷",
+      "roles": [
+        "计算机科学与技术系",
+        "导师情况"
+      ],
+      "published_at": "2023-09-22",
+      "source_url": "https://ccs.cuc.edu.cn/2019/0910/c6239a148855/page.htm",
+      "fields": [
+        {
+          "label": "姓名",
+          "value": "张雷"
+        },
+        {
+          "label": "职称",
+          "value": "副教授"
+        },
+        {
+          "label": "系别",
+          "value": "计算机科学与技术系"
+        },
+        {
+          "label": "讲授课程",
+          "value": "程序设计与编程方法(本科)、Linux系统与网络管理（本科）、大数据系统构建与应用开发实践（硕士）、AI交叉应用技术（博士）"
+        },
+        {
+          "label": "科研方向或教学专长",
+          "value": "数据智能分析技术、机器学习、认知智能技术"
+        }
+      ],
+      "bio_summary": "张雷为计算机科学与技术系副教授，具有北京工业大学学士及中国传媒大学硕士、博士学习经历。研究数据智能分析、机器学习和认知智能，教学覆盖程序设计、Linux管理及大数据应用实践。",
+      "course_mentions": [
+        {
+          "raw_text": "程序设计与编程方法(本科)、Linux系统与网络管理（本科）、大数据系统构建与应用开发实践（硕士）、AI交叉应用技术（博士）",
+          "courses": [
+            "程序设计与编程方法",
+            "Linux系统与网络管理",
+            "大数据系统构建与应用开发实践",
+            "AI交叉应用技术"
+          ],
+          "source_url": "https://ccs.cuc.edu.cn/2019/0910/c6239a148855/page.htm",
+          "course_details": [
+            {
+              "name": "程序设计与编程方法",
+              "level": "本科",
+              "temporal_status": "unspecified"
+            },
+            {
+              "name": "Linux系统与网络管理",
+              "level": "本科",
+              "temporal_status": "unspecified"
+            },
+            {
+              "name": "大数据系统构建与应用开发实践",
+              "level": "硕士",
+              "temporal_status": "unspecified"
+            },
+            {
+              "name": "AI交叉应用技术",
+              "level": "博士",
+              "temporal_status": "unspecified"
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "导师栏目注明2025年6月更新；该身份信息不是特定招生年度招生名额或资格的保证。"
+      ]
+    },
+    {
+      "id": "148869",
+      "name": "谢卫华",
+      "roles": [
+        "计算机科学与技术系",
+        "导师情况"
+      ],
+      "published_at": "2019-09-14",
+      "source_url": "https://ccs.cuc.edu.cn/2019/0910/c6239a148869/page.htm",
+      "fields": [
+        {
+          "label": "姓名",
+          "value": "谢卫华"
+        },
+        {
+          "label": "职称",
+          "value": "副教授"
+        },
+        {
+          "label": "系别",
+          "value": "计算机科学与技术系"
+        },
+        {
+          "label": "讲授课程",
+          "value": "IPTV技术（硕士）、浏览器技术与开发（硕士）、并行与分布式计算（本科）、JAVA程序设计（本科）、数字动画设计技术（本科）、单片机技术（本科）、计算机控制技术（本科）、物联网技术基础（本科）、计算机组成（本科）、计算机系统结构（本科）、数字逻辑与计算机设计（本科）"
+        },
+        {
+          "label": "科研方向或教学专长",
+          "value": "科研方向：数字版权保护，三维立体展示，图像处理，网络电视，IPTV技术，嵌入式系统，浏览器技术，DSP技术，指纹识别。教学领域涉及网络与多媒体技术，软硬件结合系统平台，物联网，三维立体。"
+        }
+      ],
+      "bio_summary": "谢卫华为计算机科学与技术系副教授，研究数字版权保护、图像处理、网络电视与嵌入式系统等。讲授课程覆盖本科并行计算、Java、计算机组成及物联网，并列有硕士IPTV与浏览器开发课程。",
+      "course_mentions": [
+        {
+          "raw_text": "IPTV技术（硕士）、浏览器技术与开发（硕士）、并行与分布式计算（本科）、JAVA程序设计（本科）、数字动画设计技术（本科）、单片机技术（本科）、计算机控制技术（本科）、物联网技术基础（本科）、计算机组成（本科）、计算机系统结构（本科）、数字逻辑与计算机设计（本科）",
+          "courses": [
+            "IPTV技术",
+            "浏览器技术与开发",
+            "并行与分布式计算",
+            "JAVA程序设计",
+            "数字动画设计技术",
+            "单片机技术",
+            "计算机控制技术",
+            "物联网技术基础",
+            "计算机组成",
+            "计算机系统结构",
+            "数字逻辑与计算机设计"
+          ],
+          "source_url": "https://ccs.cuc.edu.cn/2019/0910/c6239a148869/page.htm",
+          "course_details": [
+            {
+              "name": "IPTV技术",
+              "level": "硕士",
+              "temporal_status": "unspecified"
+            },
+            {
+              "name": "浏览器技术与开发",
+              "level": "硕士",
+              "temporal_status": "unspecified"
+            },
+            {
+              "name": "并行与分布式计算",
+              "level": "本科",
+              "temporal_status": "unspecified"
+            },
+            {
+              "name": "JAVA程序设计",
+              "level": "本科",
+              "temporal_status": "unspecified"
+            },
+            {
+              "name": "数字动画设计技术",
+              "level": "本科",
+              "temporal_status": "unspecified"
+            },
+            {
+              "name": "单片机技术",
+              "level": "本科",
+              "temporal_status": "unspecified"
+            },
+            {
+              "name": "计算机控制技术",
+              "level": "本科",
+              "temporal_status": "unspecified"
+            },
+            {
+              "name": "物联网技术基础",
+              "level": "本科",
+              "temporal_status": "unspecified"
+            },
+            {
+              "name": "计算机组成",
+              "level": "本科",
+              "temporal_status": "unspecified"
+            },
+            {
+              "name": "计算机系统结构",
+              "level": "本科",
+              "temporal_status": "unspecified"
+            },
+            {
+              "name": "数字逻辑与计算机设计",
+              "level": "本科",
+              "temporal_status": "unspecified"
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "导师栏目注明2025年6月更新；该身份信息不是特定招生年度招生名额或资格的保证。"
+      ]
+    },
+    {
+      "id": "149430",
+      "name": "温宇俊",
+      "roles": [
+        "计算机科学与技术系",
+        "导师情况"
+      ],
+      "published_at": "2019-09-14",
+      "source_url": "https://ccs.cuc.edu.cn/2019/1108/c6239a149430/page.htm",
+      "fields": [
+        {
+          "label": "姓名",
+          "value": "温宇俊"
+        },
+        {
+          "label": "职称",
+          "value": "副教授"
+        },
+        {
+          "label": "系别",
+          "value": "数据工程系"
+        },
+        {
+          "label": "讲授课程",
+          "value": "数据库原理与应用、高级数据库、软件工程"
+        },
+        {
+          "label": "科研方向或教学专长",
+          "value": "智能媒体信息处理，长期从事自然语言处理、数据挖掘、知识库、新闻传播效果等方面的研究。"
+        }
+      ],
+      "bio_summary": "温宇俊为副教授、博士及硕士生导师，正文系别写数据工程系。研究智能媒体信息处理、自然语言处理、数据挖掘及知识库，个人页列出数据库原理与应用、高级数据库、软件工程课程。",
+      "course_mentions": [
+        {
+          "raw_text": "数据库原理与应用、高级数据库、软件工程",
+          "courses": [
+            "数据库原理与应用",
+            "高级数据库",
+            "软件工程"
+          ],
+          "source_url": "https://ccs.cuc.edu.cn/2019/1108/c6239a149430/page.htm",
+          "course_details": [
+            {
+              "name": "数据库原理与应用",
+              "level": "未注明",
+              "temporal_status": "unspecified"
+            },
+            {
+              "name": "高级数据库",
+              "level": "未注明",
+              "temporal_status": "unspecified"
+            },
+            {
+              "name": "软件工程",
+              "level": "未注明",
+              "temporal_status": "unspecified"
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "导师栏目注明2025年6月更新；该身份信息不是特定招生年度招生名额或资格的保证。"
+      ]
+    },
+    {
+      "id": "148870",
+      "name": "王兆华",
+      "roles": [
+        "计算机科学与技术系"
+      ],
+      "published_at": "2019-09-13",
+      "source_url": "https://ccs.cuc.edu.cn/2019/0910/c6239a148870/page.htm",
+      "fields": [
+        {
+          "label": "姓名",
+          "value": "王兆化"
+        },
+        {
+          "label": "系别",
+          "value": "数据工程系"
+        },
+        {
+          "label": "讲授课程",
+          "value": "《大学计算机》、《计算机与信息技术基础》，《计算机应用基础》，《大学计算机（理工类）》，《网页设计及制作》，《JSP动态网站开发技术》， 《C语言程序设计》， 《程序设计与编程方法（C/C++）1》"
+        },
+        {
+          "label": "科研方向或教学专长",
+          "value": "主要从事自然语言处理相关研究和大学计算机相关基础课程教学。"
+        }
+      ],
+      "bio_summary": "王兆华的页面标题与栏目使用该姓名，正文姓名栏却写王兆化。其正文系别为数据工程系，研究自然语言处理并从事大学计算机基础教学，列有网页设计、JSP和C语言等课程。",
+      "course_mentions": [
+        {
+          "raw_text": "《大学计算机》、《计算机与信息技术基础》，《计算机应用基础》，《大学计算机（理工类）》，《网页设计及制作》，《JSP动态网站开发技术》， 《C语言程序设计》， 《程序设计与编程方法（C/C++）1》",
+          "courses": [
+            "大学计算机",
+            "计算机与信息技术基础",
+            "计算机应用基础",
+            "大学计算机（理工类）",
+            "网页设计及制作",
+            "JSP动态网站开发技术",
+            "C语言程序设计",
+            "程序设计与编程方法（C/C++）1"
+          ],
+          "source_url": "https://ccs.cuc.edu.cn/2019/0910/c6239a148870/page.htm",
+          "course_details": [
+            {
+              "name": "大学计算机",
+              "level": "未注明",
+              "temporal_status": "unspecified"
+            },
+            {
+              "name": "计算机与信息技术基础",
+              "level": "未注明",
+              "temporal_status": "unspecified"
+            },
+            {
+              "name": "计算机应用基础",
+              "level": "未注明",
+              "temporal_status": "unspecified"
+            },
+            {
+              "name": "大学计算机（理工类）",
+              "level": "未注明",
+              "temporal_status": "unspecified"
+            },
+            {
+              "name": "网页设计及制作",
+              "level": "未注明",
+              "temporal_status": "unspecified"
+            },
+            {
+              "name": "JSP动态网站开发技术",
+              "level": "未注明",
+              "temporal_status": "unspecified"
+            },
+            {
+              "name": "C语言程序设计",
+              "level": "未注明",
+              "temporal_status": "unspecified"
+            },
+            {
+              "name": "程序设计与编程方法（C/C++）1",
+              "level": "未注明",
+              "temporal_status": "unspecified"
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "姓名存在来源差异：栏目及页面标题为王兆华，正文姓名栏为王兆化；保留正文原值，未擅自纠正。",
+        "大学计算机（理工类）及程序设计与编程方法（C/C++）1的括号限定和数字后缀属于课程名称，完整保留。"
+      ]
+    },
+    {
+      "id": "149372",
+      "name": "王妍",
+      "roles": [
+        "计算机科学与技术系"
+      ],
+      "published_at": "2019-09-13",
+      "source_url": "https://ccs.cuc.edu.cn/2019/1107/c6239a149372/page.htm",
+      "fields": [
+        {
+          "label": "姓名",
+          "value": "王妍"
+        },
+        {
+          "label": "系别",
+          "value": "数据工程系"
+        },
+        {
+          "label": "讲授课程",
+          "value": "计算机程序设计1（本科）、数据新闻概论（本科）、计算机文化基础（预科）"
+        },
+        {
+          "label": "科研方向或教学专长",
+          "value": "计算传播学、数据新闻、互动新闻"
+        }
+      ],
+      "bio_summary": "王妍的正文系别为数据工程系，研究计算传播学、数据新闻与互动新闻。个人页分别列出本科计算机程序设计1、数据新闻概论，以及预科计算机文化基础，未单列完整教育经历。",
+      "course_mentions": [
+        {
+          "raw_text": "计算机程序设计1（本科）、数据新闻概论（本科）、计算机文化基础（预科）",
+          "courses": [
+            "计算机程序设计1",
+            "数据新闻概论",
+            "计算机文化基础"
+          ],
+          "source_url": "https://ccs.cuc.edu.cn/2019/1107/c6239a149372/page.htm",
+          "course_details": [
+            {
+              "name": "计算机程序设计1",
+              "level": "本科",
+              "temporal_status": "unspecified"
+            },
+            {
+              "name": "数据新闻概论",
+              "level": "本科",
+              "temporal_status": "unspecified"
+            },
+            {
+              "name": "计算机文化基础",
+              "level": "预科",
+              "temporal_status": "unspecified"
+            }
+          ]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "148840",
+      "name": "王海波",
+      "roles": [
+        "计算机科学与技术系"
+      ],
+      "published_at": "2019-09-14",
+      "source_url": "https://ccs.cuc.edu.cn/2019/0911/c6239a148840/page.htm",
+      "fields": [
+        {
+          "label": "姓名",
+          "value": "王海波"
+        },
+        {
+          "label": "职称",
+          "value": "副教授"
+        },
+        {
+          "label": "系别",
+          "value": "数据工程系"
+        },
+        {
+          "label": "讲授课程",
+          "value": "大学计算机、网页设计与制作"
+        },
+        {
+          "label": "科研方向或教学专长",
+          "value": "Web前端开发"
+        }
+      ],
+      "bio_summary": "王海波为副教授，正文系别写数据工程系，具有中国科学院计算技术研究所博士学习经历。教学和研究涉及Web前端开发，个人页列出大学计算机、网页设计与制作两门课程。",
+      "course_mentions": [
+        {
+          "raw_text": "大学计算机、网页设计与制作",
+          "courses": [
+            "大学计算机",
+            "网页设计与制作"
+          ],
+          "source_url": "https://ccs.cuc.edu.cn/2019/0911/c6239a148840/page.htm",
+          "course_details": [
+            {
+              "name": "大学计算机",
+              "level": "未注明",
+              "temporal_status": "unspecified"
+            },
+            {
+              "name": "网页设计与制作",
+              "level": "未注明",
+              "temporal_status": "unspecified"
+            }
+          ]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "148853",
+      "name": "孙书韬",
+      "roles": [
+        "计算机科学与技术系",
+        "导师情况"
+      ],
+      "published_at": "2019-09-14",
+      "source_url": "https://ccs.cuc.edu.cn/2019/0910/c6239a148853/page.htm",
+      "fields": [
+        {
+          "label": "姓名",
+          "value": "孙书韬"
+        },
+        {
+          "label": "职称",
+          "value": "副教授"
+        },
+        {
+          "label": "系别",
+          "value": "计算机科学与技术系"
+        },
+        {
+          "label": "科研方向或教学专长",
+          "value": "主要研究领域：多媒体分析、计算机网络。"
+        }
+      ],
+      "bio_summary": "孙书韬为计算机科学与技术系副教授，个人页面主要介绍多媒体分析和计算机网络研究。该页没有单列讲授课程或完整教育经历，不能由科研项目名称推断其任课安排。",
+      "course_mentions": [],
+      "notes": [
+        "研究方向字段仅保留研究主题，未复制同栏中的项目、成果及论文统计。",
+        "本页未提供明确讲授课程，课程提及为空。",
+        "导师栏目注明2025年6月更新；该身份信息不是特定招生年度招生名额或资格的保证。"
+      ]
+    },
+    {
+      "id": "148837",
+      "name": "宋明丽",
+      "roles": [
+        "计算机科学与技术系",
+        "导师情况"
+      ],
+      "published_at": "2019-09-14",
+      "source_url": "https://ccs.cuc.edu.cn/2019/0911/c6239a148837/page.htm",
+      "fields": [
+        {
+          "label": "姓名",
+          "value": "宋明丽"
+        },
+        {
+          "label": "职称",
+          "value": "教授"
+        },
+        {
+          "label": "系别",
+          "value": "计算机科学与技术系"
+        },
+        {
+          "label": "讲授课程",
+          "value": "机器学习（本科）、科技论文阅读与写作（硕士）、科技英语（博士）等"
+        },
+        {
+          "label": "科研方向或教学专长",
+          "value": "机器学习、系统建模、粒计算、计算智能、优化算法等"
+        }
+      ],
+      "bio_summary": "宋明丽为计算机科学与技术系教授，本科、硕士毕业于大连理工大学，博士毕业于加拿大阿尔伯塔大学。研究机器学习、粒计算、系统建模与优化，列有机器学习及科技论文阅读写作等课程。",
+      "course_mentions": [
+        {
+          "raw_text": "机器学习（本科）、科技论文阅读与写作（硕士）、科技英语（博士）等",
+          "courses": [
+            "机器学习",
+            "科技论文阅读与写作",
+            "科技英语"
+          ],
+          "source_url": "https://ccs.cuc.edu.cn/2019/0911/c6239a148837/page.htm",
+          "course_details": [
+            {
+              "name": "机器学习",
+              "level": "本科",
+              "temporal_status": "unspecified"
+            },
+            {
+              "name": "科技论文阅读与写作",
+              "level": "硕士",
+              "temporal_status": "unspecified"
+            },
+            {
+              "name": "科技英语",
+              "level": "博士",
+              "temporal_status": "unspecified"
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "导师栏目注明2025年6月更新；该身份信息不是特定招生年度招生名额或资格的保证。"
+      ]
+    },
+    {
+      "id": "148854",
+      "name": "曹轶臻",
+      "roles": [
+        "计算机科学与技术系",
+        "导师情况"
+      ],
+      "published_at": "2019-09-15",
+      "source_url": "https://ccs.cuc.edu.cn/2019/0910/c6239a148854/page.htm",
+      "fields": [
+        {
+          "label": "姓名",
+          "value": "曹轶臻"
+        },
+        {
+          "label": "职称",
+          "value": "副教授"
+        },
+        {
+          "label": "系别",
+          "value": "数据工程系"
+        },
+        {
+          "label": "讲授课程",
+          "value": "计算机网络（本科）、数据库原理与安全（本科）、Java面向对象程序设计（本科）、《C/C++程序设计》、计算机网络工程实践（硕士）、计算机网络编程（硕士）"
+        },
+        {
+          "label": "科研方向或教学专长",
+          "value": "计算机网络、智能信息处理、软件工程"
+        }
+      ],
+      "bio_summary": "曹轶臻为副教授、博士及硕士生导师，正文系别为数据工程系。研究计算机网络、智能信息处理和软件工程，教学涉及本科数据库、网络及Java程序设计，以及硕士网络工程实践与编程。",
+      "course_mentions": [
+        {
+          "raw_text": "计算机网络（本科）、数据库原理与安全（本科）、Java面向对象程序设计（本科）、《C/C++程序设计》、计算机网络工程实践（硕士）、计算机网络编程（硕士）",
+          "courses": [
+            "计算机网络",
+            "数据库原理与安全",
+            "Java面向对象程序设计",
+            "C/C++程序设计",
+            "计算机网络工程实践",
+            "计算机网络编程"
+          ],
+          "source_url": "https://ccs.cuc.edu.cn/2019/0910/c6239a148854/page.htm",
+          "course_details": [
+            {
+              "name": "计算机网络",
+              "level": "本科",
+              "temporal_status": "unspecified"
+            },
+            {
+              "name": "数据库原理与安全",
+              "level": "本科",
+              "temporal_status": "unspecified"
+            },
+            {
+              "name": "Java面向对象程序设计",
+              "level": "本科",
+              "temporal_status": "unspecified"
+            },
+            {
+              "name": "C/C++程序设计",
+              "level": "未注明",
+              "temporal_status": "unspecified"
+            },
+            {
+              "name": "计算机网络工程实践",
+              "level": "硕士",
+              "temporal_status": "unspecified"
+            },
+            {
+              "name": "计算机网络编程",
+              "level": "硕士",
+              "temporal_status": "unspecified"
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "导师栏目注明2025年6月更新；该身份信息不是特定招生年度招生名额或资格的保证。",
+        "C/C++程序设计未单独注明培养层次，未按相邻课程推定为本科；保留原有C/C++语言后缀。"
+      ]
+    },
+    {
+      "id": "258325",
+      "name": "宋国惠",
+      "roles": [
+        "计算机科学与技术系",
+        "实验实践教学中心",
+        "导师情况"
+      ],
+      "published_at": "2025-07-10",
+      "source_url": "https://ccs.cuc.edu.cn/2019/0911/c6242a258325/page.htm",
+      "fields": [
+        {
+          "label": "姓名",
+          "value": "宋国惠"
+        },
+        {
+          "label": "职称",
+          "value": "高级工程师"
+        },
+        {
+          "label": "系别",
+          "value": "计算机科学与技术系"
+        },
+        {
+          "label": "讲授课程",
+          "value": "计算思维概论（本科）、人工智能模型应用实践（本科）、工程伦理（硕士）"
+        },
+        {
+          "label": "科研方向或教学专长",
+          "value": "人工智能、自然语言处理"
+        }
+      ],
+      "bio_summary": "宋国惠为高级工程师、工学博士，正文系别写计算机科学与技术系，同时出现在实验实践教学中心栏目。研究人工智能和自然语言处理，列有本科计算思维、模型实践及硕士工程伦理课程。",
+      "course_mentions": [
+        {
+          "raw_text": "计算思维概论（本科）、人工智能模型应用实践（本科）、工程伦理（硕士）",
+          "courses": [
+            "计算思维概论",
+            "人工智能模型应用实践",
+            "工程伦理"
+          ],
+          "source_url": "https://ccs.cuc.edu.cn/2019/0911/c6242a258325/page.htm",
+          "course_details": [
+            {
+              "name": "计算思维概论",
+              "level": "本科",
+              "temporal_status": "unspecified"
+            },
+            {
+              "name": "人工智能模型应用实践",
+              "level": "本科",
+              "temporal_status": "unspecified"
+            },
+            {
+              "name": "工程伦理",
+              "level": "硕士",
+              "temporal_status": "unspecified"
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "同一文章同时出现在计算机科学与技术系、实验实践教学中心等入口，按文章ID合并并保留全部栏目归属。",
+        "导师栏目注明2025年6月更新；该身份信息不是特定招生年度招生名额或资格的保证。"
+      ]
+    },
+    {
+      "id": "199685",
+      "name": "吴林",
+      "roles": [
+        "计算机科学与技术系",
+        "实验实践教学中心",
+        "导师情况"
+      ],
+      "published_at": "2022-10-11",
+      "source_url": "https://ccs.cuc.edu.cn/2022/1011/c6242a199685/page.htm",
+      "fields": [
+        {
+          "label": "姓名",
+          "value": "吴林"
+        },
+        {
+          "label": "职称",
+          "value": "高级工程师"
+        },
+        {
+          "label": "系别",
+          "value": "计算机科学与技术系"
+        },
+        {
+          "label": "讲授课程",
+          "value": "计算机网络实践（本科），网站开发（本科），动态网页制作（本科），黑客攻击与防御（本科）"
+        },
+        {
+          "label": "科研方向或教学专长",
+          "value": "主要研究领域：长期从事大数据智能分析、机器学习、机器翻译等相关理论研究及应用软件研发。"
+        }
+      ],
+      "bio_summary": "吴林为高级工程师，正文系别写计算机科学与技术系，同时列入实验实践教学中心。具有燕山大学学士、硕士学习经历，研究大数据分析、机器学习与机器翻译，列有网络实践及网站开发等课程。",
+      "course_mentions": [
+        {
+          "raw_text": "计算机网络实践（本科），网站开发（本科），动态网页制作（本科），黑客攻击与防御（本科）",
+          "courses": [
+            "计算机网络实践",
+            "网站开发",
+            "动态网页制作",
+            "黑客攻击与防御"
+          ],
+          "source_url": "https://ccs.cuc.edu.cn/2022/1011/c6242a199685/page.htm",
+          "course_details": [
+            {
+              "name": "计算机网络实践",
+              "level": "本科",
+              "temporal_status": "unspecified"
+            },
+            {
+              "name": "网站开发",
+              "level": "本科",
+              "temporal_status": "unspecified"
+            },
+            {
+              "name": "动态网页制作",
+              "level": "本科",
+              "temporal_status": "unspecified"
+            },
+            {
+              "name": "黑客攻击与防御",
+              "level": "本科",
+              "temporal_status": "unspecified"
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "研究方向字段仅保留研究主题，未复制同栏中的项目、成果及论文统计。",
+        "同一文章同时出现在计算机科学与技术系、实验实践教学中心等入口，按文章ID合并并保留全部栏目归属。",
+        "导师栏目注明2025年6月更新；该身份信息不是特定招生年度招生名额或资格的保证。"
+      ]
+    },
+    {
+      "id": "194896",
+      "name": "周帜",
+      "roles": [
+        "计算机科学与技术系"
+      ],
+      "published_at": "2022-07-14",
+      "source_url": "https://ccs.cuc.edu.cn/2022/0714/c6239a194896/page.htm",
+      "fields": [
+        {
+          "label": "姓名",
+          "value": "周帜"
+        },
+        {
+          "label": "系别",
+          "value": "数据工程系"
+        },
+        {
+          "label": "讲授课程",
+          "value": "大学计算机（本科生），C语言程序设计（本科生），多媒体技术基础及应用（本科生），人工智能（本科生），人工智能初探—基于Tensorflow的实现（本科生），特效编程（本科生）"
+        },
+        {
+          "label": "科研方向或教学专长",
+          "value": "异构数据、人工智能技术、大数据分析"
+        }
+      ],
+      "bio_summary": "周帜为讲师，正文系别写数据工程系，2014年取得中国传媒大学通信与信息系统博士学位并于同年入职。长期从事计算机基础本科教学，研究异构数据、人工智能技术及大数据分析。",
+      "course_mentions": [
+        {
+          "raw_text": "大学计算机（本科生），C语言程序设计（本科生），多媒体技术基础及应用（本科生），人工智能（本科生），人工智能初探—基于Tensorflow的实现（本科生），特效编程（本科生）",
+          "courses": [
+            "大学计算机",
+            "C语言程序设计",
+            "多媒体技术基础及应用",
+            "人工智能",
+            "人工智能初探—基于Tensorflow的实现",
+            "特效编程"
+          ],
+          "source_url": "https://ccs.cuc.edu.cn/2022/0714/c6239a194896/page.htm",
+          "course_details": [
+            {
+              "name": "大学计算机",
+              "level": "本科",
+              "temporal_status": "unspecified"
+            },
+            {
+              "name": "C语言程序设计",
+              "level": "本科",
+              "temporal_status": "unspecified"
+            },
+            {
+              "name": "多媒体技术基础及应用",
+              "level": "本科",
+              "temporal_status": "unspecified"
+            },
+            {
+              "name": "人工智能",
+              "level": "本科",
+              "temporal_status": "unspecified"
+            },
+            {
+              "name": "人工智能初探—基于Tensorflow的实现",
+              "level": "本科",
+              "temporal_status": "unspecified"
+            },
+            {
+              "name": "特效编程",
+              "level": "本科",
+              "temporal_status": "unspecified"
+            }
+          ]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "148860",
+      "name": "曹建香",
+      "roles": [
+        "计算机科学与技术系",
+        "导师情况"
+      ],
+      "published_at": "2019-09-15",
+      "source_url": "https://ccs.cuc.edu.cn/2019/0910/c6239a148860/page.htm",
+      "fields": [
+        {
+          "label": "姓名",
+          "value": "曹建香"
+        },
+        {
+          "label": "职称",
+          "value": "副教授"
+        },
+        {
+          "label": "系别",
+          "value": "计算机科学与技术系"
+        },
+        {
+          "label": "讲授课程",
+          "value": "离散数学（本科）、数据结构（本科）、算法设计与分析（研究生）、图论（本科）"
+        },
+        {
+          "label": "科研方向或教学专长",
+          "value": "基于图论的网络可靠性及容错性研究"
+        }
+      ],
+      "bio_summary": "曹建香为计算机科学与技术系副教授，研究基于图论的网络可靠性与容错性。个人页列出本科离散数学、数据结构、图论，以及研究生算法设计与分析，未单列完整教育经历。",
+      "course_mentions": [
+        {
+          "raw_text": "离散数学（本科）、数据结构（本科）、算法设计与分析（研究生）、图论（本科）",
+          "courses": [
+            "离散数学",
+            "数据结构",
+            "算法设计与分析",
+            "图论"
+          ],
+          "source_url": "https://ccs.cuc.edu.cn/2019/0910/c6239a148860/page.htm",
+          "course_details": [
+            {
+              "name": "离散数学",
+              "level": "本科",
+              "temporal_status": "unspecified"
+            },
+            {
+              "name": "数据结构",
+              "level": "本科",
+              "temporal_status": "unspecified"
+            },
+            {
+              "name": "算法设计与分析",
+              "level": "研究生",
+              "temporal_status": "unspecified"
+            },
+            {
+              "name": "图论",
+              "level": "本科",
+              "temporal_status": "unspecified"
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "导师栏目注明2025年6月更新；该身份信息不是特定招生年度招生名额或资格的保证。"
+      ]
+    },
+    {
+      "id": "148846",
+      "name": "董春玲",
+      "roles": [
+        "计算机科学与技术系",
+        "导师情况"
+      ],
+      "published_at": "2024-07-25",
+      "source_url": "https://ccs.cuc.edu.cn/2019/0910/c6239a148846/page.htm",
+      "fields": [
+        {
+          "label": "姓名",
+          "value": "董春玲"
+        },
+        {
+          "label": "职称",
+          "value": "教授"
+        },
+        {
+          "label": "系别",
+          "value": "计算机科学与技术系"
+        },
+        {
+          "label": "讲授课程",
+          "value": "人工智能（本科）、自然语言处理技术及实践（硕士）、人工智能方法与技术（硕士）、人工智能核心技术与前沿（博士）"
+        },
+        {
+          "label": "科研方向或教学专长",
+          "value": "不确定性人工智能、自然语言处理、知识表达与因果推理"
+        }
+      ],
+      "bio_summary": "董春玲为计算机科学与技术系教授、博士生导师，具有北京航空航天大学博士及清华大学博士后经历。研究不确定性人工智能、自然语言处理、知识表达与因果推理，教学覆盖本科至博士课程。",
+      "course_mentions": [
+        {
+          "raw_text": "人工智能（本科）、自然语言处理技术及实践（硕士）、人工智能方法与技术（硕士）、人工智能核心技术与前沿（博士）",
+          "courses": [
+            "人工智能",
+            "自然语言处理技术及实践",
+            "人工智能方法与技术",
+            "人工智能核心技术与前沿"
+          ],
+          "source_url": "https://ccs.cuc.edu.cn/2019/0910/c6239a148846/page.htm",
+          "course_details": [
+            {
+              "name": "人工智能",
+              "level": "本科",
+              "temporal_status": "unspecified"
+            },
+            {
+              "name": "自然语言处理技术及实践",
+              "level": "硕士",
+              "temporal_status": "unspecified"
+            },
+            {
+              "name": "人工智能方法与技术",
+              "level": "硕士",
+              "temporal_status": "unspecified"
+            },
+            {
+              "name": "人工智能核心技术与前沿",
+              "level": "博士",
+              "temporal_status": "unspecified"
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "导师栏目注明2025年6月更新；该身份信息不是特定招生年度招生名额或资格的保证。"
+      ]
+    },
+    {
+      "id": "194895",
+      "name": "王静涛",
+      "roles": [
+        "网络空间安全系",
+        "导师情况"
+      ],
+      "published_at": "2024-07-25",
+      "source_url": "https://ccs.cuc.edu.cn/2022/0714/c6240a194895/page.htm",
+      "fields": [
+        {
+          "label": "姓名",
+          "value": "王静涛"
+        },
+        {
+          "label": "职称",
+          "value": "副教授"
+        },
+        {
+          "label": "系别",
+          "value": "网络空间安全系"
+        },
+        {
+          "label": "讲授课程",
+          "value": "密码学（本科），量子密码学概论（本科），矩阵计算（博士）"
+        },
+        {
+          "label": "科研方向或教学专长",
+          "value": "信息安全、量子密码、量子计算"
+        }
+      ],
+      "bio_summary": "王静涛为网络空间安全系副教授、硕士生导师，2018年取得北京邮电大学博士学位，之后进入清华大学博士后流动站，2020年入职中传。研究信息安全、量子密码和量子计算。",
+      "course_mentions": [
+        {
+          "raw_text": "密码学（本科），量子密码学概论（本科），矩阵计算（博士）",
+          "courses": [
+            "密码学",
+            "量子密码学概论",
+            "矩阵计算"
+          ],
+          "source_url": "https://ccs.cuc.edu.cn/2022/0714/c6240a194895/page.htm",
+          "course_details": [
+            {
+              "name": "密码学",
+              "level": "本科",
+              "temporal_status": "unspecified"
+            },
+            {
+              "name": "量子密码学概论",
+              "level": "本科",
+              "temporal_status": "unspecified"
+            },
+            {
+              "name": "矩阵计算",
+              "level": "博士",
+              "temporal_status": "unspecified"
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "导师栏目注明2025年6月更新；该身份信息不是特定招生年度招生名额或资格的保证。"
+      ]
+    },
+    {
+      "id": "149370",
+      "name": "安靖",
+      "roles": [
+        "网络空间安全系",
+        "导师情况"
+      ],
+      "published_at": "2024-07-25",
+      "source_url": "https://ccs.cuc.edu.cn/2019/1107/c6240a149370/page.htm",
+      "fields": [
+        {
+          "label": "姓名",
+          "value": "安靖"
+        },
+        {
+          "label": "职称",
+          "value": "讲师"
+        },
+        {
+          "label": "系别",
+          "value": "网络空间安全系"
+        },
+        {
+          "label": "讲授课程",
+          "value": "计算机安全与维护（本科）、信息安全综合实践（本科）、Python程序设计（本科）、数字媒体安全应用与实践（本科）、计算机网络程序设计实践（硕士）"
+        },
+        {
+          "label": "科研方向或教学专长",
+          "value": "软件安全、程序分析"
+        }
+      ],
+      "bio_summary": "安靖为网络空间安全系讲师，2014年取得北京邮电大学信息安全博士学位，之后在中传任职。研究软件安全与程序分析，教学涉及安全维护、综合实践、Python及数字媒体安全等课程。",
+      "course_mentions": [
+        {
+          "raw_text": "计算机安全与维护（本科）、信息安全综合实践（本科）、Python程序设计（本科）、数字媒体安全应用与实践（本科）、计算机网络程序设计实践（硕士）",
+          "courses": [
+            "计算机安全与维护",
+            "信息安全综合实践",
+            "Python程序设计",
+            "数字媒体安全应用与实践",
+            "计算机网络程序设计实践"
+          ],
+          "source_url": "https://ccs.cuc.edu.cn/2019/1107/c6240a149370/page.htm",
+          "course_details": [
+            {
+              "name": "计算机安全与维护",
+              "level": "本科",
+              "temporal_status": "unspecified"
+            },
+            {
+              "name": "信息安全综合实践",
+              "level": "本科",
+              "temporal_status": "unspecified"
+            },
+            {
+              "name": "Python程序设计",
+              "level": "本科",
+              "temporal_status": "unspecified"
+            },
+            {
+              "name": "数字媒体安全应用与实践",
+              "level": "本科",
+              "temporal_status": "unspecified"
+            },
+            {
+              "name": "计算机网络程序设计实践",
+              "level": "硕士",
+              "temporal_status": "unspecified"
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "导师栏目注明2025年6月更新；该身份信息不是特定招生年度招生名额或资格的保证。"
+      ]
+    },
+    {
+      "id": "148851",
+      "name": "姜正涛",
+      "roles": [
+        "网络空间安全系",
+        "导师情况"
+      ],
+      "published_at": "2023-09-22",
+      "source_url": "https://ccs.cuc.edu.cn/2019/0911/c6240a148851/page.htm",
+      "fields": [
+        {
+          "label": "姓名",
+          "value": "姜正涛"
+        },
+        {
+          "label": "职称",
+          "value": "教授"
+        },
+        {
+          "label": "系别",
+          "value": "网络空间安全系"
+        },
+        {
+          "label": "讲授课程",
+          "value": "目前：信息安全与密码学（博）、现代密码学（研）、信息安全数学基础（本）、信息安全与信息对抗概论（本，校优质课程）。曾经：数字认证技术（研）、网络多媒体技术（本）、信息论与编码原理（本）、数据结构（本）。"
+        },
+        {
+          "label": "科研方向或教学专长",
+          "value": "密码学与信息安全"
+        }
+      ],
+      "bio_summary": "姜正涛为网络空间安全系教授，具有西安电子科技大学密码学博士及北京航空航天大学博士后经历。研究密码学与信息安全；课程栏明确区分目前讲授和曾经讲授，数据结构属于曾经讲授。",
+      "course_mentions": [
+        {
+          "raw_text": "目前：信息安全与密码学（博）、现代密码学（研）、信息安全数学基础（本）、信息安全与信息对抗概论（本，校优质课程）。曾经：数字认证技术（研）、网络多媒体技术（本）、信息论与编码原理（本）、数据结构（本）。",
+          "courses": [
+            "信息安全与密码学",
+            "现代密码学",
+            "信息安全数学基础",
+            "信息安全与信息对抗概论",
+            "数字认证技术",
+            "网络多媒体技术",
+            "信息论与编码原理",
+            "数据结构"
+          ],
+          "source_url": "https://ccs.cuc.edu.cn/2019/0911/c6240a148851/page.htm",
+          "course_details": [
+            {
+              "name": "信息安全与密码学",
+              "level": "博士",
+              "temporal_status": "explicit_current"
+            },
+            {
+              "name": "现代密码学",
+              "level": "研究生",
+              "temporal_status": "explicit_current"
+            },
+            {
+              "name": "信息安全数学基础",
+              "level": "本科",
+              "temporal_status": "explicit_current"
+            },
+            {
+              "name": "信息安全与信息对抗概论",
+              "level": "本科",
+              "temporal_status": "explicit_current"
+            },
+            {
+              "name": "数字认证技术",
+              "level": "研究生",
+              "temporal_status": "explicit_historical"
+            },
+            {
+              "name": "网络多媒体技术",
+              "level": "本科",
+              "temporal_status": "explicit_historical"
+            },
+            {
+              "name": "信息论与编码原理",
+              "level": "本科",
+              "temporal_status": "explicit_historical"
+            },
+            {
+              "name": "数据结构",
+              "level": "本科",
+              "temporal_status": "explicit_historical"
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "讲授课程字段原文区分目前与曾经；数字认证技术、网络多媒体技术、信息论与编码原理和数据结构属于曾经讲授。",
+        "导师栏目注明2025年6月更新；该身份信息不是特定招生年度招生名额或资格的保证。",
+        "course_details按目前、曾经分别标记explicit_current和explicit_historical；该时间状态仅反映网页措辞，不表示采集日或特定学期仍任课。"
+      ]
+    },
+    {
+      "id": "194132",
+      "name": "徐君锋",
+      "roles": [
+        "网络空间安全系",
+        "导师情况"
+      ],
+      "published_at": "2022-06-07",
+      "source_url": "https://ccs.cuc.edu.cn/2022/0607/c6240a194132/page.htm",
+      "fields": [
+        {
+          "label": "姓名",
+          "value": "徐君锋"
+        },
+        {
+          "label": "职称",
+          "value": "教授"
+        },
+        {
+          "label": "系别",
+          "value": "网络空间安全系"
+        },
+        {
+          "label": "讲授课程",
+          "value": "逆向工程与软件安全（本科）、移动互联网安全（本科）、计算思维求解（本科）"
+        },
+        {
+          "label": "科研方向或教学专长",
+          "value": "软件安全、风险评估、移动安全、物联网安全、多媒体安全、数据安全、AI安全等"
+        }
+      ],
+      "bio_summary": "徐君锋为网络空间安全系教授，个人简介列为该系副主任，研究软件、移动、物联网、多媒体及人工智能安全。本科课程列有逆向工程与软件安全、移动互联网安全和计算思维求解。",
+      "course_mentions": [
+        {
+          "raw_text": "逆向工程与软件安全（本科）、移动互联网安全（本科）、计算思维求解（本科）",
+          "courses": [
+            "逆向工程与软件安全",
+            "移动互联网安全",
+            "计算思维求解"
+          ],
+          "source_url": "https://ccs.cuc.edu.cn/2022/0607/c6240a194132/page.htm",
+          "course_details": [
+            {
+              "name": "逆向工程与软件安全",
+              "level": "本科",
+              "temporal_status": "unspecified"
+            },
+            {
+              "name": "移动互联网安全",
+              "level": "本科",
+              "temporal_status": "unspecified"
+            },
+            {
+              "name": "计算思维求解",
+              "level": "本科",
+              "temporal_status": "unspecified"
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "简介另有行业CISP培训授课经历；未将行业培训主题并入学院本科课程对应关系。",
+        "导师栏目注明2025年6月更新；该身份信息不是特定招生年度招生名额或资格的保证。"
+      ]
+    },
+    {
+      "id": "194130",
+      "name": "高玉龙",
+      "roles": [
+        "网络空间安全系",
+        "导师情况"
+      ],
+      "published_at": "2022-06-07",
+      "source_url": "https://ccs.cuc.edu.cn/2022/0607/c6240a194130/page.htm",
+      "fields": [
+        {
+          "label": "姓名",
+          "value": "高玉龙"
+        },
+        {
+          "label": "职称",
+          "value": "讲师"
+        },
+        {
+          "label": "系别",
+          "value": "网络空间安全系"
+        },
+        {
+          "label": "讲授课程",
+          "value": "算法设计与分析，信息安全管理，区块链技术及应用，区块链与创新思维"
+        },
+        {
+          "label": "科研方向或教学专长",
+          "value": "密码学，信息安全，隐私保护、区块链"
+        }
+      ],
+      "bio_summary": "高玉龙为网络空间安全系讲师、硕士生导师，取得北京邮电大学网络空间安全博士学位。研究密码、隐私保护和区块链，课程栏列有算法设计与分析、信息安全管理及区块链相关课程。",
+      "course_mentions": [
+        {
+          "raw_text": "算法设计与分析，信息安全管理，区块链技术及应用，区块链与创新思维",
+          "courses": [
+            "算法设计与分析",
+            "信息安全管理",
+            "区块链技术及应用",
+            "区块链与创新思维"
+          ],
+          "source_url": "https://ccs.cuc.edu.cn/2022/0607/c6240a194130/page.htm",
+          "course_details": [
+            {
+              "name": "算法设计与分析",
+              "level": "未注明",
+              "temporal_status": "unspecified"
+            },
+            {
+              "name": "信息安全管理",
+              "level": "未注明",
+              "temporal_status": "unspecified"
+            },
+            {
+              "name": "区块链技术及应用",
+              "level": "未注明",
+              "temporal_status": "unspecified"
+            },
+            {
+              "name": "区块链与创新思维",
+              "level": "未注明",
+              "temporal_status": "unspecified"
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "导师栏目注明2025年6月更新；该身份信息不是特定招生年度招生名额或资格的保证。"
+      ]
+    },
+    {
+      "id": "148845",
+      "name": "曹刚",
+      "roles": [
+        "网络空间安全系",
+        "导师情况"
+      ],
+      "published_at": "2021-03-02",
+      "source_url": "https://ccs.cuc.edu.cn/2019/0910/c6240a148845/page.htm",
+      "fields": [
+        {
+          "label": "姓名",
+          "value": "曹刚"
+        },
+        {
+          "label": "职称",
+          "value": "研究员"
+        },
+        {
+          "label": "系别",
+          "value": "网络空间安全系"
+        },
+        {
+          "label": "讲授课程",
+          "value": "数字内容安全（本科），矩阵论（硕士），多媒体取证与安全（博士）"
+        },
+        {
+          "label": "科研方向或教学专长",
+          "value": "数字媒体取证，计算机视觉"
+        }
+      ],
+      "bio_summary": "曹刚为网络空间安全系研究员，取得武汉理工大学学士及北京交通大学博士学位，曾访问新加坡南洋理工大学。研究数字媒体取证与计算机视觉，列有数字内容安全、矩阵论及多媒体取证课程。",
+      "course_mentions": [
+        {
+          "raw_text": "数字内容安全（本科），矩阵论（硕士），多媒体取证与安全（博士）",
+          "courses": [
+            "数字内容安全",
+            "矩阵论",
+            "多媒体取证与安全"
+          ],
+          "source_url": "https://ccs.cuc.edu.cn/2019/0910/c6240a148845/page.htm",
+          "course_details": [
+            {
+              "name": "数字内容安全",
+              "level": "本科",
+              "temporal_status": "unspecified"
+            },
+            {
+              "name": "矩阵论",
+              "level": "硕士",
+              "temporal_status": "unspecified"
+            },
+            {
+              "name": "多媒体取证与安全",
+              "level": "博士",
+              "temporal_status": "unspecified"
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "导师栏目注明2025年6月更新；该身份信息不是特定招生年度招生名额或资格的保证。"
+      ]
+    },
+    {
+      "id": "148864",
+      "name": "巩微",
+      "roles": [
+        "网络空间安全系",
+        "导师情况"
+      ],
+      "published_at": "2019-09-15",
+      "source_url": "https://ccs.cuc.edu.cn/2019/0910/c6240a148864/page.htm",
+      "fields": [
+        {
+          "label": "姓名",
+          "value": "巩微"
+        },
+        {
+          "label": "职称",
+          "value": "教授"
+        },
+        {
+          "label": "系别",
+          "value": "网络空间安全系"
+        },
+        {
+          "label": "讲授课程",
+          "value": "数据结构（本科）、算法设计与分析（本科）、智能计算（硕士）"
+        },
+        {
+          "label": "科研方向或教学专长",
+          "value": "科研方向：智能信息处理教学专长：长期教授数据结构、算法设计与分析课程，具有十分丰富的教学经验"
+        }
+      ],
+      "bio_summary": "巩微为网络空间安全系教授，研究智能信息处理，个人页说明具有数据结构和算法设计与分析教学经验。课程栏列出这两门本科课程以及硕士智能计算，未单列完整教育经历。",
+      "course_mentions": [
+        {
+          "raw_text": "数据结构（本科）、算法设计与分析（本科）、智能计算（硕士）",
+          "courses": [
+            "数据结构",
+            "算法设计与分析",
+            "智能计算"
+          ],
+          "source_url": "https://ccs.cuc.edu.cn/2019/0910/c6240a148864/page.htm",
+          "course_details": [
+            {
+              "name": "数据结构",
+              "level": "本科",
+              "temporal_status": "unspecified"
+            },
+            {
+              "name": "算法设计与分析",
+              "level": "本科",
+              "temporal_status": "unspecified"
+            },
+            {
+              "name": "智能计算",
+              "level": "硕士",
+              "temporal_status": "unspecified"
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "导师栏目注明2025年6月更新；该身份信息不是特定招生年度招生名额或资格的保证。"
+      ]
+    },
+    {
+      "id": "148826",
+      "name": "刘文",
+      "roles": [
+        "网络空间安全系",
+        "导师情况"
+      ],
+      "published_at": "2019-09-15",
+      "source_url": "https://ccs.cuc.edu.cn/2019/0314/c6240a148826/page.htm",
+      "fields": [
+        {
+          "label": "姓名",
+          "value": "刘文"
+        },
+        {
+          "label": "职称",
+          "value": "教授"
+        },
+        {
+          "label": "系别",
+          "value": "网络空间安全系"
+        },
+        {
+          "label": "讲授课程",
+          "value": "离散数学（本科）、数据挖掘（硕士、博士）"
+        },
+        {
+          "label": "科研方向或教学专长",
+          "value": "信息安全、隐私保护、安全多方计算、量子密码和量子计算"
+        }
+      ],
+      "bio_summary": "刘文为网络空间安全系教授，研究信息安全、隐私保护、安全多方计算、量子密码和量子计算。个人页明确列出本科离散数学，以及面向硕士、博士的数据挖掘课程。",
+      "course_mentions": [
+        {
+          "raw_text": "离散数学（本科）、数据挖掘（硕士、博士）",
+          "courses": [
+            "离散数学",
+            "数据挖掘"
+          ],
+          "source_url": "https://ccs.cuc.edu.cn/2019/0314/c6240a148826/page.htm",
+          "course_details": [
+            {
+              "name": "离散数学",
+              "level": "本科",
+              "temporal_status": "unspecified"
+            },
+            {
+              "name": "数据挖掘",
+              "level": "硕士",
+              "temporal_status": "unspecified"
+            },
+            {
+              "name": "数据挖掘",
+              "level": "博士",
+              "temporal_status": "unspecified"
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "导师栏目注明2025年6月更新；该身份信息不是特定招生年度招生名额或资格的保证。",
+        "数据挖掘原文同时标硕士、博士，course_details分别保留两个层次，courses只列一次名称。"
+      ]
+    },
+    {
+      "id": "148865",
+      "name": "潘耘",
+      "roles": [
+        "网络空间安全系",
+        "导师情况"
+      ],
+      "published_at": "2019-09-15",
+      "source_url": "https://ccs.cuc.edu.cn/2019/0911/c6240a148865/page.htm",
+      "fields": [
+        {
+          "label": "姓名",
+          "value": "潘耘"
+        },
+        {
+          "label": "职称",
+          "value": "教授"
+        },
+        {
+          "label": "系别",
+          "value": "网络空间安全系"
+        },
+        {
+          "label": "讲授课程",
+          "value": "编译原理（本科）、计算机网络与通信（硕士）"
+        },
+        {
+          "label": "科研方向或教学专长",
+          "value": "密码学与信息安全"
+        }
+      ],
+      "bio_summary": "潘耘为网络空间安全系教授，研究方向为密码学与信息安全。个人页列出本科编译原理和硕士计算机网络与通信，课程信息来自教师简介，未给出具体开课学期或班级安排。",
+      "course_mentions": [
+        {
+          "raw_text": "编译原理（本科）、计算机网络与通信（硕士）",
+          "courses": [
+            "编译原理",
+            "计算机网络与通信"
+          ],
+          "source_url": "https://ccs.cuc.edu.cn/2019/0911/c6240a148865/page.htm",
+          "course_details": [
+            {
+              "name": "编译原理",
+              "level": "本科",
+              "temporal_status": "unspecified"
+            },
+            {
+              "name": "计算机网络与通信",
+              "level": "硕士",
+              "temporal_status": "unspecified"
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "导师栏目注明2025年6月更新；该身份信息不是特定招生年度招生名额或资格的保证。"
+      ]
+    },
+    {
+      "id": "148828",
+      "name": "隋爱娜",
+      "roles": [
+        "网络空间安全系",
+        "导师情况"
+      ],
+      "published_at": "2019-09-15",
+      "source_url": "https://ccs.cuc.edu.cn/2019/0314/c6240a148828/page.htm",
+      "fields": [
+        {
+          "label": "姓名",
+          "value": "隋爱娜"
+        },
+        {
+          "label": "职称",
+          "value": "教授"
+        },
+        {
+          "label": "系别",
+          "value": "网络空间安全系"
+        },
+        {
+          "label": "讲授课程",
+          "value": "《网络空间安全导论》（本科）、《密码学》（本科）、《网络空间安全基础》（硕士）"
+        },
+        {
+          "label": "科研方向或教学专长",
+          "value": "媒体内容安全，密码学应用，区块链技术应用"
+        }
+      ],
+      "bio_summary": "隋爱娜为网络空间安全系教授、博士生导师，2005年取得北京航空航天大学博士学位。研究媒体内容安全、密码学及区块链应用，列有本科网络空间安全导论、密码学及硕士网络空间安全基础。",
+      "course_mentions": [
+        {
+          "raw_text": "《网络空间安全导论》（本科）、《密码学》（本科）、《网络空间安全基础》（硕士）",
+          "courses": [
+            "网络空间安全导论",
+            "密码学",
+            "网络空间安全基础"
+          ],
+          "source_url": "https://ccs.cuc.edu.cn/2019/0314/c6240a148828/page.htm",
+          "course_details": [
+            {
+              "name": "网络空间安全导论",
+              "level": "本科",
+              "temporal_status": "unspecified"
+            },
+            {
+              "name": "密码学",
+              "level": "本科",
+              "temporal_status": "unspecified"
+            },
+            {
+              "name": "网络空间安全基础",
+              "level": "硕士",
+              "temporal_status": "unspecified"
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "导师栏目注明2025年6月更新；该身份信息不是特定招生年度招生名额或资格的保证。"
+      ]
+    },
+    {
+      "id": "148856",
+      "name": "范文庆",
+      "roles": [
+        "网络空间安全系",
+        "导师情况"
+      ],
+      "published_at": "2019-09-15",
+      "source_url": "https://ccs.cuc.edu.cn/2019/0910/c6240a148856/page.htm",
+      "fields": [
+        {
+          "label": "姓名",
+          "value": "范文庆"
+        },
+        {
+          "label": "系别",
+          "value": "网络空间安全系"
+        },
+        {
+          "label": "讲授课程",
+          "value": "逆向工程与软件安全（本科）、分布式系统与云计算（本科）、软件安全分析（博士）"
+        },
+        {
+          "label": "科研方向或教学专长",
+          "value": "网络空间安全、软件安全"
+        }
+      ],
+      "bio_summary": "范文庆的正文系别为网络空间安全系，研究网络空间安全与软件安全。个人页列出本科逆向工程与软件安全、分布式系统与云计算，以及博士软件安全分析，未单列职称或教育经历。",
+      "course_mentions": [
+        {
+          "raw_text": "逆向工程与软件安全（本科）、分布式系统与云计算（本科）、软件安全分析（博士）",
+          "courses": [
+            "逆向工程与软件安全",
+            "分布式系统与云计算",
+            "软件安全分析"
+          ],
+          "source_url": "https://ccs.cuc.edu.cn/2019/0910/c6240a148856/page.htm",
+          "course_details": [
+            {
+              "name": "逆向工程与软件安全",
+              "level": "本科",
+              "temporal_status": "unspecified"
+            },
+            {
+              "name": "分布式系统与云计算",
+              "level": "本科",
+              "temporal_status": "unspecified"
+            },
+            {
+              "name": "软件安全分析",
+              "level": "博士",
+              "temporal_status": "unspecified"
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "导师栏目注明2025年6月更新；该身份信息不是特定招生年度招生名额或资格的保证。"
+      ]
+    },
+    {
+      "id": "148849",
+      "name": "黄玮",
+      "roles": [
+        "网络空间安全系",
+        "导师情况"
+      ],
+      "published_at": "2019-09-14",
+      "source_url": "https://ccs.cuc.edu.cn/2019/0911/c6240a148849/page.htm",
+      "fields": [
+        {
+          "label": "姓名",
+          "value": "黄玮"
+        },
+        {
+          "label": "职称",
+          "value": "副教授"
+        },
+        {
+          "label": "系别",
+          "value": "网络空间安全系"
+        },
+        {
+          "label": "讲授课程",
+          "value": "Linux系统与网络管理（本科）、网络安全（本科）、网络与系统安全（硕士）个人教学Wiki： 传媒网安教学 Wiki (c4pr1c3.github.io)"
+        },
+        {
+          "label": "科研方向或教学专长",
+          "value": "网络攻防、漏洞挖掘、软件工程"
+        }
+      ],
+      "bio_summary": "黄玮为网络空间安全系副教授，本硕博在北京邮电大学学习并取得信息安全博士学位，之后入职中传。研究网络攻防、漏洞挖掘和软件工程，列有本科Linux管理、网络安全及硕士网络与系统安全。",
+      "course_mentions": [
+        {
+          "raw_text": "Linux系统与网络管理（本科）、网络安全（本科）、网络与系统安全（硕士）个人教学Wiki： 传媒网安教学 Wiki (c4pr1c3.github.io)",
+          "courses": [
+            "Linux系统与网络管理",
+            "网络安全",
+            "网络与系统安全"
+          ],
+          "source_url": "https://ccs.cuc.edu.cn/2019/0911/c6240a148849/page.htm",
+          "course_details": [
+            {
+              "name": "Linux系统与网络管理",
+              "level": "本科",
+              "temporal_status": "unspecified"
+            },
+            {
+              "name": "网络安全",
+              "level": "本科",
+              "temporal_status": "unspecified"
+            },
+            {
+              "name": "网络与系统安全",
+              "level": "硕士",
+              "temporal_status": "unspecified"
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "导师栏目注明2025年6月更新；该身份信息不是特定招生年度招生名额或资格的保证。",
+        "个人教学Wiki为课程栏附带资源链接，不作为课程名称；保留三门明确课程。"
+      ]
+    },
+    {
+      "id": "172907",
+      "name": "范永开",
+      "roles": [
+        "网络空间安全系",
+        "导师情况"
+      ],
+      "published_at": "2019-09-14",
+      "source_url": "https://ccs.cuc.edu.cn/2020/0914/c6240a172907/page.htm",
+      "fields": [
+        {
+          "label": "姓名",
+          "value": "范永开"
+        },
+        {
+          "label": "职称",
+          "value": "教授"
+        },
+        {
+          "label": "系别",
+          "value": "网络空间安全系"
+        },
+        {
+          "label": "讲授课程",
+          "value": "Programming language(留学生)；操作系统（本科），计算机组成原理；"
+        },
+        {
+          "label": "科研方向或教学专长",
+          "value": "研究线路一：数据安全（数据全生命周期安全技术，包括：隐私计算、AI算法安全、联邦安全、区块链、AI可解释等）；研究线路二：内容安全（文、图、音、视频及多模态内容的真实性与安全性等）；研究线路三：传播安全（内容在个体与群体内的模因、安全传播网络、传播演化可控等）；研究线路四：认知安全（认知的安全成因，大安全策略与认知安全推演等）。"
+        }
+      ],
+      "bio_summary": "范永开为网络空间安全系教授，先后取得吉林大学学士、硕士、博士学位，具有清华大学及海外访问工作经历。研究数据、内容、传播和认知安全，课程栏列有操作系统、计算机组成原理及留学生编程课。",
+      "course_mentions": [
+        {
+          "raw_text": "Programming language(留学生)；操作系统（本科），计算机组成原理；",
+          "courses": [
+            "Programming language",
+            "操作系统",
+            "计算机组成原理"
+          ],
+          "source_url": "https://ccs.cuc.edu.cn/2020/0914/c6240a172907/page.htm",
+          "course_details": [
+            {
+              "name": "Programming language",
+              "level": "未注明",
+              "temporal_status": "unspecified"
+            },
+            {
+              "name": "操作系统",
+              "level": "本科",
+              "temporal_status": "unspecified"
+            },
+            {
+              "name": "计算机组成原理",
+              "level": "未注明",
+              "temporal_status": "unspecified"
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "导师栏目注明2025年6月更新；该身份信息不是特定招生年度招生名额或资格的保证。",
+        "Programming language原文标留学生，表示授课对象而非学位层次，level为未注明；计算机组成原理也未单独标层次，未沿用操作系统的本科标签。"
+      ]
+    },
+    {
+      "id": "148841",
+      "name": "陈小森",
+      "roles": [
+        "实验实践教学中心"
+      ],
+      "published_at": "2019-09-14",
+      "source_url": "https://ccs.cuc.edu.cn/2019/0915/c6242a148841/page.htm",
+      "fields": [
+        {
+          "label": "姓名",
+          "value": "陈小森"
+        },
+        {
+          "label": "系别",
+          "value": "计算机实验实践教学中心"
+        },
+        {
+          "label": "主要职责",
+          "value": "机房维护，指导学生竞赛"
+        }
+      ],
+      "bio_summary": "陈小森的个人页面将系别列为计算机实验实践教学中心，主要职责为机房维护和指导学生竞赛。该页未列讲授课程或完整教育经历，不能将实验支持与竞赛指导直接解释为课程任课。",
+      "course_mentions": [],
+      "notes": [
+        "本页未提供明确讲授课程，课程提及为空。"
+      ]
+    },
+    {
+      "id": "148836",
+      "name": "杨俊生",
+      "roles": [
+        "实验实践教学中心"
+      ],
+      "published_at": "2019-09-13",
+      "source_url": "https://ccs.cuc.edu.cn/2019/0911/c6242a148836/page.htm",
+      "fields": [
+        {
+          "label": "姓名",
+          "value": "杨俊生"
+        },
+        {
+          "label": "职称",
+          "value": "计算机实验实践教学中心副主任"
+        },
+        {
+          "label": "系别",
+          "value": "计算机实验实践教学中心"
+        },
+        {
+          "label": "主要职责",
+          "value": "实验实践技术保障、实验室管理"
+        }
+      ],
+      "bio_summary": "杨俊生的页面列为计算机实验实践教学中心副主任，负责技术保障和实验室管理。简介说明曾从事计算机基础教学，并于2018年调至实验室教学中心，不能将此前主讲经历当作当前课表。",
+      "course_mentions": [
+        {
+          "raw_text": "多年来一直从事计算机基础教育工作，主讲了“C语言程序设计”、“数据结构”、“计算机与信息技术基础”、“计算机应用基础”、“大学计算机”等多门计算机基础课程。 2018调至计算机与网络空间安全学院计算机实验室教学中心任职，负责实验实践技术保障和实验管理工作。",
+          "courses": [
+            "C语言程序设计",
+            "数据结构",
+            "计算机与信息技术基础",
+            "计算机应用基础",
+            "大学计算机"
+          ],
+          "source_url": "https://ccs.cuc.edu.cn/2019/0911/c6242a148836/page.htm",
+          "course_details": [
+            {
+              "name": "C语言程序设计",
+              "level": "未注明",
+              "temporal_status": "explicit_historical"
+            },
+            {
+              "name": "数据结构",
+              "level": "未注明",
+              "temporal_status": "explicit_historical"
+            },
+            {
+              "name": "计算机与信息技术基础",
+              "level": "未注明",
+              "temporal_status": "explicit_historical"
+            },
+            {
+              "name": "计算机应用基础",
+              "level": "未注明",
+              "temporal_status": "explicit_historical"
+            },
+            {
+              "name": "大学计算机",
+              "level": "未注明",
+              "temporal_status": "explicit_historical"
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "讲授课程信息来自自我介绍中的既往教学经历；原文随后说明2018年调至实验实践岗位，当前学期任课未确认。",
+        "course_details中的五门课程按主讲了及2018转岗上下文记为explicit_historical，培养层次未注明。"
+      ]
+    },
+    {
+      "id": "148842",
+      "name": "赵世军",
+      "roles": [
+        "实验实践教学中心"
+      ],
+      "published_at": "2019-09-13",
+      "source_url": "https://ccs.cuc.edu.cn/2019/0915/c6242a148842/page.htm",
+      "fields": [
+        {
+          "label": "姓名",
+          "value": "赵世军"
+        },
+        {
+          "label": "系别",
+          "value": "计算机实验实践教学中心"
+        },
+        {
+          "label": "主要职责",
+          "value": "实践实验技术保障"
+        }
+      ],
+      "bio_summary": "赵世军的个人页面列于计算机实验实践教学中心，正文仅提供系别及实践实验技术保障职责等简要信息，未提供讲授课程和完整个人经历，不据此推断具体课程任课。",
+      "course_mentions": [],
+      "notes": [
+        "本页未提供明确讲授课程，课程提及为空。"
+      ]
+    },
+    {
+      "id": "148825",
+      "name": "玄浩",
+      "roles": [
+        "实验实践教学中心"
+      ],
+      "published_at": "2019-09-01",
+      "source_url": "https://ccs.cuc.edu.cn/2019/0915/c6242a148825/page.htm",
+      "fields": [
+        {
+          "label": "姓名",
+          "value": "玄浩"
+        },
+        {
+          "label": "系别",
+          "value": "计算机实验实践教学中心"
+        },
+        {
+          "label": "主要职责",
+          "value": "实践实验技术保障"
+        }
+      ],
+      "bio_summary": "玄浩的个人页面列于计算机实验实践教学中心，承担实践实验技术保障。自我介绍记载其自2004年起在计算机学院工作；页面未列课程或完整教育经历，不据此建立任课关系。",
+      "course_mentions": [],
+      "notes": [
+        "本页未提供明确讲授课程，课程提及为空。"
+      ]
+    },
+    {
+      "id": "194892",
+      "name": "丁晨溦",
+      "roles": [
+        "学院办公室"
+      ],
+      "published_at": "2022-07-14",
+      "source_url": "https://ccs.cuc.edu.cn/2022/0714/c8472a194892/page.htm",
+      "fields": [
+        {
+          "label": "姓名",
+          "value": "丁晨溦"
+        },
+        {
+          "label": "系别",
+          "value": "学工办"
+        },
+        {
+          "label": "主要职责",
+          "value": "（1）负责学院学生党务工作。（2）负责学院民族宗教工作。（3）负责学院本科生评奖评优工作。完成学校和学院领导交办的其他工作。"
+        }
+      ],
+      "bio_summary": "丁晨溦的正文系别为学工办，职责涉及学生党务、民族宗教及本科生评奖评优。简介记载英国约克大学网络安全硕士学习经历和2019年入职信息，页面未列课程任课。",
+      "course_mentions": [],
+      "notes": [
+        "该页主要记载行政、教务或学生工作职责；未提供任课课程，不据职责建立课程教师对应。",
+        "本页未提供明确讲授课程，课程提及为空。"
+      ]
+    },
+    {
+      "id": "194889",
+      "name": "牛苏雨",
+      "roles": [
+        "学院办公室"
+      ],
+      "published_at": "2022-07-13",
+      "source_url": "https://ccs.cuc.edu.cn/2022/0713/c8472a194889/page.htm",
+      "fields": [
+        {
+          "label": "姓名",
+          "value": "牛苏雨"
+        },
+        {
+          "label": "职务",
+          "value": "专职辅导员"
+        },
+        {
+          "label": "主要职责（整理）",
+          "value": "思想教育与价值引领、党团和班级建设、学风建设、学生事务、心理健康支持、网络思想教育、校园危机应对、职业规划和就业指导，以及相关理论实践研究。"
+        }
+      ],
+      "bio_summary": "牛苏雨的个人页面列为专职辅导员，具有法律硕士和新闻学学士学位。职责涵盖思想教育、党团班级建设、学生事务、心理支持及就业指导，页面未列课程任课或学科导师资格。",
+      "course_mentions": [],
+      "notes": [
+        "该页主要记载行政、教务或学生工作职责；未提供任课课程，不据职责建立课程教师对应。",
+        "本页未提供明确讲授课程，课程提及为空。"
+      ]
+    },
+    {
+      "id": "194123",
+      "name": "卢平平",
+      "roles": [
+        "学院办公室"
+      ],
+      "published_at": "2022-06-07",
+      "source_url": "https://ccs.cuc.edu.cn/2022/0607/c8472a194123/page.htm",
+      "fields": [
+        {
+          "label": "姓名",
+          "value": "卢平平"
+        },
+        {
+          "label": "系别",
+          "value": "党政办"
+        },
+        {
+          "label": "主要职责",
+          "value": "协助学院财务和后勤工作（1）负责学院财务报账等，（2）负责学院办公用品的采购等，（3）负责学院活动的后勤保障，（4）负责学院工会一些事务性工作，（5）完成学院领导和部门领导交办的其他工作。"
+        }
+      ],
+      "bio_summary": "卢平平的正文系别为党政办，主要协助学院财务和后勤工作，涉及报账、办公采购、活动保障及工会事务。个人页面未列讲授课程或教育经历，不据行政服务职责推断任课关系。",
+      "course_mentions": [],
+      "notes": [
+        "该页主要记载行政、教务或学生工作职责；未提供任课课程，不据职责建立课程教师对应。",
+        "本页未提供明确讲授课程，课程提及为空。"
+      ]
+    },
+    {
+      "id": "194122",
+      "name": "李花",
+      "roles": [
+        "学院办公室"
+      ],
+      "published_at": "2022-06-07",
+      "source_url": "https://ccs.cuc.edu.cn/2022/0607/c8472a194122/page.htm",
+      "fields": [
+        {
+          "label": "姓名",
+          "value": "李花"
+        },
+        {
+          "label": "系别",
+          "value": "中国传媒大学研究生与科研办公室"
+        },
+        {
+          "label": "主要职责",
+          "value": "负责学院的研究生培养、学科评估以及科研工作"
+        }
+      ],
+      "bio_summary": "李花的正文系别为研究生与科研办公室，负责研究生培养、学科评估和科研事务。简介记载其为副教授、1994年参加工作并毕业于吉林大学，页面未给出具体任课课程。",
+      "course_mentions": [],
+      "notes": [
+        "该页主要记载行政、教务或学生工作职责；未提供任课课程，不据职责建立课程教师对应。",
+        "本页未提供明确讲授课程，课程提及为空。"
+      ]
+    },
+    {
+      "id": "194121",
+      "name": "谭志芳",
+      "roles": [
+        "学院办公室"
+      ],
+      "published_at": "2022-06-07",
+      "source_url": "https://ccs.cuc.edu.cn/2022/0607/c8472a194121/page.htm",
+      "fields": [
+        {
+          "label": "姓名",
+          "value": "谭志芳"
+        },
+        {
+          "label": "职称",
+          "value": "教学秘书"
+        },
+        {
+          "label": "系别",
+          "value": "本科生教学办"
+        },
+        {
+          "label": "主要职责",
+          "value": "负责本科考试管理、毕业设计管理、工作量统计等工作"
+        }
+      ],
+      "bio_summary": "谭志芳为本科生教学办教学秘书，负责考试、毕业设计及工作量统计。简介列出2000年至2019年的授课经历，并说明2019年9月起转任教秘，因此所列历史课程不应当作当前课表。",
+      "course_mentions": [
+        {
+          "raw_text": "2000年7月-2019年9月，先后在北京广播学院管理系、计算中心、计算机与网络中心以及计算机与网络空间安全学院授课，课程包括：操作系统、C语言程序设计、商务网站设计与开发、大学计算机等； 2019年9月-现在，计算机与网络空间安全学院教秘。",
+          "courses": [
+            "操作系统",
+            "C语言程序设计",
+            "商务网站设计与开发",
+            "大学计算机"
+          ],
+          "source_url": "https://ccs.cuc.edu.cn/2022/0607/c8472a194121/page.htm",
+          "course_details": [
+            {
+              "name": "操作系统",
+              "level": "未注明",
+              "temporal_status": "explicit_historical"
+            },
+            {
+              "name": "C语言程序设计",
+              "level": "未注明",
+              "temporal_status": "explicit_historical"
+            },
+            {
+              "name": "商务网站设计与开发",
+              "level": "未注明",
+              "temporal_status": "explicit_historical"
+            },
+            {
+              "name": "大学计算机",
+              "level": "未注明",
+              "temporal_status": "explicit_historical"
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "2000年7月至2019年9月为明确的历史授课区间；2019年9月后角色按原简介记为教学秘书，历史课程不可标记为当前任课。",
+        "course_details中的四门课程均按2000年7月至2019年9月明确授课区间标为explicit_historical，未外推为目前任课。"
+      ]
+    },
+    {
+      "id": "194118",
+      "name": "李琳",
+      "roles": [
+        "学院办公室"
+      ],
+      "published_at": "2022-06-07",
+      "source_url": "https://ccs.cuc.edu.cn/2022/0607/c8472a194118/page.htm",
+      "fields": [
+        {
+          "label": "姓名",
+          "value": "李琳"
+        },
+        {
+          "label": "职称",
+          "value": "学院本科教学秘书"
+        },
+        {
+          "label": "系别",
+          "value": "本科生教学办"
+        },
+        {
+          "label": "主要职责",
+          "value": "负责本科生学籍管理、毕业资审、课程教材征订、教学计划管理、课程编排等教学运行工作"
+        }
+      ],
+      "bio_summary": "李琳的页面列为学院本科教学秘书，系别为本科生教学办，负责学籍、毕业资审、教材征订、教学计划及课程编排等运行工作；课程编排职责不等于其承担对应课程教学。",
+      "course_mentions": [],
+      "notes": [
+        "该页主要记载行政、教务或学生工作职责；未提供任课课程，不据职责建立课程教师对应。",
+        "本页未提供明确讲授课程，课程提及为空。"
+      ]
+    },
+    {
+      "id": "257720",
+      "name": "徐震",
+      "roles": [
+        "兼职博导",
+        "导师情况"
+      ],
+      "published_at": "2025-06-26",
+      "source_url": "https://ccs.cuc.edu.cn/2022/0607/c13913a257720/page.htm",
+      "fields": [
+        {
+          "label": "姓名",
+          "value": "徐震"
+        },
+        {
+          "label": "职称",
+          "value": "正高级工程师"
+        },
+        {
+          "label": "系别",
+          "value": "信息计算技术"
+        },
+        {
+          "label": "研究方向",
+          "value": "网络与系统安全，机密计算与数据安全，数据中心安全"
+        }
+      ],
+      "bio_summary": "徐震在学院栏目中列为兼职博导，职称为正高级工程师，简介说明其在中国科学院信息工程研究所任职。研究网络与系统安全、机密计算、数据安全及数据中心安全，未列本科讲授课程。",
+      "course_mentions": [],
+      "notes": [
+        "兼职博导身份与校外任职按官网记载保留；未提供本科课程时不推断本科任课关系。",
+        "本页未提供明确讲授课程，课程提及为空。",
+        "导师栏目注明2025年6月更新；该身份信息不是特定招生年度招生名额或资格的保证。"
+      ]
+    },
+    {
+      "id": "257719",
+      "name": "杜跃进",
+      "roles": [
+        "兼职博导",
+        "导师情况"
+      ],
+      "published_at": "2025-06-26",
+      "source_url": "https://ccs.cuc.edu.cn/2022/0607/c13913a257719/page.htm",
+      "fields": [
+        {
+          "label": "姓名",
+          "value": "杜跃进"
+        },
+        {
+          "label": "职称",
+          "value": "教授"
+        },
+        {
+          "label": "系别",
+          "value": "信息计算技术"
+        },
+        {
+          "label": "研究方向",
+          "value": "人工智能安全攻防、自动化漏洞挖掘、数据安全"
+        }
+      ],
+      "bio_summary": "杜跃进在学院栏目中列为兼职博导、教授，简介记载其任贵州大数据安全工程研究中心主任。研究人工智能安全攻防、自动化漏洞挖掘和数据安全，页面未列本科讲授课程。",
+      "course_mentions": [],
+      "notes": [
+        "兼职博导身份与校外任职按官网记载保留；未提供本科课程时不推断本科任课关系。",
+        "本页未提供明确讲授课程，课程提及为空。",
+        "导师栏目注明2025年6月更新；该身份信息不是特定招生年度招生名额或资格的保证。"
+      ]
+    },
+    {
+      "id": "148844",
+      "name": "张晶晶",
+      "roles": [
+        "导师情况"
+      ],
+      "published_at": "2025-09-09",
+      "source_url": "https://ccs.cuc.edu.cn/2019/0910/c6239a148844/page.htm",
+      "fields": [
+        {
+          "label": "姓名",
+          "value": "张晶晶"
+        },
+        {
+          "label": "系别",
+          "value": "计算机科学与技术系"
+        },
+        {
+          "label": "职称",
+          "value": "教授"
+        },
+        {
+          "label": "讲授课程",
+          "value": "深度学习（本科）、计算机视觉（本科、硕士）等"
+        },
+        {
+          "label": "科研方向或教学专长",
+          "value": "文化多模态数据分析与生成（包括民族民间传统文化、电影、大众阅读等）、演艺视听呈现与智能控制技术（包括现场演艺视效呈现、现场演艺交互等）"
+        }
+      ],
+      "bio_summary": "张晶晶为计算机科学与技术系教授、工学博士，个人简介列为本科生院院长。研究文化多模态数据生成、演艺视听呈现与智能控制，课程栏列出本科深度学习及本科、硕士计算机视觉。",
+      "course_mentions": [
+        {
+          "raw_text": "深度学习（本科）、计算机视觉（本科、硕士）等",
+          "courses": [
+            "深度学习",
+            "计算机视觉"
+          ],
+          "source_url": "https://ccs.cuc.edu.cn/2019/0910/c6239a148844/page.htm",
+          "course_details": [
+            {
+              "name": "深度学习",
+              "level": "本科",
+              "temporal_status": "unspecified"
+            },
+            {
+              "name": "计算机视觉",
+              "level": "本科",
+              "temporal_status": "unspecified"
+            },
+            {
+              "name": "计算机视觉",
+              "level": "硕士",
+              "temporal_status": "unspecified"
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "导师栏目注明2025年6月更新；该身份信息不是特定招生年度招生名额或资格的保证。",
+        "计算机视觉原文同时标本科、硕士，course_details分别保留两个层次，courses只列一次名称。"
+      ]
+    },
+    {
+      "id": "268069",
+      "name": "张弛",
+      "roles": [
+        "导师情况"
+      ],
+      "published_at": "2025-07-10",
+      "source_url": "https://ccs.cuc.edu.cn/2019/0911/c6239a268069/page.htm",
+      "fields": [
+        {
+          "label": "姓名",
+          "value": "张弛"
+        },
+        {
+          "label": "职称",
+          "value": "教授"
+        },
+        {
+          "label": "系别",
+          "value": "计算机科学与技术系"
+        },
+        {
+          "label": "讲授课程",
+          "value": "软件工程"
+        },
+        {
+          "label": "科研方向或教学专长",
+          "value": "媒体信息处理，教育数字化"
+        }
+      ],
+      "bio_summary": "张弛为教授，个人页系别仍列计算机科学与技术系，研究媒体信息处理和教育数字化。简介说明2005年留校任教、2022年调任学校信息化处负责智慧校园建设，课程栏列出软件工程。",
+      "course_mentions": [
+        {
+          "raw_text": "软件工程",
+          "courses": [
+            "软件工程"
+          ],
+          "source_url": "https://ccs.cuc.edu.cn/2019/0911/c6239a268069/page.htm",
+          "course_details": [
+            {
+              "name": "软件工程",
+              "level": "未注明",
+              "temporal_status": "unspecified"
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "个人简介记载2022年调任学校信息化处；保留正文系别与调任经历，不据此推断退休或具体学期任课。",
+        "导师栏目注明2025年6月更新；该身份信息不是特定招生年度招生名额或资格的保证。"
+      ]
+    },
+    {
+      "id": "268009",
+      "name": "龚隽鹏",
+      "roles": [
+        "导师情况"
+      ],
+      "published_at": "2025-07-10",
+      "source_url": "https://ccs.cuc.edu.cn/2019/0911/c6239a268009/page.htm",
+      "fields": [
+        {
+          "label": "姓名",
+          "value": "龚隽鹏"
+        },
+        {
+          "label": "职称",
+          "value": "教授"
+        },
+        {
+          "label": "系别",
+          "value": "计算机科学与技术系"
+        },
+        {
+          "label": "讲授课程",
+          "value": "计算思维概论（本科）等"
+        },
+        {
+          "label": "科研方向或教学专长",
+          "value": "媒体信息处理，传播计算"
+        }
+      ],
+      "bio_summary": "龚隽鹏为计算机科学与技术系教授，研究媒体信息处理和传播计算，关注计算机与信息传播交叉领域的多模态表征及网络传播分析。课程栏列出本科计算思维概论，未列完整教育经历。",
+      "course_mentions": [
+        {
+          "raw_text": "计算思维概论（本科）等",
+          "courses": [
+            "计算思维概论"
+          ],
+          "source_url": "https://ccs.cuc.edu.cn/2019/0911/c6239a268009/page.htm",
+          "course_details": [
+            {
+              "name": "计算思维概论",
+              "level": "本科",
+              "temporal_status": "unspecified"
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "导师栏目注明2025年6月更新；该身份信息不是特定招生年度招生名额或资格的保证。"
+      ]
+    },
+    {
+      "id": "257717",
+      "name": "张润滋",
+      "roles": [
+        "导师情况"
+      ],
+      "published_at": "2025-06-26",
+      "source_url": "https://ccs.cuc.edu.cn/2022/0607/c6240a257717/page.htm",
+      "fields": [
+        {
+          "label": "姓名",
+          "value": "张润滋"
+        },
+        {
+          "label": "职称",
+          "value": "副研究员"
+        },
+        {
+          "label": "系别",
+          "value": "媒体融合与传播国家重点实验室、数据智能与网络安全研究院"
+        },
+        {
+          "label": "讲授课程",
+          "value": "舆情与媒体安全（本科）"
+        },
+        {
+          "label": "科研方向或教学专长",
+          "value": "人工智能与网络安全、智算安全、认知安全等交叉领域"
+        }
+      ],
+      "bio_summary": "张润滋为副研究员，正文单位为媒体融合与传播国家重点实验室、数据智能与网络安全研究院。具有中国科学院大学博士及清华大学博士后经历，研究人工智能与网络安全、智算及认知安全。",
+      "course_mentions": [
+        {
+          "raw_text": "舆情与媒体安全（本科）",
+          "courses": [
+            "舆情与媒体安全"
+          ],
+          "source_url": "https://ccs.cuc.edu.cn/2022/0607/c6240a257717/page.htm",
+          "course_details": [
+            {
+              "name": "舆情与媒体安全",
+              "level": "本科",
+              "temporal_status": "unspecified"
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "导师栏目注明2025年6月更新；该身份信息不是特定招生年度招生名额或资格的保证。"
+      ]
+    }
+  ],
+  "unlinked_people": [
+    {
+      "name": "徐翊焜",
+      "source_url": "https://ccs.cuc.edu.cn/dsqk/list.htm",
+      "context": "电子信息（专硕）—网络与信息安全专业（网络安全实践技术方向）",
+      "notes": [
+        "导师情况正文出现姓名，但未提供独立个人简介链接；不生成或推测个人经历。",
+        "导师栏目注明2025年6月更新。"
+      ]
+    },
+    {
+      "name": "陈磊",
+      "source_url": "https://ccs.cuc.edu.cn/dsqk/list.htm",
+      "context": "电子信息（专硕）—网络与信息安全专业（网络安全实践技术方向）",
+      "notes": [
+        "导师情况正文出现姓名，但未提供独立个人简介链接；不生成或推测个人经历。",
+        "导师栏目注明2025年6月更新。"
+      ]
+    }
+  ],
+  "coverage": {
+    "collected_at": "2026-10-27T14:19:30.652996+08:00",
+    "expected_profiles": 64,
+    "parsed_profiles": 64,
+    "faculty_source_count": 64,
+    "classification_rows": 62,
+    "classification_unique_profiles": 60,
+    "additional_profiles_from_mentors": 4,
+    "unlinked_people_count": 2,
+    "course_mention_people": 51,
+    "columns": [
+      {
+        "id": "faculty_leaders",
+        "label": "学院领导",
+        "page_count": 1,
+        "expected_records": 5,
+        "unique_articles": 5,
+        "complete": true,
+        "page_urls": [
+          "https://ccs.cuc.edu.cn/xyld_6238/list.htm"
+        ]
+      },
+      {
+        "id": "faculty_cs",
+        "label": "计算机科学与技术系",
+        "page_count": 2,
+        "expected_records": 30,
+        "unique_articles": 30,
+        "complete": true,
+        "page_urls": [
+          "https://ccs.cuc.edu.cn/jsjkxyjsx/list.htm",
+          "https://ccs.cuc.edu.cn/jsjkxyjsx/list2.htm"
+        ]
+      },
+      {
+        "id": "faculty_security",
+        "label": "网络空间安全系",
+        "page_count": 1,
+        "expected_records": 13,
+        "unique_articles": 13,
+        "complete": true,
+        "page_urls": [
+          "https://ccs.cuc.edu.cn/wlkjaqx/list.htm"
+        ]
+      },
+      {
+        "id": "faculty_lab",
+        "label": "实验实践教学中心",
+        "page_count": 1,
+        "expected_records": 6,
+        "unique_articles": 6,
+        "complete": true,
+        "page_urls": [
+          "https://ccs.cuc.edu.cn/sysjjxzx/list.htm"
+        ]
+      },
+      {
+        "id": "faculty_office",
+        "label": "学院办公室",
+        "page_count": 1,
+        "expected_records": 6,
+        "unique_articles": 6,
+        "complete": true,
+        "page_urls": [
+          "https://ccs.cuc.edu.cn/bgs/list.htm"
+        ]
+      },
+      {
+        "id": "faculty_adjunct",
+        "label": "兼职博导",
+        "page_count": 1,
+        "expected_records": 2,
+        "unique_articles": 2,
+        "complete": true,
+        "page_urls": [
+          "https://ccs.cuc.edu.cn/jzbd/list.htm"
+        ]
+      }
+    ],
+    "missing_profiles": [],
+    "source_errors": [],
+    "notes": [
+      "按官方个人文章ID去重，保留所有栏目来源及正文系别。",
+      "课程提及保留教师简介原文，并逐条整理课程名称、层次与时间状态；不等于当前学期或2023级课程任课表。",
+      "摘要由公开任职、教育经历、研究及教学事实整理，未复制论文、基金、项目长列表。",
+      "页面发布日期按原文保存，不等于最后更新时间或事实持续有效至采集日。"
+    ],
+    "course_names_unique": 137,
+    "teacher_course_relations": 187,
+    "course_details_count": 189,
+    "course_detail_status_counts": {
+      "unspecified": 172,
+      "explicit_current": 4,
+      "explicit_historical": 13
+    },
+    "course_detail_level_counts": {
+      "未注明": 41,
+      "本科": 107,
+      "硕士": 22,
+      "博士": 14,
+      "研究生": 4,
+      "预科": 1
+    },
+    "course_name_review_needed": [],
+    "course_name_extraction_notes": [
+      "按教师原句逐条核对分课，保留Java、Python、C/C++、数字1/2及课程括号限定，不合并原文不同写法。",
+      "层次简称本、博、研分别转写本科、博士、研究生；未注明的层次不按同事或相邻课程推定。",
+      "同一课程注明多个层次时courses去重，course_details按层次分别列项。",
+      "只有明确目前措辞记explicit_current，明确历史叙述记explicit_historical，其余均记unspecified；页面日期不作为当前任课证明。",
+      "数据库原理与应用/数据库原理及应用、并行和分布式计算/并行与分布式计算、网页设计及制作/网页设计与制作、计算机组成/计算机组成原理等保留不同名称，后续是否同课须另核对。"
+    ]
+  }
+}

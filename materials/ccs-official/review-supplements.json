@@ -1,0 +1,1610 @@
+{
+  "prepared_at": "2026-10-27T17:17:26.920413+08:00",
+  "scope": "2022版计算机科学与技术培养方案：八、课程地图；图与文章均未注明2023级；不证明当前学期实际开课。",
+  "courses": [
+    {
+      "id": "ccs-map-course-9c801a2cb7c1870c",
+      "name": "高等数学A",
+      "aliases": [],
+      "level": "本科",
+      "description_status": "name_only",
+      "description": "",
+      "source_evidence": [
+        {
+          "source_url": "https://ccs.cuc.edu.cn/2022/0726/c5535a196269/page.htm",
+          "title": "本科专业人才培养方案(2022版) - 八、课程地图",
+          "published_at": "2022-07-26",
+          "kind": "curriculum_map_name_visual_review",
+          "excerpt": "高等数学A",
+          "article_id": "196269",
+          "scope": "2022版计算机科学与技术培养方案：八、课程地图；图与文章均未注明2023级；不证明当前学期实际开课。",
+          "image_url": "https://ccs.cuc.edu.cn/_upload/article/images/da/6a/516e1e0e4d39b63898281a8f74d6/2fbfab17-c8fe-49e0-aec3-26e6b0b260cc.png",
+          "image_local_path": "data/ccs_cuc/2022-course-map.png",
+          "review_method": "助手对官网原图及2倍放大图逐项目视核对；非OCR或独立人工标注。"
+        }
+      ],
+      "teachers": [],
+      "notes": [
+        "仅课程地图中的课程名称；原图未提供逐门课程简介或任课教师。",
+        "保留图中名称、A/B/C/D后缀、语言括号及课程层次；不把图的箭头推断为学分或先修课程政策。"
+      ]
+    },
+    {
+      "id": "ccs-map-course-05b692dc44d710ab",
+      "name": "线性代数A",
+      "aliases": [],
+      "level": "本科",
+      "description_status": "name_only",
+      "description": "",
+      "source_evidence": [
+        {
+          "source_url": "https://ccs.cuc.edu.cn/2022/0726/c5535a196269/page.htm",
+          "title": "本科专业人才培养方案(2022版) - 八、课程地图",
+          "published_at": "2022-07-26",
+          "kind": "curriculum_map_name_visual_review",
+          "excerpt": "线性代数A",
+          "article_id": "196269",
+          "scope": "2022版计算机科学与技术培养方案：八、课程地图；图与文章均未注明2023级；不证明当前学期实际开课。",
+          "image_url": "https://ccs.cuc.edu.cn/_upload/article/images/da/6a/516e1e0e4d39b63898281a8f74d6/2fbfab17-c8fe-49e0-aec3-26e6b0b260cc.png",
+          "image_local_path": "data/ccs_cuc/2022-course-map.png",
+          "review_method": "助手对官网原图及2倍放大图逐项目视核对；非OCR或独立人工标注。"
+        }
+      ],
+      "teachers": [],
+      "notes": [
+        "仅课程地图中的课程名称；原图未提供逐门课程简介或任课教师。",
+        "保留图中名称、A/B/C/D后缀、语言括号及课程层次；不把图的箭头推断为学分或先修课程政策。"
+      ]
+    },
+    {
+      "id": "ccs-map-course-a0f929918555ee5b",
+      "name": "概率论与数理统计A",
+      "aliases": [],
+      "level": "本科",
+      "description_status": "name_only",
+      "description": "",
+      "source_evidence": [
+        {
+          "source_url": "https://ccs.cuc.edu.cn/2022/0726/c5535a196269/page.htm",
+          "title": "本科专业人才培养方案(2022版) - 八、课程地图",
+          "published_at": "2022-07-26",
+          "kind": "curriculum_map_name_visual_review",
+          "excerpt": "概率论与数理统计A",
+          "article_id": "196269",
+          "scope": "2022版计算机科学与技术培养方案：八、课程地图；图与文章均未注明2023级；不证明当前学期实际开课。",
+          "image_url": "https://ccs.cuc.edu.cn/_upload/article/images/da/6a/516e1e0e4d39b63898281a8f74d6/2fbfab17-c8fe-49e0-aec3-26e6b0b260cc.png",
+          "image_local_path": "data/ccs_cuc/2022-course-map.png",
+          "review_method": "助手对官网原图及2倍放大图逐项目视核对；非OCR或独立人工标注。"
+        }
+      ],
+      "teachers": [],
+      "notes": [
+        "仅课程地图中的课程名称；原图未提供逐门课程简介或任课教师。",
+        "保留图中名称、A/B/C/D后缀、语言括号及课程层次；不把图的箭头推断为学分或先修课程政策。"
+      ]
+    },
+    {
+      "id": "ccs-map-course-6436b5c7c42b810b",
+      "name": "大学物理C",
+      "aliases": [],
+      "level": "本科",
+      "description_status": "name_only",
+      "description": "",
+      "source_evidence": [
+        {
+          "source_url": "https://ccs.cuc.edu.cn/2022/0726/c5535a196269/page.htm",
+          "title": "本科专业人才培养方案(2022版) - 八、课程地图",
+          "published_at": "2022-07-26",
+          "kind": "curriculum_map_name_visual_review",
+          "excerpt": "大学物理C",
+          "article_id": "196269",
+          "scope": "2022版计算机科学与技术培养方案：八、课程地图；图与文章均未注明2023级；不证明当前学期实际开课。",
+          "image_url": "https://ccs.cuc.edu.cn/_upload/article/images/da/6a/516e1e0e4d39b63898281a8f74d6/2fbfab17-c8fe-49e0-aec3-26e6b0b260cc.png",
+          "image_local_path": "data/ccs_cuc/2022-course-map.png",
+          "review_method": "助手对官网原图及2倍放大图逐项目视核对；非OCR或独立人工标注。"
+        }
+      ],
+      "teachers": [],
+      "notes": [
+        "仅课程地图中的课程名称；原图未提供逐门课程简介或任课教师。",
+        "保留图中名称、A/B/C/D后缀、语言括号及课程层次；不把图的箭头推断为学分或先修课程政策。"
+      ]
+    },
+    {
+      "id": "ccs-map-course-59e94e421ae0c2d6",
+      "name": "大学物理实验C",
+      "aliases": [],
+      "level": "本科",
+      "description_status": "name_only",
+      "description": "",
+      "source_evidence": [
+        {
+          "source_url": "https://ccs.cuc.edu.cn/2022/0726/c5535a196269/page.htm",
+          "title": "本科专业人才培养方案(2022版) - 八、课程地图",
+          "published_at": "2022-07-26",
+          "kind": "curriculum_map_name_visual_review",
+          "excerpt": "大学物理实验C",
+          "article_id": "196269",
+          "scope": "2022版计算机科学与技术培养方案：八、课程地图；图与文章均未注明2023级；不证明当前学期实际开课。",
+          "image_url": "https://ccs.cuc.edu.cn/_upload/article/images/da/6a/516e1e0e4d39b63898281a8f74d6/2fbfab17-c8fe-49e0-aec3-26e6b0b260cc.png",
+          "image_local_path": "data/ccs_cuc/2022-course-map.png",
+          "review_method": "助手对官网原图及2倍放大图逐项目视核对；非OCR或独立人工标注。"
+        }
+      ],
+      "teachers": [],
+      "notes": [
+        "仅课程地图中的课程名称；原图未提供逐门课程简介或任课教师。",
+        "保留图中名称、A/B/C/D后缀、语言括号及课程层次；不把图的箭头推断为学分或先修课程政策。"
+      ]
+    },
+    {
+      "id": "ccs-map-course-82464fbbb2cb0a3d",
+      "name": "离散数学B",
+      "aliases": [],
+      "level": "本科",
+      "description_status": "name_only",
+      "description": "",
+      "source_evidence": [
+        {
+          "source_url": "https://ccs.cuc.edu.cn/2022/0726/c5535a196269/page.htm",
+          "title": "本科专业人才培养方案(2022版) - 八、课程地图",
+          "published_at": "2022-07-26",
+          "kind": "curriculum_map_name_visual_review",
+          "excerpt": "离散数学B",
+          "article_id": "196269",
+          "scope": "2022版计算机科学与技术培养方案：八、课程地图；图与文章均未注明2023级；不证明当前学期实际开课。",
+          "image_url": "https://ccs.cuc.edu.cn/_upload/article/images/da/6a/516e1e0e4d39b63898281a8f74d6/2fbfab17-c8fe-49e0-aec3-26e6b0b260cc.png",
+          "image_local_path": "data/ccs_cuc/2022-course-map.png",
+          "review_method": "助手对官网原图及2倍放大图逐项目视核对；非OCR或独立人工标注。"
+        }
+      ],
+      "teachers": [],
+      "notes": [
+        "仅课程地图中的课程名称；原图未提供逐门课程简介或任课教师。",
+        "保留图中名称、A/B/C/D后缀、语言括号及课程层次；不把图的箭头推断为学分或先修课程政策。"
+      ]
+    },
+    {
+      "id": "ccs-map-course-8c5778134f6a083f",
+      "name": "计算机导论",
+      "aliases": [],
+      "level": "本科",
+      "description_status": "name_only",
+      "description": "",
+      "source_evidence": [
+        {
+          "source_url": "https://ccs.cuc.edu.cn/2022/0726/c5535a196269/page.htm",
+          "title": "本科专业人才培养方案(2022版) - 八、课程地图",
+          "published_at": "2022-07-26",
+          "kind": "curriculum_map_name_visual_review",
+          "excerpt": "计算机导论",
+          "article_id": "196269",
+          "scope": "2022版计算机科学与技术培养方案：八、课程地图；图与文章均未注明2023级；不证明当前学期实际开课。",
+          "image_url": "https://ccs.cuc.edu.cn/_upload/article/images/da/6a/516e1e0e4d39b63898281a8f74d6/2fbfab17-c8fe-49e0-aec3-26e6b0b260cc.png",
+          "image_local_path": "data/ccs_cuc/2022-course-map.png",
+          "review_method": "助手对官网原图及2倍放大图逐项目视核对；非OCR或独立人工标注。"
+        }
+      ],
+      "teachers": [],
+      "notes": [
+        "仅课程地图中的课程名称；原图未提供逐门课程简介或任课教师。",
+        "保留图中名称、A/B/C/D后缀、语言括号及课程层次；不把图的箭头推断为学分或先修课程政策。"
+      ]
+    },
+    {
+      "id": "ccs-map-course-a702cdabb70f3262",
+      "name": "网络空间安全导论",
+      "aliases": [],
+      "level": "本科",
+      "description_status": "name_only",
+      "description": "",
+      "source_evidence": [
+        {
+          "source_url": "https://ccs.cuc.edu.cn/2022/0726/c5535a196269/page.htm",
+          "title": "本科专业人才培养方案(2022版) - 八、课程地图",
+          "published_at": "2022-07-26",
+          "kind": "curriculum_map_name_visual_review",
+          "excerpt": "网络空间安全导论",
+          "article_id": "196269",
+          "scope": "2022版计算机科学与技术培养方案：八、课程地图；图与文章均未注明2023级；不证明当前学期实际开课。",
+          "image_url": "https://ccs.cuc.edu.cn/_upload/article/images/da/6a/516e1e0e4d39b63898281a8f74d6/2fbfab17-c8fe-49e0-aec3-26e6b0b260cc.png",
+          "image_local_path": "data/ccs_cuc/2022-course-map.png",
+          "review_method": "助手对官网原图及2倍放大图逐项目视核对；非OCR或独立人工标注。"
+        }
+      ],
+      "teachers": [],
+      "notes": [
+        "仅课程地图中的课程名称；原图未提供逐门课程简介或任课教师。",
+        "保留图中名称、A/B/C/D后缀、语言括号及课程层次；不把图的箭头推断为学分或先修课程政策。"
+      ]
+    },
+    {
+      "id": "ccs-map-course-d313225047a8afad",
+      "name": "图论及应用",
+      "aliases": [],
+      "level": "本科",
+      "description_status": "name_only",
+      "description": "",
+      "source_evidence": [
+        {
+          "source_url": "https://ccs.cuc.edu.cn/2022/0726/c5535a196269/page.htm",
+          "title": "本科专业人才培养方案(2022版) - 八、课程地图",
+          "published_at": "2022-07-26",
+          "kind": "curriculum_map_name_visual_review",
+          "excerpt": "图论及应用",
+          "article_id": "196269",
+          "scope": "2022版计算机科学与技术培养方案：八、课程地图；图与文章均未注明2023级；不证明当前学期实际开课。",
+          "image_url": "https://ccs.cuc.edu.cn/_upload/article/images/da/6a/516e1e0e4d39b63898281a8f74d6/2fbfab17-c8fe-49e0-aec3-26e6b0b260cc.png",
+          "image_local_path": "data/ccs_cuc/2022-course-map.png",
+          "review_method": "助手对官网原图及2倍放大图逐项目视核对；非OCR或独立人工标注。"
+        }
+      ],
+      "teachers": [],
+      "notes": [
+        "仅课程地图中的课程名称；原图未提供逐门课程简介或任课教师。",
+        "保留图中名称、A/B/C/D后缀、语言括号及课程层次；不把图的箭头推断为学分或先修课程政策。"
+      ]
+    },
+    {
+      "id": "ccs-map-course-3193e7b7c673df9e",
+      "name": "机器学习",
+      "aliases": [],
+      "level": "本科",
+      "description_status": "name_only",
+      "description": "",
+      "source_evidence": [
+        {
+          "source_url": "https://ccs.cuc.edu.cn/2022/0726/c5535a196269/page.htm",
+          "title": "本科专业人才培养方案(2022版) - 八、课程地图",
+          "published_at": "2022-07-26",
+          "kind": "curriculum_map_name_visual_review",
+          "excerpt": "机器学习",
+          "article_id": "196269",
+          "scope": "2022版计算机科学与技术培养方案：八、课程地图；图与文章均未注明2023级；不证明当前学期实际开课。",
+          "image_url": "https://ccs.cuc.edu.cn/_upload/article/images/da/6a/516e1e0e4d39b63898281a8f74d6/2fbfab17-c8fe-49e0-aec3-26e6b0b260cc.png",
+          "image_local_path": "data/ccs_cuc/2022-course-map.png",
+          "review_method": "助手对官网原图及2倍放大图逐项目视核对；非OCR或独立人工标注。"
+        }
+      ],
+      "teachers": [],
+      "notes": [
+        "仅课程地图中的课程名称；原图未提供逐门课程简介或任课教师。",
+        "保留图中名称、A/B/C/D后缀、语言括号及课程层次；不把图的箭头推断为学分或先修课程政策。"
+      ]
+    },
+    {
+      "id": "ccs-map-course-1c346a0cbcdc0a58",
+      "name": "人工智能",
+      "aliases": [],
+      "level": "本科",
+      "description_status": "name_only",
+      "description": "",
+      "source_evidence": [
+        {
+          "source_url": "https://ccs.cuc.edu.cn/2022/0726/c5535a196269/page.htm",
+          "title": "本科专业人才培养方案(2022版) - 八、课程地图",
+          "published_at": "2022-07-26",
+          "kind": "curriculum_map_name_visual_review",
+          "excerpt": "人工智能",
+          "article_id": "196269",
+          "scope": "2022版计算机科学与技术培养方案：八、课程地图；图与文章均未注明2023级；不证明当前学期实际开课。",
+          "image_url": "https://ccs.cuc.edu.cn/_upload/article/images/da/6a/516e1e0e4d39b63898281a8f74d6/2fbfab17-c8fe-49e0-aec3-26e6b0b260cc.png",
+          "image_local_path": "data/ccs_cuc/2022-course-map.png",
+          "review_method": "助手对官网原图及2倍放大图逐项目视核对；非OCR或独立人工标注。"
+        }
+      ],
+      "teachers": [],
+      "notes": [
+        "仅课程地图中的课程名称；原图未提供逐门课程简介或任课教师。",
+        "保留图中名称、A/B/C/D后缀、语言括号及课程层次；不把图的箭头推断为学分或先修课程政策。"
+      ]
+    },
+    {
+      "id": "ccs-map-course-313e8df4d2617ca0",
+      "name": "编译原理",
+      "aliases": [],
+      "level": "本科",
+      "description_status": "name_only",
+      "description": "",
+      "source_evidence": [
+        {
+          "source_url": "https://ccs.cuc.edu.cn/2022/0726/c5535a196269/page.htm",
+          "title": "本科专业人才培养方案(2022版) - 八、课程地图",
+          "published_at": "2022-07-26",
+          "kind": "curriculum_map_name_visual_review",
+          "excerpt": "编译原理",
+          "article_id": "196269",
+          "scope": "2022版计算机科学与技术培养方案：八、课程地图；图与文章均未注明2023级；不证明当前学期实际开课。",
+          "image_url": "https://ccs.cuc.edu.cn/_upload/article/images/da/6a/516e1e0e4d39b63898281a8f74d6/2fbfab17-c8fe-49e0-aec3-26e6b0b260cc.png",
+          "image_local_path": "data/ccs_cuc/2022-course-map.png",
+          "review_method": "助手对官网原图及2倍放大图逐项目视核对；非OCR或独立人工标注。"
+        }
+      ],
+      "teachers": [],
+      "notes": [
+        "仅课程地图中的课程名称；原图未提供逐门课程简介或任课教师。",
+        "保留图中名称、A/B/C/D后缀、语言括号及课程层次；不把图的箭头推断为学分或先修课程政策。"
+      ]
+    },
+    {
+      "id": "ccs-map-course-9dd8c7c02b35f85b",
+      "name": "深度学习",
+      "aliases": [],
+      "level": "本科",
+      "description_status": "name_only",
+      "description": "",
+      "source_evidence": [
+        {
+          "source_url": "https://ccs.cuc.edu.cn/2022/0726/c5535a196269/page.htm",
+          "title": "本科专业人才培养方案(2022版) - 八、课程地图",
+          "published_at": "2022-07-26",
+          "kind": "curriculum_map_name_visual_review",
+          "excerpt": "深度学习",
+          "article_id": "196269",
+          "scope": "2022版计算机科学与技术培养方案：八、课程地图；图与文章均未注明2023级；不证明当前学期实际开课。",
+          "image_url": "https://ccs.cuc.edu.cn/_upload/article/images/da/6a/516e1e0e4d39b63898281a8f74d6/2fbfab17-c8fe-49e0-aec3-26e6b0b260cc.png",
+          "image_local_path": "data/ccs_cuc/2022-course-map.png",
+          "review_method": "助手对官网原图及2倍放大图逐项目视核对；非OCR或独立人工标注。"
+        }
+      ],
+      "teachers": [],
+      "notes": [
+        "仅课程地图中的课程名称；原图未提供逐门课程简介或任课教师。",
+        "保留图中名称、A/B/C/D后缀、语言括号及课程层次；不把图的箭头推断为学分或先修课程政策。"
+      ]
+    },
+    {
+      "id": "ccs-map-course-031074e3bf6d1c90",
+      "name": "数据新闻概论",
+      "aliases": [],
+      "level": "本科",
+      "description_status": "name_only",
+      "description": "",
+      "source_evidence": [
+        {
+          "source_url": "https://ccs.cuc.edu.cn/2022/0726/c5535a196269/page.htm",
+          "title": "本科专业人才培养方案(2022版) - 八、课程地图",
+          "published_at": "2022-07-26",
+          "kind": "curriculum_map_name_visual_review",
+          "excerpt": "数据新闻概论",
+          "article_id": "196269",
+          "scope": "2022版计算机科学与技术培养方案：八、课程地图；图与文章均未注明2023级；不证明当前学期实际开课。",
+          "image_url": "https://ccs.cuc.edu.cn/_upload/article/images/da/6a/516e1e0e4d39b63898281a8f74d6/2fbfab17-c8fe-49e0-aec3-26e6b0b260cc.png",
+          "image_local_path": "data/ccs_cuc/2022-course-map.png",
+          "review_method": "助手对官网原图及2倍放大图逐项目视核对；非OCR或独立人工标注。"
+        }
+      ],
+      "teachers": [],
+      "notes": [
+        "仅课程地图中的课程名称；原图未提供逐门课程简介或任课教师。",
+        "保留图中名称、A/B/C/D后缀、语言括号及课程层次；不把图的箭头推断为学分或先修课程政策。"
+      ]
+    },
+    {
+      "id": "ccs-map-course-be7b26173ca9fff5",
+      "name": "计算机图像处理",
+      "aliases": [],
+      "level": "本科",
+      "description_status": "name_only",
+      "description": "",
+      "source_evidence": [
+        {
+          "source_url": "https://ccs.cuc.edu.cn/2022/0726/c5535a196269/page.htm",
+          "title": "本科专业人才培养方案(2022版) - 八、课程地图",
+          "published_at": "2022-07-26",
+          "kind": "curriculum_map_name_visual_review",
+          "excerpt": "计算机图像处理",
+          "article_id": "196269",
+          "scope": "2022版计算机科学与技术培养方案：八、课程地图；图与文章均未注明2023级；不证明当前学期实际开课。",
+          "image_url": "https://ccs.cuc.edu.cn/_upload/article/images/da/6a/516e1e0e4d39b63898281a8f74d6/2fbfab17-c8fe-49e0-aec3-26e6b0b260cc.png",
+          "image_local_path": "data/ccs_cuc/2022-course-map.png",
+          "review_method": "助手对官网原图及2倍放大图逐项目视核对；非OCR或独立人工标注。"
+        }
+      ],
+      "teachers": [],
+      "notes": [
+        "仅课程地图中的课程名称；原图未提供逐门课程简介或任课教师。",
+        "保留图中名称、A/B/C/D后缀、语言括号及课程层次；不把图的箭头推断为学分或先修课程政策。"
+      ]
+    },
+    {
+      "id": "ccs-map-course-c2ae3284271c3947",
+      "name": "自然语言处理",
+      "aliases": [],
+      "level": "本科",
+      "description_status": "name_only",
+      "description": "",
+      "source_evidence": [
+        {
+          "source_url": "https://ccs.cuc.edu.cn/2022/0726/c5535a196269/page.htm",
+          "title": "本科专业人才培养方案(2022版) - 八、课程地图",
+          "published_at": "2022-07-26",
+          "kind": "curriculum_map_name_visual_review",
+          "excerpt": "自然语言处理",
+          "article_id": "196269",
+          "scope": "2022版计算机科学与技术培养方案：八、课程地图；图与文章均未注明2023级；不证明当前学期实际开课。",
+          "image_url": "https://ccs.cuc.edu.cn/_upload/article/images/da/6a/516e1e0e4d39b63898281a8f74d6/2fbfab17-c8fe-49e0-aec3-26e6b0b260cc.png",
+          "image_local_path": "data/ccs_cuc/2022-course-map.png",
+          "review_method": "助手对官网原图及2倍放大图逐项目视核对；非OCR或独立人工标注。"
+        }
+      ],
+      "teachers": [],
+      "notes": [
+        "仅课程地图中的课程名称；原图未提供逐门课程简介或任课教师。",
+        "保留图中名称、A/B/C/D后缀、语言括号及课程层次；不把图的箭头推断为学分或先修课程政策。"
+      ]
+    },
+    {
+      "id": "ccs-map-course-a2334febce6a17c2",
+      "name": "视觉大数据分析",
+      "aliases": [],
+      "level": "本科",
+      "description_status": "name_only",
+      "description": "",
+      "source_evidence": [
+        {
+          "source_url": "https://ccs.cuc.edu.cn/2022/0726/c5535a196269/page.htm",
+          "title": "本科专业人才培养方案(2022版) - 八、课程地图",
+          "published_at": "2022-07-26",
+          "kind": "curriculum_map_name_visual_review",
+          "excerpt": "视觉大数据分析",
+          "article_id": "196269",
+          "scope": "2022版计算机科学与技术培养方案：八、课程地图；图与文章均未注明2023级；不证明当前学期实际开课。",
+          "image_url": "https://ccs.cuc.edu.cn/_upload/article/images/da/6a/516e1e0e4d39b63898281a8f74d6/2fbfab17-c8fe-49e0-aec3-26e6b0b260cc.png",
+          "image_local_path": "data/ccs_cuc/2022-course-map.png",
+          "review_method": "助手对官网原图及2倍放大图逐项目视核对；非OCR或独立人工标注。"
+        }
+      ],
+      "teachers": [],
+      "notes": [
+        "仅课程地图中的课程名称；原图未提供逐门课程简介或任课教师。",
+        "保留图中名称、A/B/C/D后缀、语言括号及课程层次；不把图的箭头推断为学分或先修课程政策。"
+      ]
+    },
+    {
+      "id": "ccs-map-course-628718733816a2cc",
+      "name": "计算机图形学D",
+      "aliases": [],
+      "level": "本科",
+      "description_status": "name_only",
+      "description": "",
+      "source_evidence": [
+        {
+          "source_url": "https://ccs.cuc.edu.cn/2022/0726/c5535a196269/page.htm",
+          "title": "本科专业人才培养方案(2022版) - 八、课程地图",
+          "published_at": "2022-07-26",
+          "kind": "curriculum_map_name_visual_review",
+          "excerpt": "计算机图形学D",
+          "article_id": "196269",
+          "scope": "2022版计算机科学与技术培养方案：八、课程地图；图与文章均未注明2023级；不证明当前学期实际开课。",
+          "image_url": "https://ccs.cuc.edu.cn/_upload/article/images/da/6a/516e1e0e4d39b63898281a8f74d6/2fbfab17-c8fe-49e0-aec3-26e6b0b260cc.png",
+          "image_local_path": "data/ccs_cuc/2022-course-map.png",
+          "review_method": "助手对官网原图及2倍放大图逐项目视核对；非OCR或独立人工标注。"
+        }
+      ],
+      "teachers": [],
+      "notes": [
+        "仅课程地图中的课程名称；原图未提供逐门课程简介或任课教师。",
+        "保留图中名称、A/B/C/D后缀、语言括号及课程层次；不把图的箭头推断为学分或先修课程政策。"
+      ]
+    },
+    {
+      "id": "ccs-map-course-3a056c976fccc07a",
+      "name": "舆情分析与社会计算",
+      "aliases": [],
+      "level": "本科",
+      "description_status": "name_only",
+      "description": "",
+      "source_evidence": [
+        {
+          "source_url": "https://ccs.cuc.edu.cn/2022/0726/c5535a196269/page.htm",
+          "title": "本科专业人才培养方案(2022版) - 八、课程地图",
+          "published_at": "2022-07-26",
+          "kind": "curriculum_map_name_visual_review",
+          "excerpt": "舆情分析与社会计算",
+          "article_id": "196269",
+          "scope": "2022版计算机科学与技术培养方案：八、课程地图；图与文章均未注明2023级；不证明当前学期实际开课。",
+          "image_url": "https://ccs.cuc.edu.cn/_upload/article/images/da/6a/516e1e0e4d39b63898281a8f74d6/2fbfab17-c8fe-49e0-aec3-26e6b0b260cc.png",
+          "image_local_path": "data/ccs_cuc/2022-course-map.png",
+          "review_method": "助手对官网原图及2倍放大图逐项目视核对；非OCR或独立人工标注。"
+        }
+      ],
+      "teachers": [],
+      "notes": [
+        "仅课程地图中的课程名称；原图未提供逐门课程简介或任课教师。",
+        "保留图中名称、A/B/C/D后缀、语言括号及课程层次；不把图的箭头推断为学分或先修课程政策。"
+      ]
+    },
+    {
+      "id": "ccs-map-course-b24a3a2fe3dea716",
+      "name": "媒体大数据实例分析",
+      "aliases": [],
+      "level": "本科",
+      "description_status": "name_only",
+      "description": "",
+      "source_evidence": [
+        {
+          "source_url": "https://ccs.cuc.edu.cn/2022/0726/c5535a196269/page.htm",
+          "title": "本科专业人才培养方案(2022版) - 八、课程地图",
+          "published_at": "2022-07-26",
+          "kind": "curriculum_map_name_visual_review",
+          "excerpt": "媒体大数据实例分析",
+          "article_id": "196269",
+          "scope": "2022版计算机科学与技术培养方案：八、课程地图；图与文章均未注明2023级；不证明当前学期实际开课。",
+          "image_url": "https://ccs.cuc.edu.cn/_upload/article/images/da/6a/516e1e0e4d39b63898281a8f74d6/2fbfab17-c8fe-49e0-aec3-26e6b0b260cc.png",
+          "image_local_path": "data/ccs_cuc/2022-course-map.png",
+          "review_method": "助手对官网原图及2倍放大图逐项目视核对；非OCR或独立人工标注。"
+        }
+      ],
+      "teachers": [],
+      "notes": [
+        "仅课程地图中的课程名称；原图未提供逐门课程简介或任课教师。",
+        "保留图中名称、A/B/C/D后缀、语言括号及课程层次；不把图的箭头推断为学分或先修课程政策。"
+      ]
+    },
+    {
+      "id": "ccs-map-course-2644d4200db21c17",
+      "name": "虚拟现实与人机交互",
+      "aliases": [],
+      "level": "本科",
+      "description_status": "name_only",
+      "description": "",
+      "source_evidence": [
+        {
+          "source_url": "https://ccs.cuc.edu.cn/2022/0726/c5535a196269/page.htm",
+          "title": "本科专业人才培养方案(2022版) - 八、课程地图",
+          "published_at": "2022-07-26",
+          "kind": "curriculum_map_name_visual_review",
+          "excerpt": "虚拟现实与人机交互",
+          "article_id": "196269",
+          "scope": "2022版计算机科学与技术培养方案：八、课程地图；图与文章均未注明2023级；不证明当前学期实际开课。",
+          "image_url": "https://ccs.cuc.edu.cn/_upload/article/images/da/6a/516e1e0e4d39b63898281a8f74d6/2fbfab17-c8fe-49e0-aec3-26e6b0b260cc.png",
+          "image_local_path": "data/ccs_cuc/2022-course-map.png",
+          "review_method": "助手对官网原图及2倍放大图逐项目视核对；非OCR或独立人工标注。"
+        }
+      ],
+      "teachers": [],
+      "notes": [
+        "仅课程地图中的课程名称；原图未提供逐门课程简介或任课教师。",
+        "保留图中名称、A/B/C/D后缀、语言括号及课程层次；不把图的箭头推断为学分或先修课程政策。"
+      ]
+    },
+    {
+      "id": "ccs-map-course-49ec45cc6c304b27",
+      "name": "推荐系统",
+      "aliases": [],
+      "level": "本科",
+      "description_status": "name_only",
+      "description": "",
+      "source_evidence": [
+        {
+          "source_url": "https://ccs.cuc.edu.cn/2022/0726/c5535a196269/page.htm",
+          "title": "本科专业人才培养方案(2022版) - 八、课程地图",
+          "published_at": "2022-07-26",
+          "kind": "curriculum_map_name_visual_review",
+          "excerpt": "推荐系统",
+          "article_id": "196269",
+          "scope": "2022版计算机科学与技术培养方案：八、课程地图；图与文章均未注明2023级；不证明当前学期实际开课。",
+          "image_url": "https://ccs.cuc.edu.cn/_upload/article/images/da/6a/516e1e0e4d39b63898281a8f74d6/2fbfab17-c8fe-49e0-aec3-26e6b0b260cc.png",
+          "image_local_path": "data/ccs_cuc/2022-course-map.png",
+          "review_method": "助手对官网原图及2倍放大图逐项目视核对；非OCR或独立人工标注。"
+        }
+      ],
+      "teachers": [],
+      "notes": [
+        "仅课程地图中的课程名称；原图未提供逐门课程简介或任课教师。",
+        "保留图中名称、A/B/C/D后缀、语言括号及课程层次；不把图的箭头推断为学分或先修课程政策。"
+      ]
+    },
+    {
+      "id": "ccs-map-course-95411b2b691c7e1c",
+      "name": "智能媒体技术",
+      "aliases": [],
+      "level": "本科",
+      "description_status": "name_only",
+      "description": "",
+      "source_evidence": [
+        {
+          "source_url": "https://ccs.cuc.edu.cn/2022/0726/c5535a196269/page.htm",
+          "title": "本科专业人才培养方案(2022版) - 八、课程地图",
+          "published_at": "2022-07-26",
+          "kind": "curriculum_map_name_visual_review",
+          "excerpt": "智能媒体技术",
+          "article_id": "196269",
+          "scope": "2022版计算机科学与技术培养方案：八、课程地图；图与文章均未注明2023级；不证明当前学期实际开课。",
+          "image_url": "https://ccs.cuc.edu.cn/_upload/article/images/da/6a/516e1e0e4d39b63898281a8f74d6/2fbfab17-c8fe-49e0-aec3-26e6b0b260cc.png",
+          "image_local_path": "data/ccs_cuc/2022-course-map.png",
+          "review_method": "助手对官网原图及2倍放大图逐项目视核对；非OCR或独立人工标注。"
+        }
+      ],
+      "teachers": [],
+      "notes": [
+        "仅课程地图中的课程名称；原图未提供逐门课程简介或任课教师。",
+        "保留图中名称、A/B/C/D后缀、语言括号及课程层次；不把图的箭头推断为学分或先修课程政策。"
+      ]
+    },
+    {
+      "id": "ccs-map-course-35d3ed6194d9c3b8",
+      "name": "程序设计与编程方法",
+      "aliases": [],
+      "level": "本科",
+      "description_status": "name_only",
+      "description": "",
+      "source_evidence": [
+        {
+          "source_url": "https://ccs.cuc.edu.cn/2022/0726/c5535a196269/page.htm",
+          "title": "本科专业人才培养方案(2022版) - 八、课程地图",
+          "published_at": "2022-07-26",
+          "kind": "curriculum_map_name_visual_review",
+          "excerpt": "程序设计与编程方法",
+          "article_id": "196269",
+          "scope": "2022版计算机科学与技术培养方案：八、课程地图；图与文章均未注明2023级；不证明当前学期实际开课。",
+          "image_url": "https://ccs.cuc.edu.cn/_upload/article/images/da/6a/516e1e0e4d39b63898281a8f74d6/2fbfab17-c8fe-49e0-aec3-26e6b0b260cc.png",
+          "image_local_path": "data/ccs_cuc/2022-course-map.png",
+          "review_method": "助手对官网原图及2倍放大图逐项目视核对；非OCR或独立人工标注。"
+        }
+      ],
+      "teachers": [],
+      "notes": [
+        "仅课程地图中的课程名称；原图未提供逐门课程简介或任课教师。",
+        "保留图中名称、A/B/C/D后缀、语言括号及课程层次；不把图的箭头推断为学分或先修课程政策。"
+      ]
+    },
+    {
+      "id": "ccs-map-course-e442bdd96d9fe62e",
+      "name": "Web前端开发",
+      "aliases": [],
+      "level": "本科",
+      "description_status": "name_only",
+      "description": "",
+      "source_evidence": [
+        {
+          "source_url": "https://ccs.cuc.edu.cn/2022/0726/c5535a196269/page.htm",
+          "title": "本科专业人才培养方案(2022版) - 八、课程地图",
+          "published_at": "2022-07-26",
+          "kind": "curriculum_map_name_visual_review",
+          "excerpt": "Web前端开发",
+          "article_id": "196269",
+          "scope": "2022版计算机科学与技术培养方案：八、课程地图；图与文章均未注明2023级；不证明当前学期实际开课。",
+          "image_url": "https://ccs.cuc.edu.cn/_upload/article/images/da/6a/516e1e0e4d39b63898281a8f74d6/2fbfab17-c8fe-49e0-aec3-26e6b0b260cc.png",
+          "image_local_path": "data/ccs_cuc/2022-course-map.png",
+          "review_method": "助手对官网原图及2倍放大图逐项目视核对；非OCR或独立人工标注。"
+        }
+      ],
+      "teachers": [],
+      "notes": [
+        "仅课程地图中的课程名称；原图未提供逐门课程简介或任课教师。",
+        "保留图中名称、A/B/C/D后缀、语言括号及课程层次；不把图的箭头推断为学分或先修课程政策。"
+      ]
+    },
+    {
+      "id": "ccs-map-course-0f41bd2e7af98de2",
+      "name": "面向对象程序设计（JAVA）",
+      "aliases": [],
+      "level": "本科",
+      "description_status": "name_only",
+      "description": "",
+      "source_evidence": [
+        {
+          "source_url": "https://ccs.cuc.edu.cn/2022/0726/c5535a196269/page.htm",
+          "title": "本科专业人才培养方案(2022版) - 八、课程地图",
+          "published_at": "2022-07-26",
+          "kind": "curriculum_map_name_visual_review",
+          "excerpt": "面向对象程序设计（JAVA）",
+          "article_id": "196269",
+          "scope": "2022版计算机科学与技术培养方案：八、课程地图；图与文章均未注明2023级；不证明当前学期实际开课。",
+          "image_url": "https://ccs.cuc.edu.cn/_upload/article/images/da/6a/516e1e0e4d39b63898281a8f74d6/2fbfab17-c8fe-49e0-aec3-26e6b0b260cc.png",
+          "image_local_path": "data/ccs_cuc/2022-course-map.png",
+          "review_method": "助手对官网原图及2倍放大图逐项目视核对；非OCR或独立人工标注。"
+        }
+      ],
+      "teachers": [],
+      "notes": [
+        "仅课程地图中的课程名称；原图未提供逐门课程简介或任课教师。",
+        "保留图中名称、A/B/C/D后缀、语言括号及课程层次；不把图的箭头推断为学分或先修课程政策。"
+      ]
+    },
+    {
+      "id": "ccs-map-course-5a6ec035b2063d0f",
+      "name": "面向对象程序设计（C++）",
+      "aliases": [],
+      "level": "本科",
+      "description_status": "name_only",
+      "description": "",
+      "source_evidence": [
+        {
+          "source_url": "https://ccs.cuc.edu.cn/2022/0726/c5535a196269/page.htm",
+          "title": "本科专业人才培养方案(2022版) - 八、课程地图",
+          "published_at": "2022-07-26",
+          "kind": "curriculum_map_name_visual_review",
+          "excerpt": "面向对象程序设计（C++）",
+          "article_id": "196269",
+          "scope": "2022版计算机科学与技术培养方案：八、课程地图；图与文章均未注明2023级；不证明当前学期实际开课。",
+          "image_url": "https://ccs.cuc.edu.cn/_upload/article/images/da/6a/516e1e0e4d39b63898281a8f74d6/2fbfab17-c8fe-49e0-aec3-26e6b0b260cc.png",
+          "image_local_path": "data/ccs_cuc/2022-course-map.png",
+          "review_method": "助手对官网原图及2倍放大图逐项目视核对；非OCR或独立人工标注。"
+        }
+      ],
+      "teachers": [],
+      "notes": [
+        "仅课程地图中的课程名称；原图未提供逐门课程简介或任课教师。",
+        "保留图中名称、A/B/C/D后缀、语言括号及课程层次；不把图的箭头推断为学分或先修课程政策。"
+      ]
+    },
+    {
+      "id": "ccs-map-course-7a516a7421e0cd14",
+      "name": "数据结构C",
+      "aliases": [],
+      "level": "本科",
+      "description_status": "name_only",
+      "description": "",
+      "source_evidence": [
+        {
+          "source_url": "https://ccs.cuc.edu.cn/2022/0726/c5535a196269/page.htm",
+          "title": "本科专业人才培养方案(2022版) - 八、课程地图",
+          "published_at": "2022-07-26",
+          "kind": "curriculum_map_name_visual_review",
+          "excerpt": "数据结构C",
+          "article_id": "196269",
+          "scope": "2022版计算机科学与技术培养方案：八、课程地图；图与文章均未注明2023级；不证明当前学期实际开课。",
+          "image_url": "https://ccs.cuc.edu.cn/_upload/article/images/da/6a/516e1e0e4d39b63898281a8f74d6/2fbfab17-c8fe-49e0-aec3-26e6b0b260cc.png",
+          "image_local_path": "data/ccs_cuc/2022-course-map.png",
+          "review_method": "助手对官网原图及2倍放大图逐项目视核对；非OCR或独立人工标注。"
+        }
+      ],
+      "teachers": [],
+      "notes": [
+        "仅课程地图中的课程名称；原图未提供逐门课程简介或任课教师。",
+        "保留图中名称、A/B/C/D后缀、语言括号及课程层次；不把图的箭头推断为学分或先修课程政策。"
+      ]
+    },
+    {
+      "id": "ccs-map-course-15cb7ab3e5909141",
+      "name": "Python程序设计",
+      "aliases": [],
+      "level": "本科",
+      "description_status": "name_only",
+      "description": "",
+      "source_evidence": [
+        {
+          "source_url": "https://ccs.cuc.edu.cn/2022/0726/c5535a196269/page.htm",
+          "title": "本科专业人才培养方案(2022版) - 八、课程地图",
+          "published_at": "2022-07-26",
+          "kind": "curriculum_map_name_visual_review",
+          "excerpt": "Python程序设计",
+          "article_id": "196269",
+          "scope": "2022版计算机科学与技术培养方案：八、课程地图；图与文章均未注明2023级；不证明当前学期实际开课。",
+          "image_url": "https://ccs.cuc.edu.cn/_upload/article/images/da/6a/516e1e0e4d39b63898281a8f74d6/2fbfab17-c8fe-49e0-aec3-26e6b0b260cc.png",
+          "image_local_path": "data/ccs_cuc/2022-course-map.png",
+          "review_method": "助手对官网原图及2倍放大图逐项目视核对；非OCR或独立人工标注。"
+        }
+      ],
+      "teachers": [],
+      "notes": [
+        "仅课程地图中的课程名称；原图未提供逐门课程简介或任课教师。",
+        "保留图中名称、A/B/C/D后缀、语言括号及课程层次；不把图的箭头推断为学分或先修课程政策。"
+      ]
+    },
+    {
+      "id": "ccs-map-course-0d25cb66ed75768a",
+      "name": "算法设计与分析",
+      "aliases": [],
+      "level": "本科",
+      "description_status": "name_only",
+      "description": "",
+      "source_evidence": [
+        {
+          "source_url": "https://ccs.cuc.edu.cn/2022/0726/c5535a196269/page.htm",
+          "title": "本科专业人才培养方案(2022版) - 八、课程地图",
+          "published_at": "2022-07-26",
+          "kind": "curriculum_map_name_visual_review",
+          "excerpt": "算法设计与分析",
+          "article_id": "196269",
+          "scope": "2022版计算机科学与技术培养方案：八、课程地图；图与文章均未注明2023级；不证明当前学期实际开课。",
+          "image_url": "https://ccs.cuc.edu.cn/_upload/article/images/da/6a/516e1e0e4d39b63898281a8f74d6/2fbfab17-c8fe-49e0-aec3-26e6b0b260cc.png",
+          "image_local_path": "data/ccs_cuc/2022-course-map.png",
+          "review_method": "助手对官网原图及2倍放大图逐项目视核对；非OCR或独立人工标注。"
+        }
+      ],
+      "teachers": [],
+      "notes": [
+        "仅课程地图中的课程名称；原图未提供逐门课程简介或任课教师。",
+        "保留图中名称、A/B/C/D后缀、语言括号及课程层次；不把图的箭头推断为学分或先修课程政策。"
+      ]
+    },
+    {
+      "id": "ccs-map-course-d386f65cda944566",
+      "name": "互动媒体程序设计",
+      "aliases": [],
+      "level": "本科",
+      "description_status": "name_only",
+      "description": "",
+      "source_evidence": [
+        {
+          "source_url": "https://ccs.cuc.edu.cn/2022/0726/c5535a196269/page.htm",
+          "title": "本科专业人才培养方案(2022版) - 八、课程地图",
+          "published_at": "2022-07-26",
+          "kind": "curriculum_map_name_visual_review",
+          "excerpt": "互动媒体程序设计",
+          "article_id": "196269",
+          "scope": "2022版计算机科学与技术培养方案：八、课程地图；图与文章均未注明2023级；不证明当前学期实际开课。",
+          "image_url": "https://ccs.cuc.edu.cn/_upload/article/images/da/6a/516e1e0e4d39b63898281a8f74d6/2fbfab17-c8fe-49e0-aec3-26e6b0b260cc.png",
+          "image_local_path": "data/ccs_cuc/2022-course-map.png",
+          "review_method": "助手对官网原图及2倍放大图逐项目视核对；非OCR或独立人工标注。"
+        }
+      ],
+      "teachers": [],
+      "notes": [
+        "仅课程地图中的课程名称；原图未提供逐门课程简介或任课教师。",
+        "保留图中名称、A/B/C/D后缀、语言括号及课程层次；不把图的箭头推断为学分或先修课程政策。"
+      ]
+    },
+    {
+      "id": "ccs-map-course-6e1669ae2bc47584",
+      "name": "管理信息系统设计",
+      "aliases": [],
+      "level": "本科",
+      "description_status": "name_only",
+      "description": "",
+      "source_evidence": [
+        {
+          "source_url": "https://ccs.cuc.edu.cn/2022/0726/c5535a196269/page.htm",
+          "title": "本科专业人才培养方案(2022版) - 八、课程地图",
+          "published_at": "2022-07-26",
+          "kind": "curriculum_map_name_visual_review",
+          "excerpt": "管理信息系统设计",
+          "article_id": "196269",
+          "scope": "2022版计算机科学与技术培养方案：八、课程地图；图与文章均未注明2023级；不证明当前学期实际开课。",
+          "image_url": "https://ccs.cuc.edu.cn/_upload/article/images/da/6a/516e1e0e4d39b63898281a8f74d6/2fbfab17-c8fe-49e0-aec3-26e6b0b260cc.png",
+          "image_local_path": "data/ccs_cuc/2022-course-map.png",
+          "review_method": "助手对官网原图及2倍放大图逐项目视核对；非OCR或独立人工标注。"
+        }
+      ],
+      "teachers": [],
+      "notes": [
+        "仅课程地图中的课程名称；原图未提供逐门课程简介或任课教师。",
+        "保留图中名称、A/B/C/D后缀、语言括号及课程层次；不把图的箭头推断为学分或先修课程政策。"
+      ]
+    },
+    {
+      "id": "ccs-map-course-f53591c8cff89c64",
+      "name": "基于平台的软件开发",
+      "aliases": [],
+      "level": "本科",
+      "description_status": "name_only",
+      "description": "",
+      "source_evidence": [
+        {
+          "source_url": "https://ccs.cuc.edu.cn/2022/0726/c5535a196269/page.htm",
+          "title": "本科专业人才培养方案(2022版) - 八、课程地图",
+          "published_at": "2022-07-26",
+          "kind": "curriculum_map_name_visual_review",
+          "excerpt": "基于平台的软件开发",
+          "article_id": "196269",
+          "scope": "2022版计算机科学与技术培养方案：八、课程地图；图与文章均未注明2023级；不证明当前学期实际开课。",
+          "image_url": "https://ccs.cuc.edu.cn/_upload/article/images/da/6a/516e1e0e4d39b63898281a8f74d6/2fbfab17-c8fe-49e0-aec3-26e6b0b260cc.png",
+          "image_local_path": "data/ccs_cuc/2022-course-map.png",
+          "review_method": "助手对官网原图及2倍放大图逐项目视核对；非OCR或独立人工标注。"
+        }
+      ],
+      "teachers": [],
+      "notes": [
+        "仅课程地图中的课程名称；原图未提供逐门课程简介或任课教师。",
+        "保留图中名称、A/B/C/D后缀、语言括号及课程层次；不把图的箭头推断为学分或先修课程政策。"
+      ]
+    },
+    {
+      "id": "ccs-map-course-ab13475bd86d35fb",
+      "name": "程序设计实践",
+      "aliases": [],
+      "level": "本科",
+      "description_status": "name_only",
+      "description": "",
+      "source_evidence": [
+        {
+          "source_url": "https://ccs.cuc.edu.cn/2022/0726/c5535a196269/page.htm",
+          "title": "本科专业人才培养方案(2022版) - 八、课程地图",
+          "published_at": "2022-07-26",
+          "kind": "curriculum_map_name_visual_review",
+          "excerpt": "程序设计实践",
+          "article_id": "196269",
+          "scope": "2022版计算机科学与技术培养方案：八、课程地图；图与文章均未注明2023级；不证明当前学期实际开课。",
+          "image_url": "https://ccs.cuc.edu.cn/_upload/article/images/da/6a/516e1e0e4d39b63898281a8f74d6/2fbfab17-c8fe-49e0-aec3-26e6b0b260cc.png",
+          "image_local_path": "data/ccs_cuc/2022-course-map.png",
+          "review_method": "助手对官网原图及2倍放大图逐项目视核对；非OCR或独立人工标注。"
+        }
+      ],
+      "teachers": [],
+      "notes": [
+        "仅课程地图中的课程名称；原图未提供逐门课程简介或任课教师。",
+        "保留图中名称、A/B/C/D后缀、语言括号及课程层次；不把图的箭头推断为学分或先修课程政策。"
+      ]
+    },
+    {
+      "id": "ccs-map-course-a9ba63dc9abc9225",
+      "name": "软件开发综合实践",
+      "aliases": [],
+      "level": "本科",
+      "description_status": "name_only",
+      "description": "",
+      "source_evidence": [
+        {
+          "source_url": "https://ccs.cuc.edu.cn/2022/0726/c5535a196269/page.htm",
+          "title": "本科专业人才培养方案(2022版) - 八、课程地图",
+          "published_at": "2022-07-26",
+          "kind": "curriculum_map_name_visual_review",
+          "excerpt": "软件开发综合实践",
+          "article_id": "196269",
+          "scope": "2022版计算机科学与技术培养方案：八、课程地图；图与文章均未注明2023级；不证明当前学期实际开课。",
+          "image_url": "https://ccs.cuc.edu.cn/_upload/article/images/da/6a/516e1e0e4d39b63898281a8f74d6/2fbfab17-c8fe-49e0-aec3-26e6b0b260cc.png",
+          "image_local_path": "data/ccs_cuc/2022-course-map.png",
+          "review_method": "助手对官网原图及2倍放大图逐项目视核对；非OCR或独立人工标注。"
+        }
+      ],
+      "teachers": [],
+      "notes": [
+        "仅课程地图中的课程名称；原图未提供逐门课程简介或任课教师。",
+        "保留图中名称、A/B/C/D后缀、语言括号及课程层次；不把图的箭头推断为学分或先修课程政策。"
+      ]
+    },
+    {
+      "id": "ccs-map-course-9afa90a40a835f9a",
+      "name": "计算机网络实践",
+      "aliases": [],
+      "level": "本科",
+      "description_status": "name_only",
+      "description": "",
+      "source_evidence": [
+        {
+          "source_url": "https://ccs.cuc.edu.cn/2022/0726/c5535a196269/page.htm",
+          "title": "本科专业人才培养方案(2022版) - 八、课程地图",
+          "published_at": "2022-07-26",
+          "kind": "curriculum_map_name_visual_review",
+          "excerpt": "计算机网络实践",
+          "article_id": "196269",
+          "scope": "2022版计算机科学与技术培养方案：八、课程地图；图与文章均未注明2023级；不证明当前学期实际开课。",
+          "image_url": "https://ccs.cuc.edu.cn/_upload/article/images/da/6a/516e1e0e4d39b63898281a8f74d6/2fbfab17-c8fe-49e0-aec3-26e6b0b260cc.png",
+          "image_local_path": "data/ccs_cuc/2022-course-map.png",
+          "review_method": "助手对官网原图及2倍放大图逐项目视核对；非OCR或独立人工标注。"
+        }
+      ],
+      "teachers": [],
+      "notes": [
+        "仅课程地图中的课程名称；原图未提供逐门课程简介或任课教师。",
+        "保留图中名称、A/B/C/D后缀、语言括号及课程层次；不把图的箭头推断为学分或先修课程政策。"
+      ]
+    },
+    {
+      "id": "ccs-map-course-92da11e84c635af4",
+      "name": "机器学习实践",
+      "aliases": [],
+      "level": "本科",
+      "description_status": "name_only",
+      "description": "",
+      "source_evidence": [
+        {
+          "source_url": "https://ccs.cuc.edu.cn/2022/0726/c5535a196269/page.htm",
+          "title": "本科专业人才培养方案(2022版) - 八、课程地图",
+          "published_at": "2022-07-26",
+          "kind": "curriculum_map_name_visual_review",
+          "excerpt": "机器学习实践",
+          "article_id": "196269",
+          "scope": "2022版计算机科学与技术培养方案：八、课程地图；图与文章均未注明2023级；不证明当前学期实际开课。",
+          "image_url": "https://ccs.cuc.edu.cn/_upload/article/images/da/6a/516e1e0e4d39b63898281a8f74d6/2fbfab17-c8fe-49e0-aec3-26e6b0b260cc.png",
+          "image_local_path": "data/ccs_cuc/2022-course-map.png",
+          "review_method": "助手对官网原图及2倍放大图逐项目视核对；非OCR或独立人工标注。"
+        }
+      ],
+      "teachers": [],
+      "notes": [
+        "仅课程地图中的课程名称；原图未提供逐门课程简介或任课教师。",
+        "保留图中名称、A/B/C/D后缀、语言括号及课程层次；不把图的箭头推断为学分或先修课程政策。"
+      ]
+    },
+    {
+      "id": "ccs-map-course-a4fd079469b0f8e6",
+      "name": "可视化实践",
+      "aliases": [],
+      "level": "本科",
+      "description_status": "name_only",
+      "description": "",
+      "source_evidence": [
+        {
+          "source_url": "https://ccs.cuc.edu.cn/2022/0726/c5535a196269/page.htm",
+          "title": "本科专业人才培养方案(2022版) - 八、课程地图",
+          "published_at": "2022-07-26",
+          "kind": "curriculum_map_name_visual_review",
+          "excerpt": "可视化实践",
+          "article_id": "196269",
+          "scope": "2022版计算机科学与技术培养方案：八、课程地图；图与文章均未注明2023级；不证明当前学期实际开课。",
+          "image_url": "https://ccs.cuc.edu.cn/_upload/article/images/da/6a/516e1e0e4d39b63898281a8f74d6/2fbfab17-c8fe-49e0-aec3-26e6b0b260cc.png",
+          "image_local_path": "data/ccs_cuc/2022-course-map.png",
+          "review_method": "助手对官网原图及2倍放大图逐项目视核对；非OCR或独立人工标注。"
+        }
+      ],
+      "teachers": [],
+      "notes": [
+        "仅课程地图中的课程名称；原图未提供逐门课程简介或任课教师。",
+        "保留图中名称、A/B/C/D后缀、语言括号及课程层次；不把图的箭头推断为学分或先修课程政策。"
+      ]
+    },
+    {
+      "id": "ccs-map-course-0a1018131303f74d",
+      "name": "软件工程实践",
+      "aliases": [],
+      "level": "本科",
+      "description_status": "name_only",
+      "description": "",
+      "source_evidence": [
+        {
+          "source_url": "https://ccs.cuc.edu.cn/2022/0726/c5535a196269/page.htm",
+          "title": "本科专业人才培养方案(2022版) - 八、课程地图",
+          "published_at": "2022-07-26",
+          "kind": "curriculum_map_name_visual_review",
+          "excerpt": "软件工程实践",
+          "article_id": "196269",
+          "scope": "2022版计算机科学与技术培养方案：八、课程地图；图与文章均未注明2023级；不证明当前学期实际开课。",
+          "image_url": "https://ccs.cuc.edu.cn/_upload/article/images/da/6a/516e1e0e4d39b63898281a8f74d6/2fbfab17-c8fe-49e0-aec3-26e6b0b260cc.png",
+          "image_local_path": "data/ccs_cuc/2022-course-map.png",
+          "review_method": "助手对官网原图及2倍放大图逐项目视核对；非OCR或独立人工标注。"
+        }
+      ],
+      "teachers": [],
+      "notes": [
+        "仅课程地图中的课程名称；原图未提供逐门课程简介或任课教师。",
+        "保留图中名称、A/B/C/D后缀、语言括号及课程层次；不把图的箭头推断为学分或先修课程政策。"
+      ]
+    },
+    {
+      "id": "ccs-map-course-e6310592b0ccc060",
+      "name": "数据采集与实时处理实践",
+      "aliases": [],
+      "level": "本科",
+      "description_status": "name_only",
+      "description": "",
+      "source_evidence": [
+        {
+          "source_url": "https://ccs.cuc.edu.cn/2022/0726/c5535a196269/page.htm",
+          "title": "本科专业人才培养方案(2022版) - 八、课程地图",
+          "published_at": "2022-07-26",
+          "kind": "curriculum_map_name_visual_review",
+          "excerpt": "数据采集与实时处理实践",
+          "article_id": "196269",
+          "scope": "2022版计算机科学与技术培养方案：八、课程地图；图与文章均未注明2023级；不证明当前学期实际开课。",
+          "image_url": "https://ccs.cuc.edu.cn/_upload/article/images/da/6a/516e1e0e4d39b63898281a8f74d6/2fbfab17-c8fe-49e0-aec3-26e6b0b260cc.png",
+          "image_local_path": "data/ccs_cuc/2022-course-map.png",
+          "review_method": "助手对官网原图及2倍放大图逐项目视核对；非OCR或独立人工标注。"
+        }
+      ],
+      "teachers": [],
+      "notes": [
+        "仅课程地图中的课程名称；原图未提供逐门课程简介或任课教师。",
+        "保留图中名称、A/B/C/D后缀、语言括号及课程层次；不把图的箭头推断为学分或先修课程政策。"
+      ]
+    },
+    {
+      "id": "ccs-map-course-d1008e96f703e7c9",
+      "name": "大数据综合实践",
+      "aliases": [],
+      "level": "本科",
+      "description_status": "name_only",
+      "description": "",
+      "source_evidence": [
+        {
+          "source_url": "https://ccs.cuc.edu.cn/2022/0726/c5535a196269/page.htm",
+          "title": "本科专业人才培养方案(2022版) - 八、课程地图",
+          "published_at": "2022-07-26",
+          "kind": "curriculum_map_name_visual_review",
+          "excerpt": "大数据综合实践",
+          "article_id": "196269",
+          "scope": "2022版计算机科学与技术培养方案：八、课程地图；图与文章均未注明2023级；不证明当前学期实际开课。",
+          "image_url": "https://ccs.cuc.edu.cn/_upload/article/images/da/6a/516e1e0e4d39b63898281a8f74d6/2fbfab17-c8fe-49e0-aec3-26e6b0b260cc.png",
+          "image_local_path": "data/ccs_cuc/2022-course-map.png",
+          "review_method": "助手对官网原图及2倍放大图逐项目视核对；非OCR或独立人工标注。"
+        }
+      ],
+      "teachers": [],
+      "notes": [
+        "仅课程地图中的课程名称；原图未提供逐门课程简介或任课教师。",
+        "保留图中名称、A/B/C/D后缀、语言括号及课程层次；不把图的箭头推断为学分或先修课程政策。"
+      ]
+    },
+    {
+      "id": "ccs-map-course-5bdf7bbc510e9625",
+      "name": "毕业实习",
+      "aliases": [],
+      "level": "本科",
+      "description_status": "name_only",
+      "description": "",
+      "source_evidence": [
+        {
+          "source_url": "https://ccs.cuc.edu.cn/2022/0726/c5535a196269/page.htm",
+          "title": "本科专业人才培养方案(2022版) - 八、课程地图",
+          "published_at": "2022-07-26",
+          "kind": "curriculum_map_name_visual_review",
+          "excerpt": "毕业实习",
+          "article_id": "196269",
+          "scope": "2022版计算机科学与技术培养方案：八、课程地图；图与文章均未注明2023级；不证明当前学期实际开课。",
+          "image_url": "https://ccs.cuc.edu.cn/_upload/article/images/da/6a/516e1e0e4d39b63898281a8f74d6/2fbfab17-c8fe-49e0-aec3-26e6b0b260cc.png",
+          "image_local_path": "data/ccs_cuc/2022-course-map.png",
+          "review_method": "助手对官网原图及2倍放大图逐项目视核对；非OCR或独立人工标注。"
+        }
+      ],
+      "teachers": [],
+      "notes": [
+        "仅课程地图中的课程名称；原图未提供逐门课程简介或任课教师。",
+        "保留图中名称、A/B/C/D后缀、语言括号及课程层次；不把图的箭头推断为学分或先修课程政策。"
+      ]
+    },
+    {
+      "id": "ccs-map-course-ab30dab8115b3fa6",
+      "name": "毕业论文",
+      "aliases": [],
+      "level": "本科",
+      "description_status": "name_only",
+      "description": "",
+      "source_evidence": [
+        {
+          "source_url": "https://ccs.cuc.edu.cn/2022/0726/c5535a196269/page.htm",
+          "title": "本科专业人才培养方案(2022版) - 八、课程地图",
+          "published_at": "2022-07-26",
+          "kind": "curriculum_map_name_visual_review",
+          "excerpt": "毕业论文",
+          "article_id": "196269",
+          "scope": "2022版计算机科学与技术培养方案：八、课程地图；图与文章均未注明2023级；不证明当前学期实际开课。",
+          "image_url": "https://ccs.cuc.edu.cn/_upload/article/images/da/6a/516e1e0e4d39b63898281a8f74d6/2fbfab17-c8fe-49e0-aec3-26e6b0b260cc.png",
+          "image_local_path": "data/ccs_cuc/2022-course-map.png",
+          "review_method": "助手对官网原图及2倍放大图逐项目视核对；非OCR或独立人工标注。"
+        }
+      ],
+      "teachers": [],
+      "notes": [
+        "仅课程地图中的课程名称；原图未提供逐门课程简介或任课教师。",
+        "保留图中名称、A/B/C/D后缀、语言括号及课程层次；不把图的箭头推断为学分或先修课程政策。"
+      ]
+    },
+    {
+      "id": "ccs-map-course-43c13dac79af1250",
+      "name": "数据库原理与应用",
+      "aliases": [],
+      "level": "本科",
+      "description_status": "name_only",
+      "description": "",
+      "source_evidence": [
+        {
+          "source_url": "https://ccs.cuc.edu.cn/2022/0726/c5535a196269/page.htm",
+          "title": "本科专业人才培养方案(2022版) - 八、课程地图",
+          "published_at": "2022-07-26",
+          "kind": "curriculum_map_name_visual_review",
+          "excerpt": "数据库原理与应用",
+          "article_id": "196269",
+          "scope": "2022版计算机科学与技术培养方案：八、课程地图；图与文章均未注明2023级；不证明当前学期实际开课。",
+          "image_url": "https://ccs.cuc.edu.cn/_upload/article/images/da/6a/516e1e0e4d39b63898281a8f74d6/2fbfab17-c8fe-49e0-aec3-26e6b0b260cc.png",
+          "image_local_path": "data/ccs_cuc/2022-course-map.png",
+          "review_method": "助手对官网原图及2倍放大图逐项目视核对；非OCR或独立人工标注。"
+        }
+      ],
+      "teachers": [],
+      "notes": [
+        "仅课程地图中的课程名称；原图未提供逐门课程简介或任课教师。",
+        "保留图中名称、A/B/C/D后缀、语言括号及课程层次；不把图的箭头推断为学分或先修课程政策。"
+      ]
+    },
+    {
+      "id": "ccs-map-course-c06ebd896c67c767",
+      "name": "计算机网络A",
+      "aliases": [],
+      "level": "本科",
+      "description_status": "name_only",
+      "description": "",
+      "source_evidence": [
+        {
+          "source_url": "https://ccs.cuc.edu.cn/2022/0726/c5535a196269/page.htm",
+          "title": "本科专业人才培养方案(2022版) - 八、课程地图",
+          "published_at": "2022-07-26",
+          "kind": "curriculum_map_name_visual_review",
+          "excerpt": "计算机网络A",
+          "article_id": "196269",
+          "scope": "2022版计算机科学与技术培养方案：八、课程地图；图与文章均未注明2023级；不证明当前学期实际开课。",
+          "image_url": "https://ccs.cuc.edu.cn/_upload/article/images/da/6a/516e1e0e4d39b63898281a8f74d6/2fbfab17-c8fe-49e0-aec3-26e6b0b260cc.png",
+          "image_local_path": "data/ccs_cuc/2022-course-map.png",
+          "review_method": "助手对官网原图及2倍放大图逐项目视核对；非OCR或独立人工标注。"
+        }
+      ],
+      "teachers": [],
+      "notes": [
+        "仅课程地图中的课程名称；原图未提供逐门课程简介或任课教师。",
+        "保留图中名称、A/B/C/D后缀、语言括号及课程层次；不把图的箭头推断为学分或先修课程政策。"
+      ]
+    },
+    {
+      "id": "ccs-map-course-31a3a29bb16909ab",
+      "name": "Linux系统与网络",
+      "aliases": [],
+      "level": "本科",
+      "description_status": "name_only",
+      "description": "",
+      "source_evidence": [
+        {
+          "source_url": "https://ccs.cuc.edu.cn/2022/0726/c5535a196269/page.htm",
+          "title": "本科专业人才培养方案(2022版) - 八、课程地图",
+          "published_at": "2022-07-26",
+          "kind": "curriculum_map_name_visual_review",
+          "excerpt": "Linux系统与网络",
+          "article_id": "196269",
+          "scope": "2022版计算机科学与技术培养方案：八、课程地图；图与文章均未注明2023级；不证明当前学期实际开课。",
+          "image_url": "https://ccs.cuc.edu.cn/_upload/article/images/da/6a/516e1e0e4d39b63898281a8f74d6/2fbfab17-c8fe-49e0-aec3-26e6b0b260cc.png",
+          "image_local_path": "data/ccs_cuc/2022-course-map.png",
+          "review_method": "助手对官网原图及2倍放大图逐项目视核对；非OCR或独立人工标注。"
+        }
+      ],
+      "teachers": [],
+      "notes": [
+        "仅课程地图中的课程名称；原图未提供逐门课程简介或任课教师。",
+        "保留图中名称、A/B/C/D后缀、语言括号及课程层次；不把图的箭头推断为学分或先修课程政策。"
+      ]
+    },
+    {
+      "id": "ccs-map-course-c767026c6cbb3cf2",
+      "name": "操作系统",
+      "aliases": [],
+      "level": "本科",
+      "description_status": "name_only",
+      "description": "",
+      "source_evidence": [
+        {
+          "source_url": "https://ccs.cuc.edu.cn/2022/0726/c5535a196269/page.htm",
+          "title": "本科专业人才培养方案(2022版) - 八、课程地图",
+          "published_at": "2022-07-26",
+          "kind": "curriculum_map_name_visual_review",
+          "excerpt": "操作系统",
+          "article_id": "196269",
+          "scope": "2022版计算机科学与技术培养方案：八、课程地图；图与文章均未注明2023级；不证明当前学期实际开课。",
+          "image_url": "https://ccs.cuc.edu.cn/_upload/article/images/da/6a/516e1e0e4d39b63898281a8f74d6/2fbfab17-c8fe-49e0-aec3-26e6b0b260cc.png",
+          "image_local_path": "data/ccs_cuc/2022-course-map.png",
+          "review_method": "助手对官网原图及2倍放大图逐项目视核对；非OCR或独立人工标注。"
+        }
+      ],
+      "teachers": [],
+      "notes": [
+        "仅课程地图中的课程名称；原图未提供逐门课程简介或任课教师。",
+        "保留图中名称、A/B/C/D后缀、语言括号及课程层次；不把图的箭头推断为学分或先修课程政策。"
+      ]
+    },
+    {
+      "id": "ccs-map-course-e776d076f584a45b",
+      "name": "软件工程A",
+      "aliases": [],
+      "level": "本科",
+      "description_status": "name_only",
+      "description": "",
+      "source_evidence": [
+        {
+          "source_url": "https://ccs.cuc.edu.cn/2022/0726/c5535a196269/page.htm",
+          "title": "本科专业人才培养方案(2022版) - 八、课程地图",
+          "published_at": "2022-07-26",
+          "kind": "curriculum_map_name_visual_review",
+          "excerpt": "软件工程A",
+          "article_id": "196269",
+          "scope": "2022版计算机科学与技术培养方案：八、课程地图；图与文章均未注明2023级；不证明当前学期实际开课。",
+          "image_url": "https://ccs.cuc.edu.cn/_upload/article/images/da/6a/516e1e0e4d39b63898281a8f74d6/2fbfab17-c8fe-49e0-aec3-26e6b0b260cc.png",
+          "image_local_path": "data/ccs_cuc/2022-course-map.png",
+          "review_method": "助手对官网原图及2倍放大图逐项目视核对；非OCR或独立人工标注。"
+        }
+      ],
+      "teachers": [],
+      "notes": [
+        "仅课程地图中的课程名称；原图未提供逐门课程简介或任课教师。",
+        "保留图中名称、A/B/C/D后缀、语言括号及课程层次；不把图的箭头推断为学分或先修课程政策。"
+      ]
+    },
+    {
+      "id": "ccs-map-course-3bc1d3cc4541bed6",
+      "name": "高级数据库技术",
+      "aliases": [],
+      "level": "本科",
+      "description_status": "name_only",
+      "description": "",
+      "source_evidence": [
+        {
+          "source_url": "https://ccs.cuc.edu.cn/2022/0726/c5535a196269/page.htm",
+          "title": "本科专业人才培养方案(2022版) - 八、课程地图",
+          "published_at": "2022-07-26",
+          "kind": "curriculum_map_name_visual_review",
+          "excerpt": "高级数据库技术",
+          "article_id": "196269",
+          "scope": "2022版计算机科学与技术培养方案：八、课程地图；图与文章均未注明2023级；不证明当前学期实际开课。",
+          "image_url": "https://ccs.cuc.edu.cn/_upload/article/images/da/6a/516e1e0e4d39b63898281a8f74d6/2fbfab17-c8fe-49e0-aec3-26e6b0b260cc.png",
+          "image_local_path": "data/ccs_cuc/2022-course-map.png",
+          "review_method": "助手对官网原图及2倍放大图逐项目视核对；非OCR或独立人工标注。"
+        }
+      ],
+      "teachers": [],
+      "notes": [
+        "仅课程地图中的课程名称；原图未提供逐门课程简介或任课教师。",
+        "保留图中名称、A/B/C/D后缀、语言括号及课程层次；不把图的箭头推断为学分或先修课程政策。"
+      ]
+    },
+    {
+      "id": "ccs-map-course-c517e486d113bfe9",
+      "name": "逻辑与计算机设计基础",
+      "aliases": [],
+      "level": "本科",
+      "description_status": "name_only",
+      "description": "",
+      "source_evidence": [
+        {
+          "source_url": "https://ccs.cuc.edu.cn/2022/0726/c5535a196269/page.htm",
+          "title": "本科专业人才培养方案(2022版) - 八、课程地图",
+          "published_at": "2022-07-26",
+          "kind": "curriculum_map_name_visual_review",
+          "excerpt": "逻辑与计算机设计基础",
+          "article_id": "196269",
+          "scope": "2022版计算机科学与技术培养方案：八、课程地图；图与文章均未注明2023级；不证明当前学期实际开课。",
+          "image_url": "https://ccs.cuc.edu.cn/_upload/article/images/da/6a/516e1e0e4d39b63898281a8f74d6/2fbfab17-c8fe-49e0-aec3-26e6b0b260cc.png",
+          "image_local_path": "data/ccs_cuc/2022-course-map.png",
+          "review_method": "助手对官网原图及2倍放大图逐项目视核对；非OCR或独立人工标注。"
+        }
+      ],
+      "teachers": [],
+      "notes": [
+        "仅课程地图中的课程名称；原图未提供逐门课程简介或任课教师。",
+        "保留图中名称、A/B/C/D后缀、语言括号及课程层次；不把图的箭头推断为学分或先修课程政策。"
+      ]
+    },
+    {
+      "id": "ccs-map-course-a51f6e73d9cc05ff",
+      "name": "计算机组成",
+      "aliases": [],
+      "level": "本科",
+      "description_status": "name_only",
+      "description": "",
+      "source_evidence": [
+        {
+          "source_url": "https://ccs.cuc.edu.cn/2022/0726/c5535a196269/page.htm",
+          "title": "本科专业人才培养方案(2022版) - 八、课程地图",
+          "published_at": "2022-07-26",
+          "kind": "curriculum_map_name_visual_review",
+          "excerpt": "计算机组成",
+          "article_id": "196269",
+          "scope": "2022版计算机科学与技术培养方案：八、课程地图；图与文章均未注明2023级；不证明当前学期实际开课。",
+          "image_url": "https://ccs.cuc.edu.cn/_upload/article/images/da/6a/516e1e0e4d39b63898281a8f74d6/2fbfab17-c8fe-49e0-aec3-26e6b0b260cc.png",
+          "image_local_path": "data/ccs_cuc/2022-course-map.png",
+          "review_method": "助手对官网原图及2倍放大图逐项目视核对；非OCR或独立人工标注。"
+        }
+      ],
+      "teachers": [],
+      "notes": [
+        "仅课程地图中的课程名称；原图未提供逐门课程简介或任课教师。",
+        "保留图中名称、A/B/C/D后缀、语言括号及课程层次；不把图的箭头推断为学分或先修课程政策。"
+      ]
+    },
+    {
+      "id": "ccs-map-course-f990681c59402029",
+      "name": "计算机系统结构",
+      "aliases": [],
+      "level": "本科",
+      "description_status": "name_only",
+      "description": "",
+      "source_evidence": [
+        {
+          "source_url": "https://ccs.cuc.edu.cn/2022/0726/c5535a196269/page.htm",
+          "title": "本科专业人才培养方案(2022版) - 八、课程地图",
+          "published_at": "2022-07-26",
+          "kind": "curriculum_map_name_visual_review",
+          "excerpt": "计算机系统结构",
+          "article_id": "196269",
+          "scope": "2022版计算机科学与技术培养方案：八、课程地图；图与文章均未注明2023级；不证明当前学期实际开课。",
+          "image_url": "https://ccs.cuc.edu.cn/_upload/article/images/da/6a/516e1e0e4d39b63898281a8f74d6/2fbfab17-c8fe-49e0-aec3-26e6b0b260cc.png",
+          "image_local_path": "data/ccs_cuc/2022-course-map.png",
+          "review_method": "助手对官网原图及2倍放大图逐项目视核对；非OCR或独立人工标注。"
+        }
+      ],
+      "teachers": [],
+      "notes": [
+        "仅课程地图中的课程名称；原图未提供逐门课程简介或任课教师。",
+        "保留图中名称、A/B/C/D后缀、语言括号及课程层次；不把图的箭头推断为学分或先修课程政策。"
+      ]
+    },
+    {
+      "id": "ccs-map-course-2742592a570dffa3",
+      "name": "并行与分布式计算",
+      "aliases": [],
+      "level": "本科",
+      "description_status": "name_only",
+      "description": "",
+      "source_evidence": [
+        {
+          "source_url": "https://ccs.cuc.edu.cn/2022/0726/c5535a196269/page.htm",
+          "title": "本科专业人才培养方案(2022版) - 八、课程地图",
+          "published_at": "2022-07-26",
+          "kind": "curriculum_map_name_visual_review",
+          "excerpt": "并行与分布式计算",
+          "article_id": "196269",
+          "scope": "2022版计算机科学与技术培养方案：八、课程地图；图与文章均未注明2023级；不证明当前学期实际开课。",
+          "image_url": "https://ccs.cuc.edu.cn/_upload/article/images/da/6a/516e1e0e4d39b63898281a8f74d6/2fbfab17-c8fe-49e0-aec3-26e6b0b260cc.png",
+          "image_local_path": "data/ccs_cuc/2022-course-map.png",
+          "review_method": "助手对官网原图及2倍放大图逐项目视核对；非OCR或独立人工标注。"
+        }
+      ],
+      "teachers": [],
+      "notes": [
+        "仅课程地图中的课程名称；原图未提供逐门课程简介或任课教师。",
+        "保留图中名称、A/B/C/D后缀、语言括号及课程层次；不把图的箭头推断为学分或先修课程政策。"
+      ]
+    },
+    {
+      "id": "ccs-map-course-cb66fb3e2bb19d17",
+      "name": "云计算技术",
+      "aliases": [],
+      "level": "本科",
+      "description_status": "name_only",
+      "description": "",
+      "source_evidence": [
+        {
+          "source_url": "https://ccs.cuc.edu.cn/2022/0726/c5535a196269/page.htm",
+          "title": "本科专业人才培养方案(2022版) - 八、课程地图",
+          "published_at": "2022-07-26",
+          "kind": "curriculum_map_name_visual_review",
+          "excerpt": "云计算技术",
+          "article_id": "196269",
+          "scope": "2022版计算机科学与技术培养方案：八、课程地图；图与文章均未注明2023级；不证明当前学期实际开课。",
+          "image_url": "https://ccs.cuc.edu.cn/_upload/article/images/da/6a/516e1e0e4d39b63898281a8f74d6/2fbfab17-c8fe-49e0-aec3-26e6b0b260cc.png",
+          "image_local_path": "data/ccs_cuc/2022-course-map.png",
+          "review_method": "助手对官网原图及2倍放大图逐项目视核对；非OCR或独立人工标注。"
+        }
+      ],
+      "teachers": [],
+      "notes": [
+        "仅课程地图中的课程名称；原图未提供逐门课程简介或任课教师。",
+        "保留图中名称、A/B/C/D后缀、语言括号及课程层次；不把图的箭头推断为学分或先修课程政策。"
+      ]
+    },
+    {
+      "id": "ccs-map-course-a44a565d934b77ac",
+      "name": "工程素养",
+      "aliases": [],
+      "level": "本科",
+      "description_status": "name_only",
+      "description": "",
+      "source_evidence": [
+        {
+          "source_url": "https://ccs.cuc.edu.cn/2022/0726/c5535a196269/page.htm",
+          "title": "本科专业人才培养方案(2022版) - 八、课程地图",
+          "published_at": "2022-07-26",
+          "kind": "curriculum_map_name_visual_review",
+          "excerpt": "工程素养",
+          "article_id": "196269",
+          "scope": "2022版计算机科学与技术培养方案：八、课程地图；图与文章均未注明2023级；不证明当前学期实际开课。",
+          "image_url": "https://ccs.cuc.edu.cn/_upload/article/images/da/6a/516e1e0e4d39b63898281a8f74d6/2fbfab17-c8fe-49e0-aec3-26e6b0b260cc.png",
+          "image_local_path": "data/ccs_cuc/2022-course-map.png",
+          "review_method": "助手对官网原图及2倍放大图逐项目视核对；非OCR或独立人工标注。"
+        }
+      ],
+      "teachers": [],
+      "notes": [
+        "仅课程地图中的课程名称；原图未提供逐门课程简介或任课教师。",
+        "保留图中名称、A/B/C/D后缀、语言括号及课程层次；不把图的箭头推断为学分或先修课程政策。"
+      ]
+    },
+    {
+      "id": "ccs-map-course-d7b6ddce0bdd3a0d",
+      "name": "科技文献阅读与写作",
+      "aliases": [],
+      "level": "本科",
+      "description_status": "name_only",
+      "description": "",
+      "source_evidence": [
+        {
+          "source_url": "https://ccs.cuc.edu.cn/2022/0726/c5535a196269/page.htm",
+          "title": "本科专业人才培养方案(2022版) - 八、课程地图",
+          "published_at": "2022-07-26",
+          "kind": "curriculum_map_name_visual_review",
+          "excerpt": "科技文献阅读与写作",
+          "article_id": "196269",
+          "scope": "2022版计算机科学与技术培养方案：八、课程地图；图与文章均未注明2023级；不证明当前学期实际开课。",
+          "image_url": "https://ccs.cuc.edu.cn/_upload/article/images/da/6a/516e1e0e4d39b63898281a8f74d6/2fbfab17-c8fe-49e0-aec3-26e6b0b260cc.png",
+          "image_local_path": "data/ccs_cuc/2022-course-map.png",
+          "review_method": "助手对官网原图及2倍放大图逐项目视核对；非OCR或独立人工标注。"
+        }
+      ],
+      "teachers": [],
+      "notes": [
+        "仅课程地图中的课程名称；原图未提供逐门课程简介或任课教师。",
+        "保留图中名称、A/B/C/D后缀、语言括号及课程层次；不把图的箭头推断为学分或先修课程政策。"
+      ]
+    }
+  ],
+  "coverage": {
+    "map_distinct_named_courses": 56,
+    "new_name_level_records_casefold": 12,
+    "new_name_level_names": [
+      "视觉大数据分析",
+      "计算机图形学D",
+      "推荐系统",
+      "智能媒体技术",
+      "面向对象程序设计（C++）",
+      "互动媒体程序设计",
+      "管理信息系统设计",
+      "可视化实践",
+      "数据采集与实时处理实践",
+      "大数据综合实践",
+      "毕业论文",
+      "Linux系统与网络"
+    ],
+    "case_variants": [
+      {
+        "map_name": "Web前端开发",
+        "existing_name": "web前端开发",
+        "level": "本科"
+      },
+      {
+        "map_name": "面向对象程序设计（JAVA）",
+        "existing_name": "面向对象程序设计（Java）",
+        "level": "本科"
+      }
+    ],
+    "existing_exact_name_level_matches": 42,
+    "unconfirmed_items": [],
+    "excluded_category_labels": [
+      "通识基础",
+      "通识选修",
+      "通识素养",
+      "数理基础",
+      "计算机科学",
+      "智能传媒",
+      "程序设计与开发",
+      "实习实践",
+      "计算机软件",
+      "系统结构",
+      "必修课",
+      "专业基础课",
+      "专业核心课",
+      "专业选修课"
+    ],
+    "diagram_semesters_not_converted_to_schedule": true
+  },
+  "image": {
+    "url": "https://ccs.cuc.edu.cn/_upload/article/images/da/6a/516e1e0e4d39b63898281a8f74d6/2fbfab17-c8fe-49e0-aec3-26e6b0b260cc.png",
+    "local_path": "data/ccs_cuc/2022-course-map.png",
+    "sha256": "16ea5c3b92e927a56a0fb97b3ad6b186c8e4c9949452833fafca2b08485a6bdb",
+    "width": 799,
+    "height": 515,
+    "article_published_at": "2022-07-26",
+    "image_title_attribute": "图片1.png",
+    "year_2023_present_in_article_text": false,
+    "year_2023_present_in_image": false
+  },
+  "limitations": [
+    "仅据可辨原图记录名称，未据名称生成课程内容、学分、考核、任课关系。",
+    "这张图属于2022版页面，页面、图题和图内均未标注2023级；不能据采集日将其视为2026级或当前学期课程安排。",
+    "近义名称与不同层次仍分开；仅Web/web、JAVA/Java大小写变体可作别名合并。",
+    "图中的计算机图像处理明确处于本科地图；原教学报道的未明确层次条目不会自动替换为本科学分课程。"
+  ],
+  "course_updates": [
+    {
+      "name": "计算思维概论",
+      "level": "本科",
+      "description_append": "2025年报道介绍五阶段、12模块实验，内容涉及数字编码、Python、随机与加密算法、函数和递归、排序检索、复杂度、网页及网络协议；每个实验设基础与拓展任务。同页还展示Turtle绘图和Tkinter图像浏览案例。",
+      "source_evidence": {
+        "source_url": "https://ccs.cuc.edu.cn/2025/1201/c5526a264578/page.htm",
+        "title": "喜报｜我院教师团队多项案例在第七届中国计算机教育大会上获奖",
+        "published_at": "2025-12-01",
+        "kind": "teaching_case_news",
+        "excerpt": "公开教学案例涉及五阶段、12模块实验。",
+        "article_id": "264578",
+        "scope": "教学案例内容摘要，非完整教学大纲；案例提交人不据此推断为当前任课教师。"
+      }
+    }
+  ],
+  "additional_sources": [
+    {
+      "url": "https://ccs.cuc.edu.cn/2025/1201/c5526a264578/page.htm",
+      "local_path": "materials/ccs-official/originals/264578-web-extraction.txt",
+      "sha256": "bb859d35593144a79609f993de2d4b70f8256e801e31dc09403d9bb9c32ba7e3",
+      "method": "web_rendered_text_extraction",
+      "published_at": "2025-12-01",
+      "collected_at": "2026-10-27"
+    }
+  ]
+}

@@ -14,4 +14,7 @@ materials/admissions/pdf/** -diff
 materials/yz-official/originals/** -diff
 materials/yz-official/pdf/** -diff
 materials/yz-official/discovery/** -diff
+materials/ccs-official/originals/** -diff
+materials/ccs-official/attachments/** -diff
+materials/ccs-official/pdf/** -diff
 evaluation/results/** -text

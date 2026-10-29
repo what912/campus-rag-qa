@@ -1,0 +1,153 @@
+{
+  "audited_at": "2026-10-27T17:17:26.984440+08:00",
+  "status": "qualified_pass_with_image_supplement",
+  "original_counts": {
+    "courses": 381,
+    "unique_names": 358,
+    "description_status": {
+      "name_only": 324,
+      "historical_2018": 4,
+      "partial_description": 9,
+      "training_description": 44
+    },
+    "teachers": 64,
+    "all_course_evidence_urls": 92,
+    "empty_evidence_records": 0
+  },
+  "coverage_checks": {
+    "columns": 15,
+    "pagination_pages": 37,
+    "all_columns_complete": true,
+    "discovery_errors": [],
+    "fetched_articles": 133,
+    "source_hashes_checked": 184,
+    "source_hash_failures": [],
+    "live_core_columns_checked": [
+      {
+        "url": "https://ccs.cuc.edu.cn/bkjx/list.htm",
+        "observed_total": 8,
+        "includes_direct_downloads": true
+      },
+      {
+        "url": "https://ccs.cuc.edu.cn/yjsjx/list.htm",
+        "observed_total": 13,
+        "includes_direct_downloads": true
+      },
+      {
+        "url": "https://ccs.cuc.edu.cn/bkzyjs/list.htm",
+        "observed_total": 6
+      },
+      {
+        "url": "https://ccs.cuc.edu.cn/yjszyjs/list.htm",
+        "observed_total": 10
+      },
+      {
+        "url": "https://ccs.cuc.edu.cn/sjcx/list.htm",
+        "observed_total": 12
+      }
+    ]
+  },
+  "findings": [
+    {
+      "severity": "corrected_by_supplement",
+      "finding": "2022版课程地图是可辨识图片；原材料没有纳入图中独有课程。",
+      "resolution": "提供全部56个可辨课程名称的图源证据；按不区分英文大小写加本科层次合并，将新增12条记录，2个大小写变体作别名。",
+      "supplement_path": "data/ccs_cuc/supplemental_courses.json",
+      "new_names": [
+        "视觉大数据分析",
+        "计算机图形学D",
+        "推荐系统",
+        "智能媒体技术",
+        "面向对象程序设计（C++）",
+        "互动媒体程序设计",
+        "管理信息系统设计",
+        "可视化实践",
+        "数据采集与实时处理实践",
+        "大数据综合实践",
+        "毕业论文",
+        "Linux系统与网络"
+      ]
+    },
+    {
+      "severity": "scope_limitation",
+      "finding": "381条为课程层次、实践和社会培训项目/模块混合，不能表述为381门完整课程简介；仅57条有有限内容，其中44条为社会培训内容。",
+      "resolution": "最终交付需准确统计和分层，并保留简介缺失标记。"
+    },
+    {
+      "severity": "scope_limitation",
+      "finding": "新闻标题筛选仅涵盖课程、教学、教材、培训、工作坊、专业介绍关键词；定义范围之外新闻可能另含课程线索。",
+      "resolution": "只能称已遍历具名栏目和记录线索；不声称全站无遗漏或教务完整课表。"
+    },
+    {
+      "severity": "passed",
+      "finding": "原始课程记录均有source_evidence；相同名称和层次无重复；2018实践、教学活动、培训导师、教师页授课关系作了明确标记。",
+      "resolution": "沿用版本与关系类型，不能把teaching_activity解释为当前任课。"
+    },
+    {
+      "severity": "passed",
+      "finding": "2024本科介绍及2025研究生专业介绍的附件已采集；专业方向未擅自转为课程简介。",
+      "resolution": "保留原附件证据与简介缺失状态。"
+    }
+  ],
+  "map_review": {
+    "map_distinct_named_courses": 56,
+    "new_name_level_records_casefold": 12,
+    "new_name_level_names": [
+      "视觉大数据分析",
+      "计算机图形学D",
+      "推荐系统",
+      "智能媒体技术",
+      "面向对象程序设计（C++）",
+      "互动媒体程序设计",
+      "管理信息系统设计",
+      "可视化实践",
+      "数据采集与实时处理实践",
+      "大数据综合实践",
+      "毕业论文",
+      "Linux系统与网络"
+    ],
+    "case_variants": [
+      {
+        "map_name": "Web前端开发",
+        "existing_name": "web前端开发",
+        "level": "本科"
+      },
+      {
+        "map_name": "面向对象程序设计（JAVA）",
+        "existing_name": "面向对象程序设计（Java）",
+        "level": "本科"
+      }
+    ],
+    "existing_exact_name_level_matches": 42,
+    "unconfirmed_items": [],
+    "excluded_category_labels": [
+      "通识基础",
+      "通识选修",
+      "通识素养",
+      "数理基础",
+      "计算机科学",
+      "智能传媒",
+      "程序设计与开发",
+      "实习实践",
+      "计算机软件",
+      "系统结构",
+      "必修课",
+      "专业基础课",
+      "专业核心课",
+      "专业选修课"
+    ],
+    "diagram_semesters_not_converted_to_schedule": true
+  },
+  "source_image": {
+    "url": "https://ccs.cuc.edu.cn/_upload/article/images/da/6a/516e1e0e4d39b63898281a8f74d6/2fbfab17-c8fe-49e0-aec3-26e6b0b260cc.png",
+    "local_path": "data/ccs_cuc/2022-course-map.png",
+    "sha256": "16ea5c3b92e927a56a0fb97b3ad6b186c8e4c9949452833fafca2b08485a6bdb",
+    "width": 799,
+    "height": 515,
+    "article_published_at": "2022-07-26",
+    "image_title_attribute": "图片1.png",
+    "year_2023_present_in_article_text": false,
+    "year_2023_present_in_image": false
+  },
+  "recommendation": "将全部56条图像证据与现有材料合并，PDF保留原图链接和2022版本；新条目description保持空，teachers保持空。"
+}

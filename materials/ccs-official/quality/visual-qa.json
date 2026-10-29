@@ -1,0 +1,32 @@
+{
+  "verified_at": "2026-10-27T17:23:40.656808+08:00",
+  "outputs": [
+    {
+      "path": "C:\\Users\\吴少泽\\Documents\\综测\\毕业项目\\materials\\ccs-official\\pdf-reviewed\\学院教师公开简介汇编.pdf",
+      "pages": 28,
+      "sha256": "3d36531190cf4e0da517b4cfa1118943d4356802e51943f8f4b003e5c87f9eb3",
+      "bounds_flags": [],
+      "encoding_flags": [],
+      "invalid_internal_links": []
+    },
+    {
+      "path": "C:\\Users\\吴少泽\\Documents\\综测\\毕业项目\\materials\\ccs-official\\pdf-reviewed\\学院课程公开信息与教师对应索引.pdf",
+      "pages": 116,
+      "sha256": "bcabf3acd5e15637835b64eebdb264edab35fe9724424bce76a326acf0e0dc1b",
+      "bounds_flags": [],
+      "encoding_flags": [],
+      "invalid_internal_links": []
+    },
+    {
+      "path": "C:\\Users\\吴少泽\\Documents\\综测\\毕业项目\\output\\pdf\\中国传媒大学计算机与网络空间安全学院_课程与教师资料汇编.pdf",
+      "pages": 144,
+      "sha256": "28ddbd20ab8fcdf6327df26d4e78f6dd34fb4152267f3893ba9c0607d9ea2d46",
+      "bounds_flags": [],
+      "encoding_flags": [],
+      "invalid_internal_links": []
+    }
+  ],
+  "review_method": "144 pages rendered, all-page contact sheets inspected plus 7 full-size pages; changed cover and case pages re-rendered after final supplement.",
+  "unresolved_visual_defects": 0,
+  "final_layout_change": "Removed running header to prevent cross-page header-only chunks; content positions/pages otherwise unchanged."
+}

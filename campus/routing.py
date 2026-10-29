@@ -1,11 +1,14 @@
 """Shared category routing for the app and offline experiments."""
 import re
 from .admissions import infer_admission_scope
+from .academic import infer_academic_category
 
 
-def infer_category(question, explicit=''):
+def infer_category(question, explicit='',teacher_names=()):
     if explicit:
         return explicit
+    academic=infer_academic_category(question,teacher_names)
+    if academic:return academic
     if infer_admission_scope(question)['domain']:
         return '招生信息'
     if re.search(r'(每门|各门|所有).*课程|课程总成绩',question) and re.search(r'由谁|谁.*确定|比例',question):

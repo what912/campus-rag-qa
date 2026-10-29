@@ -1,0 +1,36 @@
+{
+  "prepared_at": "2026-10-27T14:32:43.888661+08:00",
+  "input_hashes": {
+    "discovery.json": "68b39f22c9b001b8e13ec513e8b1559a2ec449346606bbc169c2835b20817e9d",
+    "teacher-records.json": "b4f5b18e903cce8b03a55566d0518efde9a6c26215683fbe2bf6c83bbf4a2c3a",
+    "course-records.json": "f34e8d1e9316ee2f482f3135c0093900fbfca1d324f16a53a782de1dc6344566"
+  },
+  "teacher_count": 64,
+  "source_course_count": 281,
+  "teacher_only_course_level_records_added": 100,
+  "course_count": 381,
+  "course_name_count": 358,
+  "teacher_course_level_relationships": 189,
+  "by_level": {
+    "本科": 154,
+    "本科学术训练": 1,
+    "硕士": 41,
+    "研究生": 4,
+    "博士": 21,
+    "研究生学术训练": 1,
+    "预科": 1,
+    "未注明": 32,
+    "未明确": 7,
+    "课外竞赛培训": 2,
+    "社会培训": 117
+  },
+  "by_description_status": {
+    "name_only": 324,
+    "historical_2018": 4,
+    "partial_description": 9,
+    "training_description": 44
+  },
+  "expected_output_pdfs": 5,
+  "records_sha256": "373412f209e8e44d42e8a0ff84b98d4aa7c7c1d666f4be99afa7ec06b922296f",
+  "generation_api_calls": 0
+}

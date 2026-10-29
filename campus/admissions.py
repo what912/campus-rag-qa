@@ -54,6 +54,8 @@ def _compared_programs(text):
 def infer_admission_scope(query,category=''):
     """Infer an admission scope without interpreting 2023级 as a 2023 admission cycle."""
     text=str(query or '').strip()
+    if category in ('师资信息','课程简介'):
+        return {'domain':False,'year':'','level':'','program':''}
     if category!='招生信息' and re.search(r'转专业|学籍|辅修学士学位|学士学位授予',text) and not re.search(r'招生|报考|初试|复试|高考|校考|硕士|博士',text):
         return {'domain':False,'year':'','level':'','program':''}
     mba=bool(re.search(r'(?<![A-Za-z])MBA(?![A-Za-z])',text,re.I))

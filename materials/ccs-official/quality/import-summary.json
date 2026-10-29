@@ -1,0 +1,56 @@
+{
+  "completed_at": "2026-10-27T17:32:19.717476+08:00",
+  "documents": 36,
+  "chunks": 1297,
+  "embedding_mode": "semantic",
+  "embedding_dimension": 512,
+  "retrieval_strategy": "hybrid_rerank",
+  "min_score": 0.55,
+  "new_documents": [
+    {
+      "id": "3dd52270051b432594c8ea701b0000ee",
+      "name": "学院教师公开简介汇编.pdf",
+      "sha256": "3d36531190cf4e0da517b4cfa1118943d4356802e51943f8f4b003e5c87f9eb3",
+      "category": "师资信息",
+      "chunks": 79
+    },
+    {
+      "id": "d206ba61a7c94ce6b45921557a734623",
+      "name": "学院课程公开信息与教师对应索引.pdf",
+      "sha256": "bcabf3acd5e15637835b64eebdb264edab35fe9724424bce76a326acf0e0dc1b",
+      "category": "课程简介",
+      "chunks": 512
+    }
+  ],
+  "original_documents_preserved": 34,
+  "original_chunks_preserved": 706,
+  "sqlite_integrity_check": "ok",
+  "idempotent_already_present_count": 32,
+  "idempotent_imported_count": 0,
+  "semantic_index_unchanged_after_idempotent_import": true,
+  "vector_shape": [
+    1297,
+    512
+  ],
+  "index_hashes": {
+    "index.json": "99c2f0882fb2ef93ec2e2b9f83586f72637d5929c051dbfd892692f4ad5f6a5d",
+    "vectors.npz": "99bf08f1d10a36038e5e80d3970f3b93f27d14405295aad612cf2b3c137f7a1a"
+  },
+  "semantic_positive_queries": 5,
+  "semantic_positive_passed": 5,
+  "tfidf_positive_queries": 5,
+  "tfidf_positive_passed": 4,
+  "tfidf_limitations": [
+    {
+      "question": "黄玮老师的研究方向是什么？",
+      "reason": "没有达到阈值的检索结果"
+    }
+  ],
+  "unknown_teacher_excluded": true,
+  "annual_admission_route_preserved": true,
+  "course_outline_route_preserved": true,
+  "backup_path": "C:\\Users\\吴少泽\\Documents\\综测\\毕业项目\\output\\backups\\ccs-before-import-20261027-172047",
+  "backup_contains_credentials": false,
+  "generation_api_calls": 0,
+  "test_scope": "资料接入与检索冒烟核验；不是独立测试集或生成回答准确率评价"
+}

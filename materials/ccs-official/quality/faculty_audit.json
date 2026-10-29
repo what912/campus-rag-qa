@@ -1,0 +1,2575 @@
+{
+  "audited_at": "2026-10-27T17:12:05.284286+08:00",
+  "scope": "Independent faculty-side coverage and evidence audit; no source or academic record modified.",
+  "source_collected_at": "2026-10-27T14:19:30.652996+08:00",
+  "live_web_review": {
+    "review_date": "2026-10-27",
+    "method": "Official pages opened with the web tool; complete lists and pagination compared to local discovery records.",
+    "column_urls": [
+      "https://ccs.cuc.edu.cn/xyld_6238/list.htm",
+      "https://ccs.cuc.edu.cn/jsjkxyjsx/list.htm",
+      "https://ccs.cuc.edu.cn/jsjkxyjsx/list2.htm",
+      "https://ccs.cuc.edu.cn/wlkjaqx/list.htm",
+      "https://ccs.cuc.edu.cn/sysjjxzx/list.htm",
+      "https://ccs.cuc.edu.cn/bgs/list.htm",
+      "https://ccs.cuc.edu.cn/jzbd/list.htm"
+    ],
+    "mentor_url": "https://ccs.cuc.edu.cn/dsqk/list.htm",
+    "profile_sample_ids": [
+      "148868",
+      "254363",
+      "255309",
+      "194895",
+      "257720",
+      "257719"
+    ],
+    "observations": [
+      "Six faculty categories contain 5,30,13,6,6,2 rows; computer-science category has two pages.",
+      "The mentor page states a June 2025 update and adds four linked profiles absent from the category lists.",
+      "Xu Yikun (徐翊焜) and Chen Lei (陈磊) appear only as unlinked names in the network-security-practice direction.",
+      "Profile teaching fields in the sampled pages match the recorded course evidence."
+    ]
+  },
+  "coverage": {
+    "category_rows": 62,
+    "category_unique_profiles": 60,
+    "independent_profiles": 64,
+    "duplicate_profile_ids": 0,
+    "additional_mentor_profiles": [
+      {
+        "id": "148844",
+        "name": "张晶晶"
+      },
+      {
+        "id": "268069",
+        "name": "张弛"
+      },
+      {
+        "id": "268009",
+        "name": "龚隽鹏"
+      },
+      {
+        "id": "257717",
+        "name": "张润滋"
+      }
+    ],
+    "unlinked_people": [
+      {
+        "name": "徐翊焜",
+        "source_url": "https://ccs.cuc.edu.cn/dsqk/list.htm",
+        "context": "电子信息（专硕）—网络与信息安全专业（网络安全实践技术方向）",
+        "notes": [
+          "导师情况正文出现姓名，但未提供独立个人简介链接；不生成或推测个人经历。",
+          "导师栏目注明2025年6月更新。"
+        ]
+      },
+      {
+        "name": "陈磊",
+        "source_url": "https://ccs.cuc.edu.cn/dsqk/list.htm",
+        "context": "电子信息（专硕）—网络与信息安全专业（网络安全实践技术方向）",
+        "notes": [
+          "导师情况正文出现姓名，但未提供独立个人简介链接；不生成或推测个人经历。",
+          "导师栏目注明2025年6月更新。"
+        ]
+      }
+    ],
+    "missing_linked_person_ids": [],
+    "profiles_with_explicit_teaching_evidence": 51,
+    "unique_teacher_course_pairs": 187
+  },
+  "reviewed_edge_cases": [
+    {
+      "id": "254363",
+      "name": "徐万山",
+      "finding": "Category is computer science, while the profile body says network security; both are preserved and the discrepancy is explicitly noted."
+    },
+    {
+      "id": "148836",
+      "name": "杨俊生",
+      "finding": "Past foundation-course teaching and the 2018 move to experimental support are retained as historical evidence."
+    },
+    {
+      "id": "194121",
+      "name": "谭志芳",
+      "finding": "2000-2019 teaching is explicitly historical; current teaching-secretary role is kept distinct."
+    },
+    {
+      "id": "148849",
+      "name": "黄玮",
+      "finding": "The personal teaching Wiki is not parsed as a fourth course."
+    },
+    {
+      "ids": [
+        "257720",
+        "257719"
+      ],
+      "finding": "Adjunct doctoral supervisors remain labelled as adjunct; no undergraduate teaching is inferred."
+    }
+  ],
+  "profile_results": [
+    {
+      "id": "148867",
+      "name": "王淑娟",
+      "source_url": "https://ccs.cuc.edu.cn/2019/0910/c6238a148867/page.htm",
+      "source_sha256_verified": true,
+      "article_body_present": true,
+      "name_matches_source": true,
+      "fields": [
+        {
+          "label": "姓名",
+          "matches_source": true
+        },
+        {
+          "label": "职称",
+          "matches_source": true
+        },
+        {
+          "label": "主要职责",
+          "matches_source": true
+        }
+      ],
+      "course_mentions": []
+    },
+    {
+      "id": "148868",
+      "name": "林卫国",
+      "source_url": "https://ccs.cuc.edu.cn/2019/0916/c6238a148868/page.htm",
+      "source_sha256_verified": true,
+      "article_body_present": true,
+      "name_matches_source": true,
+      "fields": [
+        {
+          "label": "姓名",
+          "matches_source": true
+        },
+        {
+          "label": "职务",
+          "matches_source": true
+        },
+        {
+          "label": "职称",
+          "matches_source": true
+        },
+        {
+          "label": "系别",
+          "matches_source": true
+        },
+        {
+          "label": "主要职责",
+          "matches_source": true
+        },
+        {
+          "label": "讲授课程",
+          "matches_source": true
+        },
+        {
+          "label": "科研方向或教学专长",
+          "matches_source": true
+        }
+      ],
+      "course_mentions": [
+        {
+          "raw_text_matches_source": true,
+          "courses": [
+            "计算机网络",
+            "网络程序设计"
+          ],
+          "source_url_matches_profile": true
+        }
+      ]
+    },
+    {
+      "id": "194124",
+      "name": "宋佳",
+      "source_url": "https://ccs.cuc.edu.cn/2022/0607/c6238a194124/page.htm",
+      "source_sha256_verified": true,
+      "article_body_present": true,
+      "name_matches_source": true,
+      "fields": [
+        {
+          "label": "姓名",
+          "matches_source": true
+        },
+        {
+          "label": "职务",
+          "matches_source": true
+        },
+        {
+          "label": "主要职责",
+          "matches_source": true
+        }
+      ],
+      "course_mentions": []
+    },
+    {
+      "id": "149371",
+      "name": "王琦",
+      "source_url": "https://ccs.cuc.edu.cn/2019/1107/c6238a149371/page.htm",
+      "source_sha256_verified": true,
+      "article_body_present": true,
+      "name_matches_source": true,
+      "fields": [
+        {
+          "label": "姓名",
+          "matches_source": true
+        },
+        {
+          "label": "职称",
+          "matches_source": true
+        },
+        {
+          "label": "系别",
+          "matches_source": true
+        },
+        {
+          "label": "讲授课程",
+          "matches_source": true
+        },
+        {
+          "label": "科研方向或教学专长",
+          "matches_source": true
+        }
+      ],
+      "course_mentions": [
+        {
+          "raw_text_matches_source": true,
+          "courses": [
+            "数据库原理与安全",
+            "程序设计与编程方法",
+            "web前端开发",
+            "计算思维概论",
+            "大数据技术基础",
+            "大数据技术与spark开发实践"
+          ],
+          "source_url_matches_profile": true
+        }
+      ]
+    },
+    {
+      "id": "194131",
+      "name": "郑中翔",
+      "source_url": "https://ccs.cuc.edu.cn/2022/0607/c6238a194131/page.htm",
+      "source_sha256_verified": true,
+      "article_body_present": true,
+      "name_matches_source": true,
+      "fields": [
+        {
+          "label": "姓名",
+          "matches_source": true
+        },
+        {
+          "label": "职称",
+          "matches_source": true
+        },
+        {
+          "label": "系别",
+          "matches_source": true
+        },
+        {
+          "label": "讲授课程",
+          "matches_source": true
+        },
+        {
+          "label": "科研方向或教学专长",
+          "matches_source": true
+        }
+      ],
+      "course_mentions": [
+        {
+          "raw_text_matches_source": true,
+          "courses": [
+            "计算思维概论",
+            "计算机导论",
+            "隐私计算"
+          ],
+          "source_url_matches_profile": true
+        }
+      ]
+    },
+    {
+      "id": "254363",
+      "name": "徐万山",
+      "source_url": "https://ccs.cuc.edu.cn/2022/0607/c6239a254363/page.htm",
+      "source_sha256_verified": true,
+      "article_body_present": true,
+      "name_matches_source": true,
+      "fields": [
+        {
+          "label": "姓名",
+          "matches_source": true
+        },
+        {
+          "label": "职称",
+          "matches_source": true
+        },
+        {
+          "label": "系别",
+          "matches_source": true
+        },
+        {
+          "label": "讲授课程",
+          "matches_source": true
+        },
+        {
+          "label": "科研方向或教学专长",
+          "matches_source": true
+        }
+      ],
+      "course_mentions": [
+        {
+          "raw_text_matches_source": true,
+          "courses": [
+            "计算思维概论",
+            "面向对象程序设计（Java）"
+          ],
+          "source_url_matches_profile": true
+        }
+      ]
+    },
+    {
+      "id": "255309",
+      "name": "司俊俊",
+      "source_url": "https://ccs.cuc.edu.cn/2019/0911/c6239a255309/page.htm",
+      "source_sha256_verified": true,
+      "article_body_present": true,
+      "name_matches_source": true,
+      "fields": [
+        {
+          "label": "姓名",
+          "matches_source": true
+        },
+        {
+          "label": "职称",
+          "matches_source": true
+        },
+        {
+          "label": "系别",
+          "matches_source": true
+        },
+        {
+          "label": "讲授课程",
+          "matches_source": true
+        },
+        {
+          "label": "科研方向或教学专长",
+          "matches_source": true
+        }
+      ],
+      "course_mentions": [
+        {
+          "raw_text_matches_source": true,
+          "courses": [
+            "软件工程",
+            "软件开发综合实践",
+            "软件开发理论与方法",
+            "人工智能伦理与法律治理"
+          ],
+          "source_url_matches_profile": true
+        }
+      ]
+    },
+    {
+      "id": "148817",
+      "name": "黄祥林",
+      "source_url": "https://ccs.cuc.edu.cn/2019/0916/c6239a148817/page.htm",
+      "source_sha256_verified": true,
+      "article_body_present": true,
+      "name_matches_source": true,
+      "fields": [
+        {
+          "label": "姓名",
+          "matches_source": true
+        },
+        {
+          "label": "职称",
+          "matches_source": true
+        },
+        {
+          "label": "讲授课程",
+          "matches_source": true
+        },
+        {
+          "label": "科研方向或教学专长",
+          "matches_source": true
+        }
+      ],
+      "course_mentions": [
+        {
+          "raw_text_matches_source": true,
+          "courses": [
+            "计算机图像处理",
+            "现代信号处理",
+            "信号处理技术"
+          ],
+          "source_url_matches_profile": true
+        }
+      ]
+    },
+    {
+      "id": "148831",
+      "name": "扈文峰",
+      "source_url": "https://ccs.cuc.edu.cn/2019/0314/c6239a148831/page.htm",
+      "source_sha256_verified": true,
+      "article_body_present": true,
+      "name_matches_source": true,
+      "fields": [
+        {
+          "label": "姓名",
+          "matches_source": true
+        },
+        {
+          "label": "职称",
+          "matches_source": true
+        },
+        {
+          "label": "系别",
+          "matches_source": true
+        },
+        {
+          "label": "讲授课程",
+          "matches_source": true
+        },
+        {
+          "label": "科研方向或教学专长",
+          "matches_source": true
+        }
+      ],
+      "course_mentions": [
+        {
+          "raw_text_matches_source": true,
+          "courses": [
+            "互动媒体程序设计",
+            "基于引擎的游戏开发",
+            "现代软件工程"
+          ],
+          "source_url_matches_profile": true
+        }
+      ]
+    },
+    {
+      "id": "148866",
+      "name": "尚文倩",
+      "source_url": "https://ccs.cuc.edu.cn/2019/0910/c6239a148866/page.htm",
+      "source_sha256_verified": true,
+      "article_body_present": true,
+      "name_matches_source": true,
+      "fields": [
+        {
+          "label": "姓名",
+          "matches_source": true
+        },
+        {
+          "label": "职称",
+          "matches_source": true
+        },
+        {
+          "label": "系别",
+          "matches_source": true
+        },
+        {
+          "label": "讲授课程",
+          "matches_source": true
+        },
+        {
+          "label": "科研方向或教学专长",
+          "matches_source": true
+        }
+      ],
+      "course_mentions": [
+        {
+          "raw_text_matches_source": true,
+          "courses": [
+            "计算机导论",
+            "神经网络与深度学习",
+            "自然语言理解"
+          ],
+          "source_url_matches_profile": true
+        }
+      ]
+    },
+    {
+      "id": "148863",
+      "name": "董晓晓",
+      "source_url": "https://ccs.cuc.edu.cn/2019/0910/c6239a148863/page.htm",
+      "source_sha256_verified": true,
+      "article_body_present": true,
+      "name_matches_source": true,
+      "fields": [
+        {
+          "label": "姓名",
+          "matches_source": true
+        },
+        {
+          "label": "系别",
+          "matches_source": true
+        },
+        {
+          "label": "讲授课程",
+          "matches_source": true
+        },
+        {
+          "label": "科研方向或教学专长",
+          "matches_source": true
+        }
+      ],
+      "course_mentions": [
+        {
+          "raw_text_matches_source": true,
+          "courses": [
+            "大学计算机",
+            "多媒体技术基础及应用",
+            "Python程序设计及数据分析"
+          ],
+          "source_url_matches_profile": true
+        }
+      ]
+    },
+    {
+      "id": "148848",
+      "name": "冯爽",
+      "source_url": "https://ccs.cuc.edu.cn/2019/0911/c6239a148848/page.htm",
+      "source_sha256_verified": true,
+      "article_body_present": true,
+      "name_matches_source": true,
+      "fields": [
+        {
+          "label": "姓名",
+          "matches_source": true
+        },
+        {
+          "label": "职称",
+          "matches_source": true
+        },
+        {
+          "label": "系别",
+          "matches_source": true
+        },
+        {
+          "label": "讲授课程",
+          "matches_source": true
+        },
+        {
+          "label": "科研方向或教学专长",
+          "matches_source": true
+        }
+      ],
+      "course_mentions": [
+        {
+          "raw_text_matches_source": true,
+          "courses": [
+            "计算机程序设计1",
+            "计算机程序设计2",
+            "程序设计实践"
+          ],
+          "source_url_matches_profile": true
+        }
+      ]
+    },
+    {
+      "id": "148861",
+      "name": "冯欣",
+      "source_url": "https://ccs.cuc.edu.cn/2019/0910/c6239a148861/page.htm",
+      "source_sha256_verified": true,
+      "article_body_present": true,
+      "name_matches_source": true,
+      "fields": [
+        {
+          "label": "姓名",
+          "matches_source": true
+        },
+        {
+          "label": "职称",
+          "matches_source": true
+        },
+        {
+          "label": "系别",
+          "matches_source": true
+        },
+        {
+          "label": "讲授课程",
+          "matches_source": true
+        },
+        {
+          "label": "科研方向或教学专长",
+          "matches_source": true
+        }
+      ],
+      "course_mentions": [
+        {
+          "raw_text_matches_source": true,
+          "courses": [
+            "计算机程序设计1",
+            "计算机程序设计2",
+            "编译原理",
+            "算法设计与分析"
+          ],
+          "source_url_matches_profile": true
+        }
+      ]
+    },
+    {
+      "id": "148858",
+      "name": "郭建璞",
+      "source_url": "https://ccs.cuc.edu.cn/2019/0910/c6239a148858/page.htm",
+      "source_sha256_verified": true,
+      "article_body_present": true,
+      "name_matches_source": true,
+      "fields": [
+        {
+          "label": "姓名",
+          "matches_source": true
+        },
+        {
+          "label": "职称",
+          "matches_source": true
+        },
+        {
+          "label": "系别",
+          "matches_source": true
+        },
+        {
+          "label": "讲授课程",
+          "matches_source": true
+        },
+        {
+          "label": "科研方向或教学专长",
+          "matches_source": true
+        }
+      ],
+      "course_mentions": [
+        {
+          "raw_text_matches_source": true,
+          "courses": [
+            "大学计算机",
+            "数字视频编辑",
+            "多媒体技术基础及应用"
+          ],
+          "source_url_matches_profile": true
+        }
+      ]
+    },
+    {
+      "id": "148862",
+      "name": "刘青",
+      "source_url": "https://ccs.cuc.edu.cn/2019/0910/c6239a148862/page.htm",
+      "source_sha256_verified": true,
+      "article_body_present": true,
+      "name_matches_source": true,
+      "fields": [
+        {
+          "label": "姓名",
+          "matches_source": true
+        },
+        {
+          "label": "职称",
+          "matches_source": true
+        },
+        {
+          "label": "系别",
+          "matches_source": true
+        },
+        {
+          "label": "讲授课程",
+          "matches_source": true
+        },
+        {
+          "label": "教学专长",
+          "matches_source": true
+        }
+      ],
+      "course_mentions": [
+        {
+          "raw_text_matches_source": true,
+          "courses": [
+            "大学计算机",
+            "计算机二维动画",
+            "多媒体技术基础及应用",
+            "Java编程入门",
+            "Access数据库"
+          ],
+          "source_url_matches_profile": true
+        }
+      ]
+    },
+    {
+      "id": "148832",
+      "name": "郭晓梅",
+      "source_url": "https://ccs.cuc.edu.cn/2019/0911/c6239a148832/page.htm",
+      "source_sha256_verified": true,
+      "article_body_present": true,
+      "name_matches_source": true,
+      "fields": [
+        {
+          "label": "姓名",
+          "matches_source": true
+        },
+        {
+          "label": "职称",
+          "matches_source": true
+        },
+        {
+          "label": "系别",
+          "matches_source": true
+        },
+        {
+          "label": "讲授课程",
+          "matches_source": true
+        },
+        {
+          "label": "科研方向或教学专长",
+          "matches_source": true
+        }
+      ],
+      "course_mentions": [
+        {
+          "raw_text_matches_source": true,
+          "courses": [
+            "人工智能",
+            "并行和分布式计算",
+            "云计算技术",
+            "分布式系统与云计算"
+          ],
+          "source_url_matches_profile": true
+        }
+      ]
+    },
+    {
+      "id": "148824",
+      "name": "李亚峰",
+      "source_url": "https://ccs.cuc.edu.cn/2019/0915/c6239a148824/page.htm",
+      "source_sha256_verified": true,
+      "article_body_present": true,
+      "name_matches_source": true,
+      "fields": [
+        {
+          "label": "姓名",
+          "matches_source": true
+        },
+        {
+          "label": "职称",
+          "matches_source": true
+        },
+        {
+          "label": "系别",
+          "matches_source": true
+        },
+        {
+          "label": "讲授课程",
+          "matches_source": true
+        },
+        {
+          "label": "科研方向或教学专长",
+          "matches_source": true
+        }
+      ],
+      "course_mentions": [
+        {
+          "raw_text_matches_source": true,
+          "courses": [
+            "操作系统",
+            "计算机图形学",
+            "虚拟现实与人机交互"
+          ],
+          "source_url_matches_profile": true
+        }
+      ]
+    },
+    {
+      "id": "148843",
+      "name": "李春芳",
+      "source_url": "https://ccs.cuc.edu.cn/2019/0911/c6239a148843/page.htm",
+      "source_sha256_verified": true,
+      "article_body_present": true,
+      "name_matches_source": true,
+      "fields": [
+        {
+          "label": "姓名",
+          "matches_source": true
+        },
+        {
+          "label": "职称",
+          "matches_source": true
+        },
+        {
+          "label": "系别",
+          "matches_source": true
+        },
+        {
+          "label": "讲授课程",
+          "matches_source": true
+        },
+        {
+          "label": "科研方向或教学专长",
+          "matches_source": true
+        }
+      ],
+      "course_mentions": [
+        {
+          "raw_text_matches_source": true,
+          "courses": [
+            "数据可视化",
+            "媒体大数据实例分析",
+            "生成式人工智能与计量电影",
+            "社交网络分析"
+          ],
+          "source_url_matches_profile": true
+        }
+      ]
+    },
+    {
+      "id": "148829",
+      "name": "李樱",
+      "source_url": "https://ccs.cuc.edu.cn/2019/0314/c6239a148829/page.htm",
+      "source_sha256_verified": true,
+      "article_body_present": true,
+      "name_matches_source": true,
+      "fields": [
+        {
+          "label": "姓名",
+          "matches_source": true
+        },
+        {
+          "label": "职称",
+          "matches_source": true
+        },
+        {
+          "label": "系别",
+          "matches_source": true
+        },
+        {
+          "label": "讲授课程",
+          "matches_source": true
+        },
+        {
+          "label": "科研方向或教学专长",
+          "matches_source": true
+        }
+      ],
+      "course_mentions": [
+        {
+          "raw_text_matches_source": true,
+          "courses": [
+            "数据库原理及应用",
+            "计算机网络",
+            "JAVA语言程序设计",
+            "知识图谱与认知智能"
+          ],
+          "source_url_matches_profile": true
+        }
+      ]
+    },
+    {
+      "id": "148830",
+      "name": "周菁",
+      "source_url": "https://ccs.cuc.edu.cn/2019/0314/c6239a148830/page.htm",
+      "source_sha256_verified": true,
+      "article_body_present": true,
+      "name_matches_source": true,
+      "fields": [
+        {
+          "label": "姓名",
+          "matches_source": true
+        },
+        {
+          "label": "职称",
+          "matches_source": true
+        },
+        {
+          "label": "系别",
+          "matches_source": true
+        },
+        {
+          "label": "讲授课程",
+          "matches_source": true
+        },
+        {
+          "label": "科研方向或教学专长",
+          "matches_source": true
+        }
+      ],
+      "course_mentions": [
+        {
+          "raw_text_matches_source": true,
+          "courses": [
+            "数据结构",
+            "Python程序设计",
+            "专业外语",
+            "科技论文写作"
+          ],
+          "source_url_matches_profile": true
+        }
+      ]
+    },
+    {
+      "id": "148822",
+      "name": "张伟娜",
+      "source_url": "https://ccs.cuc.edu.cn/2019/0915/c6239a148822/page.htm",
+      "source_sha256_verified": true,
+      "article_body_present": true,
+      "name_matches_source": true,
+      "fields": [
+        {
+          "label": "姓名",
+          "matches_source": true
+        },
+        {
+          "label": "职称",
+          "matches_source": true
+        },
+        {
+          "label": "系别",
+          "matches_source": true
+        },
+        {
+          "label": "讲授课程",
+          "matches_source": true
+        },
+        {
+          "label": "科研方向或教学专长",
+          "matches_source": true
+        }
+      ],
+      "course_mentions": [
+        {
+          "raw_text_matches_source": true,
+          "courses": [
+            "Python程序设计",
+            "融合新闻学",
+            "网页设计与制作",
+            "大学计算机"
+          ],
+          "source_url_matches_profile": true
+        }
+      ]
+    },
+    {
+      "id": "148855",
+      "name": "张雷",
+      "source_url": "https://ccs.cuc.edu.cn/2019/0910/c6239a148855/page.htm",
+      "source_sha256_verified": true,
+      "article_body_present": true,
+      "name_matches_source": true,
+      "fields": [
+        {
+          "label": "姓名",
+          "matches_source": true
+        },
+        {
+          "label": "职称",
+          "matches_source": true
+        },
+        {
+          "label": "系别",
+          "matches_source": true
+        },
+        {
+          "label": "讲授课程",
+          "matches_source": true
+        },
+        {
+          "label": "科研方向或教学专长",
+          "matches_source": true
+        }
+      ],
+      "course_mentions": [
+        {
+          "raw_text_matches_source": true,
+          "courses": [
+            "程序设计与编程方法",
+            "Linux系统与网络管理",
+            "大数据系统构建与应用开发实践",
+            "AI交叉应用技术"
+          ],
+          "source_url_matches_profile": true
+        }
+      ]
+    },
+    {
+      "id": "148869",
+      "name": "谢卫华",
+      "source_url": "https://ccs.cuc.edu.cn/2019/0910/c6239a148869/page.htm",
+      "source_sha256_verified": true,
+      "article_body_present": true,
+      "name_matches_source": true,
+      "fields": [
+        {
+          "label": "姓名",
+          "matches_source": true
+        },
+        {
+          "label": "职称",
+          "matches_source": true
+        },
+        {
+          "label": "系别",
+          "matches_source": true
+        },
+        {
+          "label": "讲授课程",
+          "matches_source": true
+        },
+        {
+          "label": "科研方向或教学专长",
+          "matches_source": true
+        }
+      ],
+      "course_mentions": [
+        {
+          "raw_text_matches_source": true,
+          "courses": [
+            "IPTV技术",
+            "浏览器技术与开发",
+            "并行与分布式计算",
+            "JAVA程序设计",
+            "数字动画设计技术",
+            "单片机技术",
+            "计算机控制技术",
+            "物联网技术基础",
+            "计算机组成",
+            "计算机系统结构",
+            "数字逻辑与计算机设计"
+          ],
+          "source_url_matches_profile": true
+        }
+      ]
+    },
+    {
+      "id": "149430",
+      "name": "温宇俊",
+      "source_url": "https://ccs.cuc.edu.cn/2019/1108/c6239a149430/page.htm",
+      "source_sha256_verified": true,
+      "article_body_present": true,
+      "name_matches_source": true,
+      "fields": [
+        {
+          "label": "姓名",
+          "matches_source": true
+        },
+        {
+          "label": "职称",
+          "matches_source": true
+        },
+        {
+          "label": "系别",
+          "matches_source": true
+        },
+        {
+          "label": "讲授课程",
+          "matches_source": true
+        },
+        {
+          "label": "科研方向或教学专长",
+          "matches_source": true
+        }
+      ],
+      "course_mentions": [
+        {
+          "raw_text_matches_source": true,
+          "courses": [
+            "数据库原理与应用",
+            "高级数据库",
+            "软件工程"
+          ],
+          "source_url_matches_profile": true
+        }
+      ]
+    },
+    {
+      "id": "148870",
+      "name": "王兆华",
+      "source_url": "https://ccs.cuc.edu.cn/2019/0910/c6239a148870/page.htm",
+      "source_sha256_verified": true,
+      "article_body_present": true,
+      "name_matches_source": true,
+      "fields": [
+        {
+          "label": "姓名",
+          "matches_source": true
+        },
+        {
+          "label": "系别",
+          "matches_source": true
+        },
+        {
+          "label": "讲授课程",
+          "matches_source": true
+        },
+        {
+          "label": "科研方向或教学专长",
+          "matches_source": true
+        }
+      ],
+      "course_mentions": [
+        {
+          "raw_text_matches_source": true,
+          "courses": [
+            "大学计算机",
+            "计算机与信息技术基础",
+            "计算机应用基础",
+            "大学计算机（理工类）",
+            "网页设计及制作",
+            "JSP动态网站开发技术",
+            "C语言程序设计",
+            "程序设计与编程方法（C/C++）1"
+          ],
+          "source_url_matches_profile": true
+        }
+      ]
+    },
+    {
+      "id": "149372",
+      "name": "王妍",
+      "source_url": "https://ccs.cuc.edu.cn/2019/1107/c6239a149372/page.htm",
+      "source_sha256_verified": true,
+      "article_body_present": true,
+      "name_matches_source": true,
+      "fields": [
+        {
+          "label": "姓名",
+          "matches_source": true
+        },
+        {
+          "label": "系别",
+          "matches_source": true
+        },
+        {
+          "label": "讲授课程",
+          "matches_source": true
+        },
+        {
+          "label": "科研方向或教学专长",
+          "matches_source": true
+        }
+      ],
+      "course_mentions": [
+        {
+          "raw_text_matches_source": true,
+          "courses": [
+            "计算机程序设计1",
+            "数据新闻概论",
+            "计算机文化基础"
+          ],
+          "source_url_matches_profile": true
+        }
+      ]
+    },
+    {
+      "id": "148840",
+      "name": "王海波",
+      "source_url": "https://ccs.cuc.edu.cn/2019/0911/c6239a148840/page.htm",
+      "source_sha256_verified": true,
+      "article_body_present": true,
+      "name_matches_source": true,
+      "fields": [
+        {
+          "label": "姓名",
+          "matches_source": true
+        },
+        {
+          "label": "职称",
+          "matches_source": true
+        },
+        {
+          "label": "系别",
+          "matches_source": true
+        },
+        {
+          "label": "讲授课程",
+          "matches_source": true
+        },
+        {
+          "label": "科研方向或教学专长",
+          "matches_source": true
+        }
+      ],
+      "course_mentions": [
+        {
+          "raw_text_matches_source": true,
+          "courses": [
+            "大学计算机",
+            "网页设计与制作"
+          ],
+          "source_url_matches_profile": true
+        }
+      ]
+    },
+    {
+      "id": "148853",
+      "name": "孙书韬",
+      "source_url": "https://ccs.cuc.edu.cn/2019/0910/c6239a148853/page.htm",
+      "source_sha256_verified": true,
+      "article_body_present": true,
+      "name_matches_source": true,
+      "fields": [
+        {
+          "label": "姓名",
+          "matches_source": true
+        },
+        {
+          "label": "职称",
+          "matches_source": true
+        },
+        {
+          "label": "系别",
+          "matches_source": true
+        },
+        {
+          "label": "科研方向或教学专长",
+          "matches_source": false,
+          "manual_review": "supported_curated_excerpt"
+        }
+      ],
+      "course_mentions": []
+    },
+    {
+      "id": "148837",
+      "name": "宋明丽",
+      "source_url": "https://ccs.cuc.edu.cn/2019/0911/c6239a148837/page.htm",
+      "source_sha256_verified": true,
+      "article_body_present": true,
+      "name_matches_source": true,
+      "fields": [
+        {
+          "label": "姓名",
+          "matches_source": true
+        },
+        {
+          "label": "职称",
+          "matches_source": true
+        },
+        {
+          "label": "系别",
+          "matches_source": true
+        },
+        {
+          "label": "讲授课程",
+          "matches_source": true
+        },
+        {
+          "label": "科研方向或教学专长",
+          "matches_source": true
+        }
+      ],
+      "course_mentions": [
+        {
+          "raw_text_matches_source": true,
+          "courses": [
+            "机器学习",
+            "科技论文阅读与写作",
+            "科技英语"
+          ],
+          "source_url_matches_profile": true
+        }
+      ]
+    },
+    {
+      "id": "148854",
+      "name": "曹轶臻",
+      "source_url": "https://ccs.cuc.edu.cn/2019/0910/c6239a148854/page.htm",
+      "source_sha256_verified": true,
+      "article_body_present": true,
+      "name_matches_source": true,
+      "fields": [
+        {
+          "label": "姓名",
+          "matches_source": true
+        },
+        {
+          "label": "职称",
+          "matches_source": true
+        },
+        {
+          "label": "系别",
+          "matches_source": true
+        },
+        {
+          "label": "讲授课程",
+          "matches_source": true
+        },
+        {
+          "label": "科研方向或教学专长",
+          "matches_source": true
+        }
+      ],
+      "course_mentions": [
+        {
+          "raw_text_matches_source": true,
+          "courses": [
+            "计算机网络",
+            "数据库原理与安全",
+            "Java面向对象程序设计",
+            "C/C++程序设计",
+            "计算机网络工程实践",
+            "计算机网络编程"
+          ],
+          "source_url_matches_profile": true
+        }
+      ]
+    },
+    {
+      "id": "258325",
+      "name": "宋国惠",
+      "source_url": "https://ccs.cuc.edu.cn/2019/0911/c6242a258325/page.htm",
+      "source_sha256_verified": true,
+      "article_body_present": true,
+      "name_matches_source": true,
+      "fields": [
+        {
+          "label": "姓名",
+          "matches_source": true
+        },
+        {
+          "label": "职称",
+          "matches_source": true
+        },
+        {
+          "label": "系别",
+          "matches_source": true
+        },
+        {
+          "label": "讲授课程",
+          "matches_source": true
+        },
+        {
+          "label": "科研方向或教学专长",
+          "matches_source": true
+        }
+      ],
+      "course_mentions": [
+        {
+          "raw_text_matches_source": true,
+          "courses": [
+            "计算思维概论",
+            "人工智能模型应用实践",
+            "工程伦理"
+          ],
+          "source_url_matches_profile": true
+        }
+      ]
+    },
+    {
+      "id": "199685",
+      "name": "吴林",
+      "source_url": "https://ccs.cuc.edu.cn/2022/1011/c6242a199685/page.htm",
+      "source_sha256_verified": true,
+      "article_body_present": true,
+      "name_matches_source": true,
+      "fields": [
+        {
+          "label": "姓名",
+          "matches_source": true
+        },
+        {
+          "label": "职称",
+          "matches_source": true
+        },
+        {
+          "label": "系别",
+          "matches_source": true
+        },
+        {
+          "label": "讲授课程",
+          "matches_source": true
+        },
+        {
+          "label": "科研方向或教学专长",
+          "matches_source": false,
+          "manual_review": "supported_curated_excerpt"
+        }
+      ],
+      "course_mentions": [
+        {
+          "raw_text_matches_source": true,
+          "courses": [
+            "计算机网络实践",
+            "网站开发",
+            "动态网页制作",
+            "黑客攻击与防御"
+          ],
+          "source_url_matches_profile": true
+        }
+      ]
+    },
+    {
+      "id": "194896",
+      "name": "周帜",
+      "source_url": "https://ccs.cuc.edu.cn/2022/0714/c6239a194896/page.htm",
+      "source_sha256_verified": true,
+      "article_body_present": true,
+      "name_matches_source": true,
+      "fields": [
+        {
+          "label": "姓名",
+          "matches_source": true
+        },
+        {
+          "label": "系别",
+          "matches_source": true
+        },
+        {
+          "label": "讲授课程",
+          "matches_source": true
+        },
+        {
+          "label": "科研方向或教学专长",
+          "matches_source": true
+        }
+      ],
+      "course_mentions": [
+        {
+          "raw_text_matches_source": true,
+          "courses": [
+            "大学计算机",
+            "C语言程序设计",
+            "多媒体技术基础及应用",
+            "人工智能",
+            "人工智能初探—基于Tensorflow的实现",
+            "特效编程"
+          ],
+          "source_url_matches_profile": true
+        }
+      ]
+    },
+    {
+      "id": "148860",
+      "name": "曹建香",
+      "source_url": "https://ccs.cuc.edu.cn/2019/0910/c6239a148860/page.htm",
+      "source_sha256_verified": true,
+      "article_body_present": true,
+      "name_matches_source": true,
+      "fields": [
+        {
+          "label": "姓名",
+          "matches_source": true
+        },
+        {
+          "label": "职称",
+          "matches_source": true
+        },
+        {
+          "label": "系别",
+          "matches_source": true
+        },
+        {
+          "label": "讲授课程",
+          "matches_source": true
+        },
+        {
+          "label": "科研方向或教学专长",
+          "matches_source": true
+        }
+      ],
+      "course_mentions": [
+        {
+          "raw_text_matches_source": true,
+          "courses": [
+            "离散数学",
+            "数据结构",
+            "算法设计与分析",
+            "图论"
+          ],
+          "source_url_matches_profile": true
+        }
+      ]
+    },
+    {
+      "id": "148846",
+      "name": "董春玲",
+      "source_url": "https://ccs.cuc.edu.cn/2019/0910/c6239a148846/page.htm",
+      "source_sha256_verified": true,
+      "article_body_present": true,
+      "name_matches_source": true,
+      "fields": [
+        {
+          "label": "姓名",
+          "matches_source": true
+        },
+        {
+          "label": "职称",
+          "matches_source": true
+        },
+        {
+          "label": "系别",
+          "matches_source": true
+        },
+        {
+          "label": "讲授课程",
+          "matches_source": true
+        },
+        {
+          "label": "科研方向或教学专长",
+          "matches_source": true
+        }
+      ],
+      "course_mentions": [
+        {
+          "raw_text_matches_source": true,
+          "courses": [
+            "人工智能",
+            "自然语言处理技术及实践",
+            "人工智能方法与技术",
+            "人工智能核心技术与前沿"
+          ],
+          "source_url_matches_profile": true
+        }
+      ]
+    },
+    {
+      "id": "194895",
+      "name": "王静涛",
+      "source_url": "https://ccs.cuc.edu.cn/2022/0714/c6240a194895/page.htm",
+      "source_sha256_verified": true,
+      "article_body_present": true,
+      "name_matches_source": true,
+      "fields": [
+        {
+          "label": "姓名",
+          "matches_source": true
+        },
+        {
+          "label": "职称",
+          "matches_source": true
+        },
+        {
+          "label": "系别",
+          "matches_source": true
+        },
+        {
+          "label": "讲授课程",
+          "matches_source": true
+        },
+        {
+          "label": "科研方向或教学专长",
+          "matches_source": true
+        }
+      ],
+      "course_mentions": [
+        {
+          "raw_text_matches_source": true,
+          "courses": [
+            "密码学",
+            "量子密码学概论",
+            "矩阵计算"
+          ],
+          "source_url_matches_profile": true
+        }
+      ]
+    },
+    {
+      "id": "149370",
+      "name": "安靖",
+      "source_url": "https://ccs.cuc.edu.cn/2019/1107/c6240a149370/page.htm",
+      "source_sha256_verified": true,
+      "article_body_present": true,
+      "name_matches_source": true,
+      "fields": [
+        {
+          "label": "姓名",
+          "matches_source": true
+        },
+        {
+          "label": "职称",
+          "matches_source": true
+        },
+        {
+          "label": "系别",
+          "matches_source": true
+        },
+        {
+          "label": "讲授课程",
+          "matches_source": true
+        },
+        {
+          "label": "科研方向或教学专长",
+          "matches_source": true
+        }
+      ],
+      "course_mentions": [
+        {
+          "raw_text_matches_source": true,
+          "courses": [
+            "计算机安全与维护",
+            "信息安全综合实践",
+            "Python程序设计",
+            "数字媒体安全应用与实践",
+            "计算机网络程序设计实践"
+          ],
+          "source_url_matches_profile": true
+        }
+      ]
+    },
+    {
+      "id": "148851",
+      "name": "姜正涛",
+      "source_url": "https://ccs.cuc.edu.cn/2019/0911/c6240a148851/page.htm",
+      "source_sha256_verified": true,
+      "article_body_present": true,
+      "name_matches_source": true,
+      "fields": [
+        {
+          "label": "姓名",
+          "matches_source": true
+        },
+        {
+          "label": "职称",
+          "matches_source": true
+        },
+        {
+          "label": "系别",
+          "matches_source": true
+        },
+        {
+          "label": "讲授课程",
+          "matches_source": true
+        },
+        {
+          "label": "科研方向或教学专长",
+          "matches_source": true
+        }
+      ],
+      "course_mentions": [
+        {
+          "raw_text_matches_source": true,
+          "courses": [
+            "信息安全与密码学",
+            "现代密码学",
+            "信息安全数学基础",
+            "信息安全与信息对抗概论",
+            "数字认证技术",
+            "网络多媒体技术",
+            "信息论与编码原理",
+            "数据结构"
+          ],
+          "source_url_matches_profile": true
+        }
+      ]
+    },
+    {
+      "id": "194132",
+      "name": "徐君锋",
+      "source_url": "https://ccs.cuc.edu.cn/2022/0607/c6240a194132/page.htm",
+      "source_sha256_verified": true,
+      "article_body_present": true,
+      "name_matches_source": true,
+      "fields": [
+        {
+          "label": "姓名",
+          "matches_source": true
+        },
+        {
+          "label": "职称",
+          "matches_source": true
+        },
+        {
+          "label": "系别",
+          "matches_source": true
+        },
+        {
+          "label": "讲授课程",
+          "matches_source": true
+        },
+        {
+          "label": "科研方向或教学专长",
+          "matches_source": true
+        }
+      ],
+      "course_mentions": [
+        {
+          "raw_text_matches_source": true,
+          "courses": [
+            "逆向工程与软件安全",
+            "移动互联网安全",
+            "计算思维求解"
+          ],
+          "source_url_matches_profile": true
+        }
+      ]
+    },
+    {
+      "id": "194130",
+      "name": "高玉龙",
+      "source_url": "https://ccs.cuc.edu.cn/2022/0607/c6240a194130/page.htm",
+      "source_sha256_verified": true,
+      "article_body_present": true,
+      "name_matches_source": true,
+      "fields": [
+        {
+          "label": "姓名",
+          "matches_source": true
+        },
+        {
+          "label": "职称",
+          "matches_source": true
+        },
+        {
+          "label": "系别",
+          "matches_source": true
+        },
+        {
+          "label": "讲授课程",
+          "matches_source": true
+        },
+        {
+          "label": "科研方向或教学专长",
+          "matches_source": true
+        }
+      ],
+      "course_mentions": [
+        {
+          "raw_text_matches_source": true,
+          "courses": [
+            "算法设计与分析",
+            "信息安全管理",
+            "区块链技术及应用",
+            "区块链与创新思维"
+          ],
+          "source_url_matches_profile": true
+        }
+      ]
+    },
+    {
+      "id": "148845",
+      "name": "曹刚",
+      "source_url": "https://ccs.cuc.edu.cn/2019/0910/c6240a148845/page.htm",
+      "source_sha256_verified": true,
+      "article_body_present": true,
+      "name_matches_source": true,
+      "fields": [
+        {
+          "label": "姓名",
+          "matches_source": true
+        },
+        {
+          "label": "职称",
+          "matches_source": true
+        },
+        {
+          "label": "系别",
+          "matches_source": true
+        },
+        {
+          "label": "讲授课程",
+          "matches_source": true
+        },
+        {
+          "label": "科研方向或教学专长",
+          "matches_source": true
+        }
+      ],
+      "course_mentions": [
+        {
+          "raw_text_matches_source": true,
+          "courses": [
+            "数字内容安全",
+            "矩阵论",
+            "多媒体取证与安全"
+          ],
+          "source_url_matches_profile": true
+        }
+      ]
+    },
+    {
+      "id": "148864",
+      "name": "巩微",
+      "source_url": "https://ccs.cuc.edu.cn/2019/0910/c6240a148864/page.htm",
+      "source_sha256_verified": true,
+      "article_body_present": true,
+      "name_matches_source": true,
+      "fields": [
+        {
+          "label": "姓名",
+          "matches_source": true
+        },
+        {
+          "label": "职称",
+          "matches_source": true
+        },
+        {
+          "label": "系别",
+          "matches_source": true
+        },
+        {
+          "label": "讲授课程",
+          "matches_source": true
+        },
+        {
+          "label": "科研方向或教学专长",
+          "matches_source": true
+        }
+      ],
+      "course_mentions": [
+        {
+          "raw_text_matches_source": true,
+          "courses": [
+            "数据结构",
+            "算法设计与分析",
+            "智能计算"
+          ],
+          "source_url_matches_profile": true
+        }
+      ]
+    },
+    {
+      "id": "148826",
+      "name": "刘文",
+      "source_url": "https://ccs.cuc.edu.cn/2019/0314/c6240a148826/page.htm",
+      "source_sha256_verified": true,
+      "article_body_present": true,
+      "name_matches_source": true,
+      "fields": [
+        {
+          "label": "姓名",
+          "matches_source": true
+        },
+        {
+          "label": "职称",
+          "matches_source": true
+        },
+        {
+          "label": "系别",
+          "matches_source": true
+        },
+        {
+          "label": "讲授课程",
+          "matches_source": true
+        },
+        {
+          "label": "科研方向或教学专长",
+          "matches_source": true
+        }
+      ],
+      "course_mentions": [
+        {
+          "raw_text_matches_source": true,
+          "courses": [
+            "离散数学",
+            "数据挖掘"
+          ],
+          "source_url_matches_profile": true
+        }
+      ]
+    },
+    {
+      "id": "148865",
+      "name": "潘耘",
+      "source_url": "https://ccs.cuc.edu.cn/2019/0911/c6240a148865/page.htm",
+      "source_sha256_verified": true,
+      "article_body_present": true,
+      "name_matches_source": true,
+      "fields": [
+        {
+          "label": "姓名",
+          "matches_source": true
+        },
+        {
+          "label": "职称",
+          "matches_source": true
+        },
+        {
+          "label": "系别",
+          "matches_source": true
+        },
+        {
+          "label": "讲授课程",
+          "matches_source": true
+        },
+        {
+          "label": "科研方向或教学专长",
+          "matches_source": true
+        }
+      ],
+      "course_mentions": [
+        {
+          "raw_text_matches_source": true,
+          "courses": [
+            "编译原理",
+            "计算机网络与通信"
+          ],
+          "source_url_matches_profile": true
+        }
+      ]
+    },
+    {
+      "id": "148828",
+      "name": "隋爱娜",
+      "source_url": "https://ccs.cuc.edu.cn/2019/0314/c6240a148828/page.htm",
+      "source_sha256_verified": true,
+      "article_body_present": true,
+      "name_matches_source": true,
+      "fields": [
+        {
+          "label": "姓名",
+          "matches_source": true
+        },
+        {
+          "label": "职称",
+          "matches_source": true
+        },
+        {
+          "label": "系别",
+          "matches_source": true
+        },
+        {
+          "label": "讲授课程",
+          "matches_source": true
+        },
+        {
+          "label": "科研方向或教学专长",
+          "matches_source": true
+        }
+      ],
+      "course_mentions": [
+        {
+          "raw_text_matches_source": true,
+          "courses": [
+            "网络空间安全导论",
+            "密码学",
+            "网络空间安全基础"
+          ],
+          "source_url_matches_profile": true
+        }
+      ]
+    },
+    {
+      "id": "148856",
+      "name": "范文庆",
+      "source_url": "https://ccs.cuc.edu.cn/2019/0910/c6240a148856/page.htm",
+      "source_sha256_verified": true,
+      "article_body_present": true,
+      "name_matches_source": true,
+      "fields": [
+        {
+          "label": "姓名",
+          "matches_source": true
+        },
+        {
+          "label": "系别",
+          "matches_source": true
+        },
+        {
+          "label": "讲授课程",
+          "matches_source": true
+        },
+        {
+          "label": "科研方向或教学专长",
+          "matches_source": true
+        }
+      ],
+      "course_mentions": [
+        {
+          "raw_text_matches_source": true,
+          "courses": [
+            "逆向工程与软件安全",
+            "分布式系统与云计算",
+            "软件安全分析"
+          ],
+          "source_url_matches_profile": true
+        }
+      ]
+    },
+    {
+      "id": "148849",
+      "name": "黄玮",
+      "source_url": "https://ccs.cuc.edu.cn/2019/0911/c6240a148849/page.htm",
+      "source_sha256_verified": true,
+      "article_body_present": true,
+      "name_matches_source": true,
+      "fields": [
+        {
+          "label": "姓名",
+          "matches_source": true
+        },
+        {
+          "label": "职称",
+          "matches_source": true
+        },
+        {
+          "label": "系别",
+          "matches_source": true
+        },
+        {
+          "label": "讲授课程",
+          "matches_source": true
+        },
+        {
+          "label": "科研方向或教学专长",
+          "matches_source": true
+        }
+      ],
+      "course_mentions": [
+        {
+          "raw_text_matches_source": true,
+          "courses": [
+            "Linux系统与网络管理",
+            "网络安全",
+            "网络与系统安全"
+          ],
+          "source_url_matches_profile": true
+        }
+      ]
+    },
+    {
+      "id": "172907",
+      "name": "范永开",
+      "source_url": "https://ccs.cuc.edu.cn/2020/0914/c6240a172907/page.htm",
+      "source_sha256_verified": true,
+      "article_body_present": true,
+      "name_matches_source": true,
+      "fields": [
+        {
+          "label": "姓名",
+          "matches_source": true
+        },
+        {
+          "label": "职称",
+          "matches_source": true
+        },
+        {
+          "label": "系别",
+          "matches_source": true
+        },
+        {
+          "label": "讲授课程",
+          "matches_source": true
+        },
+        {
+          "label": "科研方向或教学专长",
+          "matches_source": true
+        }
+      ],
+      "course_mentions": [
+        {
+          "raw_text_matches_source": true,
+          "courses": [
+            "Programming language",
+            "操作系统",
+            "计算机组成原理"
+          ],
+          "source_url_matches_profile": true
+        }
+      ]
+    },
+    {
+      "id": "148841",
+      "name": "陈小森",
+      "source_url": "https://ccs.cuc.edu.cn/2019/0915/c6242a148841/page.htm",
+      "source_sha256_verified": true,
+      "article_body_present": true,
+      "name_matches_source": true,
+      "fields": [
+        {
+          "label": "姓名",
+          "matches_source": true
+        },
+        {
+          "label": "系别",
+          "matches_source": true
+        },
+        {
+          "label": "主要职责",
+          "matches_source": true
+        }
+      ],
+      "course_mentions": []
+    },
+    {
+      "id": "148836",
+      "name": "杨俊生",
+      "source_url": "https://ccs.cuc.edu.cn/2019/0911/c6242a148836/page.htm",
+      "source_sha256_verified": true,
+      "article_body_present": true,
+      "name_matches_source": true,
+      "fields": [
+        {
+          "label": "姓名",
+          "matches_source": true
+        },
+        {
+          "label": "职称",
+          "matches_source": true
+        },
+        {
+          "label": "系别",
+          "matches_source": true
+        },
+        {
+          "label": "主要职责",
+          "matches_source": true
+        }
+      ],
+      "course_mentions": [
+        {
+          "raw_text_matches_source": false,
+          "courses": [
+            "C语言程序设计",
+            "数据结构",
+            "计算机与信息技术基础",
+            "计算机应用基础",
+            "大学计算机"
+          ],
+          "source_url_matches_profile": true,
+          "manual_review": "supported_abridged_excerpt"
+        }
+      ]
+    },
+    {
+      "id": "148842",
+      "name": "赵世军",
+      "source_url": "https://ccs.cuc.edu.cn/2019/0915/c6242a148842/page.htm",
+      "source_sha256_verified": true,
+      "article_body_present": true,
+      "name_matches_source": true,
+      "fields": [
+        {
+          "label": "姓名",
+          "matches_source": true
+        },
+        {
+          "label": "系别",
+          "matches_source": true
+        },
+        {
+          "label": "主要职责",
+          "matches_source": true
+        }
+      ],
+      "course_mentions": []
+    },
+    {
+      "id": "148825",
+      "name": "玄浩",
+      "source_url": "https://ccs.cuc.edu.cn/2019/0915/c6242a148825/page.htm",
+      "source_sha256_verified": true,
+      "article_body_present": true,
+      "name_matches_source": true,
+      "fields": [
+        {
+          "label": "姓名",
+          "matches_source": true
+        },
+        {
+          "label": "系别",
+          "matches_source": true
+        },
+        {
+          "label": "主要职责",
+          "matches_source": true
+        }
+      ],
+      "course_mentions": []
+    },
+    {
+      "id": "194892",
+      "name": "丁晨溦",
+      "source_url": "https://ccs.cuc.edu.cn/2022/0714/c8472a194892/page.htm",
+      "source_sha256_verified": true,
+      "article_body_present": true,
+      "name_matches_source": true,
+      "fields": [
+        {
+          "label": "姓名",
+          "matches_source": true
+        },
+        {
+          "label": "系别",
+          "matches_source": true
+        },
+        {
+          "label": "主要职责",
+          "matches_source": true
+        }
+      ],
+      "course_mentions": []
+    },
+    {
+      "id": "194889",
+      "name": "牛苏雨",
+      "source_url": "https://ccs.cuc.edu.cn/2022/0713/c8472a194889/page.htm",
+      "source_sha256_verified": true,
+      "article_body_present": true,
+      "name_matches_source": true,
+      "fields": [
+        {
+          "label": "姓名",
+          "matches_source": true
+        },
+        {
+          "label": "职务",
+          "matches_source": true
+        },
+        {
+          "label": "主要职责（整理）",
+          "matches_source": false,
+          "manual_review": "supported_curated_excerpt"
+        }
+      ],
+      "course_mentions": []
+    },
+    {
+      "id": "194123",
+      "name": "卢平平",
+      "source_url": "https://ccs.cuc.edu.cn/2022/0607/c8472a194123/page.htm",
+      "source_sha256_verified": true,
+      "article_body_present": true,
+      "name_matches_source": true,
+      "fields": [
+        {
+          "label": "姓名",
+          "matches_source": true
+        },
+        {
+          "label": "系别",
+          "matches_source": true
+        },
+        {
+          "label": "主要职责",
+          "matches_source": true
+        }
+      ],
+      "course_mentions": []
+    },
+    {
+      "id": "194122",
+      "name": "李花",
+      "source_url": "https://ccs.cuc.edu.cn/2022/0607/c8472a194122/page.htm",
+      "source_sha256_verified": true,
+      "article_body_present": true,
+      "name_matches_source": true,
+      "fields": [
+        {
+          "label": "姓名",
+          "matches_source": true
+        },
+        {
+          "label": "系别",
+          "matches_source": true
+        },
+        {
+          "label": "主要职责",
+          "matches_source": true
+        }
+      ],
+      "course_mentions": []
+    },
+    {
+      "id": "194121",
+      "name": "谭志芳",
+      "source_url": "https://ccs.cuc.edu.cn/2022/0607/c8472a194121/page.htm",
+      "source_sha256_verified": true,
+      "article_body_present": true,
+      "name_matches_source": true,
+      "fields": [
+        {
+          "label": "姓名",
+          "matches_source": true
+        },
+        {
+          "label": "职称",
+          "matches_source": true
+        },
+        {
+          "label": "系别",
+          "matches_source": true
+        },
+        {
+          "label": "主要职责",
+          "matches_source": true
+        }
+      ],
+      "course_mentions": [
+        {
+          "raw_text_matches_source": false,
+          "courses": [
+            "操作系统",
+            "C语言程序设计",
+            "商务网站设计与开发",
+            "大学计算机"
+          ],
+          "source_url_matches_profile": true,
+          "manual_review": "supported_abridged_excerpt"
+        }
+      ]
+    },
+    {
+      "id": "194118",
+      "name": "李琳",
+      "source_url": "https://ccs.cuc.edu.cn/2022/0607/c8472a194118/page.htm",
+      "source_sha256_verified": true,
+      "article_body_present": true,
+      "name_matches_source": true,
+      "fields": [
+        {
+          "label": "姓名",
+          "matches_source": true
+        },
+        {
+          "label": "职称",
+          "matches_source": true
+        },
+        {
+          "label": "系别",
+          "matches_source": true
+        },
+        {
+          "label": "主要职责",
+          "matches_source": true
+        }
+      ],
+      "course_mentions": []
+    },
+    {
+      "id": "257720",
+      "name": "徐震",
+      "source_url": "https://ccs.cuc.edu.cn/2022/0607/c13913a257720/page.htm",
+      "source_sha256_verified": true,
+      "article_body_present": true,
+      "name_matches_source": true,
+      "fields": [
+        {
+          "label": "姓名",
+          "matches_source": true
+        },
+        {
+          "label": "职称",
+          "matches_source": true
+        },
+        {
+          "label": "系别",
+          "matches_source": true
+        },
+        {
+          "label": "研究方向",
+          "matches_source": true
+        }
+      ],
+      "course_mentions": []
+    },
+    {
+      "id": "257719",
+      "name": "杜跃进",
+      "source_url": "https://ccs.cuc.edu.cn/2022/0607/c13913a257719/page.htm",
+      "source_sha256_verified": true,
+      "article_body_present": true,
+      "name_matches_source": true,
+      "fields": [
+        {
+          "label": "姓名",
+          "matches_source": true
+        },
+        {
+          "label": "职称",
+          "matches_source": true
+        },
+        {
+          "label": "系别",
+          "matches_source": true
+        },
+        {
+          "label": "研究方向",
+          "matches_source": true
+        }
+      ],
+      "course_mentions": []
+    },
+    {
+      "id": "148844",
+      "name": "张晶晶",
+      "source_url": "https://ccs.cuc.edu.cn/2019/0910/c6239a148844/page.htm",
+      "source_sha256_verified": true,
+      "article_body_present": true,
+      "name_matches_source": true,
+      "fields": [
+        {
+          "label": "姓名",
+          "matches_source": true
+        },
+        {
+          "label": "系别",
+          "matches_source": true
+        },
+        {
+          "label": "职称",
+          "matches_source": true
+        },
+        {
+          "label": "讲授课程",
+          "matches_source": true
+        },
+        {
+          "label": "科研方向或教学专长",
+          "matches_source": true
+        }
+      ],
+      "course_mentions": [
+        {
+          "raw_text_matches_source": true,
+          "courses": [
+            "深度学习",
+            "计算机视觉"
+          ],
+          "source_url_matches_profile": true
+        }
+      ]
+    },
+    {
+      "id": "268069",
+      "name": "张弛",
+      "source_url": "https://ccs.cuc.edu.cn/2019/0911/c6239a268069/page.htm",
+      "source_sha256_verified": true,
+      "article_body_present": true,
+      "name_matches_source": true,
+      "fields": [
+        {
+          "label": "姓名",
+          "matches_source": true
+        },
+        {
+          "label": "职称",
+          "matches_source": true
+        },
+        {
+          "label": "系别",
+          "matches_source": true
+        },
+        {
+          "label": "讲授课程",
+          "matches_source": true
+        },
+        {
+          "label": "科研方向或教学专长",
+          "matches_source": true
+        }
+      ],
+      "course_mentions": [
+        {
+          "raw_text_matches_source": true,
+          "courses": [
+            "软件工程"
+          ],
+          "source_url_matches_profile": true
+        }
+      ]
+    },
+    {
+      "id": "268009",
+      "name": "龚隽鹏",
+      "source_url": "https://ccs.cuc.edu.cn/2019/0911/c6239a268009/page.htm",
+      "source_sha256_verified": true,
+      "article_body_present": true,
+      "name_matches_source": true,
+      "fields": [
+        {
+          "label": "姓名",
+          "matches_source": true
+        },
+        {
+          "label": "职称",
+          "matches_source": true
+        },
+        {
+          "label": "系别",
+          "matches_source": true
+        },
+        {
+          "label": "讲授课程",
+          "matches_source": true
+        },
+        {
+          "label": "科研方向或教学专长",
+          "matches_source": true
+        }
+      ],
+      "course_mentions": [
+        {
+          "raw_text_matches_source": true,
+          "courses": [
+            "计算思维概论"
+          ],
+          "source_url_matches_profile": true
+        }
+      ]
+    },
+    {
+      "id": "257717",
+      "name": "张润滋",
+      "source_url": "https://ccs.cuc.edu.cn/2022/0607/c6240a257717/page.htm",
+      "source_sha256_verified": true,
+      "article_body_present": true,
+      "name_matches_source": true,
+      "fields": [
+        {
+          "label": "姓名",
+          "matches_source": true
+        },
+        {
+          "label": "职称",
+          "matches_source": true
+        },
+        {
+          "label": "系别",
+          "matches_source": true
+        },
+        {
+          "label": "讲授课程",
+          "matches_source": true
+        },
+        {
+          "label": "科研方向或教学专长",
+          "matches_source": true
+        }
+      ],
+      "course_mentions": [
+        {
+          "raw_text_matches_source": true,
+          "courses": [
+            "舆情与媒体安全"
+          ],
+          "source_url_matches_profile": true
+        }
+      ]
+    }
+  ],
+  "manually_reviewed_exceptions": [
+    {
+      "id": "148853",
+      "name": "孙书韬",
+      "field": "科研方向或教学专长",
+      "finding": "Faithful prefix excerpt; the comma after the research topics is changed to a full stop and project/publication statistics are omitted, as the record notes."
+    },
+    {
+      "id": "199685",
+      "name": "吴林",
+      "field": "科研方向或教学专长",
+      "finding": "Faithful prefix excerpt; the comma after the research topics is changed to a full stop and project/publication statistics are omitted, as the record notes."
+    },
+    {
+      "id": "148836",
+      "name": "杨俊生",
+      "field": "course_mentions",
+      "finding": "Course list and 2018 transfer statement are both exact source passages, but intervening teaching-honours text is omitted without an ellipsis. Facts are supported; quote should be labelled an abridged excerpt."
+    },
+    {
+      "id": "194889",
+      "name": "牛苏雨",
+      "field": "主要职责（整理）",
+      "finding": "Explicitly labelled summary of the nine source responsibilities; each topic is present in the source."
+    },
+    {
+      "id": "194121",
+      "name": "谭志芳",
+      "field": "course_mentions",
+      "finding": "Historical teaching list and post-2019 secretary statement are exact source passages separated by omitted textbook and 2003-2008 management experience. Facts are supported; quote should be labelled an abridged excerpt."
+    }
+  ],
+  "recommendations": [
+    "Label the joined source passages for Yang Junsheng and Tan Zhifang as abridged excerpts, or insert explicit ellipses; do not call them contiguous verbatim sentences."
+  ],
+  "errors": [],
+  "limitations": [
+    "Live review sampled profile content rather than re-downloading all 64 bodies; the full 64 stored sources were checked by SHA-256 and verbatim field/teaching evidence.",
+    "Biographical summaries were reviewed as summaries; automated substring checks apply only to the recorded source fields and verbatim teaching evidence.",
+    "The website does not provide a current-semester teacher timetable; unqualified teaching statements are not evidence of a particular semester's appointment.",
+    "Two unlinked mentor names have no independent biography in the collected public faculty columns."
+  ],
+  "verdict": "pass"
+}

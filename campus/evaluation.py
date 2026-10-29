@@ -15,7 +15,7 @@ def evaluate_cases(kb,cases,*,strategy,threshold,top_k=4,cohort='2023',major='�
         start=time.perf_counter()
         document=case.get('document',case.get('expected_document',''))
         year=re.search(r'(20\d{2})\s*(?:级|年入学)',case['question'])
-        category=infer_category(case['question'])
+        category=infer_category(case['question'],teacher_names=kb.teacher_subjects)
         found=kb.search(case['question'],top_k=top_k,include_samples=include_samples,
             min_score=threshold,cohort=case.get('cohort') or (year.group(1) if year else cohort),
             major=case.get('major') or major,strategy=strategy,category=category)

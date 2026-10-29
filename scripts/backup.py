@@ -35,6 +35,9 @@ if __name__ == '__main__':
             if (ROOT/'materials/yz-official').is_dir():
                 for file in (ROOT/'materials/yz-official').rglob('*'):
                     if file.is_file():archive.write(file,file.relative_to(ROOT).as_posix())
+            if (ROOT/'materials/ccs-official').is_dir():
+                for file in (ROOT/'materials/ccs-official').rglob('*'):
+                    if file.is_file():archive.write(file,file.relative_to(ROOT).as_posix())
             for file in (ROOT/'data/reviews').glob('*.json'):
                 archive.write(file,'data/reviews/'+file.name)
             archive.writestr('说明.txt', '包含文档原件和 SQLite 片段数据，不含 API 密钥、模型缓存或聊天记录。恢复前请先关闭系统；跨电脑恢复后需要按新路径重新配置模型。')

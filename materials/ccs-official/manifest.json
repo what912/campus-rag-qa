@@ -1,0 +1,1992 @@
+{
+  "prepared_at": "2026-10-27T17:27:48.665479+08:00",
+  "entry_url": "https://ccs.cuc.edu.cn/",
+  "collected_at": "2026-10-27T14:19:30.652996+08:00",
+  "source": "materials/ccs-official/academic-records-reviewed.json",
+  "source_sha256": "e0cd714f6374047cdb21d719ec13658181c4a2f0b67da7f1a7dc8ce50a3d7ca6",
+  "documents": [
+    {
+      "id": "ccs-reviewed-01",
+      "name": "学院教师公开简介汇编.pdf",
+      "local_path": "materials/ccs-official/pdf-reviewed/学院教师公开简介汇编.pdf",
+      "original_path": "materials/ccs-official/academic-records-reviewed.json",
+      "sha256": "3d36531190cf4e0da517b4cfa1118943d4356802e51943f8f4b003e5c87f9eb3",
+      "original_sha256": "e0cd714f6374047cdb21d719ec13658181c4a2f0b67da7f1a7dc8ce50a3d7ca6",
+      "bytes": 210158,
+      "pages": 28,
+      "expected_chunks": 79,
+      "record_count": 64,
+      "unique_names": 64,
+      "category": "师资信息",
+      "version": "2026-10-27采集；各条目版本见来源",
+      "source_page": "https://ccs.cuc.edu.cn/",
+      "source_records": [
+        {
+          "url": "https://ccs.cuc.edu.cn/2019/0910/c6238a148867/page.htm",
+          "published_at": "2019-09-15",
+          "title": "王淑娟"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2019/0916/c6238a148868/page.htm",
+          "published_at": "2019-09-16",
+          "title": "林卫国"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2022/0607/c6238a194124/page.htm",
+          "published_at": "2022-06-07",
+          "title": "宋佳"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2019/1107/c6238a149371/page.htm",
+          "published_at": "2019-09-14",
+          "title": "王琦"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2022/0607/c6238a194131/page.htm",
+          "published_at": "2022-06-07",
+          "title": "郑中翔"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2022/0607/c6239a254363/page.htm",
+          "published_at": "2022-06-07",
+          "title": "徐万山"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2019/0911/c6239a255309/page.htm",
+          "published_at": "2025-05-08",
+          "title": "司俊俊"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2019/0916/c6239a148817/page.htm",
+          "published_at": "2019-09-15",
+          "title": "黄祥林"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2019/0314/c6239a148831/page.htm",
+          "published_at": "2019-09-15",
+          "title": "扈文峰"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2019/0910/c6239a148866/page.htm",
+          "published_at": "2023-04-20",
+          "title": "尚文倩"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2019/0910/c6239a148863/page.htm",
+          "published_at": "2019-09-13",
+          "title": "董晓晓"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2019/0911/c6239a148848/page.htm",
+          "published_at": "2019-09-15",
+          "title": "冯爽"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2019/0910/c6239a148861/page.htm",
+          "published_at": "2019-09-15",
+          "title": "冯欣"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2019/0910/c6239a148858/page.htm",
+          "published_at": "2019-09-14",
+          "title": "郭建璞"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2019/0910/c6239a148862/page.htm",
+          "published_at": "2019-09-13",
+          "title": "刘青"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2019/0911/c6239a148832/page.htm",
+          "published_at": "2019-09-14",
+          "title": "郭晓梅"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2019/0915/c6239a148824/page.htm",
+          "published_at": "2019-09-13",
+          "title": "李亚峰"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2019/0911/c6239a148843/page.htm",
+          "published_at": "2019-09-14",
+          "title": "李春芳"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2019/0314/c6239a148829/page.htm",
+          "published_at": "2019-09-15",
+          "title": "李樱"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2019/0314/c6239a148830/page.htm",
+          "published_at": "2019-09-15",
+          "title": "周菁"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2019/0915/c6239a148822/page.htm",
+          "published_at": "2019-09-13",
+          "title": "张伟娜"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2019/0910/c6239a148855/page.htm",
+          "published_at": "2023-09-22",
+          "title": "张雷"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2019/0910/c6239a148869/page.htm",
+          "published_at": "2019-09-14",
+          "title": "谢卫华"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2019/1108/c6239a149430/page.htm",
+          "published_at": "2019-09-14",
+          "title": "温宇俊"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2019/0910/c6239a148870/page.htm",
+          "published_at": "2019-09-13",
+          "title": "王兆华"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2019/1107/c6239a149372/page.htm",
+          "published_at": "2019-09-13",
+          "title": "王妍"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2019/0911/c6239a148840/page.htm",
+          "published_at": "2019-09-14",
+          "title": "王海波"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2019/0910/c6239a148853/page.htm",
+          "published_at": "2019-09-14",
+          "title": "孙书韬"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2019/0911/c6239a148837/page.htm",
+          "published_at": "2019-09-14",
+          "title": "宋明丽"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2019/0910/c6239a148854/page.htm",
+          "published_at": "2019-09-15",
+          "title": "曹轶臻"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2019/0911/c6242a258325/page.htm",
+          "published_at": "2025-07-10",
+          "title": "宋国惠"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2022/1011/c6242a199685/page.htm",
+          "published_at": "2022-10-11",
+          "title": "吴林"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2022/0714/c6239a194896/page.htm",
+          "published_at": "2022-07-14",
+          "title": "周帜"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2019/0910/c6239a148860/page.htm",
+          "published_at": "2019-09-15",
+          "title": "曹建香"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2019/0910/c6239a148846/page.htm",
+          "published_at": "2024-07-25",
+          "title": "董春玲"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2022/0714/c6240a194895/page.htm",
+          "published_at": "2024-07-25",
+          "title": "王静涛"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2019/1107/c6240a149370/page.htm",
+          "published_at": "2024-07-25",
+          "title": "安靖"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2019/0911/c6240a148851/page.htm",
+          "published_at": "2023-09-22",
+          "title": "姜正涛"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2022/0607/c6240a194132/page.htm",
+          "published_at": "2022-06-07",
+          "title": "徐君锋"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2022/0607/c6240a194130/page.htm",
+          "published_at": "2022-06-07",
+          "title": "高玉龙"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2019/0910/c6240a148845/page.htm",
+          "published_at": "2021-03-02",
+          "title": "曹刚"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2019/0910/c6240a148864/page.htm",
+          "published_at": "2019-09-15",
+          "title": "巩微"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2019/0314/c6240a148826/page.htm",
+          "published_at": "2019-09-15",
+          "title": "刘文"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2019/0911/c6240a148865/page.htm",
+          "published_at": "2019-09-15",
+          "title": "潘耘"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2019/0314/c6240a148828/page.htm",
+          "published_at": "2019-09-15",
+          "title": "隋爱娜"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2019/0910/c6240a148856/page.htm",
+          "published_at": "2019-09-15",
+          "title": "范文庆"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2019/0911/c6240a148849/page.htm",
+          "published_at": "2019-09-14",
+          "title": "黄玮"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2020/0914/c6240a172907/page.htm",
+          "published_at": "2019-09-14",
+          "title": "范永开"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2019/0915/c6242a148841/page.htm",
+          "published_at": "2019-09-14",
+          "title": "陈小森"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2019/0911/c6242a148836/page.htm",
+          "published_at": "2019-09-13",
+          "title": "杨俊生"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2019/0915/c6242a148842/page.htm",
+          "published_at": "2019-09-13",
+          "title": "赵世军"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2019/0915/c6242a148825/page.htm",
+          "published_at": "2019-09-01",
+          "title": "玄浩"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2022/0714/c8472a194892/page.htm",
+          "published_at": "2022-07-14",
+          "title": "丁晨溦"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2022/0713/c8472a194889/page.htm",
+          "published_at": "2022-07-13",
+          "title": "牛苏雨"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2022/0607/c8472a194123/page.htm",
+          "published_at": "2022-06-07",
+          "title": "卢平平"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2022/0607/c8472a194122/page.htm",
+          "published_at": "2022-06-07",
+          "title": "李花"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2022/0607/c8472a194121/page.htm",
+          "published_at": "2022-06-07",
+          "title": "谭志芳"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2022/0607/c8472a194118/page.htm",
+          "published_at": "2022-06-07",
+          "title": "李琳"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2022/0607/c13913a257720/page.htm",
+          "published_at": "2025-06-26",
+          "title": "徐震"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2022/0607/c13913a257719/page.htm",
+          "published_at": "2025-06-26",
+          "title": "杜跃进"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2019/0910/c6239a148844/page.htm",
+          "published_at": "2025-09-09",
+          "title": "张晶晶"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2019/0911/c6239a268069/page.htm",
+          "published_at": "2025-07-10",
+          "title": "张弛"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2019/0911/c6239a268009/page.htm",
+          "published_at": "2025-07-10",
+          "title": "龚隽鹏"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2022/0607/c6240a257717/page.htm",
+          "published_at": "2025-06-26",
+          "title": "张润滋"
+        }
+      ],
+      "collected_at": "2026-10-27T14:19:30.652996+08:00",
+      "metadata": {
+        "domain": "faculty",
+        "faculty": "计算机与网络空间安全学院",
+        "major": "",
+        "cohort": "",
+        "published_at": "",
+        "authority": "中国传媒大学计算机与网络空间安全学院官网公开页面及链接附件；助手离线整理",
+        "reference_only": false,
+        "conversion_method": "official_public_sources_reviewed_compilation",
+        "original_filename": "academic-records-reviewed.json",
+        "original_sha256": "e0cd714f6374047cdb21d719ec13658181c4a2f0b67da7f1a7dc8ce50a3d7ca6",
+        "source_collection": {
+          "entry_url": "https://ccs.cuc.edu.cn/",
+          "collected_at": "2026-10-27T14:19:30.652996+08:00",
+          "publication_date_scope": "每篇官方原页分别保留；汇编本身没有统一官方发布日期",
+          "source_dates": [
+            {
+              "url": "https://ccs.cuc.edu.cn/2019/0910/c6238a148867/page.htm",
+              "published_at": "2019-09-15"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2019/0916/c6238a148868/page.htm",
+              "published_at": "2019-09-16"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2022/0607/c6238a194124/page.htm",
+              "published_at": "2022-06-07"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2019/1107/c6238a149371/page.htm",
+              "published_at": "2019-09-14"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2022/0607/c6238a194131/page.htm",
+              "published_at": "2022-06-07"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2022/0607/c6239a254363/page.htm",
+              "published_at": "2022-06-07"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2019/0911/c6239a255309/page.htm",
+              "published_at": "2025-05-08"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2019/0916/c6239a148817/page.htm",
+              "published_at": "2019-09-15"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2019/0314/c6239a148831/page.htm",
+              "published_at": "2019-09-15"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2019/0910/c6239a148866/page.htm",
+              "published_at": "2023-04-20"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2019/0910/c6239a148863/page.htm",
+              "published_at": "2019-09-13"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2019/0911/c6239a148848/page.htm",
+              "published_at": "2019-09-15"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2019/0910/c6239a148861/page.htm",
+              "published_at": "2019-09-15"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2019/0910/c6239a148858/page.htm",
+              "published_at": "2019-09-14"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2019/0910/c6239a148862/page.htm",
+              "published_at": "2019-09-13"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2019/0911/c6239a148832/page.htm",
+              "published_at": "2019-09-14"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2019/0915/c6239a148824/page.htm",
+              "published_at": "2019-09-13"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2019/0911/c6239a148843/page.htm",
+              "published_at": "2019-09-14"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2019/0314/c6239a148829/page.htm",
+              "published_at": "2019-09-15"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2019/0314/c6239a148830/page.htm",
+              "published_at": "2019-09-15"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2019/0915/c6239a148822/page.htm",
+              "published_at": "2019-09-13"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2019/0910/c6239a148855/page.htm",
+              "published_at": "2023-09-22"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2019/0910/c6239a148869/page.htm",
+              "published_at": "2019-09-14"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2019/1108/c6239a149430/page.htm",
+              "published_at": "2019-09-14"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2019/0910/c6239a148870/page.htm",
+              "published_at": "2019-09-13"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2019/1107/c6239a149372/page.htm",
+              "published_at": "2019-09-13"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2019/0911/c6239a148840/page.htm",
+              "published_at": "2019-09-14"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2019/0910/c6239a148853/page.htm",
+              "published_at": "2019-09-14"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2019/0911/c6239a148837/page.htm",
+              "published_at": "2019-09-14"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2019/0910/c6239a148854/page.htm",
+              "published_at": "2019-09-15"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2019/0911/c6242a258325/page.htm",
+              "published_at": "2025-07-10"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2022/1011/c6242a199685/page.htm",
+              "published_at": "2022-10-11"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2022/0714/c6239a194896/page.htm",
+              "published_at": "2022-07-14"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2019/0910/c6239a148860/page.htm",
+              "published_at": "2019-09-15"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2019/0910/c6239a148846/page.htm",
+              "published_at": "2024-07-25"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2022/0714/c6240a194895/page.htm",
+              "published_at": "2024-07-25"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2019/1107/c6240a149370/page.htm",
+              "published_at": "2024-07-25"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2019/0911/c6240a148851/page.htm",
+              "published_at": "2023-09-22"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2022/0607/c6240a194132/page.htm",
+              "published_at": "2022-06-07"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2022/0607/c6240a194130/page.htm",
+              "published_at": "2022-06-07"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2019/0910/c6240a148845/page.htm",
+              "published_at": "2021-03-02"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2019/0910/c6240a148864/page.htm",
+              "published_at": "2019-09-15"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2019/0314/c6240a148826/page.htm",
+              "published_at": "2019-09-15"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2019/0911/c6240a148865/page.htm",
+              "published_at": "2019-09-15"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2019/0314/c6240a148828/page.htm",
+              "published_at": "2019-09-15"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2019/0910/c6240a148856/page.htm",
+              "published_at": "2019-09-15"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2019/0911/c6240a148849/page.htm",
+              "published_at": "2019-09-14"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2020/0914/c6240a172907/page.htm",
+              "published_at": "2019-09-14"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2019/0915/c6242a148841/page.htm",
+              "published_at": "2019-09-14"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2019/0911/c6242a148836/page.htm",
+              "published_at": "2019-09-13"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2019/0915/c6242a148842/page.htm",
+              "published_at": "2019-09-13"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2019/0915/c6242a148825/page.htm",
+              "published_at": "2019-09-01"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2022/0714/c8472a194892/page.htm",
+              "published_at": "2022-07-14"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2022/0713/c8472a194889/page.htm",
+              "published_at": "2022-07-13"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2022/0607/c8472a194123/page.htm",
+              "published_at": "2022-06-07"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2022/0607/c8472a194122/page.htm",
+              "published_at": "2022-06-07"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2022/0607/c8472a194121/page.htm",
+              "published_at": "2022-06-07"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2022/0607/c8472a194118/page.htm",
+              "published_at": "2022-06-07"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2022/0607/c13913a257720/page.htm",
+              "published_at": "2025-06-26"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2022/0607/c13913a257719/page.htm",
+              "published_at": "2025-06-26"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2019/0910/c6239a148844/page.htm",
+              "published_at": "2025-09-09"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2019/0911/c6239a268069/page.htm",
+              "published_at": "2025-07-10"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2019/0911/c6239a268009/page.htm",
+              "published_at": "2025-07-10"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2022/0607/c6240a257717/page.htm",
+              "published_at": "2025-06-26"
+            }
+          ]
+        },
+        "coverage_note": [
+          "覆盖采集日学院官网具名师资、导师页链接和所列教学栏目的可访问内容，不等于当前学期完整课程表或任课表。",
+          "64位人员含行政、实验实践、兼职和导师页保留人员；官网栏目归属不自动等同于正文系别或当前在岗身份。",
+          "仅课程名称、教学报道片段、历史2018方案和社会培训模块分别标记，不声称收齐逐门完整课程简介。",
+          "教师页的目前/曾经和公布日期按原页保留，采集日期不是网页最后更新时间，也不证明当年招生名额。",
+          "2位导师页仅出现姓名而无个人简介链接，未补写其简介；外部个人站、教学Wiki和登录资源不扩爬。",
+          "事实摘要为助手据公开资料整理，不能当作独立人工标注或课程教学金标准。",
+          "课程集合来自已采集的公开学院页面与附件，不等于教务系统完整开课目录、2023级逐门教学大纲或本学期任课表。",
+          "2018级四门实践只提供历史内容；同名课程在较新名单出现也不证明内容、学分、考核和任课人未变。",
+          "2019专业介绍与2024发布的2025硕士招生介绍中的主干课程仅是名称清单，不能据此生成逐门完整简介。",
+          "新闻中的分享、演示、建设、主持、发起者均为teaching_activity，不能当作当前任课证明；只有培训简章明确列出的导师标为training_instructor，且为项目级角色。",
+          "培训联系人、招生导师、研究方向、教材作者、会议报告题名不自动转为课程任课关系。",
+          "社会培训的课程/模块与学历课程严格分层；历史收费、时间与工具版本不承诺现行有效。",
+          "同页两份培训海报PDF（ccf3c5ca9e0b7afc、2827d8307b9daf84）有字体编码乱码，本记录不使用其不可读文字，而据同页可读13页/6页正式文字版简章；未宣称OCR或独立人工标注。",
+          "教师简介及其讲授课程由另一流程整理，此文件未读取或合并64教师简介中的课程关系。",
+          "本文件的事实摘要与证据整理属于助手整理，不是独立人工评测金标准。",
+          "补充课程地图中可辨识的课程名称，仅作为对应版本的名称证据；图中未给出逐门课程简介或任课教师。"
+        ],
+        "review_note": "学院官网公开资料的助手整理汇编，非学校发布的原生PDF；各条目保留官方来源与原页日期。采集日不能当作发布日期，不代表当前学期任课表或招生名额。缺少简介、历史授课、教学活动和社会培训均按条目标注；不能据名称补写课程内容或教师关系。",
+        "teacher_names": [
+          "丁晨溦",
+          "冯欣",
+          "冯爽",
+          "刘文",
+          "刘青",
+          "卢平平",
+          "司俊俊",
+          "吴林",
+          "周帜",
+          "周菁",
+          "姜正涛",
+          "孙书韬",
+          "安靖",
+          "宋佳",
+          "宋国惠",
+          "宋明丽",
+          "尚文倩",
+          "巩微",
+          "张伟娜",
+          "张弛",
+          "张晶晶",
+          "张润滋",
+          "张雷",
+          "徐万山",
+          "徐君锋",
+          "徐震",
+          "扈文峰",
+          "曹刚",
+          "曹建香",
+          "曹轶臻",
+          "李亚峰",
+          "李春芳",
+          "李樱",
+          "李琳",
+          "李花",
+          "杜跃进",
+          "杨俊生",
+          "林卫国",
+          "温宇俊",
+          "潘耘",
+          "牛苏雨",
+          "玄浩",
+          "王兆华",
+          "王妍",
+          "王海波",
+          "王淑娟",
+          "王琦",
+          "王静涛",
+          "范文庆",
+          "范永开",
+          "董春玲",
+          "董晓晓",
+          "谢卫华",
+          "谭志芳",
+          "赵世军",
+          "郑中翔",
+          "郭建璞",
+          "郭晓梅",
+          "陈小森",
+          "隋爱娜",
+          "高玉龙",
+          "黄玮",
+          "黄祥林",
+          "龚隽鹏"
+        ]
+      }
+    },
+    {
+      "id": "ccs-reviewed-02",
+      "name": "学院课程公开信息与教师对应索引.pdf",
+      "local_path": "materials/ccs-official/pdf-reviewed/学院课程公开信息与教师对应索引.pdf",
+      "original_path": "materials/ccs-official/academic-records-reviewed.json",
+      "sha256": "bcabf3acd5e15637835b64eebdb264edab35fe9724424bce76a326acf0e0dc1b",
+      "original_sha256": "e0cd714f6374047cdb21d719ec13658181c4a2f0b67da7f1a7dc8ce50a3d7ca6",
+      "bytes": 527491,
+      "pages": 116,
+      "expected_chunks": 512,
+      "record_count": 393,
+      "unique_names": 369,
+      "category": "课程简介",
+      "version": "2026-10-27采集；各条目版本见来源",
+      "source_page": "https://ccs.cuc.edu.cn/",
+      "source_records": [
+        {
+          "url": "https://ccs.cuc.edu.cn/2019/0314/c5580a148755/page.htm",
+          "published_at": "2019-03-14",
+          "title": "本科专业·软件工程（移动互联网方向）"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2022/0714/c6239a194896/page.htm",
+          "published_at": "2022-07-14",
+          "title": "周帜公开简介"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2019/0314/c5580a148753/page.htm",
+          "published_at": "2019-03-14",
+          "title": "本科专业·计算机科学与技术"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2019/0910/c6239a148869/page.htm",
+          "published_at": "2019-09-14",
+          "title": "谢卫华公开简介"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2019/0314/c6239a148829/page.htm",
+          "published_at": "2019-09-15",
+          "title": "李樱公开简介"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2019/0910/c6239a148854/page.htm",
+          "published_at": "2019-09-15",
+          "title": "曹轶臻公开简介"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2022/0726/c5535a196269/page.htm",
+          "published_at": "2022-07-26",
+          "title": "本科专业人才培养方案(2022版) - 八、课程地图"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2022/0726/c5535a196268/page.htm",
+          "published_at": "2018-07-25",
+          "title": "计算机科学与技术专业人才培养方案（2018版）"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2019/0314/c5580a148756/page.htm",
+          "published_at": "2019-03-14",
+          "title": "本科专业·数据科学与大数据技术"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2019/0910/c6239a148855/page.htm",
+          "published_at": "2023-09-22",
+          "title": "张雷公开简介"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2019/0911/c6240a148849/page.htm",
+          "published_at": "2019-09-14",
+          "title": "黄玮公开简介"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2019/0314/c6239a148830/page.htm",
+          "published_at": "2019-09-15",
+          "title": "周菁公开简介"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2019/0915/c6239a148822/page.htm",
+          "published_at": "2019-09-13",
+          "title": "张伟娜公开简介"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2019/1107/c6240a149370/page.htm",
+          "published_at": "2024-07-25",
+          "title": "安靖公开简介"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2019/0910/c6239a148863/page.htm",
+          "published_at": "2019-09-13",
+          "title": "董晓晓公开简介"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2019/1107/c6238a149371/page.htm",
+          "published_at": "2019-09-14",
+          "title": "王琦公开简介"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2019/0911/c6239a148832/page.htm",
+          "published_at": "2019-09-14",
+          "title": "郭晓梅公开简介"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2021/0906/c5559a185820/page.htm",
+          "published_at": "2021-09-06",
+          "title": "计算机与网络空间安全学院教学科研系列交流活动第四期"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2019/0910/c6239a148846/page.htm",
+          "published_at": "2024-07-25",
+          "title": "董春玲公开简介"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2019/0911/c6242a258325/page.htm",
+          "published_at": "2025-07-10",
+          "title": "宋国惠公开简介"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2019/0911/c6240a148851/page.htm",
+          "published_at": "2023-09-22",
+          "title": "姜正涛公开简介"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2019/0314/c5580a148754/page.htm",
+          "published_at": "2019-03-14",
+          "title": "本科专业·信息安全"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2019/0910/c6240a148856/page.htm",
+          "published_at": "2019-09-15",
+          "title": "范文庆公开简介"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2022/1011/c6242a199685/page.htm",
+          "published_at": "2022-10-11",
+          "title": "吴林公开简介"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2019/0910/c6239a148860/page.htm",
+          "published_at": "2019-09-15",
+          "title": "曹建香公开简介"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2019/0910/c6239a148858/page.htm",
+          "published_at": "2019-09-14",
+          "title": "郭建璞公开简介"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2024/1127/c5580a246047/page.htm",
+          "published_at": "2024-11-27",
+          "title": "2024年计算机与网络空间安全学院本科专业介绍（网络空间安全）"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2021/0729/c5559a185174/page.htm",
+          "published_at": "2021-07-29",
+          "title": "计算机与网络空间安全学院举行面向计算思维大学计算机基础课程改革和教材建设讨论会"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2019/0911/c6239a148843/page.htm",
+          "published_at": "2019-09-14",
+          "title": "李春芳公开简介"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2022/0714/c6240a194895/page.htm",
+          "published_at": "2024-07-25",
+          "title": "王静涛公开简介"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2019/0314/c6240a148828/page.htm",
+          "published_at": "2019-09-15",
+          "title": "隋爱娜公开简介"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2019/0915/c6239a148824/page.htm",
+          "published_at": "2019-09-13",
+          "title": "李亚峰公开简介"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2020/0914/c6240a172907/page.htm",
+          "published_at": "2019-09-14",
+          "title": "范永开公开简介"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2019/0910/c6240a148845/page.htm",
+          "published_at": "2021-03-02",
+          "title": "曹刚公开简介"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2019/1107/c6239a149372/page.htm",
+          "published_at": "2019-09-13",
+          "title": "王妍公开简介"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2026/0202/c5526a266879/page.htm",
+          "published_at": "2026-02-02",
+          "title": "喜报｜我院数据结构课程教学案例在全国程序设计课程教学案例评选中荣获特等奖"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2021/0422/c5526a180267/page.htm",
+          "published_at": "2021-04-22",
+          "title": "计算机与网络空间安全学院举办第一期教学科研学术交流活动"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2019/0910/c6240a148864/page.htm",
+          "published_at": "2019-09-15",
+          "title": "巩微公开简介"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2019/0911/c6239a148837/page.htm",
+          "published_at": "2019-09-14",
+          "title": "宋明丽公开简介"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2021/0526/c5535a181928/page.htm",
+          "published_at": "2021-05-26",
+          "title": "计算机与网络空间安全学院教学科研系列交流活动第二期"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2019/0910/c6239a148844/page.htm",
+          "published_at": "2025-09-09",
+          "title": "张晶晶公开简介"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2019/0314/c6240a148826/page.htm",
+          "published_at": "2019-09-15",
+          "title": "刘文公开简介"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2022/0607/c6240a194132/page.htm",
+          "published_at": "2022-06-07",
+          "title": "徐君锋公开简介"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2019/0911/c6239a148848/page.htm",
+          "published_at": "2019-09-15",
+          "title": "冯爽公开简介"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2019/0910/c6239a148861/page.htm",
+          "published_at": "2019-09-15",
+          "title": "冯欣公开简介"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2019/0911/c6240a148865/page.htm",
+          "published_at": "2019-09-15",
+          "title": "潘耘公开简介"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2022/0607/c6240a257717/page.htm",
+          "published_at": "2025-06-26",
+          "title": "张润滋公开简介"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2024/0425/c5559a219128/page.htm",
+          "published_at": "2024-04-25",
+          "title": "计算机与网络空间安全学院举办“智思共读·计算思维课程回顾与前瞻研讨会”"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2026/0601/c5526a271231/page.htm",
+          "published_at": "2026-06-01",
+          "title": "我院计算思维教学实验室获评北京高等学校优秀教学实验室"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2022/0607/c6238a194131/page.htm",
+          "published_at": "2022-06-07",
+          "title": "郑中翔公开简介"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2022/0607/c6239a254363/page.htm",
+          "published_at": "2022-06-07",
+          "title": "徐万山公开简介"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2019/0911/c6239a268009/page.htm",
+          "published_at": "2025-07-10",
+          "title": "龚隽鹏公开简介"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2025/1201/c5526a264578/page.htm",
+          "published_at": "2025-12-01",
+          "title": "喜报｜我院教师团队多项案例在第七届中国计算机教育大会上获奖"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2019/0916/c6239a148817/page.htm",
+          "published_at": "2019-09-15",
+          "title": "黄祥林公开简介"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2019/0910/c6239a148866/page.htm",
+          "published_at": "2023-04-20",
+          "title": "尚文倩公开简介"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2022/0802/c5526a196602/page.htm",
+          "published_at": "2022-08-02",
+          "title": "计算机与网络空间安全学院参加2022年暑期“计算机组成与社会实践课程群虚拟教研室”建设研讨会"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2019/0911/c6239a255309/page.htm",
+          "published_at": "2025-05-08",
+          "title": "司俊俊公开简介"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2020/0817/c5535a172433/page.htm",
+          "published_at": "2020-08-17",
+          "title": "云上会议 | 首届MCL大学生学术训练季启动"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2019/0314/c5581a148757/page.htm",
+          "published_at": "2019-03-14",
+          "title": "硕士专业·计算机软件与理论"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2024/1127/c5581a246049/page.htm",
+          "published_at": "2024-11-27",
+          "title": "2025年硕士招生专业介绍-计算机技术"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2024/1127/c5581a246048/page.htm",
+          "published_at": "2024-11-27",
+          "title": "2025年硕士招生专业介绍-大数据技术与工程"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2024/1127/c5581a246052/page.htm",
+          "published_at": "2024-11-27",
+          "title": "2025年硕士招生专业介绍-网络与信息安全"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2024/1127/c5581a246051/page.htm",
+          "published_at": "2024-11-27",
+          "title": "2025年硕士招生专业介绍-网络空间安全"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2024/1127/c5581a246050/page.htm",
+          "published_at": "2024-11-27",
+          "title": "2025年硕士招生专业介绍-计算机科学与技术"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2019/0314/c5581a148760/page.htm",
+          "published_at": "2019-03-14",
+          "title": "博士专业·信息计算技术"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2021/1115/c5536a188864/page.htm",
+          "published_at": "2021-11-15",
+          "title": "中传研究生学术论文写作“信息计算与网络空间安全前沿工作坊”第1讲"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2021/1115/c5526a188863/page.htm",
+          "published_at": "2021-11-15",
+          "title": "中传研究生学术论文写作“信息计算与网络空间安全前沿工作坊”第1讲"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2019/0910/c6239a148862/page.htm",
+          "published_at": "2019-09-13",
+          "title": "刘青公开简介"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2019/0910/c6239a148870/page.htm",
+          "published_at": "2019-09-13",
+          "title": "王兆华公开简介"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2019/0911/c6242a148836/page.htm",
+          "published_at": "2019-09-13",
+          "title": "杨俊生公开简介"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2022/0607/c8472a194121/page.htm",
+          "published_at": "2022-06-07",
+          "title": "谭志芳公开简介"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2019/0314/c6239a148831/page.htm",
+          "published_at": "2019-09-15",
+          "title": "扈文峰公开简介"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2021/0621/c5559a183230/page.htm",
+          "published_at": "2021-06-21",
+          "title": "计算机与网络空间安全学院举办产学研交流与合作活动"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2026/0928/c5526a274361/page.htm",
+          "published_at": "2026-09-28",
+          "title": "助力培养复合型安全人才：《人工智能与网络空间安全》教材出版"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2022/0607/c6240a194130/page.htm",
+          "published_at": "2022-06-07",
+          "title": "高玉龙公开简介"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2019/0911/c6239a148840/page.htm",
+          "published_at": "2019-09-14",
+          "title": "王海波公开简介"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2019/1108/c6239a149430/page.htm",
+          "published_at": "2019-09-14",
+          "title": "温宇俊公开简介"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2019/0916/c6238a148868/page.htm",
+          "published_at": "2019-09-16",
+          "title": "林卫国公开简介"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2019/0911/c6239a268069/page.htm",
+          "published_at": "2025-07-10",
+          "title": "张弛公开简介"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2021/1025/c5526a187919/page.htm",
+          "published_at": "2021-10-25",
+          "title": "计网学院启动2021年秋季学期ACM程序设计竞赛培训"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2025/0303/c5527a251518/page.htm",
+          "published_at": "2025-03-03",
+          "title": "计网竞赛丨组织CTF竞赛培训的通知"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2025/0605/c10136a256568/page.htm",
+          "published_at": "2025-06-05",
+          "title": "2025年中国传媒大学AIGC+虚拍影像技术赋能教学创新实战工坊招生简章"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2024/0426/c10136a219179/page.htm",
+          "published_at": "2024-04-23",
+          "title": "2024年中国传媒大学“AIGC+融媒体生产创新应用技巧培训班”招生简章"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2025/1118/c10136a263817/page.htm",
+          "published_at": "2025-11-18",
+          "title": "2025年中国传媒大学AIGC短视频创作全能实战班（周末班）招生简章"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2026/0402/c10136a268509/page.htm",
+          "published_at": "2026-04-02",
+          "title": "2026年中国传媒大学AIGC短视频创作全能实战班 （周末班）招生简章"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2025/0605/c10136a256561/page.htm",
+          "published_at": "2025-06-05",
+          "title": "2025年中国传媒大学自媒体AI短视频创作培训班招生简章"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2026/0402/c10136a268510/page.htm",
+          "published_at": "2026-04-02",
+          "title": "2026年中国传媒大学AI漫剧共创实战工作坊招生简章"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2023/0817/c10136a211145/page.htm",
+          "published_at": "2023-08-17",
+          "title": "2023年中国传媒大学元宇宙技术培训系列虚拟数字人及人工智能培训招生简章"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2023/0817/c10136a211147/page.htm",
+          "published_at": "2023-08-17",
+          "title": "2023年中国传媒大学元宇宙技术培训系列XR虚拟拍摄技术及内容创作工作坊招生简章"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2023/0817/c10136a211146/page.htm",
+          "published_at": "2023-08-17",
+          "title": "2023年中国传媒大学元宇宙技术培训系列虚拟引擎（UE）视效呈现制作培训项目招生简章"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2023/0817/c10136a211148/page.htm",
+          "published_at": "2023-08-17",
+          "title": "2023年中国传媒大学元宇宙技术培训系列虚拟引擎（UE）视效呈现制作与实践培训项目招生简章"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2025/1118/c10136a263819/page.htm",
+          "published_at": "2025-11-18",
+          "title": "2025年数字影棚XR虚拟拍摄与创意实践训练营招生简章"
+        },
+        {
+          "url": "https://ccs.cuc.edu.cn/2021/0520/c5526a181742/page.htm",
+          "published_at": "2021-05-20",
+          "title": "计算机与网络空间安全学院刘文老师为西藏自治区全区网络安全管理培训班授课"
+        }
+      ],
+      "collected_at": "2026-10-27T14:19:30.652996+08:00",
+      "metadata": {
+        "domain": "courses",
+        "faculty": "计算机与网络空间安全学院",
+        "major": "",
+        "cohort": "",
+        "published_at": "",
+        "authority": "中国传媒大学计算机与网络空间安全学院官网公开页面及链接附件；助手离线整理",
+        "reference_only": false,
+        "conversion_method": "official_public_sources_reviewed_compilation",
+        "original_filename": "academic-records-reviewed.json",
+        "original_sha256": "e0cd714f6374047cdb21d719ec13658181c4a2f0b67da7f1a7dc8ce50a3d7ca6",
+        "source_collection": {
+          "entry_url": "https://ccs.cuc.edu.cn/",
+          "collected_at": "2026-10-27T14:19:30.652996+08:00",
+          "publication_date_scope": "每篇官方原页分别保留；汇编本身没有统一官方发布日期",
+          "source_dates": [
+            {
+              "url": "https://ccs.cuc.edu.cn/2019/0314/c5580a148755/page.htm",
+              "published_at": "2019-03-14"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2022/0714/c6239a194896/page.htm",
+              "published_at": "2022-07-14"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2019/0314/c5580a148753/page.htm",
+              "published_at": "2019-03-14"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2019/0910/c6239a148869/page.htm",
+              "published_at": "2019-09-14"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2019/0314/c6239a148829/page.htm",
+              "published_at": "2019-09-15"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2019/0910/c6239a148854/page.htm",
+              "published_at": "2019-09-15"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2022/0726/c5535a196269/page.htm",
+              "published_at": "2022-07-26"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2022/0726/c5535a196268/page.htm",
+              "published_at": "2018-07-25"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2019/0314/c5580a148756/page.htm",
+              "published_at": "2019-03-14"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2019/0910/c6239a148855/page.htm",
+              "published_at": "2023-09-22"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2019/0911/c6240a148849/page.htm",
+              "published_at": "2019-09-14"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2019/0314/c6239a148830/page.htm",
+              "published_at": "2019-09-15"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2019/0915/c6239a148822/page.htm",
+              "published_at": "2019-09-13"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2019/1107/c6240a149370/page.htm",
+              "published_at": "2024-07-25"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2019/0910/c6239a148863/page.htm",
+              "published_at": "2019-09-13"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2019/1107/c6238a149371/page.htm",
+              "published_at": "2019-09-14"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2019/0911/c6239a148832/page.htm",
+              "published_at": "2019-09-14"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2021/0906/c5559a185820/page.htm",
+              "published_at": "2021-09-06"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2019/0910/c6239a148846/page.htm",
+              "published_at": "2024-07-25"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2019/0911/c6242a258325/page.htm",
+              "published_at": "2025-07-10"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2019/0911/c6240a148851/page.htm",
+              "published_at": "2023-09-22"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2019/0314/c5580a148754/page.htm",
+              "published_at": "2019-03-14"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2019/0910/c6240a148856/page.htm",
+              "published_at": "2019-09-15"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2022/1011/c6242a199685/page.htm",
+              "published_at": "2022-10-11"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2019/0910/c6239a148860/page.htm",
+              "published_at": "2019-09-15"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2019/0910/c6239a148858/page.htm",
+              "published_at": "2019-09-14"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2024/1127/c5580a246047/page.htm",
+              "published_at": "2024-11-27"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2021/0729/c5559a185174/page.htm",
+              "published_at": "2021-07-29"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2019/0911/c6239a148843/page.htm",
+              "published_at": "2019-09-14"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2022/0714/c6240a194895/page.htm",
+              "published_at": "2024-07-25"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2019/0314/c6240a148828/page.htm",
+              "published_at": "2019-09-15"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2019/0915/c6239a148824/page.htm",
+              "published_at": "2019-09-13"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2020/0914/c6240a172907/page.htm",
+              "published_at": "2019-09-14"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2019/0910/c6240a148845/page.htm",
+              "published_at": "2021-03-02"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2019/1107/c6239a149372/page.htm",
+              "published_at": "2019-09-13"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2026/0202/c5526a266879/page.htm",
+              "published_at": "2026-02-02"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2021/0422/c5526a180267/page.htm",
+              "published_at": "2021-04-22"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2019/0910/c6240a148864/page.htm",
+              "published_at": "2019-09-15"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2019/0911/c6239a148837/page.htm",
+              "published_at": "2019-09-14"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2021/0526/c5535a181928/page.htm",
+              "published_at": "2021-05-26"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2019/0910/c6239a148844/page.htm",
+              "published_at": "2025-09-09"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2019/0314/c6240a148826/page.htm",
+              "published_at": "2019-09-15"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2022/0607/c6240a194132/page.htm",
+              "published_at": "2022-06-07"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2019/0911/c6239a148848/page.htm",
+              "published_at": "2019-09-15"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2019/0910/c6239a148861/page.htm",
+              "published_at": "2019-09-15"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2019/0911/c6240a148865/page.htm",
+              "published_at": "2019-09-15"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2022/0607/c6240a257717/page.htm",
+              "published_at": "2025-06-26"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2024/0425/c5559a219128/page.htm",
+              "published_at": "2024-04-25"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2026/0601/c5526a271231/page.htm",
+              "published_at": "2026-06-01"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2022/0607/c6238a194131/page.htm",
+              "published_at": "2022-06-07"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2022/0607/c6239a254363/page.htm",
+              "published_at": "2022-06-07"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2019/0911/c6239a268009/page.htm",
+              "published_at": "2025-07-10"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2025/1201/c5526a264578/page.htm",
+              "published_at": "2025-12-01"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2019/0916/c6239a148817/page.htm",
+              "published_at": "2019-09-15"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2019/0910/c6239a148866/page.htm",
+              "published_at": "2023-04-20"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2022/0802/c5526a196602/page.htm",
+              "published_at": "2022-08-02"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2019/0911/c6239a255309/page.htm",
+              "published_at": "2025-05-08"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2020/0817/c5535a172433/page.htm",
+              "published_at": "2020-08-17"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2019/0314/c5581a148757/page.htm",
+              "published_at": "2019-03-14"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2024/1127/c5581a246049/page.htm",
+              "published_at": "2024-11-27"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2024/1127/c5581a246048/page.htm",
+              "published_at": "2024-11-27"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2024/1127/c5581a246052/page.htm",
+              "published_at": "2024-11-27"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2024/1127/c5581a246051/page.htm",
+              "published_at": "2024-11-27"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2024/1127/c5581a246050/page.htm",
+              "published_at": "2024-11-27"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2019/0314/c5581a148760/page.htm",
+              "published_at": "2019-03-14"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2021/1115/c5536a188864/page.htm",
+              "published_at": "2021-11-15"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2021/1115/c5526a188863/page.htm",
+              "published_at": "2021-11-15"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2019/0910/c6239a148862/page.htm",
+              "published_at": "2019-09-13"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2019/0910/c6239a148870/page.htm",
+              "published_at": "2019-09-13"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2019/0911/c6242a148836/page.htm",
+              "published_at": "2019-09-13"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2022/0607/c8472a194121/page.htm",
+              "published_at": "2022-06-07"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2019/0314/c6239a148831/page.htm",
+              "published_at": "2019-09-15"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2021/0621/c5559a183230/page.htm",
+              "published_at": "2021-06-21"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2026/0928/c5526a274361/page.htm",
+              "published_at": "2026-09-28"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2022/0607/c6240a194130/page.htm",
+              "published_at": "2022-06-07"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2019/0911/c6239a148840/page.htm",
+              "published_at": "2019-09-14"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2019/1108/c6239a149430/page.htm",
+              "published_at": "2019-09-14"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2019/0916/c6238a148868/page.htm",
+              "published_at": "2019-09-16"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2019/0911/c6239a268069/page.htm",
+              "published_at": "2025-07-10"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2021/1025/c5526a187919/page.htm",
+              "published_at": "2021-10-25"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2025/0303/c5527a251518/page.htm",
+              "published_at": "2025-03-03"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2025/0605/c10136a256568/page.htm",
+              "published_at": "2025-06-05"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2024/0426/c10136a219179/page.htm",
+              "published_at": "2024-04-23"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2025/1118/c10136a263817/page.htm",
+              "published_at": "2025-11-18"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2026/0402/c10136a268509/page.htm",
+              "published_at": "2026-04-02"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2025/0605/c10136a256561/page.htm",
+              "published_at": "2025-06-05"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2026/0402/c10136a268510/page.htm",
+              "published_at": "2026-04-02"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2023/0817/c10136a211145/page.htm",
+              "published_at": "2023-08-17"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2023/0817/c10136a211147/page.htm",
+              "published_at": "2023-08-17"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2023/0817/c10136a211146/page.htm",
+              "published_at": "2023-08-17"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2023/0817/c10136a211148/page.htm",
+              "published_at": "2023-08-17"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2025/1118/c10136a263819/page.htm",
+              "published_at": "2025-11-18"
+            },
+            {
+              "url": "https://ccs.cuc.edu.cn/2021/0520/c5526a181742/page.htm",
+              "published_at": "2021-05-20"
+            }
+          ]
+        },
+        "coverage_note": [
+          "覆盖采集日学院官网具名师资、导师页链接和所列教学栏目的可访问内容，不等于当前学期完整课程表或任课表。",
+          "64位人员含行政、实验实践、兼职和导师页保留人员；官网栏目归属不自动等同于正文系别或当前在岗身份。",
+          "仅课程名称、教学报道片段、历史2018方案和社会培训模块分别标记，不声称收齐逐门完整课程简介。",
+          "教师页的目前/曾经和公布日期按原页保留，采集日期不是网页最后更新时间，也不证明当年招生名额。",
+          "2位导师页仅出现姓名而无个人简介链接，未补写其简介；外部个人站、教学Wiki和登录资源不扩爬。",
+          "事实摘要为助手据公开资料整理，不能当作独立人工标注或课程教学金标准。",
+          "课程集合来自已采集的公开学院页面与附件，不等于教务系统完整开课目录、2023级逐门教学大纲或本学期任课表。",
+          "2018级四门实践只提供历史内容；同名课程在较新名单出现也不证明内容、学分、考核和任课人未变。",
+          "2019专业介绍与2024发布的2025硕士招生介绍中的主干课程仅是名称清单，不能据此生成逐门完整简介。",
+          "新闻中的分享、演示、建设、主持、发起者均为teaching_activity，不能当作当前任课证明；只有培训简章明确列出的导师标为training_instructor，且为项目级角色。",
+          "培训联系人、招生导师、研究方向、教材作者、会议报告题名不自动转为课程任课关系。",
+          "社会培训的课程/模块与学历课程严格分层；历史收费、时间与工具版本不承诺现行有效。",
+          "同页两份培训海报PDF（ccf3c5ca9e0b7afc、2827d8307b9daf84）有字体编码乱码，本记录不使用其不可读文字，而据同页可读13页/6页正式文字版简章；未宣称OCR或独立人工标注。",
+          "教师简介及其讲授课程由另一流程整理，此文件未读取或合并64教师简介中的课程关系。",
+          "本文件的事实摘要与证据整理属于助手整理，不是独立人工评测金标准。",
+          "补充课程地图中可辨识的课程名称，仅作为对应版本的名称证据；图中未给出逐门课程简介或任课教师。"
+        ],
+        "review_note": "学院官网公开资料的助手整理汇编，非学校发布的原生PDF；各条目保留官方来源与原页日期。采集日不能当作发布日期，不代表当前学期任课表或招生名额。缺少简介、历史授课、教学活动和社会培训均按条目标注；不能据名称补写课程内容或教师关系。",
+        "course_names": [
+          "ACM程序设计竞赛新生集训",
+          "AIGC+虚拍影像技术赋能教学创新实战工坊",
+          "AIGC+融媒体生产创新应用技巧培训班",
+          "AIGC与XR影视拍摄制作",
+          "AIGC云平台架构与云应用",
+          "AIGC内容策划与创作实战",
+          "AIGC基础与课程目标解析",
+          "AIGC流行工具使用技巧",
+          "AIGC短视频创作全攻略",
+          "AIGC短视频创作全能实战班（周末班）",
+          "AI交叉应用技术",
+          "AI入门：从零开始认识人工智能",
+          "AI分镜的视觉美学",
+          "AI办公与创作轻松上手",
+          "AI基础操作技巧",
+          "AI如何重塑影视制作",
+          "AI数字人大揭秘",
+          "AI漫剧共创实战工作坊",
+          "AI短剧的时代机遇",
+          "AI短视频创作流程实战",
+          "AI绘画与设计入门",
+          "AI绘画入门与实战",
+          "AI绘画深度实战",
+          "AI绘画轻松学",
+          "AI编剧实战",
+          "AI视频制作入门",
+          "AI视频生成入门",
+          "AI辅助短视频运营",
+          "Access数据库",
+          "Android开发实践",
+          "C/C++程序设计",
+          "CTF竞赛培训",
+          "C语言程序设计",
+          "EDA设计",
+          "IPTV技术",
+          "JAVA程序设计",
+          "JAVA语言程序设计",
+          "JSP动态网站开发技术",
+          "Java编程入门",
+          "Java面向对象程序设计",
+          "LED墙与虚拟拍摄",
+          "Linux系统与网络",
+          "Linux系统与网络管理",
+          "Programming language",
+          "Python程序设计",
+          "Python程序设计及数据分析",
+          "UE虚幻引擎认知",
+          "VP电影制作流程",
+          "Web系统与开发技术",
+          "XR内容生产基础",
+          "XR情景体验",
+          "XR的市场应用",
+          "XR系统中的传统视音频系统",
+          "XR虚拟拍摄技术及内容创作工作坊",
+          "XR虚拟拍摄系统的架构",
+          "iOS开发实践",
+          "web前端开发",
+          "专业写作与可视化",
+          "专业外语",
+          "中国近现代史纲要",
+          "习近平新时代中国特色社会主义思想概论",
+          "云计算技术",
+          "互动媒体技术",
+          "互动媒体程序设计",
+          "人工智能",
+          "人工智能与神经网络",
+          "人工智能伦理与法律治理",
+          "人工智能创作",
+          "人工智能初探—基于Tensorflow的实现",
+          "人工智能安全",
+          "人工智能应用-AI写文",
+          "人工智能应用-AI声音与视频",
+          "人工智能应用-Al作图",
+          "人工智能技术应用体验",
+          "人工智能方法与技术",
+          "人工智能核心技术与前沿",
+          "人工智能模型应用实践",
+          "人工智能理论体系",
+          "人工智能知识基础",
+          "人工智能究竟是什么",
+          "人工智能解析",
+          "人机交互",
+          "人机交互工程",
+          "从静态到动态的魔法",
+          "体育",
+          "作品展演与复盘",
+          "信号处理技术",
+          "信息安全与信息对抗概论",
+          "信息安全与密码学",
+          "信息安全对抗实践",
+          "信息安全导论",
+          "信息安全数学基础",
+          "信息安全管理",
+          "信息安全综合实践",
+          "信息科学技术前沿",
+          "信息计算与网络空间安全前沿工作坊",
+          "信息论与编码原理",
+          "军事技能",
+          "军事理论课",
+          "分布式系统与云计算",
+          "分布式计算原理与应用",
+          "创作你的第一个剧本",
+          "创意写作助手",
+          "创意文本生成",
+          "剧本打磨工作坊",
+          "剧本设计与分镜",
+          "动态交互设计",
+          "动态内容生产",
+          "动态影像工程",
+          "动态网页制作",
+          "区块链与创新思维",
+          "区块链技术及应用",
+          "单片机技术",
+          "可视化实践",
+          "商务网站设计与开发",
+          "图像增强技术",
+          "图片美化技巧",
+          "图论",
+          "图论及应用",
+          "基于平台的软件开发",
+          "基于引擎的游戏开发",
+          "多媒体取证与安全",
+          "多媒体技术基础及应用",
+          "大学物理",
+          "大学物理C",
+          "大学物理实验C",
+          "大学生就业与创业指导",
+          "大学生心理健康教育",
+          "大学生职业生涯规划",
+          "大学英语",
+          "大学计算机",
+          "大学计算机（理工类）",
+          "大数据技术与spark开发实践",
+          "大数据技术基础",
+          "大数据系统构建与应用开发实践",
+          "大数据综合实践",
+          "大数据综合应用实践",
+          "媒体大数据实例分析",
+          "媒体推荐技术前沿",
+          "媒体资产数字化",
+          "学术前沿与课程建设",
+          "实时渲染引擎与播控系统",
+          "实践：数据可视化",
+          "室内环境基础模型",
+          "密码学",
+          "密码学应用实践",
+          "工程伦理",
+          "工程素养",
+          "并行与分布式计算",
+          "并行和分布式计算",
+          "并行计算技术",
+          "形势与政策",
+          "微信小程序开发实践",
+          "思想政治理论课综合实践",
+          "思想道德修养与法律基础",
+          "情感计算",
+          "成片冲刺",
+          "手机视频制作全流程",
+          "打造个人视频号",
+          "拍摄准备",
+          "推荐系统",
+          "摄像机及追踪系统",
+          "操作系统",
+          "效率革命",
+          "教育赋能专项",
+          "数字人像工程",
+          "数字人应用体验",
+          "数字人驱动体验",
+          "数字内容安全",
+          "数字内容安全应用实践",
+          "数字动画设计技术",
+          "数字图形图像",
+          "数字媒体安全应用与实践",
+          "数字影棚XR虚拟拍摄与创意实践训练营",
+          "数字移动多媒体技术",
+          "数字绘画实战",
+          "数字视频编辑",
+          "数字认证技术",
+          "数字逻辑与计算机设计",
+          "数据仓库与数据挖掘",
+          "数据分析理论与技术",
+          "数据可视化",
+          "数据安全",
+          "数据库原理与安全",
+          "数据库原理与应用",
+          "数据库原理及应用",
+          "数据库安全",
+          "数据挖掘",
+          "数据挖掘算法与安全性分析",
+          "数据新闻",
+          "数据新闻概论",
+          "数据科学导论",
+          "数据结构",
+          "数据结构C",
+          "数据结构与算法",
+          "数据结构与算法设计实践",
+          "数据采集与实时处理实践",
+          "文案生成核心",
+          "新时代中国特色社会主义理论与实践",
+          "智能剪辑实操",
+          "智能媒体技术",
+          "智能应用方法论",
+          "智能微课制作",
+          "智能计算",
+          "机器学习",
+          "机器学习实践",
+          "概率论",
+          "概率论与数理统计A",
+          "每个人的视频矩阵号",
+          "毕业实习",
+          "毕业论文",
+          "毕业论文（设计）",
+          "毕业设计",
+          "毛泽东思想和中国特色社会主义理论体系概论",
+          "浏览器技术与开发",
+          "深度学习",
+          "爆款剧本的底层逻辑",
+          "爆款视频方法论",
+          "物联网技术",
+          "物联网技术基础",
+          "特效编程",
+          "现代信号处理",
+          "现代密码学",
+          "现代软件工程",
+          "生态闭环建设",
+          "生成式人工智能与计量电影",
+          "知识图谱与认知智能",
+          "矩阵分析",
+          "矩阵计算",
+          "矩阵论",
+          "短视频实战训练营",
+          "短视频智能制作实践",
+          "短视频运营技巧",
+          "硕士研究生外语公共课",
+          "社交网络分析",
+          "社会计算",
+          "神经网络与深度学习",
+          "离散数学",
+          "离散数学B",
+          "科技文献阅读与写作",
+          "科技英语",
+          "科技论文写作",
+          "科技论文阅读与写作",
+          "移动互联网安全",
+          "移动平台程序开发-Android",
+          "移动平台程序开发-iOS",
+          "移动操作系统",
+          "移动游戏开发",
+          "程序分析与软件安全",
+          "程序设计与编程方法",
+          "程序设计与编程方法（C/C++）1",
+          "程序设计实践",
+          "算法设计与分析",
+          "管理信息系统设计",
+          "素材生产陪跑",
+          "线上线下素材制作：实拍与数字人结合",
+          "线性代数A",
+          "统计与数据分析",
+          "编译原理",
+          "网站开发",
+          "网络与系统安全",
+          "网络与软件安全实践",
+          "网络传播与隐私保护",
+          "网络多媒体技术",
+          "网络存储",
+          "网络存储原理与技术",
+          "网络安全",
+          "网络新媒体技术",
+          "网络程序设计",
+          "网络空间安全",
+          "网络空间安全基础",
+          "网络空间安全导论",
+          "网络空间安全综合实践",
+          "网页设计与制作",
+          "网页设计及制作",
+          "职场写作不求人",
+          "职场文书智创",
+          "自主拍摄（全流程实操）",
+          "自媒体AI短视频创作培训班",
+          "自然语言处理",
+          "自然语言处理技术及实践",
+          "自然语言理解",
+          "自然辩证法",
+          "舆情与媒体安全",
+          "舆情分析",
+          "舆情分析与社会计算",
+          "蓝图交互设计",
+          "虚实场景智造",
+          "虚拟制作的创意与实现",
+          "虚拟引擎（UE）视效呈现制作与实践培训项目",
+          "虚拟引擎（UE）视效呈现制作培训项目",
+          "虚拟拍摄原理与系统总览",
+          "虚拟拍摄基础",
+          "虚拟数字人与实时动捕",
+          "虚拟数字人及人工智能制作大揭秘",
+          "虚拟数字人及人工智能培训",
+          "虚拟数字人及人工智能应用的丰富多样性",
+          "虚拟数字人及人工智能的前世今生",
+          "虚拟数字人的起源",
+          "虚拟现实与人机交互",
+          "虚拟空间外景设计",
+          "融合新闻学",
+          "行业应用实践体系",
+          "西藏自治区全区网络安全管理培训班",
+          "视听合成的工业化封装",
+          "视听语言与摄影构图",
+          "视觉大数据分析",
+          "视频生成体系",
+          "视频生成实战",
+          "角色与场景资产生成",
+          "解密虚拟演播厅",
+          "计算思维概论",
+          "计算思维求解",
+          "计算机与信息技术基础",
+          "计算机二维动画",
+          "计算机图像处理",
+          "计算机图形学",
+          "计算机图形学D",
+          "计算机安全与维护",
+          "计算机导论",
+          "计算机应用基础",
+          "计算机控制技术",
+          "计算机文化基础",
+          "计算机程序设计",
+          "计算机程序设计1",
+          "计算机程序设计2",
+          "计算机系统",
+          "计算机系统结构",
+          "计算机组成",
+          "计算机组成原理",
+          "计算机网络",
+          "计算机网络A",
+          "计算机网络与通信",
+          "计算机网络实践",
+          "计算机网络工程实践",
+          "计算机网络技术",
+          "计算机网络程序设计实践",
+          "计算机网络编程",
+          "计算机视觉",
+          "语义网",
+          "走进XR影棚（全链路演示）",
+          "跨平台软件开发",
+          "软件安全",
+          "软件安全分析",
+          "软件工程",
+          "软件工程A",
+          "软件工程实践",
+          "软件开发理论与方法",
+          "软件开发综合实践",
+          "逆向工程与软件安全",
+          "逻辑与计算机设计基础",
+          "配音与剪辑实战",
+          "量子密码学概论",
+          "随机过程",
+          "隐私计算",
+          "面向对象程序设计",
+          "面向对象程序设计（C++）",
+          "面向对象程序设计（Java）",
+          "马克思主义基本原理概论",
+          "高等数学",
+          "高等数学A",
+          "高级图像处理",
+          "高级数据可视化",
+          "高级数据库",
+          "高级数据库技术",
+          "高级文案实战",
+          "高级程序设计实践",
+          "高阶视频技巧",
+          "黑客攻击与防御"
+        ]
+      }
+    }
+  ],
+  "limitations": [
+    "覆盖采集日学院官网具名师资、导师页链接和所列教学栏目的可访问内容，不等于当前学期完整课程表或任课表。",
+    "64位人员含行政、实验实践、兼职和导师页保留人员；官网栏目归属不自动等同于正文系别或当前在岗身份。",
+    "仅课程名称、教学报道片段、历史2018方案和社会培训模块分别标记，不声称收齐逐门完整课程简介。",
+    "教师页的目前/曾经和公布日期按原页保留，采集日期不是网页最后更新时间，也不证明当年招生名额。",
+    "2位导师页仅出现姓名而无个人简介链接，未补写其简介；外部个人站、教学Wiki和登录资源不扩爬。",
+    "事实摘要为助手据公开资料整理，不能当作独立人工标注或课程教学金标准。",
+    "课程集合来自已采集的公开学院页面与附件，不等于教务系统完整开课目录、2023级逐门教学大纲或本学期任课表。",
+    "2018级四门实践只提供历史内容；同名课程在较新名单出现也不证明内容、学分、考核和任课人未变。",
+    "2019专业介绍与2024发布的2025硕士招生介绍中的主干课程仅是名称清单，不能据此生成逐门完整简介。",
+    "新闻中的分享、演示、建设、主持、发起者均为teaching_activity，不能当作当前任课证明；只有培训简章明确列出的导师标为training_instructor，且为项目级角色。",
+    "培训联系人、招生导师、研究方向、教材作者、会议报告题名不自动转为课程任课关系。",
+    "社会培训的课程/模块与学历课程严格分层；历史收费、时间与工具版本不承诺现行有效。",
+    "同页两份培训海报PDF（ccf3c5ca9e0b7afc、2827d8307b9daf84）有字体编码乱码，本记录不使用其不可读文字，而据同页可读13页/6页正式文字版简章；未宣称OCR或独立人工标注。",
+    "教师简介及其讲授课程由另一流程整理，此文件未读取或合并64教师简介中的课程关系。",
+    "本文件的事实摘要与证据整理属于助手整理，不是独立人工评测金标准。",
+    "补充课程地图中可辨识的课程名称，仅作为对应版本的名称证据；图中未给出逐门课程简介或任课教师。"
+  ],
+  "generation_api_calls": 0
+}

@@ -1,0 +1,241 @@
+{
+  "created_at": "2026-10-27T17:20:47.978383+08:00",
+  "path": "C:\\Users\\吴少泽\\Documents\\综测\\毕业项目\\output\\backups\\ccs-before-import-20261027-172047",
+  "document_count": 34,
+  "chunks": 706,
+  "documents": [
+    {
+      "id": "08488356ac2b4d36b894387d3d212c60",
+      "name": "中国传媒大学2027年硕士研究生招生简章（官网正文）.pdf",
+      "sha256": "c9e69ee2e0a46414f5ec1e977eb3bac78ad2d6f2e7dd2ed4877f36c42a94b1f1",
+      "category": "招生信息"
+    },
+    {
+      "id": "15a769a4a3b34932a9237a85c8667047",
+      "name": "2027年硕士初试823信号与系统考试大纲（官方PDF）.pdf",
+      "sha256": "8ee01dfa6e4af8e7313b0a9ea8e400eb8e1a8835cd4557728e3c1f235845ae88",
+      "category": "招生信息"
+    },
+    {
+      "id": "1712b46083b142108135ae19d089c752",
+      "name": "中国传媒大学关于2026年硕士研究生招生考试初试科目调整的公告.pdf",
+      "sha256": "2cd5eab3bf52a585e72929ed21f543d890060218a9f40b7a0b09600129a9356e",
+      "category": "招生信息"
+    },
+    {
+      "id": "21e60d63edda402f830d5292b820b261",
+      "name": "中国传媒大学2027年硕士招生专业目录（官网表格展开）.pdf",
+      "sha256": "b39adbe32b973609ebe3a88026629e9f0e82773c34074393471300815e1ea134",
+      "category": "招生信息"
+    },
+    {
+      "id": "2d5a6d89b39d413896103128cd6b7d65",
+      "name": "2027年硕士初试884概率论与数理统计考试大纲（官方PDF）.pdf",
+      "sha256": "218b00ac1d87e438b3aee36274da8a6f681bcb358b54a4a64b8076c62793dd71",
+      "category": "招生信息"
+    },
+    {
+      "id": "3b2986973f5a45dc9f77b0acfdf84c8d",
+      "name": "04_校园服务.md",
+      "sha256": "6501c28fc8305d9a0a0bcbbf5da3a78850a9d54b60b7c4abb86eb3d86720128f",
+      "category": "校园服务"
+    },
+    {
+      "id": "3e28b7f43eaa43aa9ff46520075adf27",
+      "name": "03_办事流程.md",
+      "sha256": "e0686e758336c3eba72766711779ec9dff4b5d1b4284a01d37b425c763f6bdad",
+      "category": "办事流程"
+    },
+    {
+      "id": "4f91ca08ddb048d9a5894242d68b2515",
+      "name": "中国传媒大学传媒起航计划招生简章.pdf",
+      "sha256": "4d4e80420ef66774d98359de90d2ccfb31174e842058b67b5d8d8c1d25c61348",
+      "category": "招生信息"
+    },
+    {
+      "id": "52370a77140742f9adc65896005140d0",
+      "name": "研究生奖助一览表（2027硕士简章官方附件）.pdf",
+      "sha256": "6312c7f5697195e499eb82f23a7bc4c84c6e8673f5a79115efadfeb2b7d6d3c3",
+      "category": "招生信息"
+    },
+    {
+      "id": "6049a86b666f4b8b9ef2a2b4933a8b13",
+      "name": "中国传媒大学2026年艺术类本科校考专业招生简章（PDF原件）.pdf",
+      "sha256": "2fad0e7e84babdea92c7bb42b31c525b2be61aa23aefe23728669b8e14deda10",
+      "category": "招生信息"
+    },
+    {
+      "id": "624cd82cbc564eb382de0b750e26ea34",
+      "name": "中国传媒大学2026年博士目录－0810Z1信息计算技术（官网正文）.pdf",
+      "sha256": "c1610285ae40385f026e31500189f359bb29473d0939867b610d51b76b0c17a2",
+      "category": "招生信息"
+    },
+    {
+      "id": "642a7edb018d480bb7f6dd3f0e10cb4c",
+      "name": "中国传媒大学2026年专业学位博士报考条件及申请材料要求（官网正文）.pdf",
+      "sha256": "1dade9491000d1fe1e336b3fdea82119cb211cbe29eb380aab44a9ca5adc338d",
+      "category": "招生信息"
+    },
+    {
+      "id": "6e4f2bf17b024fe5b4757e76f64517e2",
+      "name": "2027年研考中国传媒大学考点1133报名须知（官网正文）.pdf",
+      "sha256": "447a30699ce78c8069764d22e0efe7014a0c9f41e740f1a5e8d356ebfbbb5179",
+      "category": "招生信息"
+    },
+    {
+      "id": "6e94ad290b2c47a2b25bf1b10be8cb66",
+      "name": "中传工商管理专硕招生简章.pdf",
+      "sha256": "847141c64c482d0ce7c4f1444674a62cf801d0fae9afebbf1f0ef319ea8ebd23",
+      "category": "招生信息"
+    },
+    {
+      "id": "7c01f16bd02443e2ba83b3de65c54ab2",
+      "name": "转专业管理办法_2025修订.pdf",
+      "sha256": "eea78884b941e10a864d23f3fff1b927451f4b4fd3d8ba8779119f118873fd98",
+      "category": "办事流程"
+    },
+    {
+      "id": "7c51c6ee55e243acb7ee3beba5a6749b",
+      "name": "中国传媒大学2026年博士目录－081000信息与通信工程（官网正文）.pdf",
+      "sha256": "974ba989178c773e317d6809d674989ad194de15284f16eafac9a9886f0f9a40",
+      "category": "招生信息"
+    },
+    {
+      "id": "87124a4ca5f042f5b1d190b90486b836",
+      "name": "中国传媒大学2026年博士学位研究生招生简章（官网正文）.pdf",
+      "sha256": "9679c779d0b63f88c311c9162e02dae40db8beddb6ea34e9168114d9e38746a0",
+      "category": "招生信息"
+    },
+    {
+      "id": "8dac436cba114407b11709763cc71ac8",
+      "name": "01_培养方案.md",
+      "sha256": "bca8b38275a2526010f9b7a92b45daa63f8734bcf91cc4b270692d96f53c0206",
+      "category": "培养方案"
+    },
+    {
+      "id": "8f16ec68a91145b2b067063f20fb7b99",
+      "name": "中国传媒大学计算机科学与技术专业课程大纲_详细版.pdf",
+      "sha256": "6c3a96361663cecf6e3b7a16ad4f9be051f3acb3a299deec300edce6b0c1f85a",
+      "category": "课程大纲"
+    },
+    {
+      "id": "9b025c38e620432682ba5b0881e63e9d",
+      "name": "中国传媒大学招生章程.pdf",
+      "sha256": "d4156025c777c2e268ea9b1c289bb08c28adbb54d24e87b39b527c9d2f7fcb69",
+      "category": "招生信息"
+    },
+    {
+      "id": "a689df93c7df40c9a590dd873034f7a0",
+      "name": "本科专业人才培养方案(2022版).html",
+      "sha256": "0de6b802797593d10a99834c98c5041fe9dac1d551787816adfc4b87d89a7803",
+      "category": "培养方案"
+    },
+    {
+      "id": "ab325521a1f0414d81f91b60970c3597",
+      "name": "中国传媒大学2026年本科招生章程.pdf",
+      "sha256": "d39ab878093f74fd3c5830ac494a85418c28fc575426308bd50c8e2c5197e580",
+      "category": "招生信息"
+    },
+    {
+      "id": "b0734592f2a54cf9bfdbb025a10c3322",
+      "name": "成绩单办理服务流程.pdf",
+      "sha256": "b9a1037e0ccc90b531ba2597ae33f9d12455ae4d1c3046601a516122eb52edc9",
+      "category": "办事流程"
+    },
+    {
+      "id": "b3412cbce4aa4329b0abbc12d3f43fa4",
+      "name": "02_课程大纲.md",
+      "sha256": "782344d3c4a9977051c23af1e1def093eba4261473f10a01998ae1ab71e8d34c",
+      "category": "课程大纲"
+    },
+    {
+      "id": "b4bc5229d40645ff82608ae47c95db25",
+      "name": "2026年博士复试科技文献阅读与写作考试大纲（官方PDF）.pdf",
+      "sha256": "2026b9369a7925b9ffb18fed5bd4d3e0e440388f42fa86e0a446036c089dc0ef",
+      "category": "招生信息"
+    },
+    {
+      "id": "ba24362f3d994a53bc7d7fdf3e581f41",
+      "name": "2026年博士复试随机数学考试大纲（官方PDF）.pdf",
+      "sha256": "66ee1adf02afd3652a747b344717e55c3c5e1bbba25e545213963e1f19ce3b85",
+      "category": "招生信息"
+    },
+    {
+      "id": "bfc1536b8ccc49f18aa0c7f1efed87ca",
+      "name": "学籍管理规定_2025.pdf",
+      "sha256": "e979a1178d616bd40ca59342991997bcda20388c6dddbfd35da6caf0a69525a8",
+      "category": "办事流程"
+    },
+    {
+      "id": "c3801f4e2ae64f93bb6b4c3dbac2b091",
+      "name": "学士学位授予办法_2025.pdf",
+      "sha256": "5173ffd38f3273734139ea4433004b1beb1c5bf609ce435665078bffe6798653",
+      "category": "办事流程"
+    },
+    {
+      "id": "cebf67d073084f1ab969a91dc2881ac5",
+      "name": "在读证明管理办法_2024.pdf",
+      "sha256": "caf0348b4b87c9ef7b69594bde7c05bf43744883e7e31015408b33bbe5021c87",
+      "category": "办事流程"
+    },
+    {
+      "id": "e90df86582054adcae717fc49065eabf",
+      "name": "中国传媒大学2026年博士学位研究生招生简章（官方发布页）.pdf",
+      "sha256": "d2e6f7d12b599eb7d3b16700db95187ad85496d527b5ae505fd9832aa7735d83",
+      "category": "招生信息"
+    },
+    {
+      "id": "ebd16f01a1b54103811c6cfa36673c98",
+      "name": "中国传媒大学2027年硕士研究生招生简章（截图转PDF）.pdf",
+      "sha256": "7ccf3553b4671ec3a4dead7a070c13a62d3cfee5d607508e696bd0e8dd4e6dda",
+      "category": "招生信息"
+    },
+    {
+      "id": "f450a7673f464ec7a8e657f6b8d7c854",
+      "name": "中国传媒大学1+1国际硕士名校项目2026年招生简章.pdf",
+      "sha256": "ced8d486985def943a59f97f013cbb6e775adc3a4aa935713c2a5fc15fc1dbc7",
+      "category": "招生信息"
+    },
+    {
+      "id": "fa398e448cb14cef81297a8a675b393e",
+      "name": "2026年博士复试数学物理方程考试大纲（官方PDF）.pdf",
+      "sha256": "850c7f7b49c3cdc5e29b198d5ba5ae4c93dba4acb4789ba704e40c6dfb2bcea0",
+      "category": "招生信息"
+    },
+    {
+      "id": "fc65f531fba441ae89a16fb68ebcca6f",
+      "name": "中国传媒大学2026年硕士研究生招生简章（官网正文）.pdf",
+      "sha256": "6209c1c269405ee2bcee9a9a76f6e986ec935441bd798ee9aae1c7625725843c",
+      "category": "招生信息"
+    }
+  ],
+  "integrity_check": "ok",
+  "files": [
+    {
+      "name": "index.json",
+      "bytes": 560137,
+      "sha256": "1d2b0f436482f52651f4a9b0959b1ba794bfd9b8177359f4dbaa3da73f58d0b8"
+    },
+    {
+      "name": "knowledge.db",
+      "bytes": 847872,
+      "sha256": "0368ce9f0975e07746f578ee0ac85960cdfa8c8068475ee81076e410715229df"
+    },
+    {
+      "name": "knowledge.db-shm",
+      "bytes": 32768,
+      "sha256": "fd4c9fda9cd3f9ae7c962b0ddf37232294d55580e1aa165aa06129b8549389eb"
+    },
+    {
+      "name": "knowledge.db-wal",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "vectors.npz",
+      "bytes": 1342338,
+      "sha256": "ff48907b1d3b9da7187d752707b54ef3ceac9b1d24715a50d5d296fea8d3d02f"
+    }
+  ],
+  "contains_credentials": false
+}

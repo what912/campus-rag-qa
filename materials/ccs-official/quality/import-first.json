@@ -1,0 +1,143 @@
+{
+  "documents": [
+    {
+      "name": "学籍管理规定_2025.pdf",
+      "status": "already_present"
+    },
+    {
+      "name": "转专业管理办法_2025修订.pdf",
+      "status": "already_present"
+    },
+    {
+      "name": "学士学位授予办法_2025.pdf",
+      "status": "already_present"
+    },
+    {
+      "name": "在读证明管理办法_2024.pdf",
+      "status": "already_present"
+    },
+    {
+      "name": "成绩单办理服务流程.pdf",
+      "status": "already_present"
+    },
+    {
+      "name": "本科专业人才培养方案(2022版).html",
+      "status": "already_present"
+    },
+    {
+      "name": "中国传媒大学计算机科学与技术专业课程大纲_详细版.pdf",
+      "status": "already_present"
+    },
+    {
+      "name": "中传工商管理专硕招生简章.pdf",
+      "status": "already_present"
+    },
+    {
+      "name": "中国传媒大学1+1国际硕士名校项目2026年招生简章.pdf",
+      "status": "already_present"
+    },
+    {
+      "name": "中国传媒大学2026年本科招生章程.pdf",
+      "status": "already_present"
+    },
+    {
+      "name": "中国传媒大学2026年艺术类本科校考专业招生简章（PDF原件）.pdf",
+      "status": "already_present"
+    },
+    {
+      "name": "中国传媒大学传媒起航计划招生简章.pdf",
+      "status": "already_present"
+    },
+    {
+      "name": "中国传媒大学关于2026年硕士研究生招生考试初试科目调整的公告.pdf",
+      "status": "already_present"
+    },
+    {
+      "name": "中国传媒大学招生章程.pdf",
+      "status": "already_present"
+    },
+    {
+      "name": "中国传媒大学2026年博士学位研究生招生简章（官方发布页）.pdf",
+      "status": "already_present"
+    },
+    {
+      "name": "中国传媒大学2027年硕士研究生招生简章（截图转PDF）.pdf",
+      "status": "already_present"
+    },
+    {
+      "name": "中国传媒大学2027年硕士研究生招生简章（官网正文）.pdf",
+      "status": "already_present"
+    },
+    {
+      "name": "中国传媒大学2026年硕士研究生招生简章（官网正文）.pdf",
+      "status": "already_present"
+    },
+    {
+      "name": "中国传媒大学2027年硕士招生专业目录（官网表格展开）.pdf",
+      "status": "already_present"
+    },
+    {
+      "name": "中国传媒大学2026年博士学位研究生招生简章（官网正文）.pdf",
+      "status": "already_present"
+    },
+    {
+      "name": "中国传媒大学2026年专业学位博士报考条件及申请材料要求（官网正文）.pdf",
+      "status": "already_present"
+    },
+    {
+      "name": "中国传媒大学2026年博士目录－0810Z1信息计算技术（官网正文）.pdf",
+      "status": "already_present"
+    },
+    {
+      "name": "中国传媒大学2026年博士目录－081000信息与通信工程（官网正文）.pdf",
+      "status": "already_present"
+    },
+    {
+      "name": "2027年研考中国传媒大学考点1133报名须知（官网正文）.pdf",
+      "status": "already_present"
+    },
+    {
+      "name": "2027年硕士初试823信号与系统考试大纲（官方PDF）.pdf",
+      "status": "already_present"
+    },
+    {
+      "name": "2027年硕士初试884概率论与数理统计考试大纲（官方PDF）.pdf",
+      "status": "already_present"
+    },
+    {
+      "name": "研究生奖助一览表（2027硕士简章官方附件）.pdf",
+      "status": "already_present"
+    },
+    {
+      "name": "2026年博士复试科技文献阅读与写作考试大纲（官方PDF）.pdf",
+      "status": "already_present"
+    },
+    {
+      "name": "2026年博士复试随机数学考试大纲（官方PDF）.pdf",
+      "status": "already_present"
+    },
+    {
+      "name": "2026年博士复试数学物理方程考试大纲（官方PDF）.pdf",
+      "status": "already_present"
+    },
+    {
+      "name": "学院教师公开简介汇编.pdf",
+      "status": "imported",
+      "chunks": 105
+    },
+    {
+      "name": "学院课程公开信息与教师对应索引.pdf",
+      "status": "imported",
+      "chunks": 624
+    }
+  ],
+  "reference_updates": 0,
+  "stats": {
+    "documents": 36,
+    "chunks": 1435,
+    "dimension": 30000,
+    "sample_documents": 4,
+    "mode": "tfidf"
+  },
+  "generation_calls": 0
+}

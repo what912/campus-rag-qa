@@ -16,8 +16,9 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from .documents import parse_document, chunk_pages
 from .search_features import focus_query,intent_match
 from .admissions import infer_admission_scope,scope_matches,choose_admission_year
+from .academic import academic_subject,requested_teacher
 
-CATEGORIES = ['培养方案', '课程大纲', '办事流程', '校园服务', '招生信息', '其他']
+CATEGORIES = ['培养方案', '课程大纲', '课程简介', '师资信息', '办事流程', '校园服务', '招生信息', '其他']
 
 
 class KnowledgeBase:
@@ -38,6 +39,8 @@ class KnowledgeBase:
         self.enable_ocr = False
         self.lexical_matrix = None
         self.lexical_features = []
+        self.teacher_subjects=set()
+        self.course_subjects=set()
         with self.connect() as db:
             db.executescript('''
                 PRAGMA journal_mode=WAL;
@@ -119,6 +122,8 @@ class KnowledgeBase:
                                             max_features=30_000, sublinear_tf=True)
                 lexical_matrix = vectorizer.fit_transform(texts)
             self.rows, self.model, self.vectorizer = rows, model, vectorizer
+            self.teacher_subjects={academic_subject(row.get('heading'))[1] for row in rows if row['category']=='师资信息'}-{''}
+            self.course_subjects={academic_subject(row.get('heading'))[1] for row in rows if row['category']=='课程简介'}-{''}
             self.matrix, self.dimension = matrix, dimension
             self.mode, self.model_path = next_mode, next_path
             self.query_prefix = next_prefix
@@ -155,7 +160,8 @@ class KnowledgeBase:
                 pages = parse_document(filename, content, enable_ocr=self.enable_ocr)
                 allowed = {'faculty', 'major', 'cohort', 'published_at', 'review_note', 'reference_only', 'authority',
                            'domain','admission_year','admission_level','admission_program','original_filename',
-                           'conversion_method','original_sha256','ocr_text_layer','actual_title','degree_type','exam_codes'}
+                           'conversion_method','original_sha256','ocr_text_layer','actual_title','degree_type','exam_codes',
+                           'source_collection','teacher_names','course_names','coverage_note'}
                 meta = {key:value for key,value in (metadata or {}).items() if key in allowed}
                 meta['extraction_method'] = 'ocr' if meta.get('ocr_text_layer') or any(p.get('extraction_method') == 'ocr' for p in pages) else 'text'
                 if any(p.get('contains_images') for p in pages):
@@ -244,12 +250,17 @@ class KnowledgeBase:
                 vector = self.vectorizer.transform([query])
                 scores = (self.matrix @ vector.T).toarray().ravel()
             admission_scope=choose_admission_year(self.rows,infer_admission_scope(query,category))
+            named_teachers=requested_teacher(query,self.teacher_subjects) if category=='师资信息' else set()
+            named_courses={name for name in self.course_subjects if name in query} if category=='课程简介' else set()
+            named_courses={name for name in named_courses if not any(name!=other and name in other for other in named_courses)}
             requested_exam=re.search(r'(?<!\d)(\d{3})(?!\d)',query) if re.search(r'考试大纲|考纲',query) else None
             def applies(row):
                 meta = row['metadata']
                 years = re.findall(r'20\d{2}', str(meta.get('cohort', '')))
                 return (not meta.get('reference_only')
                         and scope_matches(meta,admission_scope)
+                        and (not named_teachers or academic_subject(row.get('heading'))[1] in named_teachers)
+                        and (not named_courses or academic_subject(row.get('heading'))[1] in named_courses)
                         and (not admission_scope['domain'] or not requested_exam
                              or requested_exam.group(1) in meta.get('exam_codes',[]))
                         and (not cohort or not years or cohort in years)

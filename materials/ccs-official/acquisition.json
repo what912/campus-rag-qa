@@ -1,0 +1,1844 @@
+{
+  "sources": [
+    {
+      "url": "https://ccs.cuc.edu.cn/xyld_6238/list.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/xyld_6238/list.htm",
+      "kind": "column",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/03d75546acd85490.html",
+      "sha256": "5094c236baa4e2b513fba0b0d42d0262478073caed926e13aed8b952ccb15b93",
+      "bytes": 25794,
+      "collected_at": "2026-10-27T14:14:08.926993+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/jsjkxyjsx/list.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/jsjkxyjsx/list.htm",
+      "kind": "column",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/2bdec3a2f3d7998a.html",
+      "sha256": "cfb3308e702a0bb4e23b598915f29ec7ff3640e3ce311b751d815cb5aaaef507",
+      "bytes": 33220,
+      "collected_at": "2026-10-27T14:14:08.954553+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/jsjkxyjsx/list2.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/jsjkxyjsx/list2.htm",
+      "kind": "column",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/16a7505d3cfd53e2.html",
+      "sha256": "2e23b08c446526a5f10d42fc6749e9c5d8edb696e5ed0e97e7c305aa5bbc4edf",
+      "bytes": 29815,
+      "collected_at": "2026-10-27T14:14:08.988560+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/wlkjaqx/list.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/wlkjaqx/list.htm",
+      "kind": "column",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/d2413ca567dc71ea.html",
+      "sha256": "f9559138cd81f4e42c5de9f084060ca4ec21a15459603761b1f60cb79cb78574",
+      "bytes": 30384,
+      "collected_at": "2026-10-27T14:14:09.014986+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/sysjjxzx/list.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/sysjjxzx/list.htm",
+      "kind": "column",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/60dcfb9345917346.html",
+      "sha256": "f9b0f71da2443b16f5e32e7fde3e220eb4c9515f92b8c19027406f01b8c88d97",
+      "bytes": 26378,
+      "collected_at": "2026-10-27T14:14:09.043567+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/bgs/list.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/bgs/list.htm",
+      "kind": "column",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/2f5823794af3024e.html",
+      "sha256": "673588d5e551b732b63a73022271a29c0f62703fad723ae23d814d6ae4fac41e",
+      "bytes": 26341,
+      "collected_at": "2026-10-27T14:14:10.074472+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/jzbd/list.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/jzbd/list.htm",
+      "kind": "column",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/14f897ffc070b49a.html",
+      "sha256": "6bf6d6d798da4e143e0261e1efe7068276e4c1e6c68a0973074b36a33b68b6f5",
+      "bytes": 23362,
+      "collected_at": "2026-10-27T14:14:11.106464+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/dsqk/list.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/dsqk/list.htm",
+      "kind": "column",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/e61875caf5247896.html",
+      "sha256": "918c47c05e933742f79976073f373ada872becbb49a2d46b95784de8016118fa",
+      "bytes": 110789,
+      "collected_at": "2026-10-27T14:14:11.140789+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/bkjx/list.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/bkjx/list.htm",
+      "kind": "column",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/2c7450cb1a42fb2c.html",
+      "sha256": "9f050a9b51f20ed83283f21e84372c8b82e8215cc728ed0fd5cf0e8aaca041ac",
+      "bytes": 24798,
+      "collected_at": "2026-10-27T14:14:12.181032+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/yjsjx/list.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/yjsjx/list.htm",
+      "kind": "column",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/1e565026fd633cb9.html",
+      "sha256": "1875f82e7601bcd6d4bc51aa23ab10ebe5f491f5f09c699059af0b945cb6dd39",
+      "bytes": 27215,
+      "collected_at": "2026-10-27T14:14:13.218761+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/bkzyjs/list.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/bkzyjs/list.htm",
+      "kind": "column",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/7b178f9fb1eaaccf.html",
+      "sha256": "bec6b7a0df077c02372b1994108f24b7d3aacf4cd1662869a55d5a2089ee30e1",
+      "bytes": 23910,
+      "collected_at": "2026-10-27T14:14:14.261395+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/yjszyjs/list.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/yjszyjs/list.htm",
+      "kind": "column",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/7a4c8c786adbe6e6.html",
+      "sha256": "d255d82c9bbb6e949b278d6cb2317826de46b61315e22d971a901e24abc465c0",
+      "bytes": 25153,
+      "collected_at": "2026-10-27T14:14:15.291854+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/sjcx/list.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/sjcx/list.htm",
+      "kind": "column",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/b6af88c922cc8081.html",
+      "sha256": "767c5d758f2a1ab5079c581ab4030f884b0a6f2bc5977afd75b60ac22fc89d26",
+      "bytes": 26897,
+      "collected_at": "2026-10-27T14:14:15.321091+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/p5584c5559/list.psp",
+      "resolved_url": "https://ccs.cuc.edu.cn/p5584c5559/list.psp",
+      "kind": "column",
+      "content_type": "text/html;charset=UTF-8",
+      "local_path": "materials/ccs-official/originals/c6fd36ab0c270ab3.html",
+      "sha256": "27467f0c8a904304ea573bba35ddfe5aecd1c0769b97a3c005f52e1a0260b019",
+      "bytes": 26472,
+      "collected_at": "2026-10-27T14:14:15.395955+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/p5584c5559/list2.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/p5584c5559/list2.htm",
+      "kind": "column",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/9928e0860dc19574.html",
+      "sha256": "8020089a83774a6e378e13c8deffefcf619efd07095fa2c28e6c6b4cd98c92ec",
+      "bytes": 22326,
+      "collected_at": "2026-10-27T14:14:15.435405+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/",
+      "resolved_url": "https://ccs.cuc.edu.cn/",
+      "kind": "homepage",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/145adb23f14fc2b8.html",
+      "sha256": "c748a2e5af3f99526df95ac42053dd1df81f5c01186721b6710e3bb463f502af",
+      "bytes": 38703,
+      "collected_at": "2026-10-27T14:14:15.466705+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2019/0910/c6238a148867/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2019/0910/c6238a148867/page.htm",
+      "kind": "faculty",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/5e30ec9b723dd2be.html",
+      "sha256": "fd28f0e13c85bee13ae38ce334c65a6aa567195785b0def743d13478a0a0a4de",
+      "bytes": 25614,
+      "collected_at": "2026-10-27T14:14:16.496410+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2019/0916/c6238a148868/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2019/0916/c6238a148868/page.htm",
+      "kind": "faculty",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/0bbdb87986584026.html",
+      "sha256": "6f8ea762d76fd6fbd69e0c31da399d1a1b0e59acd8178efc2fbf6ca0583e6bcd",
+      "bytes": 34598,
+      "collected_at": "2026-10-27T14:14:17.547914+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2022/0607/c6238a194124/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2022/0607/c6238a194124/page.htm",
+      "kind": "faculty",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/7adec165efd7ab0d.html",
+      "sha256": "1eb4fb81cb4de7049c8c6b59b5683761c78d3595658daa2258558468ce3e48a9",
+      "bytes": 25277,
+      "collected_at": "2026-10-27T14:14:17.574178+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2019/1107/c6238a149371/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2019/1107/c6238a149371/page.htm",
+      "kind": "faculty",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/e2f785109ce25918.html",
+      "sha256": "afbde7877b1bdf563c9733da27498ac2d34fa6249e051badd7542f0bdf5016f8",
+      "bytes": 34502,
+      "collected_at": "2026-10-27T14:14:17.604894+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2022/0607/c6238a194131/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2022/0607/c6238a194131/page.htm",
+      "kind": "faculty",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/4a40c8ff129d4dfb.html",
+      "sha256": "f00940758177e5f0f2cf892387dc4c629c2c0671354507a20f00b04b6183b2e7",
+      "bytes": 32354,
+      "collected_at": "2026-10-27T14:14:17.647867+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2022/0607/c6239a254363/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2022/0607/c6239a254363/page.htm",
+      "kind": "faculty",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/2ffca8375f9d9d8b.html",
+      "sha256": "62a74c213ab1db5e83e6351545bdd9954b1a6c8e22f5576ffa8b28413bb4100f",
+      "bytes": 33393,
+      "collected_at": "2026-10-27T14:14:17.670816+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2019/0911/c6239a255309/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2019/0911/c6239a255309/page.htm",
+      "kind": "faculty",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/942c695b2355769e.html",
+      "sha256": "70ecd18980cc6b0455ab5914c0862d16133f2289f685b96749c9bdc346610e67",
+      "bytes": 36871,
+      "collected_at": "2026-10-27T14:14:18.714786+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2019/0916/c6239a148817/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2019/0916/c6239a148817/page.htm",
+      "kind": "faculty",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/2b882d75397d03db.html",
+      "sha256": "f08db7b4771ebff7fd9ac062129e259be0da93156c2c3251a24c948caeb59693",
+      "bytes": 31963,
+      "collected_at": "2026-10-27T14:14:18.742867+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2019/0314/c6239a148831/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2019/0314/c6239a148831/page.htm",
+      "kind": "faculty",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/12b9859084a5b4cf.html",
+      "sha256": "efdf3107b0b88c5ff27bd4b92b7f2036aedf8d5435b6c9079155fae903da2661",
+      "bytes": 35086,
+      "collected_at": "2026-10-27T14:14:18.770176+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2019/0910/c6239a148866/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2019/0910/c6239a148866/page.htm",
+      "kind": "faculty",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/a6b319e71f818825.html",
+      "sha256": "6bf2fb39760ec578ccaa5e41f2cf3a3049a0a122a05fa6e511c00209ffc36b84",
+      "bytes": 38286,
+      "collected_at": "2026-10-27T14:14:18.794622+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2019/0910/c6239a148863/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2019/0910/c6239a148863/page.htm",
+      "kind": "faculty",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/d389e7265e06c65f.html",
+      "sha256": "b93cb3f395ca14b79450ba3c7ac0e160427646af594f6876b5a9790785f446c7",
+      "bytes": 31472,
+      "collected_at": "2026-10-27T14:14:18.824119+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2019/0911/c6239a148848/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2019/0911/c6239a148848/page.htm",
+      "kind": "faculty",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/65535a471176490d.html",
+      "sha256": "793d20be9c00c6ae3ac1b6ace3ce564b3318ff6d0bc817bde0c82d3196992a41",
+      "bytes": 43526,
+      "collected_at": "2026-10-27T14:14:18.859336+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2019/0910/c6239a148861/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2019/0910/c6239a148861/page.htm",
+      "kind": "faculty",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/ed2d07835bf53c36.html",
+      "sha256": "c8e07ff4d388139b82309d4395161109c700a88fef955b6d1e8875708b3bf519",
+      "bytes": 31340,
+      "collected_at": "2026-10-27T14:14:18.911352+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2019/0910/c6239a148858/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2019/0910/c6239a148858/page.htm",
+      "kind": "faculty",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/e64bf6d0fac1c9bb.html",
+      "sha256": "a635d803b99972cea77fb3ff89de0e9a3bb9cda620dc760e209fa5f635586d84",
+      "bytes": 31328,
+      "collected_at": "2026-10-27T14:14:18.966607+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2019/0910/c6239a148862/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2019/0910/c6239a148862/page.htm",
+      "kind": "faculty",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/233dfd9aad8b087b.html",
+      "sha256": "2b3eec31a2812f8a03d7b18ad4df187ffcefc87e17ec28b315b18673085512ea",
+      "bytes": 27128,
+      "collected_at": "2026-10-27T14:14:18.995932+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2019/0911/c6239a148832/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2019/0911/c6239a148832/page.htm",
+      "kind": "faculty",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/f0a04b76a43e729b.html",
+      "sha256": "a367c78f8e063ada5cc3847325a5603e7d80c49e243a19ea2448e7a2ebff6477",
+      "bytes": 38781,
+      "collected_at": "2026-10-27T14:14:20.039022+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2019/0915/c6239a148824/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2019/0915/c6239a148824/page.htm",
+      "kind": "faculty",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/01736a764fdf30ff.html",
+      "sha256": "ce4a39ffc3ca8c9a554fabbda0e363ef5ba0f61e84216cb0d5bcad7813850744",
+      "bytes": 29299,
+      "collected_at": "2026-10-27T14:14:20.067593+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2019/0911/c6239a148843/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2019/0911/c6239a148843/page.htm",
+      "kind": "faculty",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/233d7d085fda2cf9.html",
+      "sha256": "c4f7ca24defae7dbc1f87ae9da117a9581d461817441d64c37b38e1835683fb0",
+      "bytes": 36517,
+      "collected_at": "2026-10-27T14:14:20.095617+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2019/0314/c6239a148829/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2019/0314/c6239a148829/page.htm",
+      "kind": "faculty",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/032958671c62b3b3.html",
+      "sha256": "d2c54313ba27ded2da81af47a2524215b0571eac4f18203a8c2a529aceb0c61a",
+      "bytes": 37455,
+      "collected_at": "2026-10-27T14:14:20.127588+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2019/0314/c6239a148830/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2019/0314/c6239a148830/page.htm",
+      "kind": "faculty",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/c97c35286f68cbbb.html",
+      "sha256": "1f14c82885b5e25be936b6c4a4dd7a111c07c612086a41aab65b67fe32ac8ef3",
+      "bytes": 48365,
+      "collected_at": "2026-10-27T14:14:21.168346+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2019/0915/c6239a148822/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2019/0915/c6239a148822/page.htm",
+      "kind": "faculty",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/b486a8bffe3fe64d.html",
+      "sha256": "6267a634857c15064fb27e316e4aa472b528e6cfd4e96f29b9be89a2723aef35",
+      "bytes": 36387,
+      "collected_at": "2026-10-27T14:14:21.206335+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2019/0910/c6239a148855/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2019/0910/c6239a148855/page.htm",
+      "kind": "faculty",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/ac701eb22a9833a0.html",
+      "sha256": "bdc86622d39226b85023f56fa9cc09de6b83bf6ae1cc582f2589e7045d21e576",
+      "bytes": 31272,
+      "collected_at": "2026-10-27T14:14:21.234359+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2019/0910/c6239a148869/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2019/0910/c6239a148869/page.htm",
+      "kind": "faculty",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/d87a561b65d51586.html",
+      "sha256": "282d48ebd4407fd89d4d2cd12f80e0990fd4e67feed2036688267916465369a8",
+      "bytes": 31715,
+      "collected_at": "2026-10-27T14:14:21.256605+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2019/1108/c6239a149430/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2019/1108/c6239a149430/page.htm",
+      "kind": "faculty",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/9a30b2c8a03016cc.html",
+      "sha256": "d1b845c2b6c3fee774a127a3e95341dc8c670e31799aeb439514ea118e5081b1",
+      "bytes": 36670,
+      "collected_at": "2026-10-27T14:14:22.295849+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2019/0910/c6239a148870/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2019/0910/c6239a148870/page.htm",
+      "kind": "faculty",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/27f3fe40048689cd.html",
+      "sha256": "d36a1ad587067bebc08c972e5d34fd26c1acab17d6842365c08fb1f714e4deda",
+      "bytes": 32779,
+      "collected_at": "2026-10-27T14:14:23.374512+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2019/1107/c6239a149372/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2019/1107/c6239a149372/page.htm",
+      "kind": "faculty",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/295cf5323652c3b6.html",
+      "sha256": "b6fe5928ec42c6f1f0f9a11a2ecbf172ca2dd5515d203c1684220cf2cddef4f3",
+      "bytes": 31835,
+      "collected_at": "2026-10-27T14:14:24.403245+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2019/0911/c6239a148840/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2019/0911/c6239a148840/page.htm",
+      "kind": "faculty",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/4ad534e822eaa1e2.html",
+      "sha256": "aa835c2e4ef513862b7c73f91ceb039bbb595ed23237cf6abef21bce813a8fa8",
+      "bytes": 30136,
+      "collected_at": "2026-10-27T14:14:25.468591+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2019/0910/c6239a148853/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2019/0910/c6239a148853/page.htm",
+      "kind": "faculty",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/7128ac8985c79baa.html",
+      "sha256": "cba3dd2b636692ee6a4a14333a0a53300e0485bb1fc0f2fde3c957f64f01be19",
+      "bytes": 27485,
+      "collected_at": "2026-10-27T14:14:25.549380+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2019/0911/c6239a148837/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2019/0911/c6239a148837/page.htm",
+      "kind": "faculty",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/08b92d355ddb0d6d.html",
+      "sha256": "54692655aa16e545e7b55dd2cfd6796650f4d680ae37f3f17371f26fd50adc6c",
+      "bytes": 38605,
+      "collected_at": "2026-10-27T14:14:25.633714+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2019/0910/c6239a148854/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2019/0910/c6239a148854/page.htm",
+      "kind": "faculty",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/100466527c62eb76.html",
+      "sha256": "c4c11c7236fb7ef4b8b7b3dceb31ad94b7ab306d114e029d1fe5640705933caa",
+      "bytes": 50913,
+      "collected_at": "2026-10-27T14:14:26.691299+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2019/0911/c6242a258325/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2019/0911/c6242a258325/page.htm",
+      "kind": "faculty",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/151dd6e7130b7927.html",
+      "sha256": "392aa3c11296102f982dfcecb64495edeb764e06afa65af4f85d6e5808783cb6",
+      "bytes": 34656,
+      "collected_at": "2026-10-27T14:14:27.730953+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2022/1011/c6242a199685/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2022/1011/c6242a199685/page.htm",
+      "kind": "faculty",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/770a87650946178c.html",
+      "sha256": "b09fb5170c6520ceefe887e0566ad565608f0cad4ea4eea54bb686426a178563",
+      "bytes": 37216,
+      "collected_at": "2026-10-27T14:14:27.766897+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2022/0714/c6239a194896/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2022/0714/c6239a194896/page.htm",
+      "kind": "faculty",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/82775bcd5da9b4ce.html",
+      "sha256": "1278c933eb27108ebb0a4d1e717ad6acd1e1492ad5021e9821d0b47e90e4be9b",
+      "bytes": 29937,
+      "collected_at": "2026-10-27T14:14:27.795027+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2019/0910/c6239a148860/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2019/0910/c6239a148860/page.htm",
+      "kind": "faculty",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/469b06bfcc62b78c.html",
+      "sha256": "52b5c5a019f7fdd058d5e21140322c120db842d95fc43166fdc33b21f7d1b0fb",
+      "bytes": 35864,
+      "collected_at": "2026-10-27T14:14:27.826088+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2019/0910/c6239a148846/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2019/0910/c6239a148846/page.htm",
+      "kind": "faculty",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/4e7c13b2a9415118.html",
+      "sha256": "04da08cae3edd25a687da1b0522f94e31329033a1190a8e4a8fdf037378d4878",
+      "bytes": 37080,
+      "collected_at": "2026-10-27T14:14:28.872711+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2022/0714/c6240a194895/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2022/0714/c6240a194895/page.htm",
+      "kind": "faculty",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/0c2a66520841d3a6.html",
+      "sha256": "d3051cdb753ca44a22015e3a331ae2ec9306c1ea8c6149f51f9ab45f44d61777",
+      "bytes": 31925,
+      "collected_at": "2026-10-27T14:14:30.453506+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2019/1107/c6240a149370/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2019/1107/c6240a149370/page.htm",
+      "kind": "faculty",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/0ae999d6923605a7.html",
+      "sha256": "9423b51a8008f149af6ce8daa3adafa8bc8d3a8451f6fe9c8a24351911e72f4a",
+      "bytes": 37082,
+      "collected_at": "2026-10-27T14:14:31.682776+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2019/0911/c6240a148851/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2019/0911/c6240a148851/page.htm",
+      "kind": "faculty",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/61c6024b3d82eac8.html",
+      "sha256": "b75cd281bc73b2685f3325df5de496c11216deee955d80886c8f712929e88fe4",
+      "bytes": 50703,
+      "collected_at": "2026-10-27T14:14:31.734106+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2022/0607/c6240a194132/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2022/0607/c6240a194132/page.htm",
+      "kind": "faculty",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/d310a0d4f2d8cfcf.html",
+      "sha256": "162433afb4286f37d86b45c7c83505b473641a48d80db2305c2b98733a49d859",
+      "bytes": 59268,
+      "collected_at": "2026-10-27T14:14:31.763535+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2022/0607/c6240a194130/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2022/0607/c6240a194130/page.htm",
+      "kind": "faculty",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/d7e5fc554920c9e6.html",
+      "sha256": "4486f5bb58fcf91e116298dd7f31030273c5f65ca5fc093ab2f44cab1cb97a10",
+      "bytes": 31882,
+      "collected_at": "2026-10-27T14:14:33.064768+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2019/0910/c6240a148845/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2019/0910/c6240a148845/page.htm",
+      "kind": "faculty",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/3721157f180582dc.html",
+      "sha256": "e2aadf41b649ce61b427357b70f662b095a22dca0392419d731586947b7fab70",
+      "bytes": 38100,
+      "collected_at": "2026-10-27T14:14:33.106487+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2019/0910/c6240a148864/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2019/0910/c6240a148864/page.htm",
+      "kind": "faculty",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/37579bfcbb03b688.html",
+      "sha256": "4eb677d8adb66883f00f18a5a758ed067210a2398075969b0498a7f696c84f24",
+      "bytes": 34076,
+      "collected_at": "2026-10-27T14:14:33.140822+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2019/0314/c6240a148826/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2019/0314/c6240a148826/page.htm",
+      "kind": "faculty",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/9ccd063444fbeccb.html",
+      "sha256": "2e2912363ab249db8afeb847e100ecbeebf5552204903d7276df658906ea2869",
+      "bytes": 34870,
+      "collected_at": "2026-10-27T14:14:34.187807+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2019/0911/c6240a148865/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2019/0911/c6240a148865/page.htm",
+      "kind": "faculty",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/63ec74fea9b0279a.html",
+      "sha256": "301d63010f811d1455fb58aac6edd9aeeac6097422d4d34f874e79b543292127",
+      "bytes": 31975,
+      "collected_at": "2026-10-27T14:14:34.262653+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2019/0314/c6240a148828/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2019/0314/c6240a148828/page.htm",
+      "kind": "faculty",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/8f7171e609e8a569.html",
+      "sha256": "ec4da5567b4ab12598e5412544b01dcb2137603200f62935b1d11f96a07485b8",
+      "bytes": 57246,
+      "collected_at": "2026-10-27T14:14:35.312747+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2019/0910/c6240a148856/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2019/0910/c6240a148856/page.htm",
+      "kind": "faculty",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/1b2038acf3112384.html",
+      "sha256": "4ae4a9872154d83acd37a67cefaad32f8381075103b210ba6a66b1b524ba4078",
+      "bytes": 29309,
+      "collected_at": "2026-10-27T14:14:35.339947+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2019/0911/c6240a148849/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2019/0911/c6240a148849/page.htm",
+      "kind": "faculty",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/557f096401571f04.html",
+      "sha256": "45bb5f527dccffed4794b6befbe7ba876ad1fa3261393705f2e7f3d4b13fdbec",
+      "bytes": 36215,
+      "collected_at": "2026-10-27T14:14:35.381344+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2020/0914/c6240a172907/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2020/0914/c6240a172907/page.htm",
+      "kind": "faculty",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/5f55c032f96502a5.html",
+      "sha256": "04a18eb22e69a6cedf544c25ca13b6726b3ea047daae40f908381cb1791654b3",
+      "bytes": 57408,
+      "collected_at": "2026-10-27T14:14:36.448271+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2019/0915/c6242a148841/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2019/0915/c6242a148841/page.htm",
+      "kind": "faculty",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/41ef894b1158a7c2.html",
+      "sha256": "4d98e21ed96c24b8195df4a6503b25eda0f8da1ea64ce4e11e6dbc7d160a8984",
+      "bytes": 23866,
+      "collected_at": "2026-10-27T14:14:36.507304+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2019/0911/c6242a148836/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2019/0911/c6242a148836/page.htm",
+      "kind": "faculty",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/ccf33f9bdf60334b.html",
+      "sha256": "61f564c81d47c7bd8a77233847a2c8b25084fe1d2821ee0fc79f482e3465f226",
+      "bytes": 33844,
+      "collected_at": "2026-10-27T14:14:37.573024+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2019/0915/c6242a148842/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2019/0915/c6242a148842/page.htm",
+      "kind": "faculty",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/83646a3460490308.html",
+      "sha256": "a0cd7cc1f309707f420d8155075f6cb4a227dd525702c9017760749a48db20a2",
+      "bytes": 21497,
+      "collected_at": "2026-10-27T14:14:37.607574+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2019/0915/c6242a148825/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2019/0915/c6242a148825/page.htm",
+      "kind": "faculty",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/aa608fe2af86e717.html",
+      "sha256": "bacc4e6b8696f6af05c8ce8d8441d74fd70de5beacefa80e10089b99dbca2b67",
+      "bytes": 24432,
+      "collected_at": "2026-10-27T14:14:37.643876+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2022/0714/c8472a194892/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2022/0714/c8472a194892/page.htm",
+      "kind": "faculty",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/69abab2148778802.html",
+      "sha256": "57157600283464b6fb93140a8002baf8f9ebe620d7249b09252e06416855f9c2",
+      "bytes": 28640,
+      "collected_at": "2026-10-27T14:14:38.733632+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2022/0713/c8472a194889/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2022/0713/c8472a194889/page.htm",
+      "kind": "faculty",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/a90ee0582c1c00c7.html",
+      "sha256": "b3d83bde14384aba1c27bff2eabbbe78ffd265550d6ef21c682ee3261441a228",
+      "bytes": 30556,
+      "collected_at": "2026-10-27T14:14:39.777531+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2022/0607/c8472a194123/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2022/0607/c8472a194123/page.htm",
+      "kind": "faculty",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/89db11584e0ac0be.html",
+      "sha256": "d7769c0ad15928ebe3c77f68d6bd4b2bf0aeda35946d5ed3fc65daf403f81b11",
+      "bytes": 25830,
+      "collected_at": "2026-10-27T14:14:40.890173+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2022/0607/c8472a194122/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2022/0607/c8472a194122/page.htm",
+      "kind": "faculty",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/40740aa34c5f6cce.html",
+      "sha256": "d09472faa38ecd10ddcd0714f2c0d9277cac687fddebf09c3d2c7da363d07621",
+      "bytes": 25851,
+      "collected_at": "2026-10-27T14:14:40.922447+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2022/0607/c8472a194121/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2022/0607/c8472a194121/page.htm",
+      "kind": "faculty",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/92cf004f1f44fb01.html",
+      "sha256": "5364018b4c6e566a5b737fa728b7f783acd58804446c12aef39c46483f3dacf3",
+      "bytes": 28821,
+      "collected_at": "2026-10-27T14:14:40.948168+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2022/0607/c8472a194118/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2022/0607/c8472a194118/page.htm",
+      "kind": "faculty",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/e4dda45e8c239ecc.html",
+      "sha256": "79b8d6960209615f7dccea96382e9853d4579abd7eed9670af05b9125e989ab6",
+      "bytes": 25822,
+      "collected_at": "2026-10-27T14:14:41.007576+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2022/0607/c13913a257720/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2022/0607/c13913a257720/page.htm",
+      "kind": "faculty",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/bc3964f42ce12f2d.html",
+      "sha256": "945a0c2077764e5349739a20888978546786f9c2e0fefea93694469698e156b7",
+      "bytes": 25497,
+      "collected_at": "2026-10-27T14:14:42.042802+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2022/0607/c13913a257719/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2022/0607/c13913a257719/page.htm",
+      "kind": "faculty",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/0a5231baee553c27.html",
+      "sha256": "3a61d4b6643f557a5136e090ecb0cedbd7c53225d0d39b44ca2ba1f75e3e359a",
+      "bytes": 25201,
+      "collected_at": "2026-10-27T14:14:43.077954+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2019/0314/c5581a148760/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2019/0314/c5581a148760/page.htm",
+      "kind": "teaching",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/1287d63b1a331619.html",
+      "sha256": "34965d20d192f33f712f28bba3336880dd21008d9ad996089ce9a4e8dc64c472",
+      "bytes": 20782,
+      "collected_at": "2026-10-27T14:14:44.137881+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2022/0726/c5535a196269/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2022/0726/c5535a196269/page.htm",
+      "kind": "teaching",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/2390de7748dd45c9.html",
+      "sha256": "2fb4714ae1b5193c3eada4fd2b882fde1bf60647850dc9a962394187847bfdc6",
+      "bytes": 658374,
+      "collected_at": "2026-10-27T14:14:44.263231+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2022/0310/c5535a191403/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2022/0310/c5535a191403/page.htm",
+      "kind": "teaching",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/fde8e034c3629656.html",
+      "sha256": "4b5086b5b180320abca438e17d423a9fb4df2be0b7ec6fd7b346c977aaff7a89",
+      "bytes": 22949,
+      "collected_at": "2026-10-27T14:14:44.319464+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2021/0526/c5535a181928/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2021/0526/c5535a181928/page.htm",
+      "kind": "teaching",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/35772620b2ab6694.html",
+      "sha256": "4a4595da6c104413547f3c94df57e2dcdd4da36df7f14b9c7ba5434f5beef740",
+      "bytes": 22410,
+      "collected_at": "2026-10-27T14:14:44.371419+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2020/0817/c5535a172433/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2020/0817/c5535a172433/page.htm",
+      "kind": "teaching",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/39949a6d9c5de0a7.html",
+      "sha256": "c2d04f58688ff2f124155c6438253162bd9cfbaf05d0f68980264086e8dfaf45",
+      "bytes": 23687,
+      "collected_at": "2026-10-27T14:14:44.423260+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2022/0726/c5535a196268/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2022/0726/c5535a196268/page.htm",
+      "kind": "teaching",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/a4eed8589d257176.html",
+      "sha256": "00fdf513cd13e6e375626d4323f6a169200422335e84d6c77785853a179f36da",
+      "bytes": 986946,
+      "collected_at": "2026-10-27T14:14:45.534808+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2017/0915/c5535a149303/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2017/0915/c5535a149303/page.htm",
+      "kind": "teaching",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/f2443376f1f4341d.html",
+      "sha256": "78d388bbe463d31f869ba4352e2328c2c6b69850e71f85d070dde0c6af878a2a",
+      "bytes": 20846,
+      "collected_at": "2026-10-27T14:14:45.606506+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2021/1115/c5536a188864/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2021/1115/c5536a188864/page.htm",
+      "kind": "teaching",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/22055d8f6eb4665d.html",
+      "sha256": "5d52765186681c793524e42fb1af8d5fc6824a6b9a038b5af2e3c66606d6d11f",
+      "bytes": 37356,
+      "collected_at": "2026-10-27T14:14:46.674653+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2021/0906/c5536a185852/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2021/0906/c5536a185852/page.htm",
+      "kind": "teaching",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/3550adb83585152e.html",
+      "sha256": "578fb3b4807923a1fbf2b55c026a37ee5c5d434d8f894296e0b95d84a0d91b06",
+      "bytes": 90337,
+      "collected_at": "2026-10-27T14:14:46.720254+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2019/1108/c5536a149408/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2019/1108/c5536a149408/page.htm",
+      "kind": "teaching",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/e1b7caf2fb810c58.html",
+      "sha256": "f4468177f6618e4643a29544023986cbf3bb8bd8cda3fc87a17507528dac45b0",
+      "bytes": 22224,
+      "collected_at": "2026-10-27T14:14:46.761011+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2019/1108/c5536a149406/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2019/1108/c5536a149406/page.htm",
+      "kind": "teaching",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/14b97d30b5e1cf54.html",
+      "sha256": "003ed9ba82c27eedab2bd1dd6d57b4df6280498cf6148e851d567638fd699246",
+      "bytes": 23066,
+      "collected_at": "2026-10-27T14:14:47.797943+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2017/0917/c5536a148931/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2017/0917/c5536a148931/page.htm",
+      "kind": "teaching",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/4be45709a1775135.html",
+      "sha256": "8b413c79219384d7ce8a4bf1b57b52b880504dc0953fb50152b8d7229bfc5a18",
+      "bytes": 44747,
+      "collected_at": "2026-10-27T14:14:47.829006+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2016/1107/c5536a149304/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2016/1107/c5536a149304/page.htm",
+      "kind": "teaching",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/75099038e92eaa88.html",
+      "sha256": "ffa6a66a7325820dec8bba54193c2a421cb524c3fc8e75e3c22b63eeb2959fdd",
+      "bytes": 19794,
+      "collected_at": "2026-10-27T14:14:48.866486+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2024/1127/c5580a246047/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2024/1127/c5580a246047/page.htm",
+      "kind": "teaching",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/d43a897ef2671d12.html",
+      "sha256": "e489cdfdca96664cb6e3c288021a51ba51d5ee8456540be63bd1f0e8ee208135",
+      "bytes": 20498,
+      "collected_at": "2026-10-27T14:14:48.896379+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/_upload/article/files/62/0a/2b2db8924e59adfac31cf2932dad/0407acea-919c-4220-8493-c1b897de0504.pdf",
+      "resolved_url": "https://ccs.cuc.edu.cn/_upload/article/files/62/0a/2b2db8924e59adfac31cf2932dad/0407acea-919c-4220-8493-c1b897de0504.pdf",
+      "kind": "attachment",
+      "content_type": "application/pdf",
+      "local_path": "materials/ccs-official/attachments/78b57e5760e48792.pdf",
+      "sha256": "9fd03f6c20e984c9d7865f7ffd2dc60bda6014e6ac45a9f46652e60fb07077db",
+      "bytes": 3182910,
+      "collected_at": "2026-10-27T14:14:49.606586+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2024/1127/c5580a246046/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2024/1127/c5580a246046/page.htm",
+      "kind": "teaching",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/6df51429f9caaffe.html",
+      "sha256": "b30d390834bd9184acd9fea8ab142e46f1115d222ecdd8add68b52c11e10e353",
+      "bytes": 20516,
+      "collected_at": "2026-10-27T14:14:49.634937+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/_upload/article/files/d0/6c/c527aaa14322a0d3048e9b281a53/42cc8c4f-3472-43c1-b4d0-2a34b4103197.pdf",
+      "resolved_url": "https://ccs.cuc.edu.cn/_upload/article/files/d0/6c/c527aaa14322a0d3048e9b281a53/42cc8c4f-3472-43c1-b4d0-2a34b4103197.pdf",
+      "kind": "attachment",
+      "content_type": "application/pdf",
+      "local_path": "materials/ccs-official/attachments/1ede95c72ed9e579.pdf",
+      "sha256": "597662f1ba12105b3f1cb790316ba97cef98d375ce0a57f7a54106fd32b13d33",
+      "bytes": 979073,
+      "collected_at": "2026-10-27T14:14:49.816041+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2019/0314/c5580a148756/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2019/0314/c5580a148756/page.htm",
+      "kind": "teaching",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/2dc54ab23e29cabf.html",
+      "sha256": "5339d5c98e3587509b791680dc89416fa91015b09c3afa51519973704b945566",
+      "bytes": 21714,
+      "collected_at": "2026-10-27T14:14:50.855201+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2019/0314/c5580a148755/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2019/0314/c5580a148755/page.htm",
+      "kind": "teaching",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/e20420892776e531.html",
+      "sha256": "deed3b595ffe263f0b1e70a174b18678c3db454a545e839a7f522e632d5244fc",
+      "bytes": 20052,
+      "collected_at": "2026-10-27T14:14:51.896037+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2019/0314/c5580a148754/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2019/0314/c5580a148754/page.htm",
+      "kind": "teaching",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/ab9fb493d02f65f8.html",
+      "sha256": "d5f843a5cb021c1eba7bc90982ae6da70a31b52c6dc1e17f434c5a007385a28b",
+      "bytes": 21979,
+      "collected_at": "2026-10-27T14:14:51.934380+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2019/0314/c5580a148753/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2019/0314/c5580a148753/page.htm",
+      "kind": "teaching",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/2dad9975d498aa49.html",
+      "sha256": "486e50b5e49c3fe4d6ce52f9b3c4190525769cb71846e1f9823837f962e52584",
+      "bytes": 21523,
+      "collected_at": "2026-10-27T14:14:51.980817+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2024/1127/c5581a246052/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2024/1127/c5581a246052/page.htm",
+      "kind": "teaching",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/7d28dcc517eff654.html",
+      "sha256": "5e0bea10950f7a07b998e762ab618d45aa7121fd0daa11a40c2effee72a8ba53",
+      "bytes": 20411,
+      "collected_at": "2026-10-27T14:14:52.068667+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/_upload/article/files/1d/11/d7d4e59f4588870303b79b07b736/f01c1ac2-6b56-4f6b-bf31-194b5fbf684f.pdf",
+      "resolved_url": "https://ccs.cuc.edu.cn/_upload/article/files/1d/11/d7d4e59f4588870303b79b07b736/f01c1ac2-6b56-4f6b-bf31-194b5fbf684f.pdf",
+      "kind": "attachment",
+      "content_type": "application/pdf",
+      "local_path": "materials/ccs-official/attachments/df1d43c9388090a2.pdf",
+      "sha256": "685395d0e9c77f06542bc8a3dbba499638bbc7fe6bbc5265228cc27823297e54",
+      "bytes": 748335,
+      "collected_at": "2026-10-27T14:14:52.219123+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2024/1127/c5581a246051/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2024/1127/c5581a246051/page.htm",
+      "kind": "teaching",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/2e6aaa1ae1cb6619.html",
+      "sha256": "61564e9ec0abfbba889f49bb7df0a45b1a1692ba68fdbe0aeb6a3d98aa76f50e",
+      "bytes": 20402,
+      "collected_at": "2026-10-27T14:14:52.299259+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/_upload/article/files/8c/cf/ce25da2f46ad982cbb64d624f302/455fd6b6-f5d5-4738-b456-3aa397d8674c.pdf",
+      "resolved_url": "https://ccs.cuc.edu.cn/_upload/article/files/8c/cf/ce25da2f46ad982cbb64d624f302/455fd6b6-f5d5-4738-b456-3aa397d8674c.pdf",
+      "kind": "attachment",
+      "content_type": "application/pdf",
+      "local_path": "materials/ccs-official/attachments/f4fea7c051e3ecb3.pdf",
+      "sha256": "febb3e06e1c59176f91c85f76191e1b5ec1863855bce946d233dbcef76f04e72",
+      "bytes": 550348,
+      "collected_at": "2026-10-27T14:14:52.491061+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2024/1127/c5581a246050/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2024/1127/c5581a246050/page.htm",
+      "kind": "teaching",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/94fff2d4a72d3ed0.html",
+      "sha256": "814eefb0d0b28466edf34e4cde24253fd7d118563e8048b6f2f931b3080b37cf",
+      "bytes": 20426,
+      "collected_at": "2026-10-27T14:14:52.519095+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/_upload/article/files/47/32/cb898be849d097a201894a09e2a1/f0868709-cf8b-4016-995a-11ba67762804.pdf",
+      "resolved_url": "https://ccs.cuc.edu.cn/_upload/article/files/47/32/cb898be849d097a201894a09e2a1/f0868709-cf8b-4016-995a-11ba67762804.pdf",
+      "kind": "attachment",
+      "content_type": "application/pdf",
+      "local_path": "materials/ccs-official/attachments/60069b52f51ad85c.pdf",
+      "sha256": "3c03046e6d09e53cf9ff32b62c5fc49b2897d8bea6f209ff19d31d53e6a0aa67",
+      "bytes": 739438,
+      "collected_at": "2026-10-27T14:14:53.676901+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2024/1127/c5581a246049/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2024/1127/c5581a246049/page.htm",
+      "kind": "teaching",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/6d103658dd15a0ba.html",
+      "sha256": "dc355ce8eddc04ee767af69881a23a7829320ee35603a3ae0f5b8bc0d2358ebb",
+      "bytes": 20393,
+      "collected_at": "2026-10-27T14:14:53.701635+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/_upload/article/files/2c/20/8b37e1214a6a9f50e69d2f87f99c/e869b3db-a491-4b05-8f35-391a9e1ccf83.pdf",
+      "resolved_url": "https://ccs.cuc.edu.cn/_upload/article/files/2c/20/8b37e1214a6a9f50e69d2f87f99c/e869b3db-a491-4b05-8f35-391a9e1ccf83.pdf",
+      "kind": "attachment",
+      "content_type": "application/pdf",
+      "local_path": "materials/ccs-official/attachments/2effb24bb026c0c4.pdf",
+      "sha256": "d8eef81a44cff7cafc5df0cf65b1a014ba6081629ae0f52742b8f6ebb632a93a",
+      "bytes": 749400,
+      "collected_at": "2026-10-27T14:14:53.822146+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2024/1127/c5581a246048/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2024/1127/c5581a246048/page.htm",
+      "kind": "teaching",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/4e7b2ffaee7141a2.html",
+      "sha256": "ffd27cc478660be281a553455134b01b773012456e672d7911edd7e2e4774c0f",
+      "bytes": 20420,
+      "collected_at": "2026-10-27T14:14:53.851472+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/_upload/article/files/2d/bb/5a37c0f84dc1b85dd7128755f65c/227e0a36-9fd4-4006-b498-1a82f374e785.pdf",
+      "resolved_url": "https://ccs.cuc.edu.cn/_upload/article/files/2d/bb/5a37c0f84dc1b85dd7128755f65c/227e0a36-9fd4-4006-b498-1a82f374e785.pdf",
+      "kind": "attachment",
+      "content_type": "application/pdf",
+      "local_path": "materials/ccs-official/attachments/06feb7a24780d2a4.pdf",
+      "sha256": "4850a4f9eeeb9ce9a434f80a7b0ff02210cd122d2b5056496464d9cc4c248477",
+      "bytes": 735706,
+      "collected_at": "2026-10-27T14:14:53.969069+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2019/0314/c5581a148759/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2019/0314/c5581a148759/page.htm",
+      "kind": "teaching",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/4b1c1ba99ff55275.html",
+      "sha256": "66ebcf1c8e878d38035d94400b9ee9fd990842a1fa856956a9c7277917dd2ac1",
+      "bytes": 21327,
+      "collected_at": "2026-10-27T14:14:54.000318+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2019/0314/c5581a148758/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2019/0314/c5581a148758/page.htm",
+      "kind": "teaching",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/2a17e5304c94974a.html",
+      "sha256": "7851e66736612346b38dd47b4047fc23c0749b0b0ed698e4850f01102bc42622",
+      "bytes": 24548,
+      "collected_at": "2026-10-27T14:14:54.034139+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2019/0314/c5581a148757/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2019/0314/c5581a148757/page.htm",
+      "kind": "teaching",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/1907b835d65282e1.html",
+      "sha256": "7181ec3958c87282ad04e6e0f900813773c2a39ef9eec239a99d238904e6fd40",
+      "bytes": 22221,
+      "collected_at": "2026-10-27T14:14:54.081861+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2026/0609/c10136a271566/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2026/0609/c10136a271566/page.htm",
+      "kind": "teaching",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/9ed28fb0c55f189f.html",
+      "sha256": "3b282babf2a41edbe6ebc698c7db7f6b5bcd8e22ae66da773d4ac21334995470",
+      "bytes": 35800,
+      "collected_at": "2026-10-27T14:14:54.122343+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/_upload/article/files/d7/15/2c37fd2b4790ade42ee3cc301882/0f21ef34-5b87-4265-af6c-3df306165932.pdf",
+      "resolved_url": "https://ccs.cuc.edu.cn/_upload/article/files/d7/15/2c37fd2b4790ade42ee3cc301882/0f21ef34-5b87-4265-af6c-3df306165932.pdf",
+      "kind": "attachment",
+      "content_type": "application/pdf",
+      "local_path": "materials/ccs-official/attachments/02d09aca6e9548b2.pdf",
+      "sha256": "34c546592ed4d38d6af2f1236a7a439b43c0abced0d45f80fd40844f2f8e0586",
+      "bytes": 280036,
+      "collected_at": "2026-10-27T14:14:55.257960+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2026/0402/c10136a268510/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2026/0402/c10136a268510/page.htm",
+      "kind": "teaching",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/c9d3373bd883cd3e.html",
+      "sha256": "31156f32a00d6f72d85aa1dbfb35b019040dac31bbb505b84107183c9549ddc3",
+      "bytes": 20842,
+      "collected_at": "2026-10-27T14:14:55.287322+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/_upload/article/files/43/eb/fdb0854b4cd9b9bd8af263a2d900/b0a6b34e-a3e2-46d1-83ee-7d9bf64eb9d7.pdf",
+      "resolved_url": "https://ccs.cuc.edu.cn/_upload/article/files/43/eb/fdb0854b4cd9b9bd8af263a2d900/b0a6b34e-a3e2-46d1-83ee-7d9bf64eb9d7.pdf",
+      "kind": "attachment",
+      "content_type": "application/pdf",
+      "local_path": "materials/ccs-official/attachments/ccf3c5ca9e0b7afc.pdf",
+      "sha256": "44df1f3d51cb4e4e01af6edc4a4805f3eda070583ac9905865bc5613d7872e96",
+      "bytes": 8937062,
+      "collected_at": "2026-10-27T14:14:56.236279+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/_upload/article/files/43/eb/fdb0854b4cd9b9bd8af263a2d900/645489a9-60fc-4f33-b431-5cc2bc173a00.pdf",
+      "resolved_url": "https://ccs.cuc.edu.cn/_upload/article/files/43/eb/fdb0854b4cd9b9bd8af263a2d900/645489a9-60fc-4f33-b431-5cc2bc173a00.pdf",
+      "kind": "attachment",
+      "content_type": "application/pdf",
+      "local_path": "materials/ccs-official/attachments/761030513f4fc880.pdf",
+      "sha256": "a4a55c3efb3df48afe86ff3c4908f348d6bf6ce6a696fd1ad2cadd0b1f66fa8d",
+      "bytes": 498107,
+      "collected_at": "2026-10-27T14:14:56.307893+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2026/0402/c10136a268509/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2026/0402/c10136a268509/page.htm",
+      "kind": "teaching",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/c59f66a5555a865c.html",
+      "sha256": "ff7f39599b4afa9b10e488201e95e52871a983dff911221eecba8a7175d894f9",
+      "bytes": 20892,
+      "collected_at": "2026-10-27T14:14:56.331319+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/_upload/article/files/8e/d6/5d52612f4a9bb0376c4097fa5624/fbc23e84-1a8d-4589-8200-f0240f240738.pdf",
+      "resolved_url": "https://ccs.cuc.edu.cn/_upload/article/files/8e/d6/5d52612f4a9bb0376c4097fa5624/fbc23e84-1a8d-4589-8200-f0240f240738.pdf",
+      "kind": "attachment",
+      "content_type": "application/pdf",
+      "local_path": "materials/ccs-official/attachments/2827d8307b9daf84.pdf",
+      "sha256": "a8dd3b8937571d23818f9744947a2a2e085afccc93763ce2f28e2b00634f45d7",
+      "bytes": 4243657,
+      "collected_at": "2026-10-27T14:14:56.718586+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/_upload/article/files/8e/d6/5d52612f4a9bb0376c4097fa5624/c7aed9bf-3611-4964-bc11-93dcf64baff9.pdf",
+      "resolved_url": "https://ccs.cuc.edu.cn/_upload/article/files/8e/d6/5d52612f4a9bb0376c4097fa5624/c7aed9bf-3611-4964-bc11-93dcf64baff9.pdf",
+      "kind": "attachment",
+      "content_type": "application/pdf",
+      "local_path": "materials/ccs-official/attachments/bc45bbbcf13d5bc0.pdf",
+      "sha256": "1192dce7062339d161486a40fd822d950eaf311548897d2c7cbc5b44318c6b9e",
+      "bytes": 419691,
+      "collected_at": "2026-10-27T14:14:57.903343+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2025/1118/c10136a263819/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2025/1118/c10136a263819/page.htm",
+      "kind": "teaching",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/074cf173b5ed1bf9.html",
+      "sha256": "93a3a51a2e93f94c3c65bf28b558a419fde33effa02583af94d729066f209d54",
+      "bytes": 45175,
+      "collected_at": "2026-10-27T14:14:57.933003+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2025/1118/c10136a263817/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2025/1118/c10136a263817/page.htm",
+      "kind": "teaching",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/4d8dd0926bd9848a.html",
+      "sha256": "6196d978b0216f47aa5a21166c8459936438be03f17bcc072134f3f5b4f0c332",
+      "bytes": 44880,
+      "collected_at": "2026-10-27T14:14:57.986320+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2025/0605/c10136a256568/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2025/0605/c10136a256568/page.htm",
+      "kind": "teaching",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/d04bd6b06e7c7309.html",
+      "sha256": "a21152ccf73f5aa860564792762bc7c8f4118d88e5e3aa6f347af708593727db",
+      "bytes": 61140,
+      "collected_at": "2026-10-27T14:14:59.022760+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2025/0605/c10136a256561/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2025/0605/c10136a256561/page.htm",
+      "kind": "teaching",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/4cd9d9e0c65c608d.html",
+      "sha256": "065bfd6437dd00f85599629fb4583a06d1b8095338021d6dcaf4a3b09f19ec56",
+      "bytes": 41512,
+      "collected_at": "2026-10-27T14:14:59.066951+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2024/0426/c10136a219179/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2024/0426/c10136a219179/page.htm",
+      "kind": "teaching",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/3072007c2dc02d3d.html",
+      "sha256": "de9eb604212a7d65fb65eeef7ac2ab19a81e564a75bcbc952c0bc081f631fd97",
+      "bytes": 26833,
+      "collected_at": "2026-10-27T14:15:00.105985+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2023/0817/c10136a211146/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2023/0817/c10136a211146/page.htm",
+      "kind": "teaching",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/834bffc74d668711.html",
+      "sha256": "2fe1c32d449d9805a0505cb869f3705156f0afe67b9b8571b9d9d82eaac657d0",
+      "bytes": 31278,
+      "collected_at": "2026-10-27T14:15:01.144952+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2023/0817/c10136a211148/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2023/0817/c10136a211148/page.htm",
+      "kind": "teaching",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/2cdeb8fafeda5705.html",
+      "sha256": "2721be68ee319fa5cea995be64d15a4e7f77cbbbdf28e046f1e35b711c088640",
+      "bytes": 30035,
+      "collected_at": "2026-10-27T14:15:01.187435+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2023/0817/c10136a211147/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2023/0817/c10136a211147/page.htm",
+      "kind": "teaching",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/2cc09313139e908f.html",
+      "sha256": "bf65cee8a8571bd9b2eda7ca342dc71cdaa9cce751a159f8f2d3c5ffdc142ed8",
+      "bytes": 29766,
+      "collected_at": "2026-10-27T14:15:01.239024+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2023/0817/c10136a211145/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2023/0817/c10136a211145/page.htm",
+      "kind": "teaching",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/1c83a609d00546c1.html",
+      "sha256": "67d5b8f49a67cd08f435309798a45ff84933fa6dc810b18e3ecc1b7e474f2bfc",
+      "bytes": 26185,
+      "collected_at": "2026-10-27T14:15:01.285362+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2025/0702/c5559a258070/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2025/0702/c5559a258070/page.htm",
+      "kind": "teaching",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/797928452cc188e7.html",
+      "sha256": "0f301eb403f1758962881b28b7e7ce5bbd2a0cb0639ef934bca10dc3d297d5ea",
+      "bytes": 20364,
+      "collected_at": "2026-10-27T14:15:02.317810+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/_upload/article/files/13/a8/ca1e7b9a40a4948da0c315052048/d1a2cead-b581-44c1-b1d0-0df2c6e4bf69.pdf",
+      "resolved_url": "https://ccs.cuc.edu.cn/_upload/article/files/13/a8/ca1e7b9a40a4948da0c315052048/d1a2cead-b581-44c1-b1d0-0df2c6e4bf69.pdf",
+      "kind": "attachment",
+      "content_type": "application/pdf",
+      "local_path": "materials/ccs-official/attachments/8046a41d435e483b.pdf",
+      "sha256": "ade25d9ebedb2f054eedb672424b746a388ef5ac2ca495a94d6a04f29cb34cdc",
+      "bytes": 101899,
+      "collected_at": "2026-10-27T14:15:02.367546+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2025/0310/c5559a251764/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2025/0310/c5559a251764/page.htm",
+      "kind": "teaching",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/2c3937befab8fb9e.html",
+      "sha256": "f7f4f5700bbeacea6653e1075482556a095a9c8c9af5fba43db40cd1ef53d1a6",
+      "bytes": 19301,
+      "collected_at": "2026-10-27T14:15:02.400846+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2024/0615/c5559a220992/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2024/0615/c5559a220992/page.htm",
+      "kind": "teaching",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/ca97194ba5e0906d.html",
+      "sha256": "1b9bfaafe20e9a7e2d6035c269403f9942d94d596a93db89b8ae1b9070745889",
+      "bytes": 20896,
+      "collected_at": "2026-10-27T14:15:03.443680+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2024/0615/c5559a220991/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2024/0615/c5559a220991/page.htm",
+      "kind": "teaching",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/4ea14e5b3bc8e016.html",
+      "sha256": "84d50fdabaec2b92575fd55a2ec870748c6b8e174db3855305abb8e252a146fb",
+      "bytes": 22258,
+      "collected_at": "2026-10-27T14:15:03.485509+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2024/0425/c5559a219128/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2024/0425/c5559a219128/page.htm",
+      "kind": "teaching",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/060d1858e0d7155b.html",
+      "sha256": "6a0d356b107dd221058c396e12af8d6dcb22b46bac817ed94fa120bf23900a66",
+      "bytes": 25506,
+      "collected_at": "2026-10-27T14:15:03.526263+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2022/0922/c5559a199129/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2022/0922/c5559a199129/page.htm",
+      "kind": "teaching",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/622736e1fa9cb986.html",
+      "sha256": "e55ae28f2fb86057830ef407fc52a15a10304d282c4cdb8a02f3bc1b03834ce1",
+      "bytes": 23662,
+      "collected_at": "2026-10-27T14:15:03.562618+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2022/0807/c5559a196661/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2022/0807/c5559a196661/page.htm",
+      "kind": "teaching",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/98c1194daa6b9636.html",
+      "sha256": "076414df0a6ec10f3e8f43248a1afc51b062c321c02f9ea4f3c72558bc7c59ca",
+      "bytes": 36590,
+      "collected_at": "2026-10-27T14:15:03.593399+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2021/1026/c5559a188009/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2021/1026/c5559a188009/page.htm",
+      "kind": "teaching",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/82f79a99620f6541.html",
+      "sha256": "6e1daae981d4bebcb454681f552c07ac509731dd8a38038e1e642a28690d837a",
+      "bytes": 22094,
+      "collected_at": "2026-10-27T14:15:04.651540+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2021/0906/c5559a185820/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2021/0906/c5559a185820/page.htm",
+      "kind": "teaching",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/e43d3c3a12786a24.html",
+      "sha256": "61f5ab95a1bd8f1f05908716f2e71c1735eacf663f8ae13a313ebe08f4f87024",
+      "bytes": 22350,
+      "collected_at": "2026-10-27T14:15:05.699199+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2021/0729/c5559a185174/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2021/0729/c5559a185174/page.htm",
+      "kind": "teaching",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/1315b462ab857533.html",
+      "sha256": "0ca14ec868f9adba1567e8c9c8fb1235fdbbb825cc33c01b986a1eb082b8be89",
+      "bytes": 23417,
+      "collected_at": "2026-10-27T14:15:05.806922+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2021/0621/c5559a183230/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2021/0621/c5559a183230/page.htm",
+      "kind": "teaching",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/2a000c66d10d8bb1.html",
+      "sha256": "3d68378226c9d140ad30d173d2377b131762aa156da83415f906bff7b439493d",
+      "bytes": 20276,
+      "collected_at": "2026-10-27T14:15:06.851100+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2021/1009/c5559a187183/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2021/1009/c5559a187183/page.htm",
+      "kind": "teaching",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/18bc5a80af719a66.html",
+      "sha256": "5cfcc42f59f1be2b147925624a0f7cdee047904c96d0a4277b75bb37d02b4b34",
+      "bytes": 21492,
+      "collected_at": "2026-10-27T14:15:07.907433+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2020/1228/c5559a177518/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2020/1228/c5559a177518/page.htm",
+      "kind": "teaching",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/dec9402b5ea08193.html",
+      "sha256": "512f42f774ea39bd2d14edd51f6c57b8b8c12d3035394083969b7b90824c0683",
+      "bytes": 24401,
+      "collected_at": "2026-10-27T14:15:08.941348+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2020/1207/c5559a176659/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2020/1207/c5559a176659/page.htm",
+      "kind": "teaching",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/cd3f2c8557ca2964.html",
+      "sha256": "b1fc4c2dd3fa50b6f46f4d519b36c61b62287db48e7db5ad5a77c29527dfbedc",
+      "bytes": 24410,
+      "collected_at": "2026-10-27T14:15:08.972370+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2026/0928/c5526a274361/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2026/0928/c5526a274361/page.htm",
+      "kind": "teaching",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/606e0fca1b655d4f.html",
+      "sha256": "289e85065f72fce0c50d76062afb1796b0880e0015ca2722bdaffbdab0376fa9",
+      "bytes": 24567,
+      "collected_at": "2026-10-27T14:15:09.014304+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2026/0202/c5526a266879/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2026/0202/c5526a266879/page.htm",
+      "kind": "teaching",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/4c649d2394190844.html",
+      "sha256": "abdf324a5457bd15579bc536f4a03ddf03e30b25dfbd1bc43c424a9c430f83ae",
+      "bytes": 39963,
+      "collected_at": "2026-10-27T14:15:10.061573+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2019/0910/c6239a148844/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2019/0910/c6239a148844/page.htm",
+      "kind": "faculty",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/9c8d2362b62e6243.html",
+      "sha256": "f731244f09c1be294cb1e3e31e037f2ba512a367750167aeab40e17a56d06368",
+      "bytes": 34922,
+      "collected_at": "2026-10-27T14:16:36.729769+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2019/0911/c6239a268069/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2019/0911/c6239a268069/page.htm",
+      "kind": "faculty",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/ae31303b86510104.html",
+      "sha256": "bcaf757b746ba1436ce793e40e4954fd78f0bc8fb37667d2626aac823a771498",
+      "bytes": 34089,
+      "collected_at": "2026-10-27T14:16:37.783686+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2019/0911/c6239a268009/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2019/0911/c6239a268009/page.htm",
+      "kind": "faculty",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/c09b051e7b49025f.html",
+      "sha256": "f3a5a096e857eeb8467ad8d74bbd1378045a9af4b3288bcce8414532c325a553",
+      "bytes": 35989,
+      "collected_at": "2026-10-27T14:16:37.834928+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2022/0607/c6240a257717/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2022/0607/c6240a257717/page.htm",
+      "kind": "faculty",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/fda39b9d03e383bd.html",
+      "sha256": "5d9956324ed58ae3644acd63ffe85361f32f6f58a1193cfc99683199ba05aeb6",
+      "bytes": 42022,
+      "collected_at": "2026-10-27T14:16:37.881660+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/xyxw/list.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/xyxw/list.htm",
+      "kind": "column",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/d415e0dd78826e75.html",
+      "sha256": "924f103df760ea7e44171b67be814692d5a6bcab823418c7dcfcbfb31bf517bf",
+      "bytes": 26973,
+      "collected_at": "2026-10-27T14:18:57.185099+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/xyxw/list2.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/xyxw/list2.htm",
+      "kind": "column",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/eab9ead57ccbfa35.html",
+      "sha256": "c9200c6660b2a82008fa0cc61c1a2731eda68b29da9fd1c1eaf41f7f88d8ef8c",
+      "bytes": 27011,
+      "collected_at": "2026-10-27T14:18:57.217649+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/xyxw/list3.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/xyxw/list3.htm",
+      "kind": "column",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/fe9964c49b68044f.html",
+      "sha256": "e27b0cb5f6d9820b3b7f8df00c16cee9bd7dad1ab144cec3ab06bbca8b00fcbc",
+      "bytes": 27001,
+      "collected_at": "2026-10-27T14:18:57.250112+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/xyxw/list4.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/xyxw/list4.htm",
+      "kind": "column",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/0ac0d375139a8615.html",
+      "sha256": "8ec9b6643339ec52151e4a1dd84ad532a1594ef3dcea59591e29dfc4783a618a",
+      "bytes": 26655,
+      "collected_at": "2026-10-27T14:18:57.284544+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/xyxw/list5.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/xyxw/list5.htm",
+      "kind": "column",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/0c41bb29f34c3ff7.html",
+      "sha256": "4598723c9b52b2ffd38966d721ca7e11b897d133bacc323c5b5dc0273b02be91",
+      "bytes": 27071,
+      "collected_at": "2026-10-27T14:18:58.313026+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/xyxw/list6.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/xyxw/list6.htm",
+      "kind": "column",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/d2fc35fa21e8b105.html",
+      "sha256": "d27c4139de19584db2e81bb54f622042709fad8aa0715663e5ae26777448bf8d",
+      "bytes": 26917,
+      "collected_at": "2026-10-27T14:18:59.388473+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/xyxw/list7.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/xyxw/list7.htm",
+      "kind": "column",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/ce1651b1147f0e37.html",
+      "sha256": "dca9de6b8463f6128f5abced90f78f1d36db650d4ff516147b80a3f48e743e99",
+      "bytes": 27109,
+      "collected_at": "2026-10-27T14:19:00.433824+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/xyxw/list8.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/xyxw/list8.htm",
+      "kind": "column",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/47011491ee232390.html",
+      "sha256": "48e4306af4a9639d1d6252548b3299fd0c05c6998642eaaa931a2dd5b7952c3e",
+      "bytes": 27075,
+      "collected_at": "2026-10-27T14:19:01.471781+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/xyxw/list9.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/xyxw/list9.htm",
+      "kind": "column",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/d80b5c5e4d6764c8.html",
+      "sha256": "6c1d3061e996a0e54518edb64cae1fda33543a2d1ea30a05269925e1ec3671c3",
+      "bytes": 26624,
+      "collected_at": "2026-10-27T14:19:01.582482+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/xyxw/list10.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/xyxw/list10.htm",
+      "kind": "column",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/0c5cab7a0c396ec7.html",
+      "sha256": "9e39c4b0cc2b698230de0244a26c182dbce8940ea9599d022b2f6750cb9a8820",
+      "bytes": 27007,
+      "collected_at": "2026-10-27T14:19:02.736145+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/xyxw/list11.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/xyxw/list11.psp",
+      "kind": "column",
+      "content_type": "text/html;charset=UTF-8",
+      "local_path": "materials/ccs-official/originals/f6882dca902bac8f.html",
+      "sha256": "dbcd5fbc6b20cc02b9ea1b68099f41224d002f276f62ce6af614502b94181f82",
+      "bytes": 26634,
+      "collected_at": "2026-10-27T14:19:05.424052+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/xyxw/list12.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/xyxw/list12.psp",
+      "kind": "column",
+      "content_type": "text/html;charset=UTF-8",
+      "local_path": "materials/ccs-official/originals/7be6642d9b40a4a7.html",
+      "sha256": "99dfc7d038437748695e740d9382480138cbfe66eaf25520cb5bad9c647a2e45",
+      "bytes": 26804,
+      "collected_at": "2026-10-27T14:19:07.229346+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/xyxw/list13.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/xyxw/list13.psp",
+      "kind": "column",
+      "content_type": "text/html;charset=UTF-8",
+      "local_path": "materials/ccs-official/originals/0719377f91740964.html",
+      "sha256": "7d768ce37b3a3d095cae9e98a737af622b706cd1e9f881f9b3cf208585d11a24",
+      "bytes": 26790,
+      "collected_at": "2026-10-27T14:19:10.059314+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/xyxw/list14.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/xyxw/list14.psp",
+      "kind": "column",
+      "content_type": "text/html;charset=UTF-8",
+      "local_path": "materials/ccs-official/originals/bd38426fcde62fba.html",
+      "sha256": "01cdd21b5db268013403ab1cffaa3920f11f9c650f032ce900dc3d4eb393821f",
+      "bytes": 26978,
+      "collected_at": "2026-10-27T14:19:12.994418+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/xyxw/list15.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/xyxw/list15.psp",
+      "kind": "column",
+      "content_type": "text/html;charset=UTF-8",
+      "local_path": "materials/ccs-official/originals/bcf70b68a6be3b06.html",
+      "sha256": "a3d0f6f8f8778dade7260af46fb02f8ae0d23b95aef858c0fd206db22ce0986f",
+      "bytes": 26521,
+      "collected_at": "2026-10-27T14:19:15.031604+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/xyxw/list16.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/xyxw/list16.psp",
+      "kind": "column",
+      "content_type": "text/html;charset=UTF-8",
+      "local_path": "materials/ccs-official/originals/4771cd75d99b75eb.html",
+      "sha256": "2dec4867fd1abc35e576d9ce332019b260729450939054ca1af285e56cfa73e0",
+      "bytes": 26822,
+      "collected_at": "2026-10-27T14:19:17.050720+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/xyxw/list17.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/xyxw/list17.psp",
+      "kind": "column",
+      "content_type": "text/html;charset=UTF-8",
+      "local_path": "materials/ccs-official/originals/739c2c217c38c730.html",
+      "sha256": "cf2cb78851e273d5e59847f6c4cd3484bfbe7cc8497c7ff0add9d9c23b342d60",
+      "bytes": 26528,
+      "collected_at": "2026-10-27T14:19:20.302573+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/xyxw/list18.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/xyxw/list18.psp",
+      "kind": "column",
+      "content_type": "text/html;charset=UTF-8",
+      "local_path": "materials/ccs-official/originals/f9ba40e3794142ff.html",
+      "sha256": "3ad111bf0039347a45e96bf47d8253b1f4da6ed1c959473b1ef5f55e61633528",
+      "bytes": 26544,
+      "collected_at": "2026-10-27T14:19:23.323766+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/xyxw/list19.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/xyxw/list19.psp",
+      "kind": "column",
+      "content_type": "text/html;charset=UTF-8",
+      "local_path": "materials/ccs-official/originals/364b2b5878e864fc.html",
+      "sha256": "227ca5b15e12613d380091c1a9d0bbe8c503453c8cb2317140ce8b106e1d45e6",
+      "bytes": 26354,
+      "collected_at": "2026-10-27T14:19:24.435386+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/xyxw/list20.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/xyxw/list20.psp",
+      "kind": "column",
+      "content_type": "text/html;charset=UTF-8",
+      "local_path": "materials/ccs-official/originals/8e18feefe98c7f08.html",
+      "sha256": "5a03c71c54331b9f4464a096bca6459b2c849e4a5f54524ffb74bc81a9917bb8",
+      "bytes": 26196,
+      "collected_at": "2026-10-27T14:19:25.613451+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/xyxw/list21.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/xyxw/list21.psp",
+      "kind": "column",
+      "content_type": "text/html;charset=UTF-8",
+      "local_path": "materials/ccs-official/originals/35a6d25760c7e494.html",
+      "sha256": "dcb5668759ed8497203e08caadb36829e6c6ad9589a3c037235f82903324684f",
+      "bytes": 24565,
+      "collected_at": "2026-10-27T14:19:26.741744+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/tzgg/list.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/tzgg/list.htm",
+      "kind": "column",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/7ed1b8ac94797e85.html",
+      "sha256": "feff2dc6685fe1b56eec5bed8153c8b875cea6fbe98417ba2a6b54db2219ab9c",
+      "bytes": 24079,
+      "collected_at": "2026-10-27T14:19:27.786282+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2026/0601/c5526a271231/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2026/0601/c5526a271231/page.htm",
+      "kind": "teaching",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/ee3c87c5f2a50ebb.html",
+      "sha256": "2adae1c2d91e577519e9a4f7572d333e358af4f5227e6ebb9580ec4940ec673c",
+      "bytes": 23671,
+      "collected_at": "2026-10-27T14:19:28.165066+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2025/0418/c5526a254665/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2025/0418/c5526a254665/page.htm",
+      "kind": "teaching",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/6250e0f8e6b0c0de.html",
+      "sha256": "06b92b98c12ea6274f77007ce6b2ad018aeaac258f56f6d7c0fe396058761559",
+      "bytes": 22451,
+      "collected_at": "2026-10-27T14:19:29.203115+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2024/0418/c5526a218863/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2024/0418/c5526a218863/page.htm",
+      "kind": "teaching",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/fd52b6fc3084f8a4.html",
+      "sha256": "26aa47d36f18c21c6f33801a0f8078051eff0df5bca7d08bbe984eb7a2be878c",
+      "bytes": 36118,
+      "collected_at": "2026-10-27T14:19:29.239939+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2023/0820/c5526a211174/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2023/0820/c5526a211174/page.htm",
+      "kind": "teaching",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/e198f6745970dfb0.html",
+      "sha256": "bc384eb2adaefebeaf5982607b12c14cb4c14ec9d799b2db3d667e6199463fcf",
+      "bytes": 25307,
+      "collected_at": "2026-10-27T14:19:30.284513+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2023/0721/c5526a210556/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2023/0721/c5526a210556/page.htm",
+      "kind": "teaching",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/ab85d5ce18a926d3.html",
+      "sha256": "5830d6cf2b3ea3113cd4af458395db6e9bd6ecdd165273843e5f5914588ef45c",
+      "bytes": 27844,
+      "collected_at": "2026-10-27T14:19:30.320454+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2022/0802/c5526a196602/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2022/0802/c5526a196602/page.htm",
+      "kind": "teaching",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/59391f83058a501b.html",
+      "sha256": "7be0ab53c519c72e4d518df29e6448705306cdead7e7cb081174c42da3b1cf0c",
+      "bytes": 25987,
+      "collected_at": "2026-10-27T14:19:30.352497+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2021/1115/c5526a188863/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2021/1115/c5526a188863/page.htm",
+      "kind": "teaching",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/ebb93caac2709007.html",
+      "sha256": "e149ea3d9b7b868cc3959a9b76ce3c26696288dab83522d565ce81c80084b3d8",
+      "bytes": 34025,
+      "collected_at": "2026-10-27T14:19:30.384558+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2021/1025/c5526a187919/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2021/1025/c5526a187919/page.htm",
+      "kind": "teaching",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/bd330564ed0ab1ca.html",
+      "sha256": "3e26fe3af635c1fdddecd9b7364e6e873b3245caa43a374f6310bd368e8fa6a5",
+      "bytes": 22768,
+      "collected_at": "2026-10-27T14:19:30.412864+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2021/0520/c5526a181742/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2021/0520/c5526a181742/page.htm",
+      "kind": "teaching",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/38dff9cfdda32449.html",
+      "sha256": "fcf6e996f40e264f6cb2dd05d590d407b03b3bd45bd9df4d5861d29344524fe5",
+      "bytes": 23489,
+      "collected_at": "2026-10-27T14:19:30.442634+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2021/0422/c5526a180267/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2021/0422/c5526a180267/page.htm",
+      "kind": "teaching",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/bdcc3f45db173e2c.html",
+      "sha256": "1c4d5233e681fc858da35d86277ca4c230c9bc5cf91e56cdb1340d6e1954eb62",
+      "bytes": 22751,
+      "collected_at": "2026-10-27T14:19:30.487609+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2019/0912/c5526a148718/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2019/0912/c5526a148718/page.htm",
+      "kind": "teaching",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/36a5cc79248ab397.html",
+      "sha256": "b5751e688d473737d90c4ad5e46dfa6efc930146c007f63ac2336af45d919086",
+      "bytes": 20305,
+      "collected_at": "2026-10-27T14:19:30.523174+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2017/0919/c5526a148712/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2017/0919/c5526a148712/page.htm",
+      "kind": "teaching",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/91b4c8f9d2832082.html",
+      "sha256": "d66d9062309b8181597e85f7cf7b6fc40ea24363bc6f001a69196ba8186c47b5",
+      "bytes": 20103,
+      "collected_at": "2026-10-27T14:19:30.563466+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2017/0703/c5526a148709/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2017/0703/c5526a148709/page.htm",
+      "kind": "teaching",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/1a2a5b6c1599e77f.html",
+      "sha256": "16b40bcdda3265c1e829745feae8ce6b81d16c4d0d4f138c2e8dedebb85c7a0b",
+      "bytes": 19729,
+      "collected_at": "2026-10-27T14:19:30.609867+08:00"
+    },
+    {
+      "url": "https://ccs.cuc.edu.cn/2025/0303/c5527a251518/page.htm",
+      "resolved_url": "https://ccs.cuc.edu.cn/2025/0303/c5527a251518/page.htm",
+      "kind": "teaching",
+      "content_type": "text/html",
+      "local_path": "materials/ccs-official/originals/dc55ea37030e0073.html",
+      "sha256": "08561fff2a29ab72c77d3af9ab762faf6479bf4ba31865eda6015af0bcfcd03e",
+      "bytes": 22441,
+      "collected_at": "2026-10-27T14:19:30.647548+08:00"
+    }
+  ]
+}
