@@ -21,3 +21,33 @@ jobs:
         with:
           node-version: '22'
       - run: node --check static/app.js && node --check static/chat-history.js && node --check static/review.js
+  windows-startup:
+    runs-on: windows-latest
+    timeout-minutes: 15
+    env:
+      CAMPUS_NO_PAUSE: '1'
+      PYTHONUTF8: '1'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          architecture: x64
+      - name: Extract source ZIP exactly as a download user would
+        shell: pwsh
+        run: |
+          git archive --format=zip HEAD -o "$env:RUNNER_TEMP\campus-source.zip"
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+          Expand-Archive -LiteralPath "$env:RUNNER_TEMP\campus-source.zip" -DestinationPath "$env:RUNNER_TEMP\campus-source"
+      - name: Prepare extracted source with the double-click launcher
+        shell: cmd
+        working-directory: ${{ runner.temp }}/campus-source
+        run: call 启动系统.cmd --prepare-only
+      - name: Confirm real bundled documents and offline startup reuse
+        shell: pwsh
+        working-directory: ${{ runner.temp }}/campus-source
+        run: |
+          .\.venv\Scripts\python.exe -c "import json,sqlite3,pathlib; p=pathlib.Path('data'); c=sqlite3.connect(p/'knowledge.db'); n=c.execute('select count(*) from documents where sample=0').fetchone()[0]; assert n >= 30, n; assert json.loads((p/'.first-run.json').read_text())['status']=='complete'; assert not (p/'settings.json').exists(); print('Bundled documents:',n)"
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+          .\.venv\Scripts\python.exe scripts\first_run.py --prepare-only
+          exit $LASTEXITCODE

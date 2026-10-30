@@ -4,22 +4,13 @@ chcp 65001 >nul
 set PYTHONUTF8=1
 set PYTHONUNBUFFERED=1
 cd /d "%~dp0"
-if exist ".venv\Scripts\python.exe" (
-    ".venv\Scripts\python.exe" "%~dp0run.py" %*
+if not exist "%~dp0scripts\start_windows.ps1" (
+    echo 缺少启动脚本，请先完整解压 GitHub 下载的项目 ZIP，再双击“启动系统.cmd”。
+    set "START_EXIT=1"
     goto finish
 )
-if exist "%USERPROFILE%\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe" (
-    "%USERPROFILE%\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe" -c "import fastapi, uvicorn, multipart, httpx, numpy, scipy, sklearn, pypdf, docx" >nul 2>&1
-    if not errorlevel 1 (
-        "%USERPROFILE%\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe" "%~dp0run.py" %*
-        goto finish
-    )
-)
-python -c "import fastapi, uvicorn, multipart, httpx, numpy, scipy, sklearn, pypdf, docx" >nul 2>&1
-if errorlevel 1 (
-    echo Dependencies missing. Open README.md and follow the installation steps.
-    goto finish
-)
-python "%~dp0run.py" %*
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File "%~dp0scripts\start_windows.ps1" %*
+set "START_EXIT=%ERRORLEVEL%"
 :finish
-pause
+if not "%CAMPUS_NO_PAUSE%"=="1" pause
+exit /b %START_EXIT%

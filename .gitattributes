@@ -5,7 +5,8 @@
 *.md text eol=lf
 *.yml text eol=lf
 *.yaml text eol=lf
-*.cmd text eol=crlf
+# Keep CRLF bytes in GitHub ZIP downloads as required by Windows cmd.exe.
+*.cmd -text
 # Preserve original documents exactly so provenance hashes remain valid.
 materials/** -text
 # Archive sources and generated PDFs are reviewed as files, not textual patches.
